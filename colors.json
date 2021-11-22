@@ -1,7 +1,6 @@
 [
     { "name": "Creamsicle", "patternId": {"fill": "#C2791E"} },
     { "name": "Crushed Berries", "patternId": {"fill": "#7A0443"} },
-    { "name": "Ballet", "patternId": {"fill": "#f4e7e3"} },
     { "name": "Ballet", "patternId": {"fill": "#f0e3dd"} },
     { "name": "Butterfly", "patternId": {"fill": "#79517F"} },
     { "name": "Camel", "patternId": {"fill": "#AD9C7D"} },
