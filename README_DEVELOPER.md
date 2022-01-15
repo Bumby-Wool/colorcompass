@@ -24,7 +24,7 @@ This will server all the files in the repo as static files. You can view the mai
 3. Download and install [GitHub Desktop](https://desktop.github.com/)
 
 4. Clone the repository to your local computer.
-    1. Open [https://github.com/Bumby-Wool/builder](https://github.com/Bumby-Wool/builder)
+    1. Open [ ](https://github.com/Bumby-Wool/builder)
     2. Click on the `Code` dropdown
     3. Click `Open with GitHub Desktop` or another clone option
 
