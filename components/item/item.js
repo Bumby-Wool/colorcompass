@@ -35,7 +35,7 @@ angular.module('bumbyApp')
                     }
                 };
                 ctrl.itemId = $routeParams.itemId;
-                ctrl.svgUrl = "components/"+ctrl.itemId+"/"+ctrl.itemId+"-svg.html";
+                ctrl.svgUrl = "components/item/item-templates/"+ctrl.itemId+"-svg.html";
                 ctrl.itemData = itemData;
                 ctrl.item = itemData.find(i => i.link === ("/items/" + ctrl.itemId));
 

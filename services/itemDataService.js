@@ -2,13 +2,12 @@ angular.module('bumbyApp')
     .factory('itemData', function () {
         return [
             {
-                title: "Pants",
+                title: "Pants - Hemmed",
                 link: "/items/pants",
                 image: "resources/pants.jpg",
                 options: [
                     { label: "Waistband" },
-                    { label: "Legs" },
-                    { label: "Cuffs" }
+                    { label: "Legs" }
                 ],
                 extras: []
             },
