@@ -59,6 +59,7 @@ The colors are controled by a JSON file called `colors.json` in the root folder 
 ### Adding New Items
 #### Overview
 > While following the steps keeping `itemname` consistent, in all lowercase, and without spaces
+> Across these sections I use the `<path>` element but these same instructions can be applied to `<polygon>`, `rect`, and other SVG elements
 1. Define the item, see **Defining the Item properties** below
 2. Place the item definition object you created into the array at `/services/itemDataService.js`
 3. Add a new `itemname`-svg.html file to /components/item/item-templates
@@ -91,7 +92,7 @@ The colors are controled by a JSON file called `colors.json` in the root folder 
 ```
 
 #### Adding Color Options to the SVG
-1. Find the `<path>` or `<polygon>` elements within the SVG
+1. Find the `<path>` elements within the SVG
 2. Add `style="fill:red"` to the path element to help identify it
 > Sometimes there are paths that do not show up when you fill them with red. These paths can just be ignored
 3. Once you know what part of the item that path is for then give it an id to note what 
