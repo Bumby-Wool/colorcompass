@@ -17,12 +17,12 @@ angular.module('bumbyApp')
                 image: "resources/Zipper-Henley-adult.jpg",
                 options: [
                     { label: "Main Body" },
-                    { label: "Collar" },
+                    { label: "Hood" },
                     { label: "Sleeves" }
                 ],
                 extras: [
                     { label: "Add Sleeve Cuffs" },
-                    { label: "Add Center Pocket" }
+                    { label: "Add Pocket" }
                 ]
             }
         ];
