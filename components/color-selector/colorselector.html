@@ -7,7 +7,7 @@
         <i class="fas" ng-class="{'fa-chevron-up': $ctrl.editMode, 'fa-chevron-down': !$ctrl.editMode}"></i>
     </button>
     <ul class="swatch-list" ng-show="$ctrl.editMode">
-        <li ng-repeat="color in $ctrl.colors" 
+        <li ng-repeat="color in $ctrl.colors | orderBy: 'patternId.fill'" 
             ng-click="$ctrl.setColor(color)" 
             ng-mouseenter="color.showTooltip = true"
             ng-mouseleave="color.showTooltip = false"
