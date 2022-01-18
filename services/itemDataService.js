@@ -2,32 +2,54 @@ angular.module('bumbyApp')
     .factory('itemData', function () {
         return [
             {
-                title: "Pants - Hemmed",
-                link: "/items/pants",
-                image: "resources/Baby-Standard-Pants-Mild-Tapered-Hemmed-Main.png",
+                title: "Diaper Cover",
+                link: "/items/diapercover",
+                image: "resources/diapercover.png",
                 options: [
-                    { label: "Waistband" },
-                    { label: "Legs" }
+                    { label: "Waist" },
+                    { label: "Body" },
+                    { label: "Leg Cuffs" }
                 ],
                 extras: []
             },
             {
-                title: "Pants - Cuffed",
-                link: "/items/pantscuffed",
-                image: "resources/Baby-Standard-Pants-Cuffed-Main.png",
+                title: "Shorts - Bloomers",
+                link: "/items/bloomers",
+                image: "resources/Bloomers-laying-down-500x500.jpg",
                 options: [
-                    { label: "Waistband" },
-                    { label: "Legs" },
+                    { label: "Waist" },
+                    { label: "Body" },
                     { label: "Cuffs" }
                 ],
                 extras: []
             },
             {
-                title: "Sweater",
+                title: "Pants - Hemmed",
+                link: "/items/pants",
+                image: "resources/Baby-Standard-Pants-Mild-Tapered-Hemmed-Main.png",
+                options: [
+                    { label: "Waist" },
+                    { label: "Legs" }
+                ],
+                extras: []
+            },
+            {
+                title: "Pants - Joggers",
+                link: "/items/pantsjoggers",
+                image: "resources/joggers.png",
+                options: [
+                    { label: "Waist" },
+                    { label: "Legs" },
+                    { label: "Leg Cuffs" }
+                ],
+                extras: []
+            },
+            {
+                title: "Sheepy Hug",
                 link: "/items/sweater",
                 image: "resources/Adult-Sheepy.png",
                 options: [
-                    { label: "Main Body" },
+                    { label: "Body" },
                     { label: "Hood" },
                     { label: "Sleeves" }
                 ],
@@ -41,7 +63,7 @@ angular.module('bumbyApp')
                 link: "/items/sweatercardigan",
                 image: "resources/Contoured-Zipper-Cardigan.png",
                 options: [
-                    { label: "Main Body" },
+                    { label: "Body" },
                     { label: "Hood" },
                     { label: "Sleeves" }
                 ],
