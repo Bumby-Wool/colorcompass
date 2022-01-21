@@ -55,5 +55,7 @@
     { "name": "Swedish Berries", "patternId": {"fill": "#DE5775"} },
     { "name": "Tink", "patternId": {"fill": "#ECBABE"} },
     { "name": "Vintange Super", "patternId": {"fill": "#478BD5"} },
-    { "name": "Vivid Shifter", "patternId": {"fill": "#5A16A8"} }
+    { "name": "Vivid Shifter", "patternId": {"fill": "#5A16A8"} },
+    { "name": "Green Tie Dye", "patternId": {"fill": "url(#green)"} },
+    { "name": "Pink Tie Dye", "patternId": {"fill": "url(#pink)"} }
 ]

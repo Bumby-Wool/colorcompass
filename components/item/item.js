@@ -5,6 +5,16 @@ angular.module('bumbyApp')
         controller: ['itemData','$routeParams',
             function ItemController(itemData, $routeParams) {
                 var ctrl = this;
+                ctrl.tiedyes = [
+                    {
+                        patternId: "pink",
+                        imageUrl: "/builder/resources/tie_dyes/pink_tie_dye_cropped.jpg"
+                    },
+                    {
+                        patternId: "green",
+                        imageUrl: "/builder/resources/tie_dyes/green_tie_dye_cropped.jpg"
+                    }
+                ];
                 ctrl.selectedOptions = {
                     'colorOption1': {},
                     'colorOption2': {},

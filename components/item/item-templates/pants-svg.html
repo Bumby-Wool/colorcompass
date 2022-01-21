@@ -6,8 +6,8 @@
 	.st1{fill:url(#SVGID_1_);}
 </style>
 <defs>
-	<pattern id="test" x="0" y="0" width="1" height="1" patternUnits="objectBoundingBox">
-		<image href="/builder/resources/tie_dyes/pink_tie_dye_cropped.jpg" x="0" y="0" width="8000" />
+	<pattern ng-repeat="color in $ctrl.tiedyes" id="{{color.patternId}}" x="0" y="0" width="1" height="1" patternUnits="objectBoundingBox">
+		<image ng-attr-href="{{color.imageUrl}}" x="0" y="0" width="8000" />
 	</pattern>
 </defs>
 <switch>

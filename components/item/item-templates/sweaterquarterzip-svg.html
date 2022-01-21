@@ -5,6 +5,11 @@
 	.st0{fill:#FFFFFF;stroke:#000000;stroke-width:0.5616;stroke-miterlimit:10;}
 	.st1{fill:none;stroke:#000000;stroke-width:0.5616;stroke-miterlimit:10;}
 </style>
+<defs>
+	<pattern ng-repeat="color in $ctrl.tiedyes" id="{{color.patternId}}" x="0" y="0" width="1" height="1" patternUnits="objectBoundingBox">
+		<image ng-attr-href="{{color.imageUrl}}" x="0" y="0" width="8000" />
+	</pattern>
+</defs>
 <switch>
 	<foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
 		<i:aipgfRef  xlink:href="#adobe_illustrator_pgf">
