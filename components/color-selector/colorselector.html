@@ -1,7 +1,7 @@
 <div class="color-selector-container">
     <button class="color-selector" ng-click="$ctrl.editMode = !$ctrl.editMode">
         <div class="selected-color">
-            <span class="swatch" style="background-color:{{$ctrl.selectedColor.patternId.fill}}"></span>
+            <span class="swatch" ng-style="{'background': $ctrl.getColorBackground($ctrl.selectedColor)}"></span>
             <span>{{$ctrl.selectedColor.name}}</span>
         </div>
         <i class="fas" ng-class="{'fa-chevron-up': $ctrl.editMode, 'fa-chevron-down': !$ctrl.editMode}"></i>
@@ -12,7 +12,7 @@
             ng-mouseenter="color.showTooltip = true"
             ng-mouseleave="color.showTooltip = false"
             class="swatch" 
-            style="background-color:{{color.patternId.fill}}">
+            ng-style="{'background': $ctrl.getColorBackground(color)}">
             <p ng-show="color.showTooltip" class="color-tooltip">{{color.name}}</p>
         </li>
     </ul>
