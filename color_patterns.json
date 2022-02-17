@@ -4,13 +4,13 @@
         "name": "Pink Tie Dye",
         "svgPatternId": "pink",
         "patternId": { "fill": "url(#pink)"},
-        "imageUrl": "/builder/resources/tie_dyes/pink_tie_dye_cropped.jpg"
+        "imageUrl": "/builder/resources/patterns/pink_tie_dye_cropped.jpg"
     },
     {
         "type": "pattern",
         "name": "Green Tie Dye",
         "svgPatternId": "green",
         "patternId": { "fill": "url(#green)"},
-        "imageUrl": "/builder/resources/tie_dyes/green_tie_dye_cropped.jpg"
+        "imageUrl": "/builder/resources/patterns/green_tie_dye_cropped.jpg"
     }
 ]
