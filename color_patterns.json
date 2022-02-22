@@ -132,11 +132,32 @@
         "patternId": { "fill": "url(#Striped Frozen Lagoon)"},
         "imageUrl": "/builder/resources/patterns/Striped Frozen Lagoon.jpg"
     },
+     {
+        "type": "pattern",
+        "name": "Striped Ice Dragon",
+        "svgPatternId": "Striped Ice Dragon",
+        "patternId": { "fill": "url(#Striped Ice Dragon)"},
+        "imageUrl": "/builder/resources/patterns/Striped Ice Dragon.jpg"
+    },
+     {
+        "type": "pattern",
+        "name": "Striped Retro 3D",
+        "svgPatternId": "Striped Retro 3D",
+        "patternId": { "fill": "url(#Striped Retro 3D)"},
+        "imageUrl": "/builder/resources/patterns/Striped Retro 3D.jpg"
+    },
+      {
+        "type": "pattern",
+        "name": "Striped Smoke",
+        "svgPatternId": "Striped Smoke",
+        "patternId": { "fill": "url(#Striped Smoke)"},
+        "imageUrl": "/builder/resources/patterns/Striped Smoke.jpg"
+    },
     {
         "type": "pattern",
-        "name": "Green Tie Dye",
-        "svgPatternId": "green",
-        "patternId": { "fill": "url(#green)"},
-        "imageUrl": "/builder/resources/patterns/green_tie_dye_cropped.jpg"
+        "name": "Striped Tidal",
+        "svgPatternId": "Striped Tidal",
+        "patternId": { "fill": "url(#Striped Tidal)"},
+        "imageUrl": "/builder/resources/patterns/Striped Tidal.jpg"
     }
 ]
