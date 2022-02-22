@@ -1,16 +1,163 @@
 [
     {
         "type": "pattern",
-        "name": "Pink Tie Dye",
-        "svgPatternId": "pink",
-        "patternId": { "fill": "url(#pink)"},
-        "imageUrl": "/builder/resources/patterns/pink_tie_dye_cropped.jpg"
+        "name": "Cenotes",
+        "svgPatternId": "Cenotes",
+        "patternId": { "fill": "url(#Cenotes)"},
+        "imageUrl": "/builder/resources/patterns/Cenotes.jpg"
     },
     {
         "type": "pattern",
-        "name": "Green Tie Dye",
-        "svgPatternId": "green",
-        "patternId": { "fill": "url(#green)"},
-        "imageUrl": "/builder/resources/patterns/green_tie_dye_cropped.jpg"
+        "name": "Cosmos",
+        "svgPatternId": "Cosmos",
+        "patternId": { "fill": "url(#Cosmos)"},
+        "imageUrl": "/builder/resources/patterns/Cosmos.jpg"
+    },
+    {
+        "type": "pattern",
+        "name": "Courage",
+        "svgPatternId": "Courage",
+        "patternId": { "fill": "url(#Courage)"},
+        "imageUrl": "/builder/resources/patterns/Cosmos.jpg"
+    },
+    {
+        "type": "pattern",
+        "name": "Crocodile",
+        "svgPatternId": "Crocodile",
+        "patternId": { "fill": "url(#Crocodile)"},
+        "imageUrl": "/builder/resources/patterns/Crocodile.jpg"
+    },
+     {
+        "type": "pattern",
+        "name": "Crushed Berries",
+        "svgPatternId": "Crushed Berries",
+        "patternId": { "fill": "url(#Crushed Berries)"},
+        "imageUrl": "/builder/resources/patterns/Crushed Berries.jpg"
+    },
+     {
+        "type": "pattern",
+        "name": "Dark Matter",
+        "svgPatternId": "Dark Matter",
+        "patternId": { "fill": "url(#Dark Matter)"},
+        "imageUrl": "/builder/resources/patterns/Dark Matter.jpg"
+    },
+     {
+        "type": "pattern",
+        "name": "Dessert Sunrise",
+        "svgPatternId": "Dessert Sunrise",
+        "patternId": { "fill": "url(#Dessert Sunrise)"},
+        "imageUrl": "/builder/resources/patterns/Dessert Sunrise.jpg"
+    },
+      {
+        "type": "pattern",
+        "name": "Heartsong",
+        "svgPatternId": "Heartsong",
+        "patternId": { "fill": "url(#Heartsong)"},
+        "imageUrl": "/builder/resources/patterns/Heartsong.jpg"
+    },
+     {
+        "type": "pattern",
+        "name": "Laekoi",
+        "svgPatternId": "Laekoi",
+        "patternId": { "fill": "url(#Laekoi)"},
+        "imageUrl": "/builder/resources/patterns/Laekoi.jpg"
+    },
+      {
+        "type": "pattern",
+        "name": "Lava Love",
+        "svgPatternId": "Lava Love",
+        "patternId": { "fill": "url(#Lava Love)"},
+        "imageUrl": "/builder/resources/patterns/Lava Love.jpg"
+    },
+    {
+        "type": "pattern",
+        "name": "Marvelous",
+        "svgPatternId": "Marvelous",
+        "patternId": { "fill": "url(#Marvelous)"},
+        "imageUrl": "/builder/resources/patterns/Marvelous.jpg"
+    },
+    {
+        "type": "pattern",
+        "name": "Nanoose",
+        "svgPatternId": "Nanoose",
+        "patternId": { "fill": "url(#Nanoose)"},
+        "imageUrl": "/builder/resources/patterns/Nanoose.jpg"
+    },
+     {
+        "type": "pattern",
+        "name": "Nebula",
+        "svgPatternId": "Nebula",
+        "patternId": { "fill": "url(#Nebula)"},
+        "imageUrl": "/builder/resources/patterns/Nebula.jpg"
+    },
+    {
+        "type": "pattern",
+        "name": "Reef",
+        "svgPatternId": "Reef",
+        "patternId": { "fill": "url(#Reef)"},
+        "imageUrl": "/builder/resources/patterns/Reef.jpg"
+    },
+     {
+        "type": "pattern",
+        "name": "Smashed Cranberries",
+        "svgPatternId": "Smashed Cranberries",
+        "patternId": { "fill": "url(#Smashed Cranberries)"},
+        "imageUrl": "/builder/resources/patterns/Smashed Cranberries.jpg"
+    },
+    {
+        "type": "pattern",
+        "name": "Striped Actinia",
+        "svgPatternId": "Striped Actinia",
+        "patternId": { "fill": "url(#Striped Actinia)"},
+        "imageUrl": "/builder/resources/patterns/Striped Actinia.jpg"
+    },
+    {
+        "type": "pattern",
+        "name": "Striped Aurora",
+        "svgPatternId": "Striped Aurora",
+        "patternId": { "fill": "url(#Striped Aurora)"},
+        "imageUrl": "/builder/resources/patterns/Striped Aurora.jpg"
+    },
+    {
+        "type": "pattern",
+        "name": "Striped Chanterelle",
+        "svgPatternId": "Striped Chanterelle",
+        "patternId": { "fill": "url(#Striped Chanterelle)"},
+        "imageUrl": "/builder/resources/patterns/Striped Chanterelle.jpg"
+    },
+     {
+        "type": "pattern",
+        "name": "Striped Frozen Lagoon",
+        "svgPatternId": "Striped Frozen Lagoon",
+        "patternId": { "fill": "url(#Striped Frozen Lagoon)"},
+        "imageUrl": "/builder/resources/patterns/Striped Frozen Lagoon.jpg"
+    },
+     {
+        "type": "pattern",
+        "name": "Striped Ice Dragon",
+        "svgPatternId": "Striped Ice Dragon",
+        "patternId": { "fill": "url(#Striped Ice Dragon)"},
+        "imageUrl": "/builder/resources/patterns/Striped Ice Dragon.jpg"
+    },
+     {
+        "type": "pattern",
+        "name": "Striped Retro 3D",
+        "svgPatternId": "Striped Retro 3D",
+        "patternId": { "fill": "url(#Striped Retro 3D)"},
+        "imageUrl": "/builder/resources/patterns/Striped Retro 3D.jpg"
+    },
+      {
+        "type": "pattern",
+        "name": "Striped Smoke",
+        "svgPatternId": "Striped Smoke",
+        "patternId": { "fill": "url(#Striped Smoke)"},
+        "imageUrl": "/builder/resources/patterns/Striped Smoke.jpg"
+    },
+    {
+        "type": "pattern",
+        "name": "Striped Tidal",
+        "svgPatternId": "Striped Tidal",
+        "patternId": { "fill": "url(#Striped Tidal)"},
+        "imageUrl": "/builder/resources/patterns/Striped Tidal.jpg"
     }
 ]
