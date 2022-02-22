@@ -8,6 +8,27 @@
     },
     {
         "type": "pattern",
+        "name": "Cosmos",
+        "svgPatternId": "Cosmos",
+        "patternId": { "fill": "url(#Cosmos)"},
+        "imageUrl": "/builder/resources/patterns/Cosmos.jpg"
+    },
+    {
+        "type": "pattern",
+        "name": "Courage",
+        "svgPatternId": "Courage",
+        "patternId": { "fill": "url(#Courage)"},
+        "imageUrl": "/builder/resources/patterns/Cosmos.jpg"
+    },
+    {
+        "type": "pattern",
+        "name": "Crocodile",
+        "svgPatternId": "Crocodile",
+        "patternId": { "fill": "url(#Crocodile)"},
+        "imageUrl": "/builder/resources/patterns/Crocodile.jpg"
+    },
+    {
+        "type": "pattern",
         "name": "Green Tie Dye",
         "svgPatternId": "green",
         "patternId": { "fill": "url(#green)"},
