@@ -27,6 +27,27 @@
         "patternId": { "fill": "url(#Crocodile)"},
         "imageUrl": "/builder/resources/patterns/Crocodile.jpg"
     },
+     {
+        "type": "pattern",
+        "name": "Crushed Berries",
+        "svgPatternId": "Crushed Berries",
+        "patternId": { "fill": "url(#Crushed Berries)"},
+        "imageUrl": "/builder/resources/patterns/Crushed Berries.jpg"
+    },
+     {
+        "type": "pattern",
+        "name": "Dark Matter",
+        "svgPatternId": "Dark Matter",
+        "patternId": { "fill": "url(#Dark Matter)"},
+        "imageUrl": "/builder/resources/patterns/Dark Matter.jpg"
+    },
+     {
+        "type": "pattern",
+        "name": "Dessert Sunrise",
+        "svgPatternId": "Dessert Sunrise",
+        "patternId": { "fill": "url(#Dessert Sunrise)"},
+        "imageUrl": "/builder/resources/patterns/Dessert Sunrise.jpg"
+    },
     {
         "type": "pattern",
         "name": "Green Tie Dye",
