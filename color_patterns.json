@@ -97,6 +97,41 @@
         "patternId": { "fill": "url(#Reef)"},
         "imageUrl": "/builder/resources/patterns/Reef.jpg"
     },
+     {
+        "type": "pattern",
+        "name": "Smashed Cranberries",
+        "svgPatternId": "Smashed Cranberries",
+        "patternId": { "fill": "url(#Smashed Cranberries)"},
+        "imageUrl": "/builder/resources/patterns/Smashed Cranberries.jpg"
+    },
+    {
+        "type": "pattern",
+        "name": "Striped Actinia",
+        "svgPatternId": "Striped Actinia",
+        "patternId": { "fill": "url(#Striped Actinia)"},
+        "imageUrl": "/builder/resources/patterns/Striped Actinia.jpg"
+    },
+    {
+        "type": "pattern",
+        "name": "Striped Aurora",
+        "svgPatternId": "Striped Aurora",
+        "patternId": { "fill": "url(#Striped Aurora)"},
+        "imageUrl": "/builder/resources/patterns/Striped Aurora.jpg"
+    },
+    {
+        "type": "pattern",
+        "name": "Striped Chanterelle",
+        "svgPatternId": "Striped Chanterelle",
+        "patternId": { "fill": "url(#Striped Chanterelle)"},
+        "imageUrl": "/builder/resources/patterns/Striped Chanterelle.jpg"
+    },
+     {
+        "type": "pattern",
+        "name": "Striped Frozen Lagoon",
+        "svgPatternId": "Striped Frozen Lagoon",
+        "patternId": { "fill": "url(#Striped Frozen Lagoon)"},
+        "imageUrl": "/builder/resources/patterns/Striped Frozen Lagoon.jpg"
+    },
     {
         "type": "pattern",
         "name": "Green Tie Dye",
