@@ -30,9 +30,9 @@
      {
         "type": "pattern",
         "name": "Crushed Berries",
-        "svgPatternId": "Crushed Berries",
-        "patternId": { "fill": "url(#Crushed Berries)"},
-        "imageUrl": "/builder/resources/patterns/Crushed Berries.jpg"
+        "svgPatternId": "Crushed_Berries",
+        "patternId": { "fill": "url(#Crushed_Berries)"},
+        "imageUrl": "/builder/resources/patterns/Crushed_Berries.jpg"
     },
      {
         "type": "pattern",
