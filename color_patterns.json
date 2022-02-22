@@ -1,10 +1,10 @@
 [
     {
         "type": "pattern",
-        "name": "Pink Tie Dye",
-        "svgPatternId": "pink",
-        "patternId": { "fill": "url(#pink)"},
-        "imageUrl": "/builder/resources/patterns/pink_tie_dye_cropped.jpg"
+        "name": "Cenotes",
+        "svgPatternId": "Cenotes",
+        "patternId": { "fill": "url(#Cenotes)"},
+        "imageUrl": "/builder/resources/patterns/Cenotes.jpg"
     },
     {
         "type": "pattern",
