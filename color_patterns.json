@@ -128,9 +128,9 @@
      {
         "type": "pattern",
         "name": "Striped Retro 3D",
-        "svgPatternId": "StripedRetro3D",
-        "patternId": { "fill": "url(#StripedRetro3D)"},
-        "imageUrl": "/builder/resources/patterns/StripedRetro3D.jpg"
+        "svgPatternId": "StripedRetro",
+        "patternId": { "fill": "url(#StripedRetro)"},
+        "imageUrl": "/builder/resources/patterns/StripedRetro.jpg"
     },
       {
         "type": "pattern",
