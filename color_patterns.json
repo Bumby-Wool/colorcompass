@@ -1,11 +1,5 @@
 [
-    {
-        "type": "pattern",
-        "name": "Cenotes",
-        "svgPatternId": "Cenotes",
-        "patternId": { "fill": "url(#Cenotes)"},
-        "imageUrl": "/builder/resources/patterns/Cenotes.jpg"
-    },
+    { "name": "Cenotes" },
     {
         "type": "pattern",
         "name": "Cosmos",

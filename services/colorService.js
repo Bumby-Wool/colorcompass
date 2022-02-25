@@ -9,7 +9,12 @@ angular.module('bumbyApp')
         }
 
         self.getPatterns = function() {
-            return self.loadColors("/builder/color_patterns.json", self.patterns);
+            var deferred = $q.defer();
+            self.loadColors("/builder/color_patterns.json", self.patterns)
+                .then((res) => {
+                    deferred.resolve(res.map(o => self.buildPattern(o)));
+                });
+            return deferred.promise;
         }
 
         self.loadColors = function (resource, obj) {
@@ -27,6 +32,22 @@ angular.module('bumbyApp')
                 deferred.resolve(obj);
             }
             return deferred.promise;
+        }
+
+        self.buildPattern = function(original) {
+            if (original.type === 'pattern' && original.name && original.svgPatternId && original.patternId && original.imageUrl) {
+                return original;
+            } else if (original.name) {
+                return {
+                    "type": "pattern",
+                    "name": original.name,
+                    "svgPatternId": original.name,
+                    "patternId": { "fill": "url(#"+original.name+")"},
+                    "imageUrl": "/builder/resources/patterns/"+original.name+".jpg"
+                };
+            } else {
+                console.error("Failed to properly load pattern", original);
+            }
         }
 
         return self;

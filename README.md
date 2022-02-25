@@ -97,6 +97,22 @@ In the (color_patterns.json)[https://github.com/Bumby-Wool/builder/blob/main/col
 `patternId` - Tells the color selector how to display the color. Follows the same format replace `<svgPatternId>` in `{ "fill": "url(#<svgPatternId>)"}` with the value you chose for the svgPatternId. If these don't match your pattern won't display properly.
 `imageUrl` - Relative path to the image which is displayed as the pattern.
 
+##### Shorthand Pattern
+For a condensed version defining patterns you can simply define the `name` property. When used this way the `name` value should not contain any spaces or special characters and must be unique. The image is assumed to be placed in the relative folder "/builder/resources/patterns/" with the image name as "`name`.jpg"
+```
+{ "name": "Cenotes" }
+```
+Using the shorthand version the other necessary properties are filled in using the `name` value. The example above will create the fully populated object below.
+```
+{
+    "type": "pattern",
+    "name": "Cenotes",
+    "svgPatternId": "Cenotes",
+    "patternId": { "fill": "url(#Cenotes)"},
+    "imageUrl": "/builder/resources/patterns/Cenotes.jpg"
+}
+```
+
 ### Adding New Items
 #### Overview
 > While following the steps keeping `itemname` consistent, in all lowercase, and without spaces
