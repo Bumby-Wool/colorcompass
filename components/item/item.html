@@ -1,7 +1,10 @@
+<div class="item-title-container">
+    <h1 class="item-title">My Bumby {{$ctrl.item.title}}</h1>
+</div>
 <div class="builder-container" ng-if="$ctrl.item">
     <div ng-include="$ctrl.svgUrl" class="svg-background"></div>
     <div class="option-container">
-        <h1 class="option-banner">My Bumby {{$ctrl.item.title}}</h1>
+        <h2 class="option-banner">Options</h2>
         <div ng-repeat="option in $ctrl.item.options">
             <label>{{option.label}}</label>
             <color-selector on-update="$ctrl.updateOptionColor($index, color)"></color-selector>
@@ -9,12 +12,13 @@
         
         <div ng-if="$ctrl.item.extras && $ctrl.item.extras.length > 0">
             <!-- EXTRA OPTIONS -->
-            <h3 class="option-banner">Additional Options</h3>
+            <h4 class="option-banner">Additional Options</h4>
             <div ng-repeat="extra in $ctrl.item.extras">
                 <label><input type="checkbox" ng-model="extra.show" ng-click="$ctrl.toggleExtraColorShow($index, extra)">{{extra.label}}</label>
                 <color-selector ng-if="extra.show" on-update="$ctrl.updateExtraColor($index, color)"></color-selector>
             </div>
         </div>
+        <a class="order-link" href="https://bumbywool.com/" target="_blank"><span>Ready to order?</span> To go <span class="underline">BumbyWool.com</span> <i class="fas fa-external-link-alt"></i></a>
     </div>
   </div>
   <div class="builder-container" ng-if="!$ctrl.item">
