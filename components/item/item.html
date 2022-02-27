@@ -1,6 +1,6 @@
 <div class="builder-container" ng-if="$ctrl.item">
     <div ng-include="$ctrl.svgUrl" class="svg-background"></div>
-    <div>
+    <div class="option-container">
         <h1 class="option-banner">My Bumby {{$ctrl.item.title}}</h1>
         <div ng-repeat="option in $ctrl.item.options">
             <label>{{option.label}}</label>

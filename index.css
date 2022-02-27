@@ -101,10 +101,19 @@ body {
 .svg-background {
     background-color: rgb(210, 211, 207);
     border-radius: 0.75rem;
-    width: calc((85vh - 2rem)*0.66);
-    max-height: 85vh;
+    max-height: 80vh;
     padding: 0.5rem;
     margin: 0.5rem 1.5rem;
+    flex-grow: 4;
+    min-width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-background > svg {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .svg-background svg polygon,
@@ -113,6 +122,11 @@ body {
     stroke:#000;
     stroke-width:2rem;
     stroke-opacity: 0.1;
+}
+
+.option-container {
+    max-width: 25rem;
+    margin: 0.5rem 1.5rem;
 }
 
 .option-banner {
