@@ -139,6 +139,7 @@ body {
     border-radius: 0.25rem;
     margin: 0.5rem 0;
     text-decoration: none;
+    display: block;
 }
 
 .order-link:hover,
@@ -148,6 +149,10 @@ body {
 
 .underline {
     text-decoration: underline;
+}
+
+.color-primary {
+    color: #CEA861;
 }
 
 .option-banner {
@@ -160,6 +165,14 @@ body {
 
 .item-title {
     margin: 0;
+}
+
+.link {
+    white-space: nowrap;
+}
+
+.inspired-description {
+    margin: 0.25rem 0 1rem 0;
 }
 
 .color-selector-container {
