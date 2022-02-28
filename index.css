@@ -140,6 +140,7 @@ body {
     margin: 0.5rem 0;
     text-decoration: none;
     display: block;
+    text-align: center;
 }
 
 .order-link:hover,
