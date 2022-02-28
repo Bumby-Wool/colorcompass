@@ -4,8 +4,11 @@
 <div class="builder-container" ng-if="$ctrl.item">
     <div ng-include="$ctrl.svgUrl" class="svg-background"></div>
     <div class="option-container">
+        <h2 class="option-banner">Type</h2>
+        <select class="type-selector" ng-model="$ctrl.selectedVariant" ng-options="variant.label for variant in $ctrl.item.variants"></select>
+        
         <h2 class="option-banner">Options</h2>
-        <div ng-repeat="option in $ctrl.item.options">
+        <div ng-repeat="option in $ctrl.selectedVariant.options">
             <label>{{option.label}}</label>
             <color-selector on-update="$ctrl.updateOptionColor($index, color)"></color-selector>
         </div>

@@ -180,6 +180,22 @@ body {
     margin: 0.25rem 0 1rem 0;
 }
 
+.type-selector {
+    width: 20rem;
+    margin-bottom: 1.25rem;
+    height: 3rem;
+    padding: 0.5rem 1.75rem;
+    background: #fefefe;
+    border: 1px solid #e1e1e1;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+.type-selector > option {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+}
+
 .color-selector-container {
     display: flex;
     flex-direction: column;

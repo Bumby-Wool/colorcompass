@@ -34,27 +34,29 @@ angular.module('bumbyApp')
                 ]
             },
             {
-                title: "Pants - Hemmed",
+                title: "Pants",
                 link: "/items/pants",
                 image: "resources/Baby-Standard-Pants-Mild-Tapered-Hemmed-Main.png",
                 variants: [
                     {
-                        label: "",
+                        label: "Hemmed",
                         options: [
                             { label: "Waist" },
                             { label: "Legs" }
                         ],
                         extras: []
-                    }
-                ]
-            },
-            {
-                title: "Pants - Joggers",
-                link: "/items/pantsjoggers",
-                image: "resources/joggers.png",
-                variants: [
+                    },
                     {
-                        label: "",
+                        label: "Joggers",
+                        options: [
+                            { label: "Waist" },
+                            { label: "Legs" },
+                            { label: "Leg Cuffs" }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Cuffed",
                         options: [
                             { label: "Waist" },
                             { label: "Legs" },

@@ -38,6 +38,7 @@ angular.module('bumbyApp')
                 ctrl.svgUrl = "components/item/item-templates/"+ctrl.itemId+"-svg.html";
                 ctrl.itemData = itemData;
                 ctrl.item = itemData.find(i => i.link === ("/items/" + ctrl.itemId));
+                ctrl.selectedVariant = ctrl.item.variants[0];
 
                 ctrl.updateOptionColor = function (index, color){
                     ctrl.selectedOptions["colorOption"+(index + 1)] = color;
