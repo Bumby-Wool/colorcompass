@@ -15,10 +15,10 @@
             <color-selector on-update="$ctrl.updateOptionColor($index, color)"></color-selector>
         </div>
         
-        <div ng-if="$ctrl.item.extras && $ctrl.item.extras.length > 0">
+        <div ng-if="$ctrl.selectedVariant.extras && $ctrl.selectedVariant.extras.length > 0">
             <!-- EXTRA OPTIONS -->
             <h4 class="option-banner">Additional Options</h4>
-            <div ng-repeat="extra in $ctrl.item.extras">
+            <div ng-repeat="extra in $ctrl.selectedVariant.extras">
                 <label><input type="checkbox" ng-model="extra.show" ng-click="$ctrl.toggleExtraColorShow($index, extra)">{{extra.label}}</label>
                 <color-selector ng-if="extra.show" on-update="$ctrl.updateExtraColor($index, color)"></color-selector>
             </div>
