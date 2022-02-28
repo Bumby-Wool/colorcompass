@@ -156,6 +156,10 @@ body {
     color: #CEA861;
 }
 
+.color-muted {
+    color: #444;
+}
+
 .option-banner {
     margin: 0.25rem 0;
 }
