@@ -6,10 +6,10 @@ angular.module('bumbyApp')
         return {
             templateUrl: 'components/svg-patterns/svgpatterns.html',
             scope: {},
-            controller: ['$scope','$http', function($scope,$http) { 
-                $http.get("/builder/color_patterns.json")
+            controller: ['$scope','colorService', function($scope,colorService) { 
+                colorService.getPatterns()
                 .then((res) => {
-                    $scope.patterns = res.data;
+                    $scope.patterns = res;
                 },(err) => { 
                     console.error("Failed to load patterns", err)
                 });

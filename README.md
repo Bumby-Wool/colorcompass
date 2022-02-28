@@ -56,6 +56,63 @@ The colors are controled by a JSON file called `colors.json` in the root folder 
 
 ![image](https://user-images.githubusercontent.com/2077589/126038403-211800c8-4abf-4d79-bd64-39c66cf5130a.png)
 
+#### Adding a Pattern (Tie Dyes & Other Image Based Fills)
+This process is similar to adding a color but more complex. If you are not familar with adding and removing colors please read that documentation first.
+
+#### First Time Setup for Adding Patterns
+You need to add the image you are using for the pattern into the GitHub repository. For this you need to "clone" the repository.
+
+Click on the green `Code` button on GitHub and select `Open with GitHub Desktop`
+> If you do not already have GitHub Desktop installed it will prompt you to download and install it. You should also sign-in to you GitHub account when you open GitHub Desktop for the first time.
+
+1. Find the location on your laptop where you cloned the repo 
+> If you have no idea what that means please read the `First Time Setup for Adding Patterns` information just above
+
+> If you don't remember where the files were placed you can find this by opening GitHub Desktop and choosing the "Open in file explorer option"
+
+2. Add the image file into the `resources/patterns` folder
+3. Open GitHub Desktop and it should have detected the new file(s) in the folder showing the files listed in the "Files Changed" section
+4. Add a Summary, just a decription of what you added
+5. Click the `Commit` button
+6. Click `Push` button. If you miss this step the file(s) will not show up in GitHub.
+7. Go to the (color_patterns.json)[https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json] file
+8. Copy an existing pattern object and paste it into the list
+9. Modify the object properties as explained bellow in the `Pattern Properties Explained` section making sure to set the imageUrl to the image that you added
+10. Commit these changes
+
+##### Pattern Properties Explained
+In the (color_patterns.json)[https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json] file you will see that it is a list of objects like this one:
+```
+{
+    "type": "pattern",
+    "name": "Green Tie Dye",
+    "svgPatternId": "green",
+    "patternId": { "fill": "url(#green)"},
+    "imageUrl": "/builder/resources/patterns/green_tie_dye_cropped.jpg"
+}
+```
+`type` - This lets the color selector know to treat this differently than a typical color. **The value should always be "pattern"**
+`name` - This is the display name that is shown when selecting the color. It can contain spaces
+`svgPatternId` - This is an ID for the pattern. **Should not contain any spaces or special characters and must be unique.**
+`patternId` - Tells the color selector how to display the color. Follows the same format replace `<svgPatternId>` in `{ "fill": "url(#<svgPatternId>)"}` with the value you chose for the svgPatternId. If these don't match your pattern won't display properly.
+`imageUrl` - Relative path to the image which is displayed as the pattern.
+
+##### Shorthand Pattern
+For a condensed version defining patterns you can simply define the `name` property. When used this way the `name` value should not contain any spaces or special characters and must be unique. The image is assumed to be placed in the relative folder "/builder/resources/patterns/" with the image name as "`name`.jpg"
+```
+{ "name": "Cenotes" }
+```
+Using the shorthand version the other necessary properties are filled in using the `name` value. The example above will create the fully populated object below.
+```
+{
+    "type": "pattern",
+    "name": "Cenotes",
+    "svgPatternId": "Cenotes",
+    "patternId": { "fill": "url(#Cenotes)"},
+    "imageUrl": "/builder/resources/patterns/Cenotes.jpg"
+}
+```
+
 ### Adding New Items
 #### Overview
 > While following the steps keeping `itemname` consistent, in all lowercase, and without spaces
