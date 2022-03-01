@@ -89,8 +89,8 @@ angular.module('bumbyApp')
                         options: [
                             { label: "Body", elements: ["body"] },
                             { label: "Neck", types: [
-                                "Hood",
-                                "Tall Collar"
+                                { label: "Hood", elements: ["hood", "hoodInside"] },
+                                { label: "Tall Collar", elements: ["collarTall"] }
                             ]},
                             { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
                             { label: "Zipper", colorSelector:"zipper" }
@@ -99,10 +99,10 @@ angular.module('bumbyApp')
                             { label: "Add Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
                             { label: "Add Bottom Cuff", elements: ["bottomCuff"] },
                             { label: "Add Pockets", types: [
-                                "Rounded Angled",
-                                "Squared Angled",
-                                "Kangaroo",
-                                "Cuffed Kangaroo"
+                                {label: "Rounded Angled", elements: ["pocketRoundedAngledLeft", "pocketRoundedAngledRight"] },
+                                {label: "Squared Angled", elements: ["pocketSquaredAngledLeft", "pocketSquaredAngledRight"] },
+                                {label: "Kangaroo", elements: ["pocketKangaroo"] },
+                                {label: "Cuffed Kangaroo", elements: ["pocketKangaroo", "pocketKangarooLeftCuff", "pocketKangarooRightCuff"] }
                             ]}
                         ]
                     }

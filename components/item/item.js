@@ -75,7 +75,13 @@ angular.module('bumbyApp')
                 }
 
                 ctrl.getOptionByElementId = function(options, elementId) {
-                    return options.find(o => o.elements && (o.elements.indexOf(elementId) >= 0));
+                    return options.find(o => {
+                        if (o.elements) {
+                            return o.elements.indexOf(elementId) >= 0;
+                        } else if (o.selectedType) {
+                            return o.selectedType.elements.indexOf(elementId) >= 0;
+                        }
+                    });
                 }
 
                 ctrl.lookupSelectedExtra = function(extra) {
