@@ -5,85 +5,107 @@ angular.module('bumbyApp')
                 title: "Diaper Cover",
                 link: "/items/diapercover",
                 image: "resources/diapercover.png",
-                options: [
-                    { label: "Waist" },
-                    { label: "Body" },
-                    { label: "Leg Cuffs" }
-                ],
-                extras: []
+                variants: [
+                    {
+                        label: "",
+                        options: [
+                            { label: "Waist" },
+                            { label: "Body" },
+                            { label: "Leg Cuffs" }
+                        ],
+                        extras: []
+                    }
+                ]
             },
             {
                 title: "Shorts - Bloomers",
                 link: "/items/bloomers",
                 image: "resources/Bloomers-laying-down-500x500.jpg",
-                options: [
-                    { label: "Waist" },
-                    { label: "Body" },
-                    { label: "Cuffs" }
-                ],
-                extras: []
+                variants: [
+                    {
+                        label: "",
+                        options: [
+                            { label: "Waist" },
+                            { label: "Body" },
+                            { label: "Cuffs" }
+                        ],
+                        extras: []
+                    }
+                ]
             },
             {
-                title: "Pants - Hemmed",
+                title: "Pants",
                 link: "/items/pants",
                 image: "resources/Baby-Standard-Pants-Mild-Tapered-Hemmed-Main.png",
-                options: [
-                    { label: "Waist" },
-                    { label: "Legs" }
-                ],
-                extras: []
+                variants: [
+                    {
+                        label: "Hemmed",
+                        options: [
+                            { label: "Waist" },
+                            { label: "Legs" }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Joggers",
+                        options: [
+                            { label: "Waist" },
+                            { label: "Legs" },
+                            { label: "Leg Cuffs" }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Cuffed",
+                        options: [
+                            { label: "Waist" },
+                            { label: "Legs" },
+                            { label: "Leg Cuffs" }
+                        ],
+                        extras: []
+                    }
+                ]
             },
             {
-                title: "Pants - Joggers",
-                link: "/items/pantsjoggers",
-                image: "resources/joggers.png",
-                options: [
-                    { label: "Waist" },
-                    { label: "Legs" },
-                    { label: "Leg Cuffs" }
-                ],
-                extras: []
-            },
-            {
-                title: "Sheepy Hug",
+                title: "Adult Sweater",
                 link: "/items/sweater",
                 image: "resources/Adult-Sheepy.png",
-                options: [
-                    { label: "Body" },
-                    { label: "Hood" },
-                    { label: "Sleeves" }
-                ],
-                extras: [
-                    { label: "Add Sleeve Cuffs" },
-                    { label: "Add Pocket" }
-                ]
-            },
-            {
-                title: "Sweater - Cardigan",
-                link: "/items/sweatercardigan",
-                image: "resources/Contoured-Zipper-Cardigan.png",
-                options: [
-                    { label: "Body" },
-                    { label: "Hood" },
-                    { label: "Sleeves" }
-                ],
-                extras: [
-                    { label: "Add Sleeve Cuffs" },
-                    { label: "Add Pockets" }
-                ]
-            },
-            {
-                title: "Sweater - Quarter Zip",
-                link: "/items/sweaterquarterzip",
-                image: "resources/Quarter-Zip-Open.png",
-                options: [
-                    { label: "Main Body" },
-                    { label: "Hood" },
-                    { label: "Sleeves" }
-                ],
-                extras: [
-                    { label: "Add Sleeve Cuffs" },
-                    { label: "Add Pocket" }
+                variants: [
+                    {
+                        label: "Sheepy Hug",
+                        options: [
+                            { label: "Body", elements: ["bottomCuff", "body"] },
+                            { label: "Hood", elements: ["hood", "hoodInside"] },
+                            { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
+                            { label: "Pocket", elements: ["pocketKangaroo"] }
+                        ],
+                        extras: [
+                            { label: "Add Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
+                            { label: "Cuffed Pocket", elements: ["pocketKangarooLeftCuff", "pocketKangarooRightCuff"], colorSelector:"none" }
+                        ]
+                    },
+                    {
+                        label: "Quarter Zip",
+                        options: [
+                            { label: "Body", elements: ["body"] },
+                            { label: "Neck", types: [
+                                { label: "Hood", elements: ["hood", "hoodInside"] },
+                                { label: "Tall Collar", elements: ["collarTall"] }
+                            ]},
+                            { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
+                            { label: "Zipper", colorSelector:"zipper" }
+                        ],
+                        extras: [
+                            { label: "Add Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
+                            { label: "Add Bottom Cuff", elements: ["bottomCuff"] },
+                            { label: "Add Pockets", types: [
+                                {label: "Rounded Angled", elements: ["pocketRoundedAngledLeft", "pocketRoundedAngledRight"] },
+                                {label: "Squared Angled", elements: ["pocketSquaredAngledLeft", "pocketSquaredAngledRight"] },
+                                {label: "Kangaroo", elements: ["pocketKangaroo"] },
+                                {label: "Cuffed Kangaroo", elements: ["pocketKangaroo", "pocketKangarooLeftCuff", "pocketKangarooRightCuff"] }
+                            ]}
+                        ]
+                    }
                 ]
             }
         ];
