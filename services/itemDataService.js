@@ -74,30 +74,30 @@ angular.module('bumbyApp')
                     {
                         label: "Sheepy Hug",
                         options: [
-                            { label: "Body" },
-                            { label: "Hood" },
-                            { label: "Sleeves" },
-                            { label: "Pocket" }
+                            { label: "Body", elements: ["bottomCuff", "body"] },
+                            { label: "Hood", elements: ["hood", "hoodInside"] },
+                            { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
+                            { label: "Pocket", elements: ["pocketKangaroo"] }
                         ],
                         extras: [
-                            { label: "Add Sleeve Cuffs" },
-                            { label: "Cuffed Pocket", colorSelector:"none" }
+                            { label: "Add Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
+                            { label: "Cuffed Pocket", elements: ["pocketKangarooLeftCuff", "pocketKangarooRightCuff"], colorSelector:"none" }
                         ]
                     },
                     {
                         label: "Quarter Zip",
                         options: [
-                            { label: "Body" },
+                            { label: "Body", elements: ["body"] },
                             { label: "Neck", types: [
                                 "Hood",
                                 "Tall Collar"
                             ]},
-                            { label: "Sleeves" },
+                            { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
                             { label: "Zipper", colorSelector:"zipper" }
                         ],
                         extras: [
-                            { label: "Add Sleeve Cuffs" },
-                            { label: "Add Bottom Cuff" },
+                            { label: "Add Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
+                            { label: "Add Bottom Cuff", elements: ["bottomCuff"] },
                             { label: "Add Pockets", types: [
                                 "Rounded Angled",
                                 "Squared Angled",
