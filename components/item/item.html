@@ -11,18 +11,18 @@
         
         <h2 class="option-banner">Options</h2>
         <div ng-repeat="option in $ctrl.selectedVariant.options">
-            <label>{{option.label}}</label>
+            <label class="option-label">{{option.label}}</label>
             <select class="type-selector" ng-if="option.types && option.types.length > 0" ng-model="option.selectedType" ng-init="option.selectedType = option.types[0]" ng-options="type.label for type in option.types"></select>
-            <color-selector on-update="$ctrl.updateOptionColor($index, color)"></color-selector>
+            <color-selector on-update="option.color = color"></color-selector>
         </div>
         
         <div ng-if="$ctrl.selectedVariant.extras && $ctrl.selectedVariant.extras.length > 0">
             <!-- EXTRA OPTIONS -->
             <h4 class="option-banner">Additional Options</h4>
             <div ng-repeat="extra in $ctrl.selectedVariant.extras">
-                <label><input type="checkbox" ng-model="extra.show" ng-click="$ctrl.toggleExtraColorShow($index, extra)">{{extra.label}}</label>
+                <label class="option-label"><input type="checkbox" ng-model="extra.show">{{extra.label}}</label>
                 <select class="type-selector" ng-if="extra.show && extra.types && extra.types.length > 0" ng-model="extra.selectedType" ng-init="extra.selectedType = extra.types[0]" ng-options="type.label for type in extra.types"></select>
-                <color-selector ng-if="extra.show" on-update="$ctrl.updateExtraColor($index, color)"></color-selector>
+                <color-selector ng-if="extra.show" on-update="extra.color = color"></color-selector>
             </div>
         </div>
         <a class="link order-link" href="https://bumbywool.com/" target="_blank">Place Order at <span class="underline">BumbyWool.com</span> <i class="fas fa-external-link-alt"></i></a>
