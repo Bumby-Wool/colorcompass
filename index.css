@@ -132,6 +132,11 @@ body {
     flex-direction: column;
 }
 
+.option-label {
+    display: block;
+    margin: 0.25rem 0;
+}
+
 .order-link {
     background-color: #CEA861;
     color: #fff;
@@ -181,8 +186,9 @@ body {
 }
 
 .type-selector {
+    display: block;
     width: 20rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 0.75rem;
     height: 3rem;
     padding: 0.5rem 1.75rem;
     background: #fefefe;
@@ -191,9 +197,9 @@ body {
     font-size: 1rem;
 }
 
-.type-selector > option {
-    font-size: 1rem;
-    padding: 0.5rem 0;
+.type-selector:hover,
+.type-selector:active {
+    background: #e1e1e1;
 }
 
 .color-selector-container {
@@ -218,7 +224,8 @@ body {
     font-size: 1rem;
 }
 
-.color-selector:hover {
+.color-selector:hover,
+.color-selector:active {
     background: #e1e1e1;
 }
 
