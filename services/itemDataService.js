@@ -152,6 +152,111 @@ angular.module('bumbyApp')
                             { label: "Add Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
                             { label: "Add Bottom Cuff", elements: ["bottomCuff"], show: true },
                             { label: "Add Pockets", types: [
+                                {label: "Kangaroo", elements: ["pocketKangaroo"] },
+                                {label: "Cuffed Kangaroo", elements: ["pocketKangaroo", "pocketKangarooLeftCuff", "pocketKangarooRightCuff"] }
+                            ]}
+                        ]
+                    },
+                    {
+                        label: "Zippered Cardigan",
+                        options: [
+                            { label: "Body", elements: ["body"] },
+                            { label: "Neck", types: [
+                                { label: "Hood", elements: ["hood", "hoodInside"] },
+                                { label: "Tall Collar", elements: ["collarTall"] },
+                                { label: "Short Collar", elements: ["collarShort"] },
+                                { label: "Hood & Tall Collar", elements: ["collarTall", "hood", "hoodInside"] },
+                                { label: "Hood & Short Collar", elements: ["collarShort", "hood", "hoodInside"] }
+                            ]},
+                            { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
+                            { label: "Zipper", elements: ["centerTrim"], colorSelector:"zipper" }
+                        ],
+                        extras: [
+                            { label: "Add Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
+                            { label: "Add Bottom Cuff", elements: ["bottomCuff"] },
+                            { label: "Add Pockets", types: [
+                                {label: "Rounded Angled", elements: ["pocketRoundedAngledLeft", "pocketRoundedAngledRight"] },
+                                {label: "Squared Angled", elements: ["pocketSquaredAngledLeft", "pocketSquaredAngledRight"] }
+                            ]}
+                        ]
+                    },
+                    {
+                        label: "Button-up Henley",
+                        options: [
+                            { label: "Body", elements: ["body"] },
+                            { label: "Neck", types: [
+                                { label: "Hood", elements: ["hood", "hoodInside"] },
+                                { label: "Tall Collar", elements: ["collarTall"] },
+                                { label: "Short Collar", elements: ["collarShort"] },
+                                { label: "Hood & Tall Collar", elements: ["collarTall", "hood", "hoodInside"] },
+                                { label: "Hood & Short Collar", elements: ["collarShort", "hood", "hoodInside"] }
+                            ]},
+                            { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
+                            { label: "Center Trim", elements: ["centerTrim"] }
+                        ],
+                        extras: [
+                            { label: "Add Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
+                            { label: "Add Bottom Cuff", elements: ["bottomCuff"], show: true },
+                            { label: "Add Pockets", types: [
+                                {label: "Kangaroo", elements: ["pocketKangaroo"] },
+                                {label: "Cuffed Kangaroo", elements: ["pocketKangaroo", "pocketKangarooLeftCuff", "pocketKangarooRightCuff"] }
+                            ]}
+                        ]
+                    },
+                    {
+                        label: "Button-up Cardigan",
+                        options: [
+                            { label: "Body", elements: ["body"] },
+                            { label: "Neck", types: [
+                                { label: "Hood", elements: ["hood", "hoodInside"] },
+                                { label: "Tall Collar", elements: ["collarTall"] },
+                                { label: "Short Collar", elements: ["collarShort"] },
+                                { label: "Hood & Tall Collar", elements: ["collarTall", "hood", "hoodInside"] },
+                                { label: "Hood & Short Collar", elements: ["collarShort", "hood", "hoodInside"] }
+                            ]},
+                            { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
+                            { label: "Center Trim", elements: ["centerTrim"] }
+                        ],
+                        extras: [
+                            { label: "Add Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
+                            { label: "Add Bottom Cuff", elements: ["bottomCuff"] },
+                            { label: "Add Pockets", types: [
+                                {label: "Rounded Angled", elements: ["pocketRoundedAngledLeft", "pocketRoundedAngledRight"] },
+                                {label: "Squared Angled", elements: ["pocketSquaredAngledLeft", "pocketSquaredAngledRight"] }
+                            ]}
+                        ]
+                    },
+                    {
+                        label: "Crew",
+                        options: [
+                            { label: "Body", elements: ["body", "crewNeckInside"] },
+                            { label: "Collar", elements: ["crewNeck"] },
+                            { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] }
+                        ],
+                        extras: [
+                            { label: "Add Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
+                            { label: "Add Bottom Cuff", elements: ["bottomCuff"] },
+                            { label: "Add Pockets", types: [
+                                {label: "Kangaroo", elements: ["pocketKangaroo"] },
+                                {label: "Cuffed Kangaroo", elements: ["pocketKangaroo", "pocketKangarooLeftCuff", "pocketKangarooRightCuff"] },
+                                {label: "Rounded Angled", elements: ["pocketRoundedAngledLeft", "pocketRoundedAngledRight"] },
+                                {label: "Squared Angled", elements: ["pocketSquaredAngledLeft", "pocketSquaredAngledRight"] }
+                            ]}
+                        ]
+                    },
+                    {
+                        label: "Shawl Neck",
+                        options: [
+                            { label: "Body", elements: ["body"] },
+                            { label: "Neck", elements: ["shawlLeft", "shawlRight", "shawlMiddle"] },
+                            { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] }
+                        ],
+                        extras: [
+                            { label: "Add Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
+                            { label: "Add Bottom Cuff", elements: ["bottomCuff"], show: true },
+                            { label: "Add Pockets", types: [
+                                {label: "Kangaroo", elements: ["pocketKangaroo"] },
+                                {label: "Cuffed Kangaroo", elements: ["pocketKangaroo", "pocketKangarooLeftCuff", "pocketKangarooRightCuff"] },
                                 {label: "Rounded Angled", elements: ["pocketRoundedAngledLeft", "pocketRoundedAngledRight"] },
                                 {label: "Squared Angled", elements: ["pocketSquaredAngledLeft", "pocketSquaredAngledRight"] }
                             ]}
