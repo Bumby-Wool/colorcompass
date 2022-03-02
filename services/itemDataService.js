@@ -162,9 +162,9 @@ angular.module('bumbyApp')
                         options: [
                             { label: "Body", elements: ["body"] },
                             { label: "Neck", types: [
-                                { label: "Hood", elements: ["hood", "hoodInside"] },
                                 { label: "Tall Collar", elements: ["collarTall"] },
                                 { label: "Short Collar", elements: ["collarShort"] },
+                                { label: "Hood", elements: ["hood", "hoodInside"] },
                                 { label: "Hood & Tall Collar", elements: ["collarTall", "hood", "hoodInside"] },
                                 { label: "Hood & Short Collar", elements: ["collarShort", "hood", "hoodInside"] }
                             ]},
@@ -208,9 +208,9 @@ angular.module('bumbyApp')
                         options: [
                             { label: "Body", elements: ["body"] },
                             { label: "Neck", types: [
-                                { label: "Hood", elements: ["hood", "hoodInside"] },
                                 { label: "Tall Collar", elements: ["collarTall"] },
                                 { label: "Short Collar", elements: ["collarShort"] },
+                                { label: "Hood", elements: ["hood", "hoodInside"] },
                                 { label: "Hood & Tall Collar", elements: ["collarTall", "hood", "hoodInside"] },
                                 { label: "Hood & Short Collar", elements: ["collarShort", "hood", "hoodInside"] }
                             ]},
@@ -230,7 +230,7 @@ angular.module('bumbyApp')
                         label: "Crew",
                         options: [
                             { label: "Body", elements: ["body", "crewNeckInside"] },
-                            { label: "Collar", elements: ["crewNeck"] },
+                            { label: "Neck", elements: ["crewNeck"] },
                             { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] }
                         ],
                         extras: [
