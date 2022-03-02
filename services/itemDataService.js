@@ -108,6 +108,54 @@ angular.module('bumbyApp')
                                 {label: "Cuffed Kangaroo", elements: ["pocketKangaroo", "pocketKangarooLeftCuff", "pocketKangarooRightCuff"] }
                             ]}
                         ]
+                    },
+                    {
+                        label: "Half Zip",
+                        options: [
+                            { label: "Body", elements: ["body"] },
+                            { label: "Neck", types: [
+                                { label: "Tall Collar", elements: ["collarTall"] },
+                                { label: "Short Collar", elements: ["collarShort"] },
+                                { label: "Hood", elements: ["hood", "hoodInside"] },
+                                { label: "Hood & Tall Collar", elements: ["collarTall", "hood", "hoodInside"] },
+                                { label: "Hood & Short Collar", elements: ["collarShort", "hood", "hoodInside"] }
+                            ]},
+                            { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
+                            { label: "Zipper", elements: ["zipperHalf"], colorSelector:"zipper" }
+                        ],
+                        extras: [
+                            { label: "Add Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
+                            { label: "Add Bottom Cuff", elements: ["bottomCuff"] },
+                            { label: "Add Pockets", types: [
+                                {label: "Rounded Angled", elements: ["pocketRoundedAngledLeft", "pocketRoundedAngledRight"] },
+                                {label: "Squared Angled", elements: ["pocketSquaredAngledLeft", "pocketSquaredAngledRight"] },
+                                {label: "Kangaroo", elements: ["pocketKangaroo"] },
+                                {label: "Cuffed Kangaroo", elements: ["pocketKangaroo", "pocketKangarooLeftCuff", "pocketKangarooRightCuff"] }
+                            ]}
+                        ]
+                    },
+                    {
+                        label: "Zippered Henley",
+                        options: [
+                            { label: "Body", elements: ["body"] },
+                            { label: "Neck", types: [
+                                { label: "Hood", elements: ["hood", "hoodInside"] },
+                                { label: "Tall Collar", elements: ["collarTall"] },
+                                { label: "Short Collar", elements: ["collarShort"] },
+                                { label: "Hood & Tall Collar", elements: ["collarTall", "hood", "hoodInside"] },
+                                { label: "Hood & Short Collar", elements: ["collarShort", "hood", "hoodInside"] }
+                            ]},
+                            { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
+                            { label: "Zipper", elements: ["zipperHalf"], colorSelector:"zipper" }
+                        ],
+                        extras: [
+                            { label: "Add Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
+                            { label: "Add Bottom Cuff", elements: ["bottomCuff"], show: true },
+                            { label: "Add Pockets", types: [
+                                {label: "Rounded Angled", elements: ["pocketRoundedAngledLeft", "pocketRoundedAngledRight"] },
+                                {label: "Squared Angled", elements: ["pocketSquaredAngledLeft", "pocketSquaredAngledRight"] }
+                            ]}
+                        ]
                     }
                 ]
             }
