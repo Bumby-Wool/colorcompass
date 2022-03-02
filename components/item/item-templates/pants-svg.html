@@ -12,10 +12,8 @@
 		</i:aipgfRef>
 	</foreignObject>
 	<g i:extraneous="self">
-		<path id="rightLongCuff" ng-if="$ctrl.selectedVariant === $ctrl.item.variants[2]" ng-style="$ctrl.selectedOptions.colorOption3.patternId" class="st0" d="M5917.51,8913.32c0,151.37,1602.94,233.12,1602.94,0s29.88-578.99,29.88-578.99s75.66-686.94,2.59-899.41
-			c-14.95-43.47-1726.51,20.28-1726.51,20.28C5753,7725.31,5917.51,8761.95,5917.51,8913.32z"/>
 		<g>
-			<path id="wasitband" ng-style="$ctrl.selectedOptions.colorOption1.patternId" class="st0" d="M7374.13,2990.03H3557.14c-0.15,0-0.27-0.13-0.26-0.28l52.16-884.81l5.95-191.62
+			<path id="waistband" ng-style="$ctrl.getSelectedOptionStyle('waistband')" class="st0" d="M7374.13,2990.03H3557.14c-0.15,0-0.27-0.13-0.26-0.28l52.16-884.81l5.95-191.62
 				c1.53-49.25,40.41-88.36,87.86-88.36H7307.7c34.98,0,61.77,32.31,56.58,68.24l9.85,265.93V2990.03z"/>
 			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="4609.0039" y1="5184.7041" x2="4635.0898" y2="5184.7041">
 				<stop  offset="0.0569" style="stop-color:#2E3192"/>
@@ -28,21 +26,23 @@
 				<stop  offset="1" style="stop-color:#000000"/>
 			</linearGradient>
 			<rect x="4609" y="5121.48" class="st1" width="26.09" height="126.44"/>
-			<path id="rightLeg" ng-style="$ctrl.selectedOptions.colorOption2.patternId" class="st0" d="M7422.33,8969c6.16-369.31,146.39-1246.69,152.54-1616c14.13-847.11,35.5-1200.89,49.62-2048
+			<path id="rightLeg" ng-style="$ctrl.getSelectedOptionStyle('rightLeg')" class="st0" d="M7422.33,8969c6.16-369.31,146.39-1246.69,152.54-1616c14.13-847.11,35.5-1200.89,49.62-2048
 				c0-165.47-56.76-579.94-72.57-799.13c0-38.31-20.65-277.35-25.17-315.37l-47.64-400.52l-104.95-799.43l-1908.65-0.51
 				l0.03,1861.02c142.84,818.69,211.68,1664.49,354.52,2483.17c9.17,340.39,201.86,1679.12,201.86,1679.12
 				c32.05,40.05,1397.46-9.89,1397.46-9.89"/>
 			<path class="st0" d="M7256.88,7725.31"/>
 			<path class="st0" d="M6131.43,7795.02"/>
-			<path id="leftLeg" ng-style="$ctrl.selectedOptions.colorOption2.patternId" class="st0" d="M3434.44,8961.5c0,0-76.79-1229.22-76.72-1236.2l-87.92-2603.31c-11-158.65,21.46-681.32,32.01-845.96
+			<path id="leftLeg" ng-style="$ctrl.getSelectedOptionStyle('leftLeg')" class="st0" d="M3434.44,8961.5c0,0-76.79-1229.22-76.72-1236.2l-87.92-2603.31c-11-158.65,21.46-681.32,32.01-845.96
 				c6.2-96.78,79.27-575.28,92.59-693.83l161.8-579.44c0.37-6.86,5.83-12.22,12.45-12.23l1884.39-0.51c6.89,0,12.47,5.8,12.47,12.95
 				l-0.03,1865.58c0,0.96-24.03,110.89,0,0l-634.05,4110.85C4686.52,8985.33,3993,8985,3434.44,8961.5"/>
-			<path id="rightShortCuff" ng-if="$ctrl.selectedVariant === $ctrl.item.variants[1]" ng-style="$ctrl.selectedOptions.colorOption3.patternId" class="st0" d="M5949.83,8974.55c26.17,119.72,1492.83,105.52,1517.38,0c36.71-157.8,5.48-523.77,5.48-523.77h-381.53
+			<path id="rightShortCuff" ng-style="$ctrl.getSelectedOptionStyle('rightShortCuff')" class="st0" d="M5949.83,8974.55c26.17,119.72,1492.83,105.52,1517.38,0c36.71-157.8,5.48-523.77,5.48-523.77h-381.53
 				H5949.83C5949.83,8450.78,5892.43,8711.9,5949.83,8974.55z"/>
 		</g>
-		<path id="leftLongCuff" ng-if="$ctrl.selectedVariant === $ctrl.item.variants[2]" ng-style="$ctrl.selectedOptions.colorOption3.patternId" class="st0" d="M5010.54,8913.32c0,151.37-1602.94,233.12-1602.94,0S3375.12,8329,3375.12,8329s-100.29-681.61-27.22-894.08
+		<path id="rightLongCuff" ng-style="$ctrl.getSelectedOptionStyle('rightLongCuff')" class="st0" d="M5917.51,8913.32c0,151.37,1602.94,233.12,1602.94,0s29.88-578.99,29.88-578.99s75.66-686.94,2.59-899.41
+			c-14.95-43.47-1726.51,20.28-1726.51,20.28C5753,7725.31,5917.51,8761.95,5917.51,8913.32z"/>
+		<path id="leftLongCuff" ng-style="$ctrl.getSelectedOptionStyle('leftLongCuff')" class="st0" d="M5010.54,8913.32c0,151.37-1602.94,233.12-1602.94,0S3375.12,8329,3375.12,8329s-100.29-681.61-27.22-894.08
 			c14.73-42.84,1616.84,17.65,1661.64,18.85c0.66,0.02,62.03-6.96,62.03-6.3C5070.33,7662.33,5010.54,8762.27,5010.54,8913.32z"/>
-		<path id="leftShortCuff" ng-if="$ctrl.selectedVariant === $ctrl.item.variants[1]" ng-style="$ctrl.selectedOptions.colorOption3.patternId" class="st0" d="M3400.64,8940.71c26.17,119.72,1492.83,105.52,1517.38,0c36.71-157.8,5.48-523.78,5.48-523.78h-381.53
+		<path id="leftShortCuff" ng-style="$ctrl.getSelectedOptionStyle('leftShortCuff')" class="st0" d="M3400.64,8940.71c26.17,119.72,1492.83,105.52,1517.38,0c36.71-157.8,5.48-523.78,5.48-523.78h-381.53
 			l-1141.33,0C3400.64,8416.93,3343.23,8678.05,3400.64,8940.71z"/>
 	</g>
 </switch>

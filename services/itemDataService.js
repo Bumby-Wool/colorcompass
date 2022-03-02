@@ -41,26 +41,26 @@ angular.module('bumbyApp')
                     {
                         label: "Hemmed",
                         options: [
-                            { label: "Waist" },
-                            { label: "Legs" }
+                            { label: "Waist", elements: ["waistband"] },
+                            { label: "Legs", elements: ["leftLeg", "rightLeg"] }
                         ],
                         extras: []
                     },
                     {
                         label: "Joggers",
                         options: [
-                            { label: "Waist" },
-                            { label: "Legs" },
-                            { label: "Leg Cuffs" }
+                            { label: "Waist", elements: ["waistband"] },
+                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
+                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
                         ],
                         extras: []
                     },
                     {
                         label: "Cuffed",
                         options: [
-                            { label: "Waist" },
-                            { label: "Legs" },
-                            { label: "Leg Cuffs" }
+                            { label: "Waist", elements: ["waistband"] },
+                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
+                            { label: "Leg Cuffs", elements: ["rightLongCuff", "leftLongCuff"] }
                         ],
                         extras: []
                     }
