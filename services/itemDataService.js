@@ -9,9 +9,9 @@ angular.module('bumbyApp')
                     {
                         label: "",
                         options: [
-                            { label: "Waist" },
-                            { label: "Body" },
-                            { label: "Leg Cuffs" }
+                            { label: "Waist", elements: ["waistband"] },
+                            { label: "Body", elements: ["body"] },
+                            { label: "Leg Cuffs", elements: ["leftCuff", "rightCuff"] }
                         ],
                         extras: []
                     }
