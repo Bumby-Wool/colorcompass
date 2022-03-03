@@ -20,11 +20,9 @@ angular.module('bumbyApp')
         
             ctrl.getColorBackground = function(color) {
                 if (color && typeof color != undefined) {
-                    if (color.type==='pattern')
+                    if (color.type==='pattern' || color.type==='zipper')
                         return 'center/cover url('+color.imageUrl+')';
-                    else if (color.type==='zipper') {
-                        return 'center/center url('+color.imageUrl+')'
-                    } else {
+                    else {
                         return color.patternId.fill;
                     } 
                 }
