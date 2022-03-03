@@ -2,8 +2,8 @@ angular.module('bumbyApp')
     .component('item', {
         templateUrl: 'components/item/item.html',
         bindings: {},
-        controller: ['itemData','$routeParams',
-            function ItemController(itemData, $routeParams) {
+        controller: ['itemData','$routeParams','colorService',
+            function ItemController(itemData, $routeParams, colorService) {
                 var ctrl = this;
                 ctrl.itemId = $routeParams.itemId;
                 ctrl.svgUrl = "components/item/item-templates/"+ctrl.itemId+"-svg.html";
@@ -15,9 +15,9 @@ angular.module('bumbyApp')
                     var hideStyle = {"display":"none"};
                     var option = ctrl.getOptionByElementId(ctrl.selectedVariant.options, elementId);
                     var extra = ctrl.getOptionByElementId(ctrl.selectedVariant.extras, elementId);
-                    if (option) {
+                    if (option && option.color) {
                         return option.color.patternId;
-                    } else if (extra) {
+                    } else if (extra && extra.color) {
                         return (extra && extra.show) ? extra.color.patternId : hideStyle;
                     } else {
                         return hideStyle;
@@ -34,11 +34,28 @@ angular.module('bumbyApp')
                     return options.find(o => {
                         if (o.elements) {
                             return o.elements.indexOf(elementId) >= 0;
-                        } else if (o.selectedType) {
+                        } else if (o.selectedType && o.selectedType.elements) {
                             return o.selectedType.elements.indexOf(elementId) >= 0;
                         }
                     });
                 }
+
+                ctrl.colors = [];
+                ctrl.zippers = [];
+                colorService.getHexColors()
+                    .then((res) => {
+                        ctrl.colors = ctrl.colors.concat(res);
+                    },(err) => { 
+                        console.error("Failed to load colors", err)
+                    });
+            
+                colorService.getPatterns()
+                    .then((res) => {
+                        ctrl.colors = ctrl.colors.concat(res.filter(c => c.type === 'pattern'));
+                        ctrl.zippers = ctrl.zippers.concat(res.filter(c => c.type === 'zipper'));
+                    },(err) => { 
+                        console.error("Failed to load patterns", err)
+                    });
             }
         ]
     })

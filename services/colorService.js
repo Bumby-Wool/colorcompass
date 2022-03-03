@@ -37,6 +37,14 @@ angular.module('bumbyApp')
         self.buildPattern = function(original) {
             if (original.type === 'pattern' && original.name && original.svgPatternId && original.patternId && original.imageUrl) {
                 return original;
+            } else if (original.type === 'zipper' && original.name) {
+                return {
+                    "type": "zipper",
+                    "name": original.name,
+                    "svgPatternId": original.name+"Zipper",
+                    "patternId": { "fill": "url(#"+original.name+"Zipper)"},
+                    "imageUrl": "/builder/resources/patterns/zippers/"+original.name+"Zipper.png"
+                };
             } else if (original.name) {
                 return {
                     "type": "pattern",
