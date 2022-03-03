@@ -1,4 +1,5 @@
 [
+    { "type": "zipper", "name": "White"},
     { "name": "Cenotes" },
     {
         "type": "pattern",
