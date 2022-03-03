@@ -67,7 +67,7 @@ angular.module('bumbyApp')
                 ]
             },
             {
-                title: "Adult Sweater",
+                title: "Sweater",
                 link: "/items/sweater",
                 image: "resources/Adult-Sheepy.png",
                 variants: [
