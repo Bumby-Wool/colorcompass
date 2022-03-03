@@ -1,3 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
 <svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 10800 10800"
 	 style="enable-background:new 0 0 10800 10800;" xml:space="preserve">
@@ -5,7 +17,6 @@
 	.st0{fill:#FFFFFF;stroke:#000000;stroke-width:0.5616;stroke-miterlimit:10;}
 	.st1{fill:url(#SVGID_1_);}
 </style>
-<defs svg-patterns></defs>
 <switch>
 	<foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
 		<i:aipgfRef  xlink:href="#adobe_illustrator_pgf">
@@ -14,7 +25,7 @@
 	<g i:extraneous="self">
 		<g id="Hem">
 			<g>
-				<path ng-style="$ctrl.getSelectedOptionStyle('waistband')" class="st0" d="M6494.21,2025.01H2677.21c-0.15,0-0.27-0.13-0.26-0.28l52.16-884.81l5.95-191.62
+				<path class="st0" d="M6494.21,2025.01H2677.21c-0.15,0-0.27-0.13-0.26-0.28l52.16-884.81l5.95-191.62
 					c1.53-49.25,40.41-88.36,87.86-88.36h3604.85c34.98,0,61.77,32.31,56.58,68.24l9.85,265.93V2025.01z"/>
 				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="3729.0774" y1="4219.686" x2="3755.1636" y2="4219.686">
 					<stop  offset="0.0569" style="stop-color:#2E3192"/>
@@ -27,28 +38,28 @@
 					<stop  offset="1" style="stop-color:#000000"/>
 				</linearGradient>
 				<rect x="3729.08" y="4156.46" class="st1" width="26.09" height="126.44"/>
-				<path ng-style="$ctrl.getSelectedOptionStyle('rightLeg')" class="st0" d="M6542.41,8003.98c6.16-369.31,146.39-1246.69,152.54-1616c14.13-847.11,35.5-1200.89,49.62-2048
+				<path class="st0" d="M6542.41,8003.98c6.16-369.31,146.39-1246.69,152.54-1616c14.13-847.11,35.5-1200.89,49.62-2048
 					c0-165.47-56.76-579.94-72.57-799.14c0-38.31-20.65-277.35-25.17-315.37l-47.64-400.52l-104.95-799.43l-1908.65-0.51
 					l0.03,1861.02c142.84,818.69,211.68,1664.49,354.52,2483.17c9.17,340.39,201.86,1679.12,201.86,1679.12
 					c32.05,40.05,1397.46-9.89,1397.46-9.89"/>
 				<path class="st0" d="M6376.95,6760.29"/>
 				<path class="st0" d="M5251.5,6830"/>
-				<path ng-style="$ctrl.getSelectedOptionStyle('leftLeg')" class="st0" d="M2554.51,7996.49c0,0-76.79-1229.22-76.72-1236.2l-87.92-2603.31c-11-158.65,21.46-681.32,32.01-845.96
+				<path class="st0" d="M2554.51,7996.49c0,0-76.79-1229.22-76.72-1236.2l-87.92-2603.31c-11-158.65,21.46-681.32,32.01-845.96
 					c6.2-96.78,79.27-575.28,92.59-693.83l161.8-579.44c0.37-6.86,5.83-12.22,12.45-12.23l1884.39-0.51
 					c6.89,0,12.47,5.8,12.47,12.95l-0.03,1865.58c0,0.96-24.03,110.89,0,0L3951.5,8014.39
 					C3806.6,8020.31,3113.07,8019.98,2554.51,7996.49"/>
 			</g>
 		</g>
 		<g id="joggers">
-			<path ng-style="$ctrl.getSelectedOptionStyle('rightShortCuff')" class="st0" d="M5064.6,8041.28c11.06,122.05,1492.83,105.52,1517.38,0c36.71-157.8,5.48-523.77,5.48-523.77h-381.53H5064.6
+			<path class="st0" d="M5064.6,8041.28c11.06,122.05,1492.83,105.52,1517.38,0c36.71-157.8,5.48-523.77,5.48-523.77h-381.53H5064.6
 				C5064.6,7517.5,5039.09,7759.72,5064.6,8041.28z"/>
-			<path ng-style="$ctrl.getSelectedOptionStyle('leftShortCuff')" class="st0" d="M2518.83,7979.33c26.17,119.72,1492.83,105.52,1517.38,0c36.71-157.8,5.48-523.77,5.48-523.77h-381.53
+			<path class="st0" d="M2518.83,7979.33c26.17,119.72,1492.83,105.52,1517.38,0c36.71-157.8,5.48-523.77,5.48-523.77h-381.53
 				l-1141.33,0C2518.83,7455.56,2461.42,7716.68,2518.83,7979.33z"/>
 		</g>
 		<g id="cuffed">
-			<path ng-style="$ctrl.getSelectedOptionStyle('rightLongCuff')" class="st0" d="M5033.7,8021.26c0,151.37,1602.94,233.12,1602.94,0c0-233.12-1.86-579.38-1.86-579.38
+			<path class="st0" d="M5033.7,8021.26c0,151.37,1602.94,233.12,1602.94,0c0-233.12-1.86-579.38-1.86-579.38
 				s35.68-679.12,52.8-903.15c5.51-72.07-1744.97,24.4-1744.97,24.4C4945.89,6969,5033.7,7869.89,5033.7,8021.26z"/>
-			<path ng-style="$ctrl.getSelectedOptionStyle('leftLongCuff')" class="st0" d="M4087.83,8017.35c0,151.37-1602.94,233.12-1602.94,0s-32.48-584.32-32.48-584.32s25.38-636.34,22.37-889.85
+			<path class="st0" d="M4087.83,8017.35c0,151.37-1602.94,233.12-1602.94,0s-32.48-584.32-32.48-584.32s25.38-636.34,22.37-889.85
 				c-0.54-45.3,1569.42-20.76,1614.22-19.56c0,0,98.05-0.65,98.05,0.01C4185.8,6738.5,4087.83,7866.3,4087.83,8017.35z"/>
 		</g>
 		<g id="hemmed">
