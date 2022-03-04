@@ -1,11 +1,6 @@
 [
-    { "name": "Blueberry" },
+    },
     {
-        "type": "pattern",
-        "name": "Blueberry",
-        "svgPatternId": "Blueberry",
-        "patternId": { "fill": "url(#Blueberry)"},
-        "imageUrl": "/builder/resources/patterns/Blueberry.jpg"
     { "name": "Cenotes" },
     {
         "type": "pattern",
@@ -13,6 +8,13 @@
         "svgPatternId": "Cenotes",
         "patternId": { "fill": "url(#Cenotes)"},
         "imageUrl": "/builder/resources/patterns/Cenotes.jpg"
+    },
+    {
+        "type": "pattern",
+        "name": "Blueberry",
+        "svgPatternId": "Blueberry",
+        "patternId": { "fill": "url(#Blueberry)"},
+        "imageUrl": "/builder/resources/patterns/Blueberry.jpg"    
     },
     {
         "type": "pattern",
