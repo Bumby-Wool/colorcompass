@@ -9,10 +9,10 @@
     },
     {
         "type": "pattern",
-        "name": "Tribly",
-        "svgPatternId": "Tribly",
-        "patternId": { "fill": "url(#Tribly)"},
-        "imageUrl": "/builder/resources/patterns/Tribly.jpg"
+        "name": "Trilby",
+        "svgPatternId": "Trilby",
+        "patternId": { "fill": "url(#Trilby)"},
+        "imageUrl": "/builder/resources/patterns/Trilby.jpg"
     },
     {
         "type": "pattern",
