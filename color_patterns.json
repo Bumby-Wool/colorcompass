@@ -10,10 +10,17 @@
     },
     {
         "type": "pattern",
+        "name": "Ballet",
+        "svgPatternId": "Ballet",
+        "patternId": { "fill": "url(#Ballet)"},
+        "imageUrl": "/builder/resources/patterns/Ballet.jpg"  
+    },
+    {
+        "type": "pattern",
         "name": "Blueberry",
         "svgPatternId": "Blueberry",
         "patternId": { "fill": "url(#Blueberry)"},
-        "imageUrl": "/builder/resources/patterns/Blueberry.jpg"    
+        "imageUrl": "/builder/resources/patterns/Blueberry.jpg"
     },
     {
         "type": "pattern",
