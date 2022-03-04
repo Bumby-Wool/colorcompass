@@ -9,10 +9,24 @@
     },
     {
         "type": "pattern",
-        "name": "Bark",
-        "svgPatternId": "Bark",
-        "patternId": { "fill": "url(#Bark)"},
-        "imageUrl": "/builder/resources/patterns/Bark.jpg"
+        "name": "MelangeTrilby",
+        "svgPatternId": "MelangeTrilby",
+        "patternId": { "fill": "url(#MelangeTrilby)"},
+        "imageUrl": "/builder/resources/patterns/MelangeTrilby.jpg"
+    },
+    {
+        "type": "pattern",
+        "name": "Trilby",
+        "svgPatternId": "Trilby",
+        "patternId": { "fill": "url(#Trilby)"},
+        "imageUrl": "/builder/resources/patterns/Trilby.jpg"
+    },
+    {
+        "type": "pattern",
+        "name": "Bark1",
+        "svgPatternId": "Bark1",
+        "patternId": { "fill": "url(#Bark1)"},
+        "imageUrl": "/builder/resources/patterns/Bark1.jpg"
     },
     {
         "type": "pattern",
