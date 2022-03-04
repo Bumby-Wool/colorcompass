@@ -30,6 +30,13 @@
     },
     {
         "type": "pattern",
+        "name": "StripedCaramelDream",
+        "svgPatternId": "StripedCaramelDream",
+        "patternId": { "fill": "url(#StripedCaramelDream)"},
+        "imageUrl": "/builder/resources/patterns/StripedCaramelDream.jpg"  
+    },
+    {
+        "type": "pattern",
         "name": "Courage",
         "svgPatternId": "Courage",
         "patternId": { "fill": "url(#Courage)"},
