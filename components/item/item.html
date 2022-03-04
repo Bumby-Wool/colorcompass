@@ -13,8 +13,8 @@
         <div ng-repeat="option in $ctrl.selectedVariant.options">
             <label class="option-label">{{option.label}}</label>
             <select class="type-selector" ng-if="option.types && option.types.length > 0" ng-model="option.selectedType" ng-init="option.selectedType = option.types[0]" ng-options="type.label for type in option.types"></select>
-            <color-selector ng-if="option.colorSelector !== 'none' && option.colorSelector !== 'zipper'" colors="$ctrl.colors" on-update="option.color = color"></color-selector>
-            <color-selector ng-if="option.colorSelector !== 'none' && option.colorSelector === 'zipper'" colors="$ctrl.zippers" on-update="option.color = color"></color-selector>
+            <color-selector ng-if="option.colorSelector !== 'none' && option.colorSelector !== 'zipper' && option.selectedType.colorSelector !== 'zipper'" colors="$ctrl.colors" on-update="option.color = color"></color-selector>
+            <color-selector ng-if="option.colorSelector !== 'none' && (option.colorSelector === 'zipper' || option.selectedType.colorSelector === 'zipper')" colors="$ctrl.zippers" on-update="option.color = color"></color-selector>
         </div>
         
         <div ng-if="$ctrl.selectedVariant.extras && $ctrl.selectedVariant.extras.length > 0">

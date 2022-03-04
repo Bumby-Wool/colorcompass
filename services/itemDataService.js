@@ -272,6 +272,10 @@ angular.module('bumbyApp')
                                 { label: "Hood", elements: ["hood", "hoodInside"] },
                                 { label: "Hood & Tall Collar", elements: ["HoodedCollarTall", "hood", "hoodInside"] },
                                 { label: "Hood & Short Collar", elements: ["HoodedCollarShort", "hood", "hoodInside"] }
+                            ]},
+                            { label: "Center", types: [
+                                { label: "Zipper", elements: ["centerTrimButton"], colorSelector:"zipper" },
+                                { label: "Button up", elements: ["centerTrimButton"] }
                             ]}
                         ],
                         extras: [
