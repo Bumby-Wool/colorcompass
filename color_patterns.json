@@ -23,6 +23,13 @@
     },
     {
         "type": "pattern",
+        "name": "StripedRoseWater",
+        "svgPatternId": "StripedRoseWater",
+        "patternId": { "fill": "url(#StripedRoseWater)"},
+        "imageUrl": "/builder/resources/patterns/StripedRoseWater.jpg"
+    },
+    {
+        "type": "pattern",
         "name": "Bark1",
         "svgPatternId": "Bark1",
         "patternId": { "fill": "url(#Bark1)"},
