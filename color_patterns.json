@@ -1,13 +1,5 @@
 [
     { "name": "Cenotes" },
-
-    {
-        "type": "pattern",
-        "name": "Cenotes",
-        "svgPatternId": "Cenotes",
-        "patternId": { "fill": "url(#Cenotess)"},
-        "imageUrl": "/builder/resources/patterns/Cenotes.jpg"
-    },
     {
         "type": "pattern",
         "name": "Ballet",
@@ -20,7 +12,7 @@
         "name": "Bark",
         "svgPatternId": "Bark",
         "patternId": { "fill": "url(#Bark)"},
-        "imageUrl": "/builder/resources/patterns/Bark.jpg"  },
+        "imageUrl": "/builder/resources/patterns/Bark.jpg"
     },
     {
         "type": "pattern",
@@ -34,7 +26,7 @@
         "name": "Bluejeans",
         "svgPatternId": "Bluejeans",
         "patternId": { "fill": "url(#Bluejeans"},
-        "imageUrl": "/builder/resources/patterns/Bluejeans.jpg"},
+        "imageUrl": "/builder/resources/patterns/Bluejeans.jpg"
     },
     {
         "type": "pattern",
