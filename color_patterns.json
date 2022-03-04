@@ -1,5 +1,40 @@
 [
    { "name": "Cenotes" },
+ {					
+	"type": "pattern",
+	"name": "StripedJade",
+	"svgPatternId": "StripedJade",
+	"patternId": { "fill": "url(#StripedJade)"},
+	"imageUrl": "/builder/resources/patterns/StripedJade.jpg"
+   },	
+ {					
+	"type": "pattern",
+	"name": "StripedJuniper",
+	"svgPatternId": "StripedJuniper",
+	"patternId": { "fill": "url(#StripedJuniper)"},
+	"imageUrl": "/builder/resources/patterns/StripedJuniper.jpg"
+   },	
+  {					
+	"type": "pattern",
+	"name": "StripedKat",
+	"svgPatternId": "StripedKat",
+	"patternId": { "fill": "url(#StripedKat)"},
+	"imageUrl": "/builder/resources/patterns/StripedKat.jpg"
+   },	
+  {					
+	"type": "pattern",
+	"name": "StripedLawn",
+	"svgPatternId": "StripedLawn",
+	"patternId": { "fill": "url(#StripedLawn)"},
+	"imageUrl": "/builder/resources/patterns/StripedLawn.jpg"
+   },
+  {					
+	"type": "pattern",
+	"name": "StripedLioness",
+	"svgPatternId": "StripedLioness",
+	"patternId": { "fill": "url(#StripedLioness)"},
+	"imageUrl": "/builder/resources/patterns/StripedLioness.jpg"
+   },	
   {					
 	"type": "pattern",
 	"name": "StripedMidnightOcean",
