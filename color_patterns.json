@@ -2,38 +2,81 @@
    { "name": "Cenotes" },
 {					
 	"type": "pattern",
+	"name": "Napa",
+	"svgPatternId": "Napa",
+	"patternId": { "fill": "url(#Napa"},
+	"imageUrl": "/builder/resources/patterns/Napa.jpg"	
+},	
+{					
+	"type": "pattern",
+	"name": "Ocean",
+	"svgPatternId": "Ocean",
+	"patternId": { "fill": "url(#Ocean"},
+	"imageUrl": "/builder/resources/patterns/Ocean.jpg"	
+},	
+{					
+	"type": "pattern",
+	"name": "PINK",
+	"svgPatternId": "PINK",
+	"patternId": { "fill": "url(#PINK"},
+	"imageUrl": "/builder/resources/patterns/PINK.jpg"	
+},	
+{					
+	"type": "pattern",
+	"name": "Pollen",
+	"svgPatternId": "Pollen",
+	"patternId": { "fill": "url(#Pollen"},
+	"imageUrl": "/builder/resources/patterns/Pollen.jpg"	
+},	
+{					
+	"type": "pattern",
+	"name": "Pomegranate",
+	"svgPatternId": "Pomegranate",
+	"patternId": { "fill": "url(#Pomegranate"},
+	"imageUrl": "/builder/resources/patterns/Pomegranate.jpg"	
+},	
+{					
+	"type": "pattern",
+	"name": "RaspberrySorbet",
+	"svgPatternId": "RaspberrySorbet",
+	"patternId": { "fill": "url(#RaspberrySorbet)"},
+	"imageUrl": "/builder/resources/patterns/RaspberrySorbet.jpg"	
+},	
+{					
+	"type": "pattern",
 	"name": "Shiraz",
 	"svgPatternId": "Shiraz",
 	"patternId": { "fill": "url(#Shiraz)"},
 	"imageUrl": "/builder/resources/patterns/Shiraz.jpg"	
-{	
+},	
 {					
 	"type": "pattern",
 	"name": "Slate",
 	"svgPatternId": "Slate",
 	"patternId": { "fill": "url(#Slate)"},
 	"imageUrl": "/builder/resources/patterns/Slate.jpg"	
+},
 {					
 	"type": "pattern",
 	"name": "Smooch",
 	"svgPatternId": "Smooch",
 	"patternId": { "fill": "url(#Smooch)"},
 	"imageUrl": "/builder/resources/patterns/Smooch.jpg"
-   },	
+},	
 {					
 	"type": "pattern",
 	"name": "StripedAmethyst",
 	"svgPatternId": "StripedAmethyst",
 	"patternId": { "fill": "url(#StripedAmethyst)"},
 	"imageUrl": "/builder/resources/patterns/StripedAmethyst.jpg"
-   },		
+ },		
 {					
 	"type": "pattern",
 	"name": "StripedBiscuit",
 	"svgPatternId": "StripedBiscuit",
 	"patternId": { "fill": "url(#StripedBiscuit)"},
 	"imageUrl": "/builder/resources/patterns/StripedBiscuit.jpg"
-   },	
+  },	
 {					
 	"type": "pattern",
 	"name": "StripedButterfly",
