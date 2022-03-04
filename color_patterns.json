@@ -1,12 +1,61 @@
 [
    { "name": "Cenotes" },
+  {					
+	"type": "pattern",
+	"name": "StripedMidnightOcean",
+	"svgPatternId": "StripedMidnightOcean",
+	"patternId": { "fill": "url(#StripedMidnightOcean)"},
+	"imageUrl": "/builder/resources/patterns/StripedMidnightOcean.jpg"
+   },	
+  {					
+	"type": "pattern",
+	"name": "StripedPinkLady",
+	"svgPatternId": "StripedPinkLady",
+	"patternId": { "fill": "url(#StripedPinkLady)"},
+	"imageUrl": "/builder/resources/patterns/StripedPinkLady.jpg"
+   },	
+  {					
+	"type": "pattern",
+	"name": "StripedSaskatoonBerry",
+	"svgPatternId": "StripedSaskatoonBerry",
+	"patternId": { "fill": "url(#StripedSaskatoonBerry)"},
+	"imageUrl": "/builder/resources/patterns/StripedSaskatoonBerry.jpg"
+   },
+  {					
+	"type": "pattern",
+	"name": "StripedSeafoam",
+	"svgPatternId": "StripedSeafoam",
+	"patternId": { "fill": "url(#StripedSeafoam)"},
+	"imageUrl": "/builder/resources/patterns/StripedSeafoam.jpg"
+   },
+  {					
+	"type": "pattern",
+	"name": "StripedShark",
+	"svgPatternId": "StripedShark",
+	"patternId": { "fill": "url(#StripedShark)"},
+	"imageUrl": "/builder/resources/patterns/StripedShark.jpg"
+   },	
+  {					
+	"type": "pattern",
+	"name": "StripedSteel",
+	"svgPatternId": "StripedSteel",
+	"patternId": { "fill": "url(#StripedSteel)"},
+	"imageUrl": "/builder/resources/patterns/StripedSteel.jpg"
+   },	
+   {					
+	"type": "pattern",
+	"name": "StripedTigress",
+	"svgPatternId": "StripedTigress",
+	"patternId": { "fill": "url(#StripedTigress)"},
+	"imageUrl": "/builder/resources/patterns/StripedTigress.jpg"
+   },		
    {					
 	"type": "pattern",
 	"name": "StripedTin",
 	"svgPatternId": "StripedTin",
 	"patternId": { "fill": "url(#StripedTin)"},
 	"imageUrl": "/builder/resources/patterns/StripedTin.jpg"
-   },		
+   },
    {					
 	"type": "pattern",
 	"name": "StripedTurf",
