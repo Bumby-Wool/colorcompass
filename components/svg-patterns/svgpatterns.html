@@ -1,3 +1,6 @@
 <pattern ng-repeat="pattern in patterns" id="{{pattern.svgPatternId}}" x="0" y="0" width="1" height="1" patternUnits="objectBoundingBox">
     <image ng-attr-href="{{pattern.imageUrl}}" x="0" y="0" width="8000" />
 </pattern>
+<pattern ng-repeat="zipper in zippers" id="{{zipper.svgPatternId}}" x="0" y="0" width="1" height="0.05" patternUnits="objectBoundingBox">
+    <image ng-attr-href="{{zipper.imageUrl}}" x="0" y="0" width="130" />
+</pattern>
