@@ -2,6 +2,33 @@
    { "name": "Cenotes" },
 {					
 	"type": "pattern",
+	"name": "Shiraz",
+	"svgPatternId": "Shiraz",
+	"patternId": { "fill": "url(#Shiraz)"},
+	"imageUrl": "/builder/resources/patterns/Shiraz.jpg"	
+{	
+{					
+	"type": "pattern",
+	"name": "Slate",
+	"svgPatternId": "Slate",
+	"patternId": { "fill": "url(#Slate)"},
+	"imageUrl": "/builder/resources/patterns/Slate.jpg"	
+{					
+	"type": "pattern",
+	"name": "Smooch",
+	"svgPatternId": "Smooch",
+	"patternId": { "fill": "url(#Smooch)"},
+	"imageUrl": "/builder/resources/patterns/Smooch.jpg"
+   },	
+{					
+	"type": "pattern",
+	"name": "StripedAmethyst",
+	"svgPatternId": "StripedAmethyst",
+	"patternId": { "fill": "url(#StripedAmethyst)"},
+	"imageUrl": "/builder/resources/patterns/StripedAmethyst.jpg"
+   },		
+{					
+	"type": "pattern",
 	"name": "StripedBiscuit",
 	"svgPatternId": "StripedBiscuit",
 	"patternId": { "fill": "url(#StripedBiscuit)"},
