@@ -9,6 +9,13 @@
     },
     {
         "type": "pattern",
+        "name": "MelangeTrilby",
+        "svgPatternId": "MelangeTrilby",
+        "patternId": { "fill": "url(#MelangeTrilby)"},
+        "imageUrl": "/builder/resources/patterns/MelangeTrilby.jpg"
+    },
+    {
+        "type": "pattern",
         "name": "Trilby",
         "svgPatternId": "Trilby",
         "patternId": { "fill": "url(#Trilby)"},
