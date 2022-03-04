@@ -17,6 +17,13 @@
     },
     {
         "type": "pattern",
+        "name": "Bark",
+        "svgPatternId": "Bark",
+        "patternId": { "fill": "url(#Bark)"},
+        "imageUrl": "/builder/resources/patterns/Bark.jpg"  },
+    },
+    {
+        "type": "pattern",
         "name": "Blueberry",
         "svgPatternId": "Blueberry",
         "patternId": { "fill": "url(#Blueberry)"},
