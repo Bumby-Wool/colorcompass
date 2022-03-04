@@ -9,10 +9,17 @@
     },
     {
         "type": "pattern",
-        "name": "Bark",
-        "svgPatternId": "Bark",
-        "patternId": { "fill": "url(#Bark)"},
-        "imageUrl": "/builder/resources/patterns/Bark.jpg"
+        "name": "Tribly",
+        "svgPatternId": "Tribly",
+        "patternId": { "fill": "url(#Tribly)"},
+        "imageUrl": "/builder/resources/patterns/Tribly.jpg"
+    },
+    {
+        "type": "pattern",
+        "name": "Bark1",
+        "svgPatternId": "Bark1",
+        "patternId": { "fill": "url(#Bark1)"},
+        "imageUrl": "/builder/resources/patterns/Bark1.jpg"
     },
     {
         "type": "pattern",
