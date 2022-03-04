@@ -401,20 +401,6 @@
     },
     {
         "type": "pattern",
-        "name": "Blueberry",
-        "svgPatternId": "Blueberry",
-        "patternId": { "fill": "url(#Blueberry)"},
-        "imageUrl": "/builder/resources/patterns/Blueberry.jpg"
-    },
-    {
-        "type": "pattern",
-        "name": "Bluejeans",
-        "svgPatternId": "Bluejeans",
-        "patternId": { "fill": "url(#Bluejeans"},
-        "imageUrl": "/builder/resources/patterns/Bluejeans.jpg"
-    },
-    {
-        "type": "pattern",
         "name": "StripedCaramelDream",
         "svgPatternId": "StripedCaramelDream",
         "patternId": { "fill": "url(#StripedCaramelDream)"},
@@ -462,19 +448,19 @@
         "patternId": { "fill": "url(#Heartsong)"},
         "imageUrl": "/builder/resources/patterns/Heartsong.jpg"
     },
-     {
-        "type": "pattern",
-        "name": "Laekoi",
-        "svgPatternId": "Laekoi",
-        "patternId": { "fill": "url(#Laekoi)"},
-        "imageUrl": "/builder/resources/patterns/Laekoi.jpg"
-    },
-      {
+   {
         "type": "pattern",
         "name": "Lava Love",
         "svgPatternId": "LavaLove",
         "patternId": { "fill": "url(#LavaLove)"},
         "imageUrl": "/builder/resources/patterns/LavaLove.jpg"
+    },	
+      {
+        "type": "pattern",
+        "name": "Laekoi",
+        "svgPatternId": "Laekoi",
+        "patternId": { "fill": "url(#Laekoi)"},
+        "imageUrl": "/builder/resources/patterns/Laekoi.jpg"
     },
     {
         "type": "pattern",
