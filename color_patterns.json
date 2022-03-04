@@ -1,5 +1,19 @@
 [
     { "name": "Cenotes" },
+    {					
+	     "type": "pattern",
+	     "name": "VintageSuper",
+	     "svgPatternId": "VintageSuper",
+	     "patternId": { "fill": "url(#VintageSuper)"},
+	     "imageUrl": "/builder/resources/patterns/VintageSuper.jpg"
+    },
+    {					
+	    "type": "pattern",					
+	    "hame": "Walnut",					
+	    "svgPatternId": "Walnut",					
+	    "patternId": { "fill": "url(#Walnut)"},					
+	    "imageUrl": "/builder/resources/patterns/Walnut.jpg"   
+    },
     {
         "type": "pattern",
         "name": "Ballet",
@@ -16,24 +30,10 @@
     },
     {
         "type": "pattern",
-        "name": "Trilby",
-        "svgPatternId": "Trilby",
-        "patternId": { "fill": "url(#Trilby)"},
-        "imageUrl": "/builder/resources/patterns/Trilby.jpg"
-    },
-    {
-        "type": "pattern",
         "name": "StripedRoseWater",
         "svgPatternId": "StripedRoseWater",
         "patternId": { "fill": "url(#StripedRoseWater)"},
         "imageUrl": "/builder/resources/patterns/StripedRoseWater.jpg"
-    },
-    {
-        "type": "pattern",
-        "name": "Bark1",
-        "svgPatternId": "Bark1",
-        "patternId": { "fill": "url(#Bark1)"},
-        "imageUrl": "/builder/resources/patterns/Bark1.jpg"
     },
     {
         "type": "pattern",
