@@ -1,18 +1,25 @@
 [
     { "name": "Cenotes" },
     {					
-	     "type": "pattern",
-	     "name": "VintageSuper",
-	     "svgPatternId": "VintageSuper",
-	     "patternId": { "fill": "url(#VintageSuper)"},
-	     "imageUrl": "/builder/resources/patterns/VintageSuper.jpg"
+	"type": "pattern",
+	"name": "Uva",
+	"svgPatternId": "Uva",
+	"patternId": { "fill": "url(#Uva)"},
+	"imageUrl": "/builder/resources/patterns/Uva.jpg"
     },
     {					
-	    "type": "pattern",					
-	    "hame": "Walnut",					
-	    "svgPatternId": "Walnut",					
-	    "patternId": { "fill": "url(#Walnut)"},					
-	    "imageUrl": "/builder/resources/patterns/Walnut.jpg"   
+	"type": "pattern",
+	"name": "VintageSuper",
+	"svgPatternId": "VintageSuper",
+	"patternId": { "fill": "url(#VintageSuper)"},
+	"imageUrl": "/builder/resources/patterns/VintageSuper.jpg"
+    },
+    {					
+	"type": "pattern",					
+	"hame": "Walnut",					
+	"svgPatternId": "Walnut",					
+	"patternId": { "fill": "url(#Walnut)"},					
+	"imageUrl": "/builder/resources/patterns/Walnut.jpg"   
     },
     {
         "type": "pattern",
