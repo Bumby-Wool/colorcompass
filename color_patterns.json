@@ -1,5 +1,54 @@
 [
-    { "name": "Cenotes" },
+   { "name": "Cenotes" },
+   {					
+	"type": "pattern",
+	"name": "StripedTin",
+	"svgPatternId": "StripedTin",
+	"patternId": { "fill": "url(#StripedTin)"},
+	"imageUrl": "/builder/resources/patterns/StripedTin.jpg"
+   },		
+   {					
+	"type": "pattern",
+	"name": "StripedTurf",
+	"svgPatternId": "StripedTurf",
+	"patternId": { "fill": "url(#StripedTurf)"},
+	"imageUrl": "/builder/resources/patterns/StripedTurf.jpg"
+   },		
+   {					
+	"type": "pattern",
+	"name": "StripedTwilight",
+	"svgPatternId": "StripedTwilight",
+	"patternId": { "fill": "url(#StripedTwilight)"},
+	"imageUrl": "/builder/resources/patterns/StripedTwilight.jpg"
+   },		
+   {					
+	"type": "pattern",
+	"name": "StripedWedgewood",
+	"svgPatternId": "StripedWedgewood",
+	"patternId": { "fill": "url(#StripedWedgewood)"},
+	"imageUrl": "/builder/resources/patterns/StripedWedgewood.jpg"
+   },	
+   {					
+	"type": "pattern",
+	"name": "SugarMaple",
+	"svgPatternId": "SugarMaple",
+	"patternId": { "fill": "url(#SugarMaple)"},
+	"imageUrl": "/builder/resources/patterns/SugarMaple.jpg"
+   },	
+   {					
+	"type": "pattern",
+	"name": "Tabacon",
+	"svgPatternId": "Tabacon",
+	"patternId": { "fill": "url(#Tabacon)"},
+	"imageUrl": "/builder/resources/patterns/Tabacon.jpg"
+   },
+   {					
+	"type": "pattern",
+	"name": "Tink",
+	"svgPatternId": "Tink",
+	"patternId": { "fill": "url(#Tink)"},
+	"imageUrl": "/builder/resources/patterns/Tink.jpg"
+    },	
     {					
 	"type": "pattern",
 	"name": "Uva",
