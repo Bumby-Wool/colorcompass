@@ -31,6 +31,13 @@
     },
     {
         "type": "pattern",
+        "name": "Bluejeans",
+        "svgPatternId": "Bluejeans",
+        "patternId": { "fill": "url(#Bluejeans"},
+        "imageUrl": "/builder/resources/patterns/Bluejeans.jpg"},
+    },
+    {
+        "type": "pattern",
         "name": "Courage",
         "svgPatternId": "Courage",
         "patternId": { "fill": "url(#Courage)"},
