@@ -2,6 +2,104 @@
    { "name": "Cenotes" },
 {					
 	"type": "pattern",
+	"name": "Bark",
+	"svgPatternId": "Bark",
+	"patternId": { "fill": "url(#Bark"},
+	"imageUrl": "/builder/resources/patterns/Bark.jpg"	
+},	
+{					
+	"type": "pattern",
+	"name": "Blueberry",
+	"svgPatternId": "Blueberry",
+	"patternId": { "fill": "url(#Blueberry"},
+	"imageUrl": "/builder/resources/patterns/Blueberry.jpg"	
+},	
+{					
+	"type": "pattern",
+	"name": "Bluejeans",
+	"svgPatternId": "Bluejeans",
+	"patternId": { "fill": "url(#Bluejeans"},
+	"imageUrl": "/builder/resources/patterns/Bluejeans.jpg"	
+},	
+{					
+	"type": "pattern",
+	"name": "Bumbleberry",
+	"svgPatternId": "Bumbleberry",
+	"patternId": { "fill": "url(#Bumbleberry"},
+	"imageUrl": "/builder/resources/patterns/Bumbleberry.jpg"	
+},	
+{					
+	"type": "pattern",
+	"name": "Cielo",
+	"svgPatternId": "Cielo",
+	"patternId": { "fill": "url(#Cielo"},
+	"imageUrl": "/builder/resources/patterns/Cielo.jpg"	
+},	
+{					
+	"type": "pattern",
+	"name": "Cinnamon",
+	"svgPatternId": "Cinnamon",
+	"patternId": { "fill": "url(#Cinnamon"},
+	"imageUrl": "/builder/resources/patterns/Cinnamon.jpg"	
+},	
+{					
+	"type": "pattern",
+	"name": "Cypress",
+	"svgPatternId": "Cypress",
+	"patternId": { "fill": "url(#Cypress"},
+	"imageUrl": "/builder/resources/patterns/Cypress.jpg"	
+},	
+{					
+	"type": "pattern",
+	"name": "DarkCharcoal",
+	"svgPatternId": "DarkCharcoal",
+	"patternId": { "fill": "url(#DarkCharcoal"},
+	"imageUrl": "/builder/resources/patterns/DarkCharcoal.jpg"	
+},	
+{					
+	"type": "pattern",
+	"name": "Denim",
+	"svgPatternId": "Denim",
+	"patternId": { "fill": "url(#Denim"},
+	"imageUrl": "/builder/resources/patterns/Denim.jpg"	
+},		
+{					
+	"type": "pattern",
+	"name": "Fieldberry",
+	"svgPatternId": "Fieldberry",
+	"patternId": { "fill": "url(#Fieldberry"},
+	"imageUrl": "/builder/resources/patterns/Fieldberry.jpg"	
+},	
+{					
+	"type": "pattern",
+	"name": "Fuchsia",
+	"svgPatternId": "Fuchsia",
+	"patternId": { "fill": "url(#Fuchsia"},
+	"imageUrl": "/builder/resources/patterns/Iris.jpg"	
+},	
+{					
+	"type": "pattern",
+	"name": "Iris",
+	"svgPatternId": "Iris",
+	"patternId": { "fill": "url(#Iris"},
+	"imageUrl": "/builder/resources/patterns/Iris.jpg"	
+},	
+{					
+	"type": "pattern",
+	"name": "MelangeFedora",
+	"svgPatternId": "MelangeFedora",
+	"patternId": { "fill": "url(#MelangeFedora"},
+	"imageUrl": "/builder/resources/patterns/MelangeFedora.jpg"	
+},	
+{					
+	"type": "pattern",
+	"name": "Monster",
+	"svgPatternId": "Monster",
+	"patternId": { "fill": "url(#Monster"},
+	"imageUrl": "/builder/resources/patterns/Monster.jpg"	
+},	
+{					
+	"type": "pattern",
 	"name": "Napa",
 	"svgPatternId": "Napa",
 	"patternId": { "fill": "url(#Napa"},
