@@ -97,7 +97,7 @@ angular.module('bumbyApp')
                             ]},
                             { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
                             { label: "Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
-                            { label: "Zipper", elements: ["zipperQuarter"], colorSelector:"zipper" }
+                            { label: "Zipper", elements: ["quarterCenterTrimZipperShort", "quarterCenterTrimZipperTall"], colorSelector:"zipper" }
                         ],
                         extras: [
                             { label: "Add Bottom Cuff", elements: ["bottomCuff"] },
@@ -122,7 +122,7 @@ angular.module('bumbyApp')
                             ]},
                             { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
                             { label: "Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
-                            { label: "Zipper", elements: ["zipperHalf"], colorSelector:"zipper" }
+                            { label: "Zipper", elements: ["halfCenterTrimZipperShort", "halfCenterTrimZipperTall"], colorSelector:"zipper" }
                         ],
                         extras: [
                             { label: "Add Bottom Cuff", elements: ["bottomCuff"] },
@@ -147,7 +147,7 @@ angular.module('bumbyApp')
                             ]},
                             { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
                             { label: "Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
-                            { label: "Zipper", elements: ["zipperHalf"], colorSelector:"zipper" }
+                            { label: "Zipper", elements: ["halfCenterTrimZipperShort", "halfCenterTrimZipperTall"], colorSelector:"zipper" }
                         ],
                         extras: [
                             { label: "Add Bottom Cuff", elements: ["bottomCuff"], show: true },
@@ -170,7 +170,7 @@ angular.module('bumbyApp')
                             ]},
                             { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
                             { label: "Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
-                            { label: "Zipper", elements: ["centerTrimButton"], colorSelector:"zipper" }
+                            { label: "Zipper", elements: ["fullCenterTrimButtonTall", "fullCenterTrimButtonShort"], colorSelector:"zipper" }
                         ],
                         extras: [
                             { label: "Add Bottom Cuff", elements: ["bottomCuff"] },
@@ -193,7 +193,7 @@ angular.module('bumbyApp')
                             ]},
                             { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
                             { label: "Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
-                            { label: "Center Trim", elements: ["centerTrimButton"] }
+                            { label: "Center Trim", elements: ["halfCenterTrimButton"] }
                         ],
                         extras: [
                             { label: "Add Bottom Cuff", elements: ["bottomCuff"], show: true },
@@ -216,7 +216,7 @@ angular.module('bumbyApp')
                             ]},
                             { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
                             { label: "Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
-                            { label: "Center Trim", elements: ["centerTrimButton"] }
+                            { label: "Center Trim", elements: ["fullCenterTrimButtonTall", "fullCenterTrimButtonShort"] }
                         ],
                         extras: [
                             { label: "Add Bottom Cuff", elements: ["bottomCuff"] },
@@ -274,8 +274,8 @@ angular.module('bumbyApp')
                                 { label: "Hood & Short Collar", elements: ["HoodedCollarShort", "hood", "hoodInside"] }
                             ]},
                             { label: "Center", types: [
-                                { label: "Zipper", elements: ["centerTrimButton"], colorSelector:"zipper" },
-                                { label: "Button up", elements: ["centerTrimButton"] }
+                                { label: "Zipper", elements: ["fullCenterTrimButtonTall", "fullCenterTrimButtonShort"], colorSelector:"zipper" },
+                                { label: "Button up", elements: ["fullCenterTrimButtonTall", "fullCenterTrimButtonShort"] }
                             ]}
                         ],
                         extras: [
