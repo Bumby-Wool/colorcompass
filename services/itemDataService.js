@@ -151,7 +151,7 @@ angular.module('bumbyApp')
                         ],
                         extras: [
                             { label: "Add Bottom Cuff", elements: ["bottomCuff"], show: true },
-                            { label: "Add Pockets", types: [
+                            { label: "Add Pockets", show: true, types: [
                                 {label: "Kangaroo", elements: ["pocketKangaroo"] },
                                 {label: "Cuffed Kangaroo", elements: ["pocketKangaroo", "pocketKangarooLeftCuff", "pocketKangarooRightCuff"] }
                             ]}
@@ -197,7 +197,7 @@ angular.module('bumbyApp')
                         ],
                         extras: [
                             { label: "Add Bottom Cuff", elements: ["bottomCuff"], show: true },
-                            { label: "Add Pockets", types: [
+                            { label: "Add Pockets", show: true, types: [
                                 {label: "Kangaroo", elements: ["pocketKangaroo"] },
                                 {label: "Cuffed Kangaroo", elements: ["pocketKangaroo", "pocketKangarooLeftCuff", "pocketKangarooRightCuff"] }
                             ]}
@@ -255,8 +255,6 @@ angular.module('bumbyApp')
                         extras: [
                             { label: "Add Bottom Cuff", elements: ["bottomCuff"], show: true },
                             { label: "Add Pockets", types: [
-                                {label: "Kangaroo", elements: ["pocketKangaroo"] },
-                                {label: "Cuffed Kangaroo", elements: ["pocketKangaroo", "pocketKangarooLeftCuff", "pocketKangarooRightCuff"] },
                                 {label: "Rounded Angled", elements: ["pocketRoundedAngledLeft", "pocketRoundedAngledRight"] },
                                 {label: "Squared Angled", elements: ["pocketSquaredAngledLeft", "pocketSquaredAngledRight"] }
                             ]}
