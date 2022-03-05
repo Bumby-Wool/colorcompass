@@ -47,7 +47,7 @@
 	"name": "Cypress",
 	"svgPatternId": "Cypress",
 	"patternId": { "fill": "url(#Cypress"},
-	"imageUrl": "/builder/resources/patterns/Cypress.jpg"	
+	"imageUrl": "/builder/resources/patterns/Cypress.JPG"	
 },	
 {					
 	"type": "pattern",
@@ -61,7 +61,7 @@
 	"name": "Denim",
 	"svgPatternId": "Denim",
 	"patternId": { "fill": "url(#Denim"},
-	"imageUrl": "/builder/resources/patterns/Denim.jpg"	
+	"imageUrl": "/builder/resources/patterns/Denim.JPG"	
 },		
 {					
 	"type": "pattern",
@@ -460,7 +460,7 @@
         "name": "Laekoi",
         "svgPatternId": "Laekoi",
         "patternId": { "fill": "url(#Laekoi)"},
-        "imageUrl": "/builder/resources/patterns/Laekoi.jpg"
+        "imageUrl": "/builder/resources/patterns/Laekoi.JPG"
     },
     {
         "type": "pattern",
