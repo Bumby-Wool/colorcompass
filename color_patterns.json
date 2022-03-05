@@ -373,7 +373,7 @@
     },
     {					
 	"type": "pattern",					
-	"hame": "Walnut",					
+	"name": "Walnut",					
 	"svgPatternId": "Walnut",					
 	"patternId": { "fill": "url(#Walnut)"},					
 	"imageUrl": "/builder/resources/patterns/Walnut.jpg"   
