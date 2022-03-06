@@ -7,11 +7,10 @@ angular.module('bumbyApp')
         },
         controller: ['$scope', 'colorService', function($scope, colorService) {
             var ctrl = this;
-            console.log("New Colors:", ctrl.colors);
-            
-            ctrl.$onInit = function() {
+
+            ctrl.$onChanges = function(changes) {
                 ctrl.setColor(ctrl.colors[0]);
-            };
+            }
 
             ctrl.setColor = function(color){
                 ctrl.selectedColor = color;

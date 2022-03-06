@@ -11,6 +11,26 @@ angular.module('bumbyApp')
                 ctrl.item = itemData.find(i => i.link === ("/items/" + ctrl.itemId));
                 ctrl.selectedVariant = ctrl.item.variants[0];
 
+                ctrl.$onInit = function() {
+                    console.log("initializing Item");
+                    ctrl.colors = [];
+                    ctrl.zippers = [];
+                    colorService.getHexColors()
+                        .then((res) => {
+                            ctrl.colors = ctrl.colors.concat(res);
+                        },(err) => { 
+                            console.error("Failed to load colors", err)
+                        });
+                
+                    colorService.getPatterns()
+                        .then((res) => {
+                            ctrl.colors = ctrl.colors.concat(res.filter(c => c.type === 'pattern'));
+                            ctrl.zippers = ctrl.zippers.concat(res.filter(c => c.type === 'zipper'));
+                        },(err) => { 
+                            console.error("Failed to load patterns", err)
+                        });
+                }
+
                 ctrl.getSelectedOptionStyle = function(elementId) {
                     var hideStyle = {"display":"none"};
                     var option = ctrl.getOptionByElementId(ctrl.selectedVariant.options, elementId);
@@ -39,23 +59,6 @@ angular.module('bumbyApp')
                         }
                     });
                 }
-
-                ctrl.colors = [];
-                ctrl.zippers = [];
-                colorService.getHexColors()
-                    .then((res) => {
-                        ctrl.colors = ctrl.colors.concat(res);
-                    },(err) => { 
-                        console.error("Failed to load colors", err)
-                    });
-            
-                colorService.getPatterns()
-                    .then((res) => {
-                        ctrl.colors = ctrl.colors.concat(res.filter(c => c.type === 'pattern'));
-                        ctrl.zippers = ctrl.zippers.concat(res.filter(c => c.type === 'zipper'));
-                    },(err) => { 
-                        console.error("Failed to load patterns", err)
-                    });
             }
         ]
     })
