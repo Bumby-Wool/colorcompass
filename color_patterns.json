@@ -328,13 +328,6 @@
 	"svgPatternId": "StripedTwilight",
 	"patternId": { "fill": "url(#StripedTwilight)"},
 	"imageUrl": "/builder/resources/patterns/StripedTwilight.jpg"
-   },		
-   {					
-	"type": "pattern",
-	"name": "StripedWedgewood",
-	"svgPatternId": "StripedWedgewood",
-	"patternId": { "fill": "url(#StripedWedgewood)"},
-	"imageUrl": "/builder/resources/patterns/StripedWedgewood.jpg"
    },	
    {					
 	"type": "pattern",
