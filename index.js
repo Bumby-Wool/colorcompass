@@ -8,5 +8,8 @@ myApp.config(function($routeProvider) {
     .when('/items/:itemId', {
         template: '<item></item>'
     })
+    .when('/svgtest', {
+        template: '<svgtest></svgtest>'
+    })
     .otherwise('/');
   });

@@ -55,6 +55,7 @@ angular.module('bumbyApp')
                 };
             } else {
                 console.error("Failed to properly load pattern", original);
+                return {};
             }
         }
 

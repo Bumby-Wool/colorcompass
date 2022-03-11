@@ -2,6 +2,20 @@
    { "name": "Cenotes" },
 {					
 	"type": "pattern",
+	"name": "StripedJelly",
+	"svgPatternId": "StripedJelly",
+	"patternId": { "fill": "url(#StripedJelly"},
+	"imageUrl": "/builder/resources/patterns/StripedJelly.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "StripedCreme",
+	"svgPatternId": "StripedCreme",
+	"patternId": { "fill": "url(#StripedCreme"},
+	"imageUrl": "/builder/resources/patterns/StripedCreme.jpg"	
+},	
+{					
+	"type": "pattern",
 	"name": "Bark",
 	"svgPatternId": "Bark",
 	"patternId": { "fill": "url(#Bark"},
@@ -47,7 +61,7 @@
 	"name": "Cypress",
 	"svgPatternId": "Cypress",
 	"patternId": { "fill": "url(#Cypress"},
-	"imageUrl": "/builder/resources/patterns/Cypress.jpg"	
+	"imageUrl": "/builder/resources/patterns/Cypress.JPG"	
 },	
 {					
 	"type": "pattern",
@@ -61,7 +75,7 @@
 	"name": "Denim",
 	"svgPatternId": "Denim",
 	"patternId": { "fill": "url(#Denim"},
-	"imageUrl": "/builder/resources/patterns/Denim.jpg"	
+	"imageUrl": "/builder/resources/patterns/Denim.JPG"	
 },		
 {					
 	"type": "pattern",
@@ -75,7 +89,7 @@
 	"name": "Fuchsia",
 	"svgPatternId": "Fuchsia",
 	"patternId": { "fill": "url(#Fuchsia"},
-	"imageUrl": "/builder/resources/patterns/Iris.jpg"	
+	"imageUrl": "/builder/resources/patterns/Fuchsia.jpg"	
 },	
 {					
 	"type": "pattern",
@@ -328,13 +342,6 @@
 	"svgPatternId": "StripedTwilight",
 	"patternId": { "fill": "url(#StripedTwilight)"},
 	"imageUrl": "/builder/resources/patterns/StripedTwilight.jpg"
-   },		
-   {					
-	"type": "pattern",
-	"name": "StripedWedgewood",
-	"svgPatternId": "StripedWedgewood",
-	"patternId": { "fill": "url(#StripedWedgewood)"},
-	"imageUrl": "/builder/resources/patterns/StripedWedgewood.jpg"
    },	
    {					
 	"type": "pattern",
@@ -350,12 +357,19 @@
 	"patternId": { "fill": "url(#Tabacon)"},
 	"imageUrl": "/builder/resources/patterns/Tabacon.jpg"
    },
+   {				
+	"type": "pattern",
+	"name": "StripedHoneyComb",
+	"svgPatternId": "StripedHoneyComb",
+	"patternId": { "fill": "url(#StripedHoneyComb)"},
+	"imageUrl": "/builder/resources/patterns/StripedHoneyComb.jpg"
+   },	
    {					
 	"type": "pattern",
-	"name": "Tink",
-	"svgPatternId": "Tink",
-	"patternId": { "fill": "url(#Tink)"},
-	"imageUrl": "/builder/resources/patterns/Tink.jpg"
+	"name": "StripedNanoose",
+	"svgPatternId": "StripedNanoose",
+	"patternId": { "fill": "url(#StripedNanoose)"},
+	"imageUrl": "/builder/resources/patterns/StripedNanoose.jpg"
     },	
     {					
 	"type": "pattern",
@@ -373,7 +387,7 @@
     },
     {					
 	"type": "pattern",					
-	"hame": "Walnut",					
+	"name": "Walnut",					
 	"svgPatternId": "Walnut",					
 	"patternId": { "fill": "url(#Walnut)"},					
 	"imageUrl": "/builder/resources/patterns/Walnut.jpg"   
@@ -411,7 +425,7 @@
         "name": "Courage",
         "svgPatternId": "Courage",
         "patternId": { "fill": "url(#Courage)"},
-        "imageUrl": "/builder/resources/patterns/Cosmos.jpg"
+        "imageUrl": "/builder/resources/patterns/Courage.jpg"
     },
     {
         "type": "pattern",
@@ -460,7 +474,7 @@
         "name": "Laekoi",
         "svgPatternId": "Laekoi",
         "patternId": { "fill": "url(#Laekoi)"},
-        "imageUrl": "/builder/resources/patterns/Laekoi.jpg"
+        "imageUrl": "/builder/resources/patterns/Laekoi.JPG"
     },
     {
         "type": "pattern",
