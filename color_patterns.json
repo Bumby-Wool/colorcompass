@@ -546,13 +546,6 @@
         "patternId": { "fill": "url(#StripedSmoke)"},
         "imageUrl": "/builder/resources/patterns/StripedSmoke.jpg"
     },
-    {
-        "type": "pattern",
-        "name": "Striped Tidal",
-        "svgPatternId": "StripedTidal",
-        "patternId": { "fill": "url(#StripedTidal)"},
-        "imageUrl": "/builder/resources/patterns/StripedTidal.jpg"
-    },
     { "type": "zipper", "name":"Aqua" },
     { "type": "zipper", "name":"ArmyGreen" },
     { "type": "zipper", "name":"Beige" },
