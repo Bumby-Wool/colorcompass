@@ -230,14 +230,7 @@
 	"svgPatternId": "StripedHay",
 	"patternId": { "fill": "url(#StripedHay)"},
 	"imageUrl": "/builder/resources/patterns/StripedHay.jpg"
-   },	
- {					
-	"type": "pattern",
-	"name": "StripedHoney",
-	"svgPatternId": "StripedHoney",
-	"patternId": { "fill": "url(#StripedHoney)"},
-	"imageUrl": "/builder/resources/patterns/StripedHoney.jpg"
-   },	
+   },		
  {					
 	"type": "pattern",
 	"name": "StripedJade",
@@ -300,13 +293,6 @@
 	"svgPatternId": "StripedSeafoam",
 	"patternId": { "fill": "url(#StripedSeafoam)"},
 	"imageUrl": "/builder/resources/patterns/StripedSeafoam.jpg"
-   },
-  {					
-	"type": "pattern",
-	"name": "StripedShark",
-	"svgPatternId": "StripedShark",
-	"patternId": { "fill": "url(#StripedShark)"},
-	"imageUrl": "/builder/resources/patterns/StripedShark.jpg"
    },	
   {					
 	"type": "pattern",
