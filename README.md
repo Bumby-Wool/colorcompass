@@ -137,37 +137,74 @@ Follow the same steps as with the removing colors except using the [color_patter
 
 ### Adding New Items
 #### Overview
-> While following the steps keeping `itemname` consistent, in all lowercase, and without spaces
-> Across these sections I use the `<path>` element but these same instructions can be applied to `<polygon>`, `rect`, and other SVG elements
+> While following the steps keep `itemname` consistent, in all lowercase, and without spaces
+
+> Across these sections I use the `<path>` element but these same instructions can be applied to `<polygon>`, `rect`, and other SVG 
+
 1. Define the item, see **Defining the Item properties** below
 2. Place the item definition object you created into the array at `/services/itemDataService.js`
 3. Add a new `itemname`-svg.html file to /components/item/item-templates
 4. Open the SVG image file in a text editor and copy the svg element and everything inside of it `<svg>....</svg>`
 5. Paste the copied SVG content into the `itemname`-svg.html file you created
 
+> If you would like to test the item locally before pushing it into GitHub please see the [README_DEVELOPER.md](https://github.com/Bumby-Wool/builder/blob/main/README_DEVELOPER.md) page for more information on running the project on your laptop
+
 #### Defining the Item properties
+Each Item object has the following properties:
 `title` - The name of the item which is displayed beneath the image on the item list page and also as the title on the item page. This can contain Uppercase letters, spaces, and special characters.
 `link` - Should always follow the format /items/`itemname` and will form the direct URL to the item's page
 `image` - This is a relative URL to for the image to display on the item list page
-`options` - Defines the color selection options for the item. Each object in the array has a `label` propery which is displayed above the color selector on the item's page.
-`extras` - Defines additional options which add/remove elements of the SVG by a checkbox next to the `label`
+`variants` - This array holds all of the different item types the user is able to view on that item. Only if there is more than one variant will the user be shown a dropdown element to choose the variant they want to view. The first variant in the variants array is the default one displayed to the user.
 
 **Example Item**
 ```
 {
-    title: "Sweater",
-    link: "/items/sweater",
-    image: "resources/Zipper-Henley-adult.jpg",
-    options: [
-        { label: "Main Body" },
-        { label: "Collar" },
-        { label: "Sleeves" }
-    ],
-    extras: [
-        { label: "Add Sleeve Cuffs" },
-        { label: "Add Center Pocket" }
+    title: "Pants",
+    link: "/items/pants",
+    image: "resources/Baby-Standard-Pants-Mild-Tapered-Hemmed-Main.png",
+    variants: [
+        ...Variant Objects...
     ]
 }
+```
+
+#### Variant Object Properties
+Each Variant object has the following properties:
+`label` - The name of the variant which is displayed to the user in the dropdown selection for item type. Only displayed if there is more than one variant in the variants array for this item.
+`options` - This array defines the standard color selection options for the variant. See **Option Object Properties** section below for details on the objects inside of this array.
+`extras` - Defines additional options which have a checkbox next to the `label`. The checkbox determines if this extra is being added to the item. When checked it will prompt the the color selector to display and make the Option's elements appear in the Item SVG. Objects in this have the same properties as Options, see **Option Object Properties** section below for details on the objects inside of this array.
+
+**Example Variant**
+```
+{
+    label: "Hemmed",
+    options: [
+        ...Option Objects...
+    ],
+    extras: [
+        ...Option Objects...
+    ]
+}
+```
+
+#### Option Object Properties
+Each Option object has the following properties: 
+`label` - Propery which is displayed above the color selector on the item's page.
+`elements` - The elements property holds an array of string values. the string values are the IDs of the SVG elements that this Option's color selector controls. These IDs are created during the SVG import process and must match. ex. The **waistband** ID in the waist option `{ label: "Waist", elements: ["waistband"] }` controls the color of the SVG element `<path ng-style="$ctrl.getSelectedOptionStyle('waistband')" ..../>` because the ID **wasitband** matches.
+**optional** `colorSelector` - Determines the type of color selector to be shown, only add this property to the object if you want to change the color selector away from its default. Valid values are `zipper` and `none`. 
+    * Set the value to `zipper` in order to make the selection for this option draw from the zipper patterns. 
+    * Set the value to `none` when having no color option is desired. This is mostly useful for Options in the `extras` array when the color for the extra is set by another element. ex. Sheepy hug kangaroo pocket can have pocket cuffs but the color of the cuffs always matches the pocket's color.
+**optional** `show` - Only valid for Option objects inside of the `extras` array. Will default the checkbox to be checked if the value of this property is set to true. ex. `{ label: "Add Bottom Cuff", elements: ["bottomCuff"], show: true }`
+
+**Example Options**
+```
+{ label: "Waist", elements: ["waistband"] }
+
+{ label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+
+{ label: "Cuffed Pocket", elements: ["pocketKangarooLeftCuff", "pocketKangarooRightCuff"], colorSelector:"none" }
+
+{ label: "Zipper", elements: ["quarterCenterTrimZipperShort", "quarterCenterTrimZipperTall"], colorSelector:"zipper" }
 ```
 
 #### Adding Color Options to the SVG
