@@ -15,7 +15,7 @@ The colors are controled by a JSON file called `colors.json` in the root folder 
 > Each color object in the array will be followed by a `,` at the end of the line **except** for the very last color at the end of the array
 
 #### Adding a color
-1. Go to the (colors.json)[https://github.com/Bumby-Wool/builder/blob/main/colors.json] file.
+1. Go to the [colors.json](https://github.com/Bumby-Wool/builder/blob/main/colors.json) file.
 2. Click on the `pencil icon` to edit the file
 > If you don't have the edit button for the file be sure you have signed-in to github with an account that has edit persmission for theis repo
 
@@ -40,7 +40,7 @@ The colors are controled by a JSON file called `colors.json` in the root folder 
 
 
 #### Removing a color
-1. Go to the (colors.json)[https://github.com/Bumby-Wool/builder/blob/main/colors.json] file.
+1. Go to the [colors.json](https://github.com/Bumby-Wool/builder/blob/main/colors.json) file.
 2. Click on the `pencil icon` to edit the file
 > If you don't have the edit button for the file be sure you have signed-in to github with an account that has edit persmission for theis repo
 
@@ -67,7 +67,7 @@ This process is similar to adding a color but more complex. If you are not famil
 ##### Adding a pattern image with hosted image
 1. Upload the image to the bumbywool.com site and copy the URL link to that image
     ex. https://bumbywool.com/wp-content/uploads/2017/08/Adult-Sheepy.png
-2. Go to the (color_patterns.json)[https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json] file
+2. Go to the [color_patterns.json](https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json) file
 3. Following the same steps as with the adding colors, except with the color_patterns.json file, copy an existing pattern object and paste it into the list as a new object.
 4. Modify the new object properties as explained bellow in the `Pattern Properties Explained` section making sure to set the imageUrl to the URL link you copied from the bumbywool.com site
 
@@ -92,7 +92,7 @@ This process is similar to adding a color but more complex. If you are not famil
     4. Add a Summary, just a decription of what you added
     5. Click the `Commit` button
     6. Click `Push` button. If you miss this step the file(s) will not show up in GitHub.
-    7. Go to the (color_patterns.json)[https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json] file
+    7. Go to the [color_patterns.json](https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json) file
     8. Copy an existing pattern object and paste it into the list
     9. Modify the object properties as explained bellow in the `Pattern Properties Explained` section making sure to set the imageUrl to the image that you added
     10. Commit these changes
@@ -100,7 +100,7 @@ This process is similar to adding a color but more complex. If you are not famil
 
 
 ##### Pattern Properties Explained
-In the (color_patterns.json)[https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json] file you will see that it is a list of objects like this one:
+In the [color_patterns.json](https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json) file you will see that it is a list of objects like this one:
 ```
 {
     "type": "pattern",
@@ -133,7 +133,7 @@ Using the shorthand version the other necessary properties are filled in using t
 ```
 
 #### Removing patterns
-Follow the same steps as with the removing colors except using the (color_patterns.json)[https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json] file instead of colors.json
+Follow the same steps as with the removing colors except using the [color_patterns.json](https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json) file instead of colors.json
 
 ### Adding New Items
 #### Overview
