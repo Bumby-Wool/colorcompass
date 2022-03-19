@@ -2,6 +2,11 @@
 Helps Bumby Wool customers to visualize their custom wool clothing
 
 ## How to Use
+You will find this documentation easier to understand if you have some foundational knowledge on these topics
+* JSON - https://www.w3schools.com/js/js_json_intro.asp
+* Git/GitHub - https://docs.github.com/en/get-started/quickstart/hello-world
+* AngularJS - https://docs.angularjs.org/tutorial
+
 ### Adding/Removing Colors
 The colors are controled by a JSON file called `colors.json` in the root folder of the project. In the `colors.json` file there is an array of color objects. Each color object looks like this:
 ```
@@ -59,26 +64,40 @@ The colors are controled by a JSON file called `colors.json` in the root folder 
 #### Adding a Pattern (Tie Dyes & Other Image Based Fills)
 This process is similar to adding a color but more complex. If you are not familar with adding and removing colors please read that documentation first.
 
-#### First Time Setup for Adding Patterns
-You need to add the image you are using for the pattern into the GitHub repository. For this you need to "clone" the repository.
+##### Adding a pattern image with hosted image
+1. Upload the image to the bumbywool.com site and copy the URL link to that image
+    ex. https://bumbywool.com/wp-content/uploads/2017/08/Adult-Sheepy.png
+2. Go to the (color_patterns.json)[https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json] file
+3. Following the same steps as with the adding colors, except with the color_patterns.json file, copy an existing pattern object and paste it into the list as a new object.
+4. Modify the new object properties as explained bellow in the `Pattern Properties Explained` section making sure to set the imageUrl to the URL link you copied from the bumbywool.com site
 
-Click on the green `Code` button on GitHub and select `Open with GitHub Desktop`
-> If you do not already have GitHub Desktop installed it will prompt you to download and install it. You should also sign-in to you GitHub account when you open GitHub Desktop for the first time.
+<details>
+    <summary>Not Recommended - Adding a pattern image directly into project</summary>
+    
+    **This method is not recommended because the image's file sizes quickly use up the available bandwidth for this site's hosting**
 
-1. Find the location on your laptop where you cloned the repo 
-> If you have no idea what that means please read the `First Time Setup for Adding Patterns` information just above
+    #### First Time Setup for Adding Patterns
+    You need to add the image you are using for the pattern into the GitHub repository. For this you need to "clone" the repository.
 
-> If you don't remember where the files were placed you can find this by opening GitHub Desktop and choosing the "Open in file explorer option"
+    Click on the green `Code` button on GitHub and select `Open with GitHub Desktop`
+    > If you do not already have GitHub Desktop installed it will prompt you to download and install it. You should also sign-in to you GitHub account when you open GitHub Desktop for the first time.
 
-2. Add the image file into the `resources/patterns` folder
-3. Open GitHub Desktop and it should have detected the new file(s) in the folder showing the files listed in the "Files Changed" section
-4. Add a Summary, just a decription of what you added
-5. Click the `Commit` button
-6. Click `Push` button. If you miss this step the file(s) will not show up in GitHub.
-7. Go to the (color_patterns.json)[https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json] file
-8. Copy an existing pattern object and paste it into the list
-9. Modify the object properties as explained bellow in the `Pattern Properties Explained` section making sure to set the imageUrl to the image that you added
-10. Commit these changes
+    1. Find the location on your laptop where you cloned the repo 
+    > If you have no idea what that means please read the `First Time Setup for Adding Patterns` information just above
+
+    > If you don't remember where the files were placed you can find this by opening GitHub Desktop and choosing the "Open in file explorer option"
+
+    2. Add the image file into the `resources/patterns` folder
+    3. Open GitHub Desktop and it should have detected the new file(s) in the folder showing the files listed in the "Files Changed" section
+    4. Add a Summary, just a decription of what you added
+    5. Click the `Commit` button
+    6. Click `Push` button. If you miss this step the file(s) will not show up in GitHub.
+    7. Go to the (color_patterns.json)[https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json] file
+    8. Copy an existing pattern object and paste it into the list
+    9. Modify the object properties as explained bellow in the `Pattern Properties Explained` section making sure to set the imageUrl to the image that you added
+    10. Commit these changes
+</details>
+
 
 ##### Pattern Properties Explained
 In the (color_patterns.json)[https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json] file you will see that it is a list of objects like this one:
@@ -112,6 +131,9 @@ Using the shorthand version the other necessary properties are filled in using t
     "imageUrl": "/builder/resources/patterns/Cenotes.jpg"
 }
 ```
+
+#### Removing patterns
+Follow the same steps as with the removing colors except using the (color_patterns.json)[https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json] file instead of colors.json
 
 ### Adding New Items
 #### Overview
