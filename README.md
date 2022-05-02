@@ -2,6 +2,11 @@
 Helps Bumby Wool customers to visualize their custom wool clothing
 
 ## How to Use
+You will find this documentation easier to understand if you have some foundational knowledge on these topics
+* JSON - https://www.w3schools.com/js/js_json_intro.asp
+* Git/GitHub - https://docs.github.com/en/get-started/quickstart/hello-world
+* AngularJS - https://docs.angularjs.org/tutorial
+
 ### Adding/Removing Colors
 The colors are controled by a JSON file called `colors.json` in the root folder of the project. In the `colors.json` file there is an array of color objects. Each color object looks like this:
 ```
@@ -10,7 +15,7 @@ The colors are controled by a JSON file called `colors.json` in the root folder 
 > Each color object in the array will be followed by a `,` at the end of the line **except** for the very last color at the end of the array
 
 #### Adding a color
-1. Go to the (colors.json)[https://github.com/Bumby-Wool/builder/blob/main/colors.json] file.
+1. Go to the [colors.json](https://github.com/Bumby-Wool/builder/blob/main/colors.json) file.
 2. Click on the `pencil icon` to edit the file
 > If you don't have the edit button for the file be sure you have signed-in to github with an account that has edit persmission for theis repo
 
@@ -35,7 +40,7 @@ The colors are controled by a JSON file called `colors.json` in the root folder 
 
 
 #### Removing a color
-1. Go to the (colors.json)[https://github.com/Bumby-Wool/builder/blob/main/colors.json] file.
+1. Go to the [colors.json](https://github.com/Bumby-Wool/builder/blob/main/colors.json) file.
 2. Click on the `pencil icon` to edit the file
 > If you don't have the edit button for the file be sure you have signed-in to github with an account that has edit persmission for theis repo
 
@@ -59,29 +64,43 @@ The colors are controled by a JSON file called `colors.json` in the root folder 
 #### Adding a Pattern (Tie Dyes & Other Image Based Fills)
 This process is similar to adding a color but more complex. If you are not familar with adding and removing colors please read that documentation first.
 
-#### First Time Setup for Adding Patterns
-You need to add the image you are using for the pattern into the GitHub repository. For this you need to "clone" the repository.
+##### Adding a pattern image with hosted image
+1. Upload the image to the bumbywool.com site and copy the URL link to that image
+    ex. https://bumbywool.com/wp-content/uploads/2017/08/Adult-Sheepy.png
+2. Go to the [color_patterns.json](https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json) file
+3. Following the same steps as with the adding colors, except with the color_patterns.json file, copy an existing pattern object and paste it into the list as a new object.
+4. Modify the new object properties as explained bellow in the `Pattern Properties Explained` section making sure to set the imageUrl to the URL link you copied from the bumbywool.com site
 
-Click on the green `Code` button on GitHub and select `Open with GitHub Desktop`
-> If you do not already have GitHub Desktop installed it will prompt you to download and install it. You should also sign-in to you GitHub account when you open GitHub Desktop for the first time.
+<details>
+    <summary>Not Recommended - Adding a pattern image directly into project</summary>
+    
+    **This method is not recommended because the image's file sizes quickly use up the available bandwidth for this site's hosting**
 
-1. Find the location on your laptop where you cloned the repo 
-> If you have no idea what that means please read the `First Time Setup for Adding Patterns` information just above
+    #### First Time Setup for Adding Patterns
+    You need to add the image you are using for the pattern into the GitHub repository. For this you need to "clone" the repository.
 
-> If you don't remember where the files were placed you can find this by opening GitHub Desktop and choosing the "Open in file explorer option"
+    Click on the green `Code` button on GitHub and select `Open with GitHub Desktop`
+    > If you do not already have GitHub Desktop installed it will prompt you to download and install it. You should also sign-in to you GitHub account when you open GitHub Desktop for the first time.
 
-2. Add the image file into the `resources/patterns` folder
-3. Open GitHub Desktop and it should have detected the new file(s) in the folder showing the files listed in the "Files Changed" section
-4. Add a Summary, just a decription of what you added
-5. Click the `Commit` button
-6. Click `Push` button. If you miss this step the file(s) will not show up in GitHub.
-7. Go to the (color_patterns.json)[https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json] file
-8. Copy an existing pattern object and paste it into the list
-9. Modify the object properties as explained bellow in the `Pattern Properties Explained` section making sure to set the imageUrl to the image that you added
-10. Commit these changes
+    1. Find the location on your laptop where you cloned the repo 
+    > If you have no idea what that means please read the `First Time Setup for Adding Patterns` information just above
+
+    > If you don't remember where the files were placed you can find this by opening GitHub Desktop and choosing the "Open in file explorer option"
+
+    2. Add the image file into the `resources/patterns` folder
+    3. Open GitHub Desktop and it should have detected the new file(s) in the folder showing the files listed in the "Files Changed" section
+    4. Add a Summary, just a decription of what you added
+    5. Click the `Commit` button
+    6. Click `Push` button. If you miss this step the file(s) will not show up in GitHub.
+    7. Go to the [color_patterns.json](https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json) file
+    8. Copy an existing pattern object and paste it into the list
+    9. Modify the object properties as explained bellow in the `Pattern Properties Explained` section making sure to set the imageUrl to the image that you added
+    10. Commit these changes
+</details>
+
 
 ##### Pattern Properties Explained
-In the (color_patterns.json)[https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json] file you will see that it is a list of objects like this one:
+In the [color_patterns.json](https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json) file you will see that it is a list of objects like this one:
 ```
 {
     "type": "pattern",
@@ -113,39 +132,79 @@ Using the shorthand version the other necessary properties are filled in using t
 }
 ```
 
+#### Removing patterns
+Follow the same steps as with the removing colors except using the [color_patterns.json](https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json) file instead of colors.json
+
 ### Adding New Items
 #### Overview
-> While following the steps keeping `itemname` consistent, in all lowercase, and without spaces
-> Across these sections I use the `<path>` element but these same instructions can be applied to `<polygon>`, `rect`, and other SVG elements
+> While following the steps keep `itemname` consistent, in all lowercase, and without spaces
+
+> Across these sections I use the `<path>` element but these same instructions can be applied to `<polygon>`, `rect`, and other SVG 
+
 1. Define the item, see **Defining the Item properties** below
 2. Place the item definition object you created into the array at `/services/itemDataService.js`
 3. Add a new `itemname`-svg.html file to /components/item/item-templates
 4. Open the SVG image file in a text editor and copy the svg element and everything inside of it `<svg>....</svg>`
 5. Paste the copied SVG content into the `itemname`-svg.html file you created
 
+> If you would like to test the item locally before pushing it into GitHub please see the [README_DEVELOPER.md](https://github.com/Bumby-Wool/builder/blob/main/README_DEVELOPER.md) page for more information on running the project on your laptop
+
 #### Defining the Item properties
+Each Item object has the following properties:
 `title` - The name of the item which is displayed beneath the image on the item list page and also as the title on the item page. This can contain Uppercase letters, spaces, and special characters.
 `link` - Should always follow the format /items/`itemname` and will form the direct URL to the item's page
 `image` - This is a relative URL to for the image to display on the item list page
-`options` - Defines the color selection options for the item. Each object in the array has a `label` propery which is displayed above the color selector on the item's page.
-`extras` - Defines additional options which add/remove elements of the SVG by a checkbox next to the `label`
+`variants` - This array holds all of the different item types the user is able to view on that item. Only if there is more than one variant will the user be shown a dropdown element to choose the variant they want to view. The first variant in the variants array is the default one displayed to the user.
 
 **Example Item**
 ```
 {
-    title: "Sweater",
-    link: "/items/sweater",
-    image: "resources/Zipper-Henley-adult.jpg",
-    options: [
-        { label: "Main Body" },
-        { label: "Collar" },
-        { label: "Sleeves" }
-    ],
-    extras: [
-        { label: "Add Sleeve Cuffs" },
-        { label: "Add Center Pocket" }
+    title: "Pants",
+    link: "/items/pants",
+    image: "resources/Baby-Standard-Pants-Mild-Tapered-Hemmed-Main.png",
+    variants: [
+        ...Variant Objects...
     ]
 }
+```
+
+#### Variant Object Properties
+Each Variant object has the following properties:
+`label` - The name of the variant which is displayed to the user in the dropdown selection for item type. Only displayed if there is more than one variant in the variants array for this item.
+`options` - This array defines the standard color selection options for the variant. See **Option Object Properties** section below for details on the objects inside of this array.
+`extras` - Defines additional options which have a checkbox next to the `label`. The checkbox determines if this extra is being added to the item. When checked it will prompt the the color selector to display and make the Option's elements appear in the Item SVG. Objects in this have the same properties as Options, see **Option Object Properties** section below for details on the objects inside of this array.
+
+**Example Variant**
+```
+{
+    label: "Hemmed",
+    options: [
+        ...Option Objects...
+    ],
+    extras: [
+        ...Option Objects...
+    ]
+}
+```
+
+#### Option Object Properties
+Each Option object has the following properties: 
+`label` - Propery which is displayed above the color selector on the item's page.
+`elements` - The elements property holds an array of string values. the string values are the IDs of the SVG elements that this Option's color selector controls. These IDs are created during the SVG import process and must match. ex. The **waistband** ID in the waist option `{ label: "Waist", elements: ["waistband"] }` controls the color of the SVG element `<path ng-style="$ctrl.getSelectedOptionStyle('waistband')" ..../>` because the ID **wasitband** matches.
+**optional** `colorSelector` - Determines the type of color selector to be shown, only add this property to the object if you want to change the color selector away from its default. Valid values are `zipper` and `none`. 
+    * Set the value to `zipper` in order to make the selection for this option draw from the zipper patterns. 
+    * Set the value to `none` when having no color option is desired. This is mostly useful for Options in the `extras` array when the color for the extra is set by another element. ex. Sheepy hug kangaroo pocket can have pocket cuffs but the color of the cuffs always matches the pocket's color.
+**optional** `show` - Only valid for Option objects inside of the `extras` array. Will default the checkbox to be checked if the value of this property is set to true. ex. `{ label: "Add Bottom Cuff", elements: ["bottomCuff"], show: true }`
+
+**Example Options**
+```
+{ label: "Waist", elements: ["waistband"] }
+
+{ label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+
+{ label: "Cuffed Pocket", elements: ["pocketKangarooLeftCuff", "pocketKangarooRightCuff"], colorSelector:"none" }
+
+{ label: "Zipper", elements: ["quarterCenterTrimZipperShort", "quarterCenterTrimZipperTall"], colorSelector:"zipper" }
 ```
 
 #### Adding Color Options to the SVG
