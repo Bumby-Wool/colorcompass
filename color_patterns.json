@@ -16,6 +16,13 @@
 },
 {					
 	"type": "pattern",
+	"name": "StripedShroom",
+	"svgPatternId": "StripedShroom",
+	"patternId": { "fill": "url(#StripedShroom"},
+	"imageUrl": "/builder/resources/patterns/StripedShroom.jpg"	
+},
+{					
+	"type": "pattern",
 	"name": "StripedCarnival",
 	"svgPatternId": "StripedCarnival",
 	"patternId": { "fill": "url(#StripedCarnival"},
