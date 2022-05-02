@@ -16,6 +16,13 @@
 },
 {					
 	"type": "pattern",
+	"name": "StripedWatermelon",
+	"svgPatternId": "StripedWatermelon",
+	"patternId": { "fill": "url(#StripedWatermelon"},
+	"imageUrl": "/builder/resources/patterns/StripedWatermelon.jpg"	
+},
+{					
+	"type": "pattern",
 	"name": "StripedRosewood",
 	"svgPatternId": "StripedRosewood",
 	"patternId": { "fill": "url(#StripedRosewood"},
