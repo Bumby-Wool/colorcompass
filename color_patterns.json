@@ -16,6 +16,13 @@
 },
 {					
 	"type": "pattern",
+	"name": "Peachicot",
+	"svgPatternId": "Peachicot",
+	"patternId": { "fill": "url(#Peachicot"},
+	"imageUrl": "/builder/resources/patterns/Peachicot.jpg"	
+},
+{					
+	"type": "pattern",
 	"name": "MelangeAmber",
 	"svgPatternId": "MelangeAmber",
 	"patternId": { "fill": "url(#MelangeAmber"},
