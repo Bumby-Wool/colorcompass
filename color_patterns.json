@@ -16,6 +16,13 @@
 },
 {					
 	"type": "pattern",
+	"name": "StripedSirenSong",
+	"svgPatternId": "StripedSirenSong",
+	"patternId": { "fill": "url(#StripedSirenSong"},
+	"imageUrl": "/builder/resources/patterns/StripedSirenSong.jpg"	
+},
+{					
+	"type": "pattern",
 	"name": "StripedLichenWarrior",
 	"svgPatternId": "StripedLichenWarrior",
 	"patternId": { "fill": "url(#StripedLichenWarrior"},
