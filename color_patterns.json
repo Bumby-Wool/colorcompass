@@ -16,6 +16,13 @@
 },
 {					
 	"type": "pattern",
+	"name": "StripedLichenWarrior",
+	"svgPatternId": "StripedLichenWarrior",
+	"patternId": { "fill": "url(#StripedLichenWarrior"},
+	"imageUrl": "/builder/resources/patterns/StripedLichenWarrior.jpg"	
+},
+{					
+	"type": "pattern",
 	"name": "StripedDartFrog",
 	"svgPatternId": "StripedDartFrog",
 	"patternId": { "fill": "url(#StripedDartFrog"},
