@@ -2,6 +2,111 @@
    { "name": "Cenotes" },
 {					
 	"type": "pattern",
+	"name": "MelangeStonedMustard",
+	"svgPatternId": "MelangeStonedMustard",
+	"patternId": { "fill": "url(#MelangeStonedMustard"},
+	"imageUrl": "/builder/resources/patterns/MelangeStonedMustard.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "MelangeArbutus",
+	"svgPatternId": "MelangeArbutus",
+	"patternId": { "fill": "url(#MelangeArbutus"},
+	"imageUrl": "/builder/resources/patterns/MelangeArbutus.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "StripedSirenSong",
+	"svgPatternId": "StripedSirenSong",
+	"patternId": { "fill": "url(#StripedSirenSong"},
+	"imageUrl": "/builder/resources/patterns/StripedSirenSong.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "StripedLichenWarrior",
+	"svgPatternId": "StripedLichenWarrior",
+	"patternId": { "fill": "url(#StripedLichenWarrior"},
+	"imageUrl": "/builder/resources/patterns/StripedLichenWarrior.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "StripedDartFrog",
+	"svgPatternId": "StripedDartFrog",
+	"patternId": { "fill": "url(#StripedDartFrog"},
+	"imageUrl": "/builder/resources/patterns/StripedDartFrog.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "StripedWatermelon",
+	"svgPatternId": "StripedWatermelon",
+	"patternId": { "fill": "url(#StripedWatermelon"},
+	"imageUrl": "/builder/resources/patterns/StripedWatermelon.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "StripedRosewood",
+	"svgPatternId": "StripedRosewood",
+	"patternId": { "fill": "url(#StripedRosewood"},
+	"imageUrl": "/builder/resources/patterns/StripedRosewood.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "StripedSapling",
+	"svgPatternId": "StripedSapling",
+	"patternId": { "fill": "url(#StripedSapling"},
+	"imageUrl": "/builder/resources/patterns/StripedSapling.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "StripedEnchantmint",
+	"svgPatternId": "StripedEnchantmint",
+	"patternId": { "fill": "url(#StripedEnchantmint"},
+	"imageUrl": "/builder/resources/patterns/StripedEnchantmint.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "StripedShroom",
+	"svgPatternId": "StripedShroom",
+	"patternId": { "fill": "url(#StripedShroom"},
+	"imageUrl": "/builder/resources/patterns/StripedShroom.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "StripedCarnival",
+	"svgPatternId": "StripedCarnival",
+	"patternId": { "fill": "url(#StripedCarnival"},
+	"imageUrl": "/builder/resources/patterns/StripedCarnival.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "StripedCobalt",
+	"svgPatternId": "StripedCobalt",
+	"patternId": { "fill": "url(#StripedCobalt"},
+	"imageUrl": "/builder/resources/patterns/StripedCobalt.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "Peachicot",
+	"svgPatternId": "Peachicot",
+	"patternId": { "fill": "url(#Peachicot"},
+	"imageUrl": "/builder/resources/patterns/Peachicot.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "MelangeAmber",
+	"svgPatternId": "MelangeAmber",
+	"patternId": { "fill": "url(#MelangeAmber"},
+	"imageUrl": "/builder/resources/patterns/MelangeAmber.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "Black",
+	"svgPatternId": "Black",
+	"patternId": { "fill": "url(#Black"},
+	"imageUrl": "/builder/resources/patterns/Black.jpg"	
+},
+{					
+	"type": "pattern",
 	"name": "StripedJelly",
 	"svgPatternId": "StripedJelly",
 	"patternId": { "fill": "url(#StripedJelly"},
@@ -265,14 +370,7 @@
 	"svgPatternId": "StripedLioness",
 	"patternId": { "fill": "url(#StripedLioness)"},
 	"imageUrl": "/builder/resources/patterns/StripedLioness.jpg"
-   },	
-  {					
-	"type": "pattern",
-	"name": "StripedMidnightOcean",
-	"svgPatternId": "StripedMidnightOcean",
-	"patternId": { "fill": "url(#StripedMidnightOcean)"},
-	"imageUrl": "/builder/resources/patterns/StripedMidnightOcean.jpg"
-   },	
+   },		
   {					
 	"type": "pattern",
 	"name": "StripedPinkLady",
@@ -464,10 +562,10 @@
     },
     {
         "type": "pattern",
-        "name": "Marvelous",
-        "svgPatternId": "Marvelous",
-        "patternId": { "fill": "url(#Marvelous)"},
-        "imageUrl": "/builder/resources/patterns/Marvelous.jpg"
+        "name": "StripedMarvelous",
+        "svgPatternId": "StripedMarvelous",
+        "patternId": { "fill": "url(#StripedMarvelous)"},
+        "imageUrl": "/builder/resources/patterns/StripedMarvelous.jpg"
     },
     {
         "type": "pattern",
