@@ -16,6 +16,13 @@
 },
 {					
 	"type": "pattern",
+	"name": "StripedCobalt",
+	"svgPatternId": "StripedCobalt",
+	"patternId": { "fill": "url(#StripedCobalt"},
+	"imageUrl": "/builder/resources/patterns/StripedCobalt.jpg"	
+},
+{					
+	"type": "pattern",
 	"name": "Peachicot",
 	"svgPatternId": "Peachicot",
 	"patternId": { "fill": "url(#Peachicot"},
