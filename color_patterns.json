@@ -2,6 +2,13 @@
    { "name": "Cenotes" },
 {					
 	"type": "pattern",
+	"name": "MelangeStonedMustard",
+	"svgPatternId": "MelangeStonedMustard",
+	"patternId": { "fill": "url(#MelangeStonedMustard"},
+	"imageUrl": "/builder/resources/patterns/MelangeStonedMustard.jpg"	
+},
+{					
+	"type": "pattern",
 	"name": "MelangeArbutus",
 	"svgPatternId": "MelangeArbutus",
 	"patternId": { "fill": "url(#MelangeArbutus"},
