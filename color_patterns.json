@@ -2,6 +2,27 @@
    { "name": "Cenotes" },
 {					
 	"type": "pattern",
+	"name": "MelangeArbutus",
+	"svgPatternId": "MelangeArbutus",
+	"patternId": { "fill": "url(#MelangeArbutus"},
+	"imageUrl": "/builder/resources/patterns/MelangeArbutus.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "MelangeAmber",
+	"svgPatternId": "MelangeAmber",
+	"patternId": { "fill": "url(#MelangeAmber"},
+	"imageUrl": "/builder/resources/patterns/MelangeAmber.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "Black",
+	"svgPatternId": "Black",
+	"patternId": { "fill": "url(#Black"},
+	"imageUrl": "/builder/resources/patterns/Black.jpg"	
+},
+{					
+	"type": "pattern",
 	"name": "StripedJelly",
 	"svgPatternId": "StripedJelly",
 	"patternId": { "fill": "url(#StripedJelly"},
@@ -265,14 +286,7 @@
 	"svgPatternId": "StripedLioness",
 	"patternId": { "fill": "url(#StripedLioness)"},
 	"imageUrl": "/builder/resources/patterns/StripedLioness.jpg"
-   },	
-  {					
-	"type": "pattern",
-	"name": "StripedMidnightOcean",
-	"svgPatternId": "StripedMidnightOcean",
-	"patternId": { "fill": "url(#StripedMidnightOcean)"},
-	"imageUrl": "/builder/resources/patterns/StripedMidnightOcean.jpg"
-   },	
+   },		
   {					
 	"type": "pattern",
 	"name": "StripedPinkLady",
@@ -464,10 +478,10 @@
     },
     {
         "type": "pattern",
-        "name": "Marvelous",
-        "svgPatternId": "Marvelous",
-        "patternId": { "fill": "url(#Marvelous)"},
-        "imageUrl": "/builder/resources/patterns/Marvelous.jpg"
+        "name": "StripedMarvelous",
+        "svgPatternId": "StripedMarvelous",
+        "patternId": { "fill": "url(#StripedMarvelous)"},
+        "imageUrl": "/builder/resources/patterns/StripedMarvelous.jpg"
     },
     {
         "type": "pattern",
