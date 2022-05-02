@@ -16,6 +16,13 @@
 },
 {					
 	"type": "pattern",
+	"name": "StripedEnchantmint",
+	"svgPatternId": "StripedEnchantmint",
+	"patternId": { "fill": "url(#StripedEnchantmint"},
+	"imageUrl": "/builder/resources/patterns/StripedEnchantmint.jpg"	
+},
+{					
+	"type": "pattern",
 	"name": "StripedShroom",
 	"svgPatternId": "StripedShroom",
 	"patternId": { "fill": "url(#StripedShroom"},
