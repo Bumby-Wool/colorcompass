@@ -132,14 +132,7 @@
 	"svgPatternId": "Blueberry",
 	"patternId": { "fill": "url(#Blueberry"},
 	"imageUrl": "/builder/resources/patterns/Blueberry.jpg"	
-},	
-{					
-	"type": "pattern",
-	"name": "Bluejeans",
-	"svgPatternId": "Bluejeans",
-	"patternId": { "fill": "url(#Bluejeans"},
-	"imageUrl": "/builder/resources/patterns/Bluejeans.jpg"	
-},	
+},		
 {					
 	"type": "pattern",
 	"name": "Bumbleberry",
