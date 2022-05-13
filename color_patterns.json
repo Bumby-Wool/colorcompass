@@ -405,13 +405,6 @@
 	"svgPatternId": "StripedTin",
 	"patternId": { "fill": "url(#StripedTin)"},
 	"imageUrl": "/builder/resources/patterns/StripedTin.jpg"
-   },
-   {					
-	"type": "pattern",
-	"name": "StripedTurf",
-	"svgPatternId": "StripedTurf",
-	"patternId": { "fill": "url(#StripedTurf)"},
-	"imageUrl": "/builder/resources/patterns/StripedTurf.jpg"
    },		
    {					
 	"type": "pattern",
