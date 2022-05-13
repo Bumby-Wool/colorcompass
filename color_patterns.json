@@ -471,13 +471,6 @@
     },
     {
         "type": "pattern",
-        "name": "Ballet",
-        "svgPatternId": "Ballet",
-        "patternId": { "fill": "url(#Ballet)"},
-        "imageUrl": "/builder/resources/patterns/Ballet.jpg"  
-    },
-    {
-        "type": "pattern",
         "name": "MelangeTrilby",
         "svgPatternId": "MelangeTrilby",
         "patternId": { "fill": "url(#MelangeTrilby)"},
