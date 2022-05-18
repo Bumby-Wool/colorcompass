@@ -132,14 +132,7 @@
 	"svgPatternId": "Blueberry",
 	"patternId": { "fill": "url(#Blueberry"},
 	"imageUrl": "/builder/resources/patterns/Blueberry.jpg"	
-},	
-{					
-	"type": "pattern",
-	"name": "Bluejeans",
-	"svgPatternId": "Bluejeans",
-	"patternId": { "fill": "url(#Bluejeans"},
-	"imageUrl": "/builder/resources/patterns/Bluejeans.jpg"	
-},	
+},		
 {					
 	"type": "pattern",
 	"name": "Bumbleberry",
@@ -412,13 +405,6 @@
 	"svgPatternId": "StripedTin",
 	"patternId": { "fill": "url(#StripedTin)"},
 	"imageUrl": "/builder/resources/patterns/StripedTin.jpg"
-   },
-   {					
-	"type": "pattern",
-	"name": "StripedTurf",
-	"svgPatternId": "StripedTurf",
-	"patternId": { "fill": "url(#StripedTurf)"},
-	"imageUrl": "/builder/resources/patterns/StripedTurf.jpg"
    },		
    {					
 	"type": "pattern",
@@ -475,13 +461,6 @@
 	"svgPatternId": "Walnut",					
 	"patternId": { "fill": "url(#Walnut)"},					
 	"imageUrl": "/builder/resources/patterns/Walnut.jpg"   
-    },
-    {
-        "type": "pattern",
-        "name": "Ballet",
-        "svgPatternId": "Ballet",
-        "patternId": { "fill": "url(#Ballet)"},
-        "imageUrl": "/builder/resources/patterns/Ballet.jpg"  
     },
     {
         "type": "pattern",
