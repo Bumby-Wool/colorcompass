@@ -147,12 +147,6 @@
 	"patternId": { "fill": "url(#Cinnamon"},
 	"imageUrl": "/builder/resources/patterns/Cinnamon.jpg"	
 },	
-{					
-	"type": "pattern",
-	"name": "Cypress",
-	"svgPatternId": "Cypress",
-	"patternId": { "fill": "url(#Cypress"},
-	"imageUrl": "/builder/resources/patterns/Cypress.JPG"	
 },	
 {					
 	"type": "pattern",
