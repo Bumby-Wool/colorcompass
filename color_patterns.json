@@ -51,13 +51,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "StripedSapling",
-	"svgPatternId": "StripedSapling",
-	"patternId": { "fill": "url(#StripedSapling"},
-	"imageUrl": "/builder/resources/patterns/StripedSapling.jpg"	
-},
-{					
-	"type": "pattern",
 	"name": "StripedEnchantmint",
 	"svgPatternId": "StripedEnchantmint",
 	"patternId": { "fill": "url(#StripedEnchantmint"},
@@ -244,14 +237,7 @@
 	"svgPatternId": "Pomegranate",
 	"patternId": { "fill": "url(#Pomegranate"},
 	"imageUrl": "/builder/resources/patterns/Pomegranate.jpg"	
-},	
-{					
-	"type": "pattern",
-	"name": "RaspberrySorbet",
-	"svgPatternId": "RaspberrySorbet",
-	"patternId": { "fill": "url(#RaspberrySorbet)"},
-	"imageUrl": "/builder/resources/patterns/RaspberrySorbet.jpg"	
-},	
+},		
 {					
 	"type": "pattern",
 	"name": "Shiraz",
@@ -377,13 +363,6 @@
 	"svgPatternId": "StripedSaskatoonBerry",
 	"patternId": { "fill": "url(#StripedSaskatoonBerry)"},
 	"imageUrl": "/builder/resources/patterns/StripedSaskatoonBerry.jpg"
-   },
-  {					
-	"type": "pattern",
-	"name": "StripedSeafoam",
-	"svgPatternId": "StripedSeafoam",
-	"patternId": { "fill": "url(#StripedSeafoam)"},
-	"imageUrl": "/builder/resources/patterns/StripedSeafoam.jpg"
    },	
   {					
 	"type": "pattern",
@@ -532,13 +511,6 @@
         "patternId": { "fill": "url(#LavaLove)"},
         "imageUrl": "/builder/resources/patterns/LavaLove.jpg"
     },	
-      {
-        "type": "pattern",
-        "name": "Laekoi",
-        "svgPatternId": "Laekoi",
-        "patternId": { "fill": "url(#Laekoi)"},
-        "imageUrl": "/builder/resources/patterns/Laekoi.JPG"
-    },
     {
         "type": "pattern",
         "name": "StripedMarvelous",
