@@ -209,14 +209,7 @@
 	"svgPatternId": "PINK",
 	"patternId": { "fill": "url(#PINK"},
 	"imageUrl": "/builder/resources/patterns/PINK.jpg"	
-},	
-{					
-	"type": "pattern",
-	"name": "Pollen",
-	"svgPatternId": "Pollen",
-	"patternId": { "fill": "url(#Pollen"},
-	"imageUrl": "/builder/resources/patterns/Pollen.jpg"	
-},	
+},
 {					
 	"type": "pattern",
 	"name": "Pomegranate",
