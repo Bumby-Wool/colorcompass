@@ -343,13 +343,6 @@
 	"patternId": { "fill": "url(#StripedSaskatoonBerry)"},
 	"imageUrl": "/builder/resources/patterns/StripedSaskatoonBerry.jpg"
    },	
-  {					
-	"type": "pattern",
-	"name": "StripedSteel",
-	"svgPatternId": "StripedSteel",
-	"patternId": { "fill": "url(#StripedSteel)"},
-	"imageUrl": "/builder/resources/patterns/StripedSteel.jpg"
-   },	
    {					
 	"type": "pattern",
 	"name": "StripedTigress",
