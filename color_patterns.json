@@ -146,14 +146,7 @@
 	"svgPatternId": "Cinnamon",
 	"patternId": { "fill": "url(#Cinnamon"},
 	"imageUrl": "/builder/resources/patterns/Cinnamon.jpg"	
-},	
-{					
-	"type": "pattern",
-	"name": "DarkCharcoal",
-	"svgPatternId": "DarkCharcoal",
-	"patternId": { "fill": "url(#DarkCharcoal"},
-	"imageUrl": "/builder/resources/patterns/DarkCharcoal.jpg"	
-},	
+},
 {					
 	"type": "pattern",
 	"name": "Denim",
