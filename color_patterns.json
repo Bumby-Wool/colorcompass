@@ -370,14 +370,7 @@
 	"svgPatternId": "StripedTwilight",
 	"patternId": { "fill": "url(#StripedTwilight)"},
 	"imageUrl": "/builder/resources/patterns/StripedTwilight.jpg"
-   },	
-   {					
-	"type": "pattern",
-	"name": "SugarMaple",
-	"svgPatternId": "SugarMaple",
-	"patternId": { "fill": "url(#SugarMaple)"},
-	"imageUrl": "/builder/resources/patterns/SugarMaple.jpg"
-   },	
+   },
    {					
 	"type": "pattern",
 	"name": "Tabacon",
