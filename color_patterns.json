@@ -2,6 +2,34 @@
    { "name": "Cenotes" },
 {					
 	"type": "pattern",
+	"name": "CozyMelangeAnise",
+	"svgPatternId": "CozyMelangeAnise",
+	"patternId": { "fill": "url(#CozyMelangeAnise"},
+	"imageUrl": "/builder/resources/patterns/CozyMelangeAnise.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "CozyStripedStatic",
+	"svgPatternId": "CozyStripedStatic",
+	"patternId": { "fill": "url(#CozyStripedStatic"},
+	"imageUrl": "/builder/resources/patterns/CozyStripedStatic.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "CozyStripedVenomous",
+	"svgPatternId": "CozyStripedVenomous",
+	"patternId": { "fill": "url(#CozyStripedVenomous"},
+	"imageUrl": "/builder/resources/patterns/CozyStripedVenomous.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "CozyMeltedCandies",
+	"svgPatternId": "CozyMeltedCandies",
+	"patternId": { "fill": "url(#CozyMeltedCandies"},
+	"imageUrl": "/builder/resources/patterns/CozyMeltedCandies.jpg"	
+},
+{					
+	"type": "pattern",
 	"name": "DurasoftTruffle",
 	"svgPatternId": "DurasoftTruffle",
 	"patternId": { "fill": "url(#DurasoftTruffle"},
