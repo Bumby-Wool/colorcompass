@@ -9,6 +9,13 @@
 },
 {					
 	"type": "pattern",
+	"name": "CozySunset",
+	"svgPatternId": "CozySunset",
+	"patternId": { "fill": "url(#CozySunset"},
+	"imageUrl": "/builder/resources/patterns/CozySunset.jpg"	
+},
+{					
+	"type": "pattern",
 	"name": "CozyStripedStatic",
 	"svgPatternId": "CozyStripedStatic",
 	"patternId": { "fill": "url(#CozyStripedStatic"},
