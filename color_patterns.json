@@ -2,6 +2,55 @@
    { "name": "Cenotes" },
 {					
 	"type": "pattern",
+	"name": "DurasoftHazeMelange",
+	"svgPatternId": "DurasoftHazeMelange",
+	"patternId": { "fill": "url(#DurasoftHazeMelange"},
+	"imageUrl": "/builder/resources/patterns/DurasoftHazeMelange.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftSaffronMelange",
+	"svgPatternId": "DurasoftSaffronMelange",
+	"patternId": { "fill": "url(#DurasoftSaffronMelange"},
+	"imageUrl": "/builder/resources/patterns/DurasoftSaffronMelange.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftCrystalMelange",
+	"svgPatternId": "DurasoftCrystalMelange",
+	"patternId": { "fill": "url(#DurasoftCrystalMelange"},
+	"imageUrl": "/builder/resources/patterns/DurasoftCrystalMelange.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftRosePetalMelange",
+	"svgPatternId": "DurasoftRosePetalMelange",
+	"patternId": { "fill": "url(#DurasoftRosePetalMelange"},
+	"imageUrl": "/builder/resources/patterns/DurasoftRosePetalMelange.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftCherryBlossomMelange",
+	"svgPatternId": "DurasoftCherryBlossomMelange",
+	"patternId": { "fill": "url(#DurasoftCherryBlossomMelange"},
+	"imageUrl": "/builder/resources/patterns/DurasoftCherryBlossomMelange.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftButtercup",
+	"svgPatternId": "DurasoftButtercup",
+	"patternId": { "fill": "url(#DurasoftButtercup"},
+	"imageUrl": "/builder/resources/patterns/DurasoftButtercup.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftSpirt",
+	"svgPatternId": "DurasoftSpirt",
+	"patternId": { "fill": "url(#DurasoftSpirt"},
+	"imageUrl": "/builder/resources/patterns/DurasoftSpirt.jpg"	
+},
+{					
+	"type": "pattern",
 	"name": "CozyMelangeStonedMustard",
 	"svgPatternId": "CozyMelangeStonedMustard",
 	"patternId": { "fill": "url(#CozyMelangeStonedMustard"},
