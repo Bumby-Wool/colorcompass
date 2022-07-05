@@ -2,6 +2,41 @@
    { "name": "Cenotes" },
 {					
 	"type": "pattern",
+	"name": "DurasoftHiddenWarrior",
+	"svgPatternId": "DurasoftHiddenWarrior",
+	"patternId": { "fill": "url(#DurasoftHiddenWarrior"},
+	"imageUrl": "/builder/resources/patterns/DurasoftHiddenWarrior.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftZing",
+	"svgPatternId": "DurasoftZing",
+	"patternId": { "fill": "url(#DurasoftZing"},
+	"imageUrl": "/builder/resources/patterns/DurasoftZing.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftKoala",
+	"svgPatternId": "DurasoftKoala",
+	"patternId": { "fill": "url(#DurasoftKoala"},
+	"imageUrl": "/builder/resources/patterns/DurasoftKoala.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftLucid",
+	"svgPatternId": "DurasoftLucid",
+	"patternId": { "fill": "url(#DurasoftLucid"},
+	"imageUrl": "/builder/resources/patterns/DurasoftLucid.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftAura",
+	"svgPatternId": "DurasoftAura",
+	"patternId": { "fill": "url(#DurasoftAura"},
+	"imageUrl": "/builder/resources/patterns/DurasoftAura.jpg"	
+},
+{					
+	"type": "pattern",
 	"name": "DurasoftIndulge",
 	"svgPatternId": "DurasoftIndulge",
 	"patternId": { "fill": "url(#DurasoftIndulge"},
