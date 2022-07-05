@@ -2,6 +2,20 @@
    { "name": "Cenotes" },
 {					
 	"type": "pattern",
+	"name": "DurasoftTruffle",
+	"svgPatternId": "DurasoftTruffle",
+	"patternId": { "fill": "url(#DurasoftTruffle"},
+	"imageUrl": "/builder/resources/patterns/DurasoftTruffle.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftRapsody",
+	"svgPatternId": "DurasoftRapsody",
+	"patternId": { "fill": "url(#DurasoftRapsody"},
+	"imageUrl": "/builder/resources/patterns/DurasoftRapsody.jpg"	
+},
+{					
+	"type": "pattern",
 	"name": "DurasoftFrequency",
 	"svgPatternId": "DurasoftFrequency",
 	"patternId": { "fill": "url(#DurasoftFrequency"},
