@@ -16,6 +16,13 @@
 },
 {					
 	"type": "pattern",
+	"name": "CozyStripedSplatter",
+	"svgPatternId": "CozyStripedSplatter",
+	"patternId": { "fill": "url(#CozyStripedSplatter"},
+	"imageUrl": "/builder/resources/patterns/CozyStripedSplatter.jpg"	
+},	
+{					
+	"type": "pattern",
 	"name": "CozyStripedStatic",
 	"svgPatternId": "CozyStripedStatic",
 	"patternId": { "fill": "url(#CozyStripedStatic"},
