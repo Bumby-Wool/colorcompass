@@ -2,6 +2,41 @@
    { "name": "Cenotes" },
 {					
 	"type": "pattern",
+	"name": "DurasoftIgnition",
+	"svgPatternId": "DurasoftIgnition",
+	"patternId": { "fill": "url(#DurasoftIgnition"},
+	"imageUrl": "/builder/resources/patterns/DurasoftIgnition.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftEmbers",
+	"svgPatternId": "DurasoftEmbers",
+	"patternId": { "fill": "url(#DurasoftEmbers"},
+	"imageUrl": "/builder/resources/patterns/DurasoftEmbers.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftSerendipity",
+	"svgPatternId": "DurasoftSerendipity",
+	"patternId": { "fill": "url(#DurasoftSerendipity"},
+	"imageUrl": "/builder/resources/patterns/DurasoftSerendipity.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftAwaken",
+	"svgPatternId": "DurasoftAwaken",
+	"patternId": { "fill": "url(#DurasoftAwaken"},
+	"imageUrl": "/builder/resources/patterns/DurasoftAwaken.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftAmbience",
+	"svgPatternId": "DurasoftAmbience",
+	"patternId": { "fill": "url(#DurasoftAmbience"},
+	"imageUrl": "/builder/resources/patterns/DurasoftAmbience.jpg"	
+},
+{					
+	"type": "pattern",
 	"name": "DurasoftHiddenWarrior",
 	"svgPatternId": "DurasoftHiddenWarrior",
 	"patternId": { "fill": "url(#DurasoftHiddenWarrior"},
