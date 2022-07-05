@@ -16,9 +16,16 @@
 },
 {					
 	"type": "pattern",
-	"name": "CozyStripedSplatter",
-	"svgPatternId": "CozyStripedSplatter",
-	"patternId": { "fill": "url(#CozyStripedSplatter"},
+	"name": "CozyStripedAmethyst",
+	"svgPatternId": "CozyStripedAmethyst",
+	"patternId": { "fill": "url(#CozyStripedAmethyst"},
+	"imageUrl": "/builder/resources/patterns/CozyStripedAmethyst.jpg"	
+},	
+{					
+	"type": "pattern",
+	"name": "CozyStripedPaintSplatter",
+	"svgPatternId": "CozyStripedPaintSplatter",
+	"patternId": { "fill": "url(#CozyStripedPaintSplatter"},
 	"imageUrl": "/builder/resources/patterns/CozyStripedSplatter.jpg"	
 },	
 {					
