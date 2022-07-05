@@ -2,6 +2,62 @@
    { "name": "Cenotes" },
 {					
 	"type": "pattern",
+	"name": "DurasoftFrequency",
+	"svgPatternId": "DurasoftFrequency",
+	"patternId": { "fill": "url(#DurasoftFrequency"},
+	"imageUrl": "/builder/resources/patterns/DurasoftFrequency.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftIntuition",
+	"svgPatternId": "DurasoftIntuition",
+	"patternId": { "fill": "url(#DurasoftIntuition"},
+	"imageUrl": "/builder/resources/patterns/DurasoftIntuition.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftGlimpse",
+	"svgPatternId": "DurasoftGlimpse",
+	"patternId": { "fill": "url(#DurasoftGlimpse"},
+	"imageUrl": "/builder/resources/patterns/DurasoftGlimpse.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftBluebells",
+	"svgPatternId": "DurasoftBluebells",
+	"patternId": { "fill": "url(#DurasoftBluebells"},
+	"imageUrl": "/builder/resources/patterns/DurasoftBluebells.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftWalkway",
+	"svgPatternId": "DurasoftWalkway",
+	"patternId": { "fill": "url(#DurasoftWalkway"},
+	"imageUrl": "/builder/resources/patterns/DurasoftWalkway.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftTidal",
+	"svgPatternId": "DurasoftTidal",
+	"patternId": { "fill": "url(#DurasoftTidal"},
+	"imageUrl": "/builder/resources/patterns/DurasoftTidal.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftInspire",
+	"svgPatternId": "DurasoftInspire",
+	"patternId": { "fill": "url(#DurasoftInspire"},
+	"imageUrl": "/builder/resources/patterns/DurasoftInspire.jpg"	
+},
+{					
+	"type": "pattern",
+	"name": "DurasoftLovespell",
+	"svgPatternId": "DurasoftLovespell",
+	"patternId": { "fill": "url(#DurasoftLovespell"},
+	"imageUrl": "/builder/resources/patterns/DurasoftLovespell.jpg"	
+},
+{					
+	"type": "pattern",
 	"name": "DurasoftIgnition",
 	"svgPatternId": "DurasoftIgnition",
 	"patternId": { "fill": "url(#DurasoftIgnition"},
