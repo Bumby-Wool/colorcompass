@@ -2,234 +2,234 @@
    { "name": "Cenotes" },
 {					
 	"type": "pattern",
-	"name": "MelangeStonedMustard",
-	"svgPatternId": "MelangeStonedMustard",
-	"patternId": { "fill": "url(#MelangeStonedMustard"},
-	"imageUrl": "/builder/resources/patterns/MelangeStonedMustard.jpg"	
+	"name": "CozyMelangeStonedMustard",
+	"svgPatternId": "CozyMelangeStonedMustard",
+	"patternId": { "fill": "url(#CozyMelangeStonedMustard"},
+	"imageUrl": "/builder/resources/patterns/CozyMelangeStonedMustard.jpg"	
 },
 {					
 	"type": "pattern",
-	"name": "MelangeArbutus",
-	"svgPatternId": "MelangeArbutus",
-	"patternId": { "fill": "url(#MelangeArbutus"},
-	"imageUrl": "/builder/resources/patterns/MelangeArbutus.jpg"	
+	"name": "CozyMelangeArbutus",
+	"svgPatternId": "CozyMelangeArbutus",
+	"patternId": { "fill": "url(#CozyMelangeArbutus"},
+	"imageUrl": "/builder/resources/patterns/CozyMelangeArbutus.jpg"	
 },
 {					
 	"type": "pattern",
-	"name": "StripedSirenSong",
-	"svgPatternId": "StripedSirenSong",
-	"patternId": { "fill": "url(#StripedSirenSong"},
-	"imageUrl": "/builder/resources/patterns/StripedSirenSong.jpg"	
+	"name": "CozyStripedSirenSong",
+	"svgPatternId": "CozyStripedSirenSong",
+	"patternId": { "fill": "url(#CozyStripedSirenSong"},
+	"imageUrl": "/builder/resources/patterns/CozyStripedSirenSong.jpg"	
 },
 {					
 	"type": "pattern",
-	"name": "StripedLichenWarrior",
-	"svgPatternId": "StripedLichenWarrior",
-	"patternId": { "fill": "url(#StripedLichenWarrior"},
-	"imageUrl": "/builder/resources/patterns/StripedLichenWarrior.jpg"	
+	"name": "CozyStripedLichenWarrior",
+	"svgPatternId": "CozyStripedLichenWarrior",
+	"patternId": { "fill": "url(#CozyStripedLichenWarrior"},
+	"imageUrl": "/builder/resources/patterns/CozyStripedLichenWarrior.jpg"	
 },
 {					
 	"type": "pattern",
-	"name": "StripedDartFrog",
-	"svgPatternId": "StripedDartFrog",
-	"patternId": { "fill": "url(#StripedDartFrog"},
-	"imageUrl": "/builder/resources/patterns/StripedDartFrog.jpg"	
+	"name": "CozyStripedDartFrog",
+	"svgPatternId": "CozyStripedDartFrog",
+	"patternId": { "fill": "url(#CozyStripedDartFrog"},
+	"imageUrl": "/builder/resources/patterns/CozyStripedDartFrog.jpg"	
 },
 {					
 	"type": "pattern",
-	"name": "StripedWatermelon",
-	"svgPatternId": "StripedWatermelon",
-	"patternId": { "fill": "url(#StripedWatermelon"},
-	"imageUrl": "/builder/resources/patterns/StripedWatermelon.jpg"	
+	"name": "CozyStripedWatermelon",
+	"svgPatternId": "CozyStripedWatermelon",
+	"patternId": { "fill": "url(#CozyStripedWatermelon"},
+	"imageUrl": "/builder/resources/patterns/CozyStripedWatermelon.jpg"	
 },
 {					
 	"type": "pattern",
-	"name": "StripedRosewood",
-	"svgPatternId": "StripedRosewood",
-	"patternId": { "fill": "url(#StripedRosewood"},
-	"imageUrl": "/builder/resources/patterns/StripedRosewood.jpg"	
+	"name": "CozyStripedRosewood",
+	"svgPatternId": "CozyStripedRosewood",
+	"patternId": { "fill": "url(#CozyStripedRosewood"},
+	"imageUrl": "/builder/resources/patterns/CozyStripedRosewood.jpg"	
 },
 {					
 	"type": "pattern",
-	"name": "StripedEnchantmint",
-	"svgPatternId": "StripedEnchantmint",
-	"patternId": { "fill": "url(#StripedEnchantmint"},
-	"imageUrl": "/builder/resources/patterns/StripedEnchantmint.jpg"	
+	"name": "CozyStripedEnchantmint",
+	"svgPatternId": "CozyStripedEnchantmint",
+	"patternId": { "fill": "url(#CozyStripedEnchantmint"},
+	"imageUrl": "/builder/resources/patterns/CozyStripedEnchantmint.jpg"	
 },
 {					
 	"type": "pattern",
-	"name": "StripedShroom",
-	"svgPatternId": "StripedShroom",
-	"patternId": { "fill": "url(#StripedShroom"},
-	"imageUrl": "/builder/resources/patterns/StripedShroom.jpg"	
+	"name": "CozyStripedShroom",
+	"svgPatternId": "CozyStripedShroom",
+	"patternId": { "fill": "url(#CozyStripedShroom"},
+	"imageUrl": "/builder/resources/patterns/CozyStripedShroom.jpg"	
 },
 {					
 	"type": "pattern",
-	"name": "StripedCarnival",
-	"svgPatternId": "StripedCarnival",
-	"patternId": { "fill": "url(#StripedCarnival"},
-	"imageUrl": "/builder/resources/patterns/StripedCarnival.jpg"	
+	"name": "CozyStripedCarnival",
+	"svgPatternId": "CozyStripedCarnival",
+	"patternId": { "fill": "url(#CozyStripedCarnival"},
+	"imageUrl": "/builder/resources/patterns/CozyStripedCarnival.jpg"	
 },
 {					
 	"type": "pattern",
-	"name": "StripedCobalt",
-	"svgPatternId": "StripedCobalt",
-	"patternId": { "fill": "url(#StripedCobalt"},
-	"imageUrl": "/builder/resources/patterns/StripedCobalt.jpg"	
+	"name": "CozyStripedCobalt",
+	"svgPatternId": "CozyStripedCobalt",
+	"patternId": { "fill": "url(#CozyStripedCobalt"},
+	"imageUrl": "/builder/resources/patterns/CozyStripedCobalt.jpg"	
 },
 {					
 	"type": "pattern",
-	"name": "Peachicot",
-	"svgPatternId": "Peachicot",
-	"patternId": { "fill": "url(#Peachicot"},
-	"imageUrl": "/builder/resources/patterns/Peachicot.jpg"	
+	"name": "CozyPeachicot",
+	"svgPatternId": "CozyPeachicot",
+	"patternId": { "fill": "url(#CozyPeachicot"},
+	"imageUrl": "/builder/resources/patterns/CozyPeachicot.jpg"	
 },
 {					
 	"type": "pattern",
-	"name": "MelangeAmber",
-	"svgPatternId": "MelangeAmber",
-	"patternId": { "fill": "url(#MelangeAmber"},
-	"imageUrl": "/builder/resources/patterns/MelangeAmber.jpg"	
+	"name": "CozyMelangeAmber",
+	"svgPatternId": "CozyMelangeAmber",
+	"patternId": { "fill": "url(#CozyMelangeAmber"},
+	"imageUrl": "/builder/resources/patterns/CozyMelangeAmber.jpg"	
 },
 {					
 	"type": "pattern",
-	"name": "Black",
-	"svgPatternId": "Black",
-	"patternId": { "fill": "url(#Black"},
-	"imageUrl": "/builder/resources/patterns/Black.jpg"	
+	"name": "CozyBlack",
+	"svgPatternId": "CozyBlack",
+	"patternId": { "fill": "url(#CozyBlack"},
+	"imageUrl": "/builder/resources/patterns/CozyBlack.jpg"	
 },
 {					
 	"type": "pattern",
-	"name": "StripedJelly",
-	"svgPatternId": "StripedJelly",
-	"patternId": { "fill": "url(#StripedJelly"},
-	"imageUrl": "/builder/resources/patterns/StripedJelly.jpg"	
+	"name": "CozyStripedJelly",
+	"svgPatternId": "CozyStripedJelly",
+	"patternId": { "fill": "url(#CozyStripedJelly"},
+	"imageUrl": "/builder/resources/patterns/CozyStripedJelly.jpg"	
 },
 {					
 	"type": "pattern",
-	"name": "StripedCreme",
-	"svgPatternId": "StripedCreme",
-	"patternId": { "fill": "url(#StripedCreme"},
-	"imageUrl": "/builder/resources/patterns/StripedCreme.jpg"	
+	"name": "CozyStripedCreme",
+	"svgPatternId": "CozyStripedCreme",
+	"patternId": { "fill": "url(#CozyStripedCreme"},
+	"imageUrl": "/builder/resources/patterns/CozyStripedCreme.jpg"	
 },	
 {					
 	"type": "pattern",
-	"name": "Bark",
-	"svgPatternId": "Bark",
-	"patternId": { "fill": "url(#Bark"},
-	"imageUrl": "/builder/resources/patterns/Bark.jpg"	
+	"name": "CozyBark",
+	"svgPatternId": "CozyBark",
+	"patternId": { "fill": "url(#CozyBark"},
+	"imageUrl": "/builder/resources/patterns/CozyBark.jpg"	
 },	
 {					
 	"type": "pattern",
-	"name": "Blueberry",
-	"svgPatternId": "Blueberry",
-	"patternId": { "fill": "url(#Blueberry"},
-	"imageUrl": "/builder/resources/patterns/Blueberry.jpg"	
+	"name": "CozyBlueberry",
+	"svgPatternId": "CozyBlueberry",
+	"patternId": { "fill": "url(#CozyBlueberry"},
+	"imageUrl": "/builder/resources/patterns/CozyBlueberry.jpg"	
 },		
 {					
 	"type": "pattern",
-	"name": "Bumbleberry",
-	"svgPatternId": "Bumbleberry",
-	"patternId": { "fill": "url(#Bumbleberry"},
-	"imageUrl": "/builder/resources/patterns/Bumbleberry.jpg"	
+	"name": "CozyBumbleberry",
+	"svgPatternId": "CozyBumbleberry",
+	"patternId": { "fill": "url(#CozyBumbleberry"},
+	"imageUrl": "/builder/resources/patterns/CozyBumbleberry.jpg"	
 },	
 {					
 	"type": "pattern",
-	"name": "Cielo",
-	"svgPatternId": "Cielo",
-	"patternId": { "fill": "url(#Cielo"},
-	"imageUrl": "/builder/resources/patterns/Cielo.jpg"	
+	"name": "CozyCielo",
+	"svgPatternId": "CozyCielo",
+	"patternId": { "fill": "url(#CozyCielo"},
+	"imageUrl": "/builder/resources/patterns/CozyCielo.jpg"	
 },	
 {					
 	"type": "pattern",
-	"name": "Cinnamon",
-	"svgPatternId": "Cinnamon",
-	"patternId": { "fill": "url(#Cinnamon"},
-	"imageUrl": "/builder/resources/patterns/Cinnamon.jpg"	
+	"name": "CozyCinnamon",
+	"svgPatternId": "CozyCinnamon",
+	"patternId": { "fill": "url(#CozyCinnamon"},
+	"imageUrl": "/builder/resources/patterns/CozyCinnamon.jpg"	
 },
 {					
 	"type": "pattern",
-	"name": "Denim",
-	"svgPatternId": "Denim",
-	"patternId": { "fill": "url(#Denim"},
-	"imageUrl": "/builder/resources/patterns/Denim.JPG"	
+	"name": "CozyDenim",
+	"svgPatternId": "CozyDenim",
+	"patternId": { "fill": "url(#CozyDenim"},
+	"imageUrl": "/builder/resources/patterns/CozyDenim.JPG"	
 },		
 {					
 	"type": "pattern",
-	"name": "Fieldberry",
-	"svgPatternId": "Fieldberry",
-	"patternId": { "fill": "url(#Fieldberry"},
-	"imageUrl": "/builder/resources/patterns/Fieldberry.jpg"	
+	"name": "CozyFieldberry",
+	"svgPatternId": "CozyFieldberry",
+	"patternId": { "fill": "url(#CozyFieldberry"},
+	"imageUrl": "/builder/resources/patterns/CozyFieldberry.jpg"	
 },	
 {					
 	"type": "pattern",
-	"name": "Fuchsia",
-	"svgPatternId": "Fuchsia",
-	"patternId": { "fill": "url(#Fuchsia"},
-	"imageUrl": "/builder/resources/patterns/Fuchsia.jpg"	
+	"name": "CozyFuchsia",
+	"svgPatternId": "CozyFuchsia",
+	"patternId": { "fill": "url(#CozyFuchsia"},
+	"imageUrl": "/builder/resources/patterns/CozyFuchsia.jpg"	
 },	
 {					
 	"type": "pattern",
-	"name": "Iris",
-	"svgPatternId": "Iris",
-	"patternId": { "fill": "url(#Iris"},
-	"imageUrl": "/builder/resources/patterns/Iris.jpg"	
+	"name": "CozyIris",
+	"svgPatternId": "CozyIris",
+	"patternId": { "fill": "url(#CozyIris"},
+	"imageUrl": "/builder/resources/patterns/CozyIris.jpg"	
 },	
 {					
 	"type": "pattern",
-	"name": "MelangeFedora",
-	"svgPatternId": "MelangeFedora",
-	"patternId": { "fill": "url(#MelangeFedora"},
-	"imageUrl": "/builder/resources/patterns/MelangeFedora.jpg"	
+	"name": "CozyMelangeFedora",
+	"svgPatternId": "CozyMelangeFedora",
+	"patternId": { "fill": "url(#CozyMelangeFedora"},
+	"imageUrl": "/builder/resources/patterns/CozyMelangeFedora.jpg"	
 },	
 {					
 	"type": "pattern",
-	"name": "Monster",
-	"svgPatternId": "Monster",
-	"patternId": { "fill": "url(#Monster"},
-	"imageUrl": "/builder/resources/patterns/Monster.jpg"	
+	"name": "CozyMonster",
+	"svgPatternId": "CozyMonster",
+	"patternId": { "fill": "url(#CozyMonster"},
+	"imageUrl": "/builder/resources/patterns/CozyMonster.jpg"	
 },	
 {					
 	"type": "pattern",
-	"name": "Napa",
-	"svgPatternId": "Napa",
-	"patternId": { "fill": "url(#Napa"},
-	"imageUrl": "/builder/resources/patterns/Napa.jpg"	
+	"name": "CozyNapa",
+	"svgPatternId": "CozyNapa",
+	"patternId": { "fill": "url(#CozyNapa"},
+	"imageUrl": "/builder/resources/patterns/CozyNapa.jpg"	
 },	
 {					
 	"type": "pattern",
-	"name": "Ocean",
-	"svgPatternId": "Ocean",
-	"patternId": { "fill": "url(#Ocean"},
-	"imageUrl": "/builder/resources/patterns/Ocean.jpg"	
+	"name": "CozyOcean",
+	"svgPatternId": "CozyOcean",
+	"patternId": { "fill": "url(#CozyOcean"},
+	"imageUrl": "/builder/resources/patterns/CozyOcean.jpg"	
 },	
 {					
 	"type": "pattern",
-	"name": "PINK",
-	"svgPatternId": "PINK",
-	"patternId": { "fill": "url(#PINK"},
-	"imageUrl": "/builder/resources/patterns/PINK.jpg"	
+	"name": "CozyPINK",
+	"svgPatternId": "CozyPINK",
+	"patternId": { "fill": "url(#CozyPINK"},
+	"imageUrl": "/builder/resources/patterns/CozyPINK.jpg"	
 },
 {					
 	"type": "pattern",
-	"name": "Pomegranate",
-	"svgPatternId": "Pomegranate",
-	"patternId": { "fill": "url(#Pomegranate"},
-	"imageUrl": "/builder/resources/patterns/Pomegranate.jpg"	
+	"name": "CozyPomegranate",
+	"svgPatternId": "CozyPomegranate",
+	"patternId": { "fill": "url(#CozyPomegranate"},
+	"imageUrl": "/builder/resources/patterns/CozyPomegranate.jpg"	
 },		
 {					
 	"type": "pattern",
-	"name": "Shiraz",
-	"svgPatternId": "Shiraz",
-	"patternId": { "fill": "url(#Shiraz)"},
-	"imageUrl": "/builder/resources/patterns/Shiraz.jpg"	
+	"name": "CozyShiraz",
+	"svgPatternId": "CozyShiraz",
+	"patternId": { "fill": "url(#CozyShiraz)"},
+	"imageUrl": "/builder/resources/patterns/CozyShiraz.jpg"	
 },	
 {					
 	"type": "pattern",
-	"name": "Slate",
-	"svgPatternId": "Slate",
-	"patternId": { "fill": "url(#Slate)"},
-	"imageUrl": "/builder/resources/patterns/Slate.jpg"	
+	"name": "CozySlate",
+	"svgPatternId": "CozySlate",
+	"patternId": { "fill": "url(#CozySlate)"},
+	"imageUrl": "/builder/resources/patterns/CozySlate.jpg"	
 },
 {					
 	"type": "pattern",
