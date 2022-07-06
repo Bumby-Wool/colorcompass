@@ -2,10 +2,10 @@
    { "name": "CozyBlack" },
 {					
 	"type": "pattern",
-	"name": "CozyMelangeBisoctti",
-	"svgPatternId": "CozyMelangeBisoctti",
-	"patternId": { "fill": "url(#CozyMelangeBisoctti"},
-	"imageUrl": "/builder/resources/patterns/CozyMelangeBisoctti.jpg"
+	"name": "CozyMelangeAnise",
+	"svgPatternId": "CozyMelangeAnise",
+	"patternId": { "fill": "url(#CozyMelangeAnise"},
+	"imageUrl": "/builder/resources/patterns/CozyMelangeAnise.jpg"
 },
 {					
 	"type": "pattern",
