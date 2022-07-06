@@ -2,10 +2,10 @@
    { "name": "CozyBlack" },
 {					
 	"type": "pattern",
-	"name": "CozyMelangeAnise",
-	"svgPatternId": "CozyMelangeAnise",
-	"patternId": { "fill": "url(#CozyMelangeAnise"},
-	"imageUrl": "/builder/resources/patterns/CozyMelangeAnise.jpg"	
+	"name": "CozyMelangeBisoctti",
+	"svgPatternId": "CozyMelangeBisoctti",
+	"patternId": { "fill": "url(#CozyMelangeBisoctti"},
+	"imageUrl": "/builder/resources/patterns/CozyMelangeBisoctti.jpg"	
 },
 {					
 	"type": "pattern",
@@ -23,10 +23,10 @@
 },	
 {					
 	"type": "pattern",
-	"name": "CozyStripedPaintSplatter",
-	"svgPatternId": "CozyStripedPaintSplatter",
-	"patternId": { "fill": "url(#CozyStripedPaintSplatter"},
-	"imageUrl": "/builder/resources/patterns/CozyStripedSplatter.jpg"	
+	"name": "CozyStripedSplat",
+	"svgPatternId": "CozyStripedSplat",
+	"patternId": { "fill": "url(#CozyStripedSplat"},
+	"imageUrl": "/builder/resources/patterns/CozyStripedSplat.jpg"	
 },	
 {					
 	"type": "pattern",
