@@ -6,12 +6,14 @@
 	"svgPatternId": "CozyMelangeBisoctti",
 	"patternId": { "fill": "url(#CozyMelangeBisoctti"},
 	"imageUrl": "/builder/resources/patterns/CozyMelangeBisoctti.jpg"
+},
 {					
 	"type": "pattern",
 	"name": "DurasoftMelangeAnemone",
 	"svgPatternId": "DurasoftMelangeAnemone",
 	"patternId": { "fill": "url(#DurasoftMelangeAnemone"},
-	"imageUrl": "/builder/resources/patterns/DurasoftMelangeAnemone.jpg"	
+	"imageUrl": "/builder/resources/patterns/DurasoftMelangeAnemone.jpg"
+},	
 {					
 	"type": "pattern",
 	"name": "DurasoftMelangeMidnight",
