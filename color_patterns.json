@@ -184,10 +184,10 @@
 },
 {					
 	"type": "pattern",
-	"name": "DurasoftAura",
-	"svgPatternId": "DurasoftAura",
-	"patternId": { "fill": "url(#DurasoftAura"},
-	"imageUrl": "/builder/resources/patterns/DurasoftAura.jpg"	
+	"name": "DurasoftOura",
+	"svgPatternId": "DurasoftOura",
+	"patternId": { "fill": "url(#DurasoftOuraa"},
+	"imageUrl": "/builder/resources/patterns/DurasoftOura.jpg"	
 },
 {					
 	"type": "pattern",
