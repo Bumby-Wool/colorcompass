@@ -5,7 +5,19 @@
 	"name": "CozyMelangeBisoctti",
 	"svgPatternId": "CozyMelangeBisoctti",
 	"patternId": { "fill": "url(#CozyMelangeBisoctti"},
-	"imageUrl": "/builder/resources/patterns/CozyMelangeBisoctti.jpg"	
+	"imageUrl": "/builder/resources/patterns/CozyMelangeBisoctti.jpg"
+{					
+	"type": "pattern",
+	"name": "DurasoftMelangeAnemone",
+	"svgPatternId": "DurasoftMelangeAnemone",
+	"patternId": { "fill": "url(#DurasoftMelangeAnemone"},
+	"imageUrl": "/builder/resources/patterns/DurasoftMelangeAnemone.jpg"	
+{					
+	"type": "pattern",
+	"name": "DurasoftMelangeMidnight",
+	"svgPatternId": "DurasoftMelangeMidnight",
+	"patternId": { "fill": "url(#DurasoftMelangeMidnight"},
+	"imageUrl": "/builder/resources/patterns/DurasoftMelangeMidnight.jpg"		
 },
 {					
 	"type": "pattern",
