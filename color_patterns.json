@@ -268,10 +268,10 @@
 },
 {					
 	"type": "pattern",
-	"name": "Durasoft Spirt",
-	"svgPatternId": "DurasoftSpirt",
-	"patternId": { "fill": "url(#DurasoftSpirt"},
-	"imageUrl": "/builder/resources/patterns/DurasoftSpirt.jpg"	
+	"name": "Durasoft Spirit",
+	"svgPatternId": "DurasoftSpirit",
+	"patternId": { "fill": "url(#DurasoftSpirit"},
+	"imageUrl": "/builder/resources/patterns/DurasoftSpirit.jpg"	
 },
 {					
 	"type": "pattern",
