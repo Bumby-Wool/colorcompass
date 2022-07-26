@@ -684,7 +684,7 @@
         "name": "Cozy Striped Rose Water",
         "svgPatternId": "CozyStripedRoseWater",
         "patternId": { "fill": "url(#CozyStripedRoseWater)"},
-        "imageUrl": "/builder/resources/patterns/CozyStripedRoseWater.jpg"
+        "imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedRoseWater.jpg"
     },
     {
         "type": "pattern",
