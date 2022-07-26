@@ -369,7 +369,7 @@
 	"name": "Cozy Black",
 	"svgPatternId": "CozyBlack",
 	"patternId": { "fill": "url(#CozyBlack"},
-	"imageUrl": "/builder/resources/patterns/CozyBlack.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyBlack.jpg"	
 },
 {					
 	"type": "pattern",
