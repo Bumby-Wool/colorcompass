@@ -397,7 +397,7 @@
 	"name": "Cozy Blueberry",
 	"svgPatternId": "CozyBlueberry",
 	"patternId": { "fill": "url(#CozyBlueberry"},
-	"imageUrl": "/builder/resources/patterns/CozyBlueberry.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyBlueberry.jpg"	
 },		
 {					
 	"type": "pattern",
