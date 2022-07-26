@@ -418,7 +418,7 @@
 	"name": "Cozy Cinnamon",
 	"svgPatternId": "CozyCinnamon",
 	"patternId": { "fill": "url(#CozyCinnamon"},
-	"imageUrl": "/builder/resources/patterns/CozyCinnamon.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyCinnamon.jpg"	
 },
 {					
 	"type": "pattern",
