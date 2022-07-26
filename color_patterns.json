@@ -390,7 +390,7 @@
 	"name": "Cozy Bark",
 	"svgPatternId": "CozyBark",
 	"patternId": { "fill": "url(#CozyBark"},
-	"imageUrl": "/builder/resources/patterns/CozyBark.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyBark.jpg"	
 },	
 {					
 	"type": "pattern",
