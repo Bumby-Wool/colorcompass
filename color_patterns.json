@@ -5,28 +5,28 @@
 	"name": "Cozy Melange Biscotti",
 	"svgPatternId": "CozyMelangeBiscotti",
 	"patternId": { "fill": "url(#CozyMelangeBiscotti"},
-	"imageUrl": "/builder/resources/patterns/CozyMelangeBiscotti.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyMelangeBiscotti.jpg"
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Melange Anemone",
 	"svgPatternId": "DurasoftMelangeAnemone",
 	"patternId": { "fill": "url(#DurasoftMelangeAnemone"},
-	"imageUrl": "/builder/resources/patterns/DurasoftMelangeAnemone.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftMelangeAnemone.jpg"
 },	
 {					
 	"type": "pattern",
 	"name": "Durasoft Melange Midnight",
 	"svgPatternId": "DurasoftMelangeMidnight",
 	"patternId": { "fill": "url(#DurasoftMelangeMidnight"},
-	"imageUrl": "/builder/resources/patterns/DurasoftMelangeMidnight.jpg"		
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftMelangeMidnight.jpg"		
 },
 {					
 	"type": "pattern",
 	"name": "Cozy Sunset",
 	"svgPatternId": "CozySunset",
 	"patternId": { "fill": "url(#CozySunset"},
-	"imageUrl": "/builder/resources/patterns/CozySunset.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozySunset.jpg"	
 },
 {					
 	"type": "pattern",
@@ -40,224 +40,224 @@
 	"name": "Cozy Striped Static",
 	"svgPatternId": "CozyStripedStatic",
 	"patternId": { "fill": "url(#CozyStripedStatic"},
-	"imageUrl": "/builder/resources/patterns/CozyStripedStatic.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedStatic.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Cozy Striped Venomous",
 	"svgPatternId": "CozyStripedVenomous",
 	"patternId": { "fill": "url(#CozyStripedVenomous"},
-	"imageUrl": "/builder/resources/patterns/CozyStripedVenomous.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedVenomous.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Cozy Melted Candies",
 	"svgPatternId": "CozyMeltedCandies",
 	"patternId": { "fill": "url(#CozyMeltedCandies"},
-	"imageUrl": "/builder/resources/patterns/CozyMeltedCandies.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyMeltedCandies.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Truffle",
 	"svgPatternId": "DurasoftTruffle",
 	"patternId": { "fill": "url(#DurasoftTruffle"},
-	"imageUrl": "/builder/resources/patterns/DurasoftTruffle.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftTruffle.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Rapsody",
 	"svgPatternId": "DurasoftRapsody",
 	"patternId": { "fill": "url(#DurasoftRapsody"},
-	"imageUrl": "/builder/resources/patterns/DurasoftRapsody.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftRapsody.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Frequency",
 	"svgPatternId": "DurasoftFrequency",
 	"patternId": { "fill": "url(#DurasoftFrequency"},
-	"imageUrl": "/builder/resources/patterns/DurasoftFrequency.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftFrequency.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Intuition",
 	"svgPatternId": "DurasoftIntuition",
 	"patternId": { "fill": "url(#DurasoftIntuition"},
-	"imageUrl": "/builder/resources/patterns/DurasoftIntuition.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftIntuition.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Glimpse",
 	"svgPatternId": "DurasoftGlimpse",
 	"patternId": { "fill": "url(#DurasoftGlimpse"},
-	"imageUrl": "/builder/resources/patterns/DurasoftGlimpse.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftGlimpse.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Bluebells",
 	"svgPatternId": "DurasoftBluebells",
 	"patternId": { "fill": "url(#DurasoftBluebells"},
-	"imageUrl": "/builder/resources/patterns/DurasoftBluebells.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftBluebells.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Walkway",
 	"svgPatternId": "DurasoftWalkway",
 	"patternId": { "fill": "url(#DurasoftWalkway"},
-	"imageUrl": "/builder/resources/patterns/DurasoftWalkway.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftWalkway.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Tidal",
 	"svgPatternId": "DurasoftTidal",
 	"patternId": { "fill": "url(#DurasoftTidal"},
-	"imageUrl": "/builder/resources/patterns/DurasoftTidal.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftTidal.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Inspire",
 	"svgPatternId": "DurasoftInspire",
 	"patternId": { "fill": "url(#DurasoftInspire"},
-	"imageUrl": "/builder/resources/patterns/DurasoftInspire.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftInspire.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Lovespell",
 	"svgPatternId": "DurasoftLovespell",
 	"patternId": { "fill": "url(#DurasoftLovespell"},
-	"imageUrl": "/builder/resources/patterns/DurasoftLovespell.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftLovespell.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Ignition",
 	"svgPatternId": "DurasoftIgnition",
 	"patternId": { "fill": "url(#DurasoftIgnition"},
-	"imageUrl": "/builder/resources/patterns/DurasoftIgnition.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftIgnition.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Embers",
 	"svgPatternId": "DurasoftEmbers",
 	"patternId": { "fill": "url(#DurasoftEmbers"},
-	"imageUrl": "/builder/resources/patterns/DurasoftEmbers.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftEmbers.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Serendipity",
 	"svgPatternId": "DurasoftSerendipity",
 	"patternId": { "fill": "url(#DurasoftSerendipity"},
-	"imageUrl": "/builder/resources/patterns/DurasoftSerendipity.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftSerendipity.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Awaken",
 	"svgPatternId": "DurasoftAwaken",
 	"patternId": { "fill": "url(#DurasoftAwaken"},
-	"imageUrl": "/builder/resources/patterns/DurasoftAwaken.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftAwaken.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Ambience",
 	"svgPatternId": "DurasoftAmbience",
 	"patternId": { "fill": "url(#DurasoftAmbience"},
-	"imageUrl": "/builder/resources/patterns/DurasoftAmbience.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftAmbience.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Hidden Warrior",
 	"svgPatternId": "DurasoftHiddenWarrior",
 	"patternId": { "fill": "url(#DurasoftHiddenWarrior"},
-	"imageUrl": "/builder/resources/patterns/DurasoftHiddenWarrior.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftHiddenWarrior.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Zing",
 	"svgPatternId": "DurasoftZing",
 	"patternId": { "fill": "url(#DurasoftZing"},
-	"imageUrl": "/builder/resources/patterns/DurasoftZing.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftZing.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Koala",
 	"svgPatternId": "DurasoftKoala",
 	"patternId": { "fill": "url(#DurasoftKoala"},
-	"imageUrl": "/builder/resources/patterns/DurasoftKoala.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftKoala.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Lucid",
 	"svgPatternId": "DurasoftLucid",
 	"patternId": { "fill": "url(#DurasoftLucid"},
-	"imageUrl": "/builder/resources/patterns/DurasoftLucid.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftLucid.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Oura",
 	"svgPatternId": "DurasoftOura",
 	"patternId": { "fill": "url(#DurasoftOuraa"},
-	"imageUrl": "/builder/resources/patterns/DurasoftOura.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftOura.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Indulge",
 	"svgPatternId": "DurasoftIndulge",
 	"patternId": { "fill": "url(#DurasoftIndulge"},
-	"imageUrl": "/builder/resources/patterns/DurasoftIndulge.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftIndulge.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Tangelo",
 	"svgPatternId": "DurasoftTangelo",
 	"patternId": { "fill": "url(#DurasoftTangelo"},
-	"imageUrl": "/builder/resources/patterns/DurasoftTangelo.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftTangelo.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Daffodil",
 	"svgPatternId": "DurasoftDaffodil",
 	"patternId": { "fill": "url(#DurasoftDaffodil"},
-	"imageUrl": "/builder/resources/patterns/DurasoftDaffodil.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftDaffodil.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Haze Melange",
 	"svgPatternId": "DurasoftHazeMelange",
 	"patternId": { "fill": "url(#DurasoftHazeMelange"},
-	"imageUrl": "/builder/resources/patterns/DurasoftHazeMelange.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftHazeMelange.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Saffron Melange",
 	"svgPatternId": "DurasoftSaffronMelange",
 	"patternId": { "fill": "url(#DurasoftSaffronMelange"},
-	"imageUrl": "/builder/resources/patterns/DurasoftSaffronMelange.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftSaffronMelange.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Crystal Melange",
 	"svgPatternId": "DurasoftCrystalMelange",
 	"patternId": { "fill": "url(#DurasoftCrystalMelange"},
-	"imageUrl": "/builder/resources/patterns/DurasoftCrystalMelange.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftCrystalMelange.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Rose Petal Melange",
 	"svgPatternId": "DurasoftRosePetalMelange",
 	"patternId": { "fill": "url(#DurasoftRosePetalMelange"},
-	"imageUrl": "/builder/resources/patterns/DurasoftRosePetalMelange.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftRosePetalMelange.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Cherry Blossom Melange",
 	"svgPatternId": "DurasoftCherryBlossomMelange",
 	"patternId": { "fill": "url(#DurasoftCherryBlossomMelange"},
-	"imageUrl": "/builder/resources/patterns/DurasoftCherryBlossomMelange.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftCherryBlossomMelange.jpg"	
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Buttercup",
 	"svgPatternId": "DurasoftButtercup",
 	"patternId": { "fill": "url(#DurasoftButtercup"},
-	"imageUrl": "/builder/resources/patterns/DurasoftButtercup.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftButtercup.jpg"	
 },
 {					
 	"type": "pattern",
