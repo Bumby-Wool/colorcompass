@@ -516,7 +516,7 @@
 	"name": "Cozy Striped Conductor",
 	"svgPatternId": "CozyStripedConductor",
 	"patternId": { "fill": "url(#CozyStripedConductor)"},
-	"imageUrl": "/builder/resources/patterns/CozyStripedConductor.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedConductor.jpg"
    },	
    {					
 	"type": "pattern",
