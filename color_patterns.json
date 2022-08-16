@@ -405,13 +405,6 @@
 	"svgPatternId": "CozyCinnamon",
 	"patternId": { "fill": "url(#CozyCinnamon"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyCinnamon.jpg"	
-},
-{					
-	"type": "pattern",
-	"name": "Cozy Denim",
-	"svgPatternId": "CozyDenim",
-	"patternId": { "fill": "url(#CozyDenim"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyDenim.JPG"	
 },		
 {					
 	"type": "pattern",
@@ -447,14 +440,7 @@
 	"svgPatternId": "CozyMonster",
 	"patternId": { "fill": "url(#CozyMonster"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyMonster.jpg"	
-},		
-{					
-	"type": "pattern",
-	"name": "Cozy Ocean",
-	"svgPatternId": "CozyOcean",
-	"patternId": { "fill": "url(#CozyOcean"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyOcean.jpg"	
-},	
+},			
 {					
 	"type": "pattern",
 	"name": "Cozy PINK",
@@ -639,13 +625,6 @@
     },
     {
         "type": "pattern",
-        "name": "Cozy Striped Rose Water",
-        "svgPatternId": "CozyStripedRoseWater",
-        "patternId": { "fill": "url(#CozyStripedRoseWater)"},
-        "imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedRoseWater.jpg"
-    },
-    {
-        "type": "pattern",
         "name": "Cozy Courage",
         "svgPatternId": "CozyCourage",
         "patternId": { "fill": "url(#CozyCourage)"},
@@ -734,13 +713,6 @@
         "svgPatternId": "CozyStripedIceDragon",
         "patternId": { "fill": "url(#CozyStripedIceDragon)"},
         "imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedIceDragon.jpg"
-    },
-    {
-        "type": "pattern",
-        "name": "Cozy Striped Smoke",
-        "svgPatternId": "CozyStripedSmoke",
-        "patternId": { "fill": "url(#CozyStripedSmoke)"},
-        "imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedSmoke.jpg"
     },
     { "type": "zipper", "name":"Aqua" },
     { "type": "zipper", "name":"ArmyGreen" },
