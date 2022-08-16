@@ -523,7 +523,7 @@
 	"name": "Cozy Striped Flamingo",
 	"svgPatternId": "CozyStripedFlamingo",
 	"patternId": { "fill": "url(#CozyStripedFlamingo)"},
-	"imageUrl": "/builder/resources/patterns/CozyStripedFlamingo.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedFlamingo.jpg"
    },
    {					
 	"type": "pattern",
