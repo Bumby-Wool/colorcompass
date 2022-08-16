@@ -509,7 +509,7 @@
 	"name": "Cozy Striped Cardinal",
 	"svgPatternId": "CozyStripedCardinal",
 	"patternId": { "fill": "url(#CozyStripedCardinal)"},
-	"imageUrl": "/builder/resources/patterns/CozyStripedCardinal.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedCardinal.jpg"
    },
    {					
 	"type": "pattern",
