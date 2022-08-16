@@ -747,7 +747,7 @@
         "name": "Cozy Striped Chanterelle",
         "svgPatternId": "CozyStripedChanterelle",
         "patternId": { "fill": "url(#CozyStripedChanterelle)"},
-        "imageUrl": "/builder/resources/patterns/CozyStripedChanterelle.jpg"
+        "imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedChanterelle.jpg"
     },
     {
         "type": "pattern",
