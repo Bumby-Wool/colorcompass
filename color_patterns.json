@@ -502,7 +502,7 @@
 	"name": "Cozy Striped Butterfly",
 	"svgPatternId": "CozyStripedButterfly",
 	"patternId": { "fill": "url(#CozyStripedButterfly)"},
-	"imageUrl": "/builder/resources/patterns/CozyStripedButterfly.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedButterfly.jpg"
    },	
    {					
 	"type": "pattern",
