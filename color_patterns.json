@@ -716,13 +716,6 @@
     },
     {
         "type": "pattern",
-        "name": "Cozy Reef",
-        "svgPatternId": "CozyReef",
-        "patternId": { "fill": "url(#CozyReef)"},
-        "imageUrl": "/builder/resources/patterns/CozyReef.jpg"
-    },
-    {
-        "type": "pattern",
         "name": "Cozy Smashed Cranberries",
         "svgPatternId": "CozySmashedCranberries",
         "patternId": { "fill": "url(#CozySmashedCranberries)"},
@@ -754,7 +747,7 @@
         "name": "Cozy Striped Frozen Lagoon",
         "svgPatternId": "CozyStripedFrozenLagoon",
         "patternId": { "fill": "url(#CozyStripedFrozenLagoon)"},
-        "imageUrl": "/builder/resources/patterns/CozyStripedFrozenLagoon.jpg"
+        "imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedFrozenLagoon.jpg"
     },
     {
         "type": "pattern",
