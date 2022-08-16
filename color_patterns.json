@@ -495,7 +495,7 @@
 	"name": "Cozy Striped Biscuit",
 	"svgPatternId": "CozyStripedBiscuit",
 	"patternId": { "fill": "url(#CozyStripedBiscuit)"},
-	"imageUrl": "/builder/resources/patterns/CozyStripedBiscuit.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedBiscuit.jpg"
   },	
   {					
 	"type": "pattern",
