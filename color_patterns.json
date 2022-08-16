@@ -740,7 +740,7 @@
         "name": "Cozy Striped Actinia",
         "svgPatternId": "CozyStripedActinia",
         "patternId": { "fill": "url(#CozyStripedActinia)"},
-        "imageUrl": "/builder/resources/patterns/CozyStripedActinia.jpg"
+        "imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedActinia.jpg"
     },
     {
         "type": "pattern",
