@@ -537,7 +537,7 @@
 	"name": "Cozy Striped Hay",
 	"svgPatternId": "CozyStripedHay",
 	"patternId": { "fill": "url(#CozyStripedHay)"},
-	"imageUrl": "/builder/resources/patterns/CozyStripedHay.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedHay.jpg"
    },		
    {					
 	"type": "pattern",
