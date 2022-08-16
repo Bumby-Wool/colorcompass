@@ -489,15 +489,8 @@
 	"svgPatternId": "CozySmooch",
 	"patternId": { "fill": "url(#CozySmooch)"},
 	"imageUrl": "/builder/resources/patterns/CozySmooch.jpg"
-},	
+},			 
 {					
-	"type": "pattern",
-	"name": "Cozy Striped Amethyst",
-	"svgPatternId": "CozyStripedAmethyst",
-	"patternId": { "fill": "url(#CozyStripedAmethyst)"},
-	"imageUrl": "/builder/resources/patterns/CozyStripedAmethyst.jpg"
- },		
- {					
 	"type": "pattern",
 	"name": "Cozy Striped Biscuit",
 	"svgPatternId": "CozyStripedBiscuit",
@@ -747,7 +740,7 @@
         "name": "Cozy Striped Aurora",
         "svgPatternId": "CozyStripedAurora",
         "patternId": { "fill": "url(#CozyStripedAurora)"},
-        "imageUrl": "/builder/resources/patterns/CozyStripedAurora.jpg"
+        "imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedAurora.jpg"
     },
     {
         "type": "pattern",
