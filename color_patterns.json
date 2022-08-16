@@ -530,7 +530,7 @@
 	"name": "Cozy StripedForest Campsite",
 	"svgPatternId": "CozyStripedForestCampsite",
 	"patternId": { "fill": "url(#CozyStripedForestCampsite)"},
-	"imageUrl": "/builder/resources/patterns/CozyStripedForestCampsite.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedForestCampsite.jpg"
    },	
    {					
 	"type": "pattern",
