@@ -13,6 +13,13 @@
 	"svgPatternId": "DurasoftMelangeAnemone",
 	"patternId": { "fill": "url(#DurasoftMelangeAnemone"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftMelangeAnemone.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Cozy Masa",
+	"svgPatternId": "CozyMasa",
+	"patternId": { "fill": "url(#CozyMasa"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyMasa.jpg"
 },	
 {					
 	"type": "pattern",
