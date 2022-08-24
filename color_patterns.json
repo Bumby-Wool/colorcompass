@@ -20,6 +20,13 @@
 	"svgPatternId": "CozyMasa",
 	"patternId": { "fill": "url(#CozyMasa"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/8/BuilderCozyMasa.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Cozy Paleta De Carnaval",
+	"svgPatternId": "CozyPaletaDeCarnaval",
+	"patternId": { "fill": "url(#CozyPaletaDeCarnaval"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/8/BuilderCozyPaletaDeCarnaval.jpg"
 },	
 {					
 	"type": "pattern",
