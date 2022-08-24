@@ -69,6 +69,13 @@
 	"svgPatternId": "DurasoftNapaMelange",
 	"patternId": { "fill": "url(#DurasoftNapaMelange"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/08/BuilderDurasoftNapaMelange.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Durasoft Neptune Melange",
+	"svgPatternId": "DurasoftNeptuneMelange",
+	"patternId": { "fill": "url(#DurasoftNeptuneMelange"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/08/BuilderDurasoftNeptuneMelange.jpg"
 },	
 {					
 	"type": "pattern",
