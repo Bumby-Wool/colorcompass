@@ -41,6 +41,13 @@
 	"svgPatternId": "CozyStripedUrsula",
 	"patternId": { "fill": "url(#CozyStripedUrsula"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/08/BuilderCozyStripedUrsula.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Cozy Tink",
+	"svgPatternId": "CozyTink",
+	"patternId": { "fill": "url(#CozyTink"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/08/BuilderCozyTink.jpg"
 },	
 {					
 	"type": "pattern",
