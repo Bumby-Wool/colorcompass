@@ -19,21 +19,21 @@
 	"name": "Cozy Masa",
 	"svgPatternId": "CozyMasa",
 	"patternId": { "fill": "url(#CozyMasa"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/8/BuilderCozyMasa.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/08/BuilderCozyMasa.jpg"
 },
 {					
 	"type": "pattern",
 	"name": "Cozy Paleta De Carnaval",
 	"svgPatternId": "CozyPaletaDeCarnaval",
 	"patternId": { "fill": "url(#CozyPaletaDeCarnaval"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/8/BuilderCozyPaletaDeCarnaval.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/08/BuilderCozyPaletaDeCarnaval.jpg"
 },
 {					
 	"type": "pattern",
 	"name": "Cozy Striped Toasted",
 	"svgPatternId": "CozyStripedToasted",
 	"patternId": { "fill": "url(#CozyStripedToasted"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/8/BuilderCozyStripedToasted.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/08/BuilderCozyStripedToasted.jpg"
 },	
 {					
 	"type": "pattern",
