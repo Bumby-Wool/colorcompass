@@ -58,6 +58,13 @@
 },	
 {					
 	"type": "pattern",
+	"name": "Durasoft Doug Jr Melange",
+	"svgPatternId": "DurasoftDougJrMelange",
+	"patternId": { "fill": "url(#DurasoftDougJrMelange"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/08/BuilderDurasoftDougJrMelange.jpg"
+},	
+{					
+	"type": "pattern",
 	"name": "Durasoft Melange Midnight",
 	"svgPatternId": "DurasoftMelangeMidnight",
 	"patternId": { "fill": "url(#DurasoftMelangeMidnight"},
