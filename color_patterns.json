@@ -383,7 +383,7 @@
 	"name": "Cozy Striped Rosewood",
 	"svgPatternId": "CozyStripedRosewood",
 	"patternId": { "fill": "url(#CozyStripedRosewood"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedRosewood.jpg"	
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/08/BuilderCozyStripedRosewood.jpg"	
 },
 {					
 	"type": "pattern",
@@ -728,13 +728,6 @@
         "patternId": { "fill": "url(#CozyHeartsong)"},
         "imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyHeartsong.jpg"
     },
-    {
-        "type": "pattern",
-        "name": "Cozy Lava Love",
-        "svgPatternId": "CozyLavaLove",
-        "patternId": { "fill": "url(#CozyLavaLove)"},
-        "imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyLavaLove.jpg"
-    },	
     {
         "type": "pattern",
         "name": "Cozy Striped Marvelous",
