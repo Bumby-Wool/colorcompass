@@ -394,13 +394,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Cozy Striped Shroom",
-	"svgPatternId": "CozyStripedShroom",
-	"patternId": { "fill": "url(#CozyStripedShroom"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedShroom.jpg"	
-},
-{					
-	"type": "pattern",
 	"name": "Cozy Striped Cobalt",
 	"svgPatternId": "CozyStripedCobalt",
 	"patternId": { "fill": "url(#CozyStripedCobalt"},
