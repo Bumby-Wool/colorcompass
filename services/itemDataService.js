@@ -29,7 +29,7 @@ angular.module('bumbyApp')
                         options: [
                             { label: "Waist", elements: ["azleft_Tab", "azright_Tab"] },
                             { label: "Body", elements: ["AZMiddle"] },
-                            { label: "Leg Cuffs", elements: ["AZLeft_Cuff", "AZRight_Cuff"] }
+                            { label: "Leg Cuffs", elements: ["AZLeftCuff", "AZRightCuff"] }
                         ],
                         extras: []
                     },
