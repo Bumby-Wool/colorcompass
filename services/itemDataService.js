@@ -20,7 +20,7 @@ angular.module('bumbyApp')
                         options: [
                             { label: "Waist", elements: ["bwaistband"] },
                             { label: "Body", elements: ["bbody"] },
-                            { label: "Leg Cuffs", elements: ["bleftCuff", "brightCuff"] }
+                            { label: "Leg Cuffs", elements: ["BreifLeftCuff", "BreifRightCuff"] }
                         ],
                         extras: []
                     },
@@ -66,6 +66,39 @@ angular.module('bumbyApp')
                     },
                     {
                         label: "Joggers",
+                        options: [
+                            { label: "Waist", elements: ["waistband"] },
+                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
+                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Cuffed",
+                        options: [
+                            { label: "Waist", elements: ["waistband"] },
+                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
+                            { label: "Leg Cuffs", elements: ["rightLongCuff", "leftLongCuff"] }
+                        ],
+                        extras: []
+                    }
+                ]
+            },
+            {
+                title: "crops",
+                link: "/items/crops",
+                image: "resources/CropsEuros.png",
+                variants: [
+                    {
+                        label: "Hemmed",
+                        options: [
+                            { label: "Waist", elements: ["waistband"] },
+                            { label: "Legs", elements: ["leftLeg", "rightLeg"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Euros",
                         options: [
                             { label: "Waist", elements: ["waistband"] },
                             { label: "Legs", elements: ["leftLeg", "rightLeg"] },
