@@ -7,14 +7,32 @@ angular.module('bumbyApp')
                 image: "resources/diapercover.png",
                 variants: [
                     {
-                        label: "",
+                        label: "Traditional",
                         options: [
                             { label: "Waist", elements: ["waistband"] },
                             { label: "Body", elements: ["body"] },
                             { label: "Leg Cuffs", elements: ["leftCuff", "rightCuff"] }
                         ],
                         extras: []
-                    }
+                    },
+                    {
+                        label: "Briefs",
+                        options: [
+                            { label: "Waist", elements: ["bwaistband"] },
+                            { label: "Body", elements: ["bbody"] },
+                            { label: "Leg Cuffs", elements: ["bleftCuff", "brightCuff"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Abrazo",
+                        options: [
+                            { label: "Waist", elements: ["azlwaistband", "azrwaistband"] },
+                            { label: "Body", elements: ["azbody"] },
+                            { label: "Leg Cuffs", elements: ["azleftCuff", "azrightCuff"] }
+                        ],
+                        extras: []
+                    },
                 ]
             },
             {
