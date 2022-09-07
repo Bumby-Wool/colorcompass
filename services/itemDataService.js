@@ -27,7 +27,7 @@ angular.module('bumbyApp')
                     {
                         label: "Abrazo",
                         options: [
-                            { label: "Waist", elements: ["azleft_Tab", "azright_Tab"] },
+                            { label: "Waist", elements: ["azleftTab", "azrightTab"] },
                             { label: "Body", elements: ["AZMiddle"] },
                             { label: "Leg Cuffs", elements: ["AZLeftCuff", "AZRightCuff"] }
                         ],
