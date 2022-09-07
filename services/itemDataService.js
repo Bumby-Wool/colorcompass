@@ -9,17 +9,17 @@ angular.module('bumbyApp')
                     {
                         label: "Traditional",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Body", elements: ["body"] },
-                            { label: "Leg Cuffs", elements: ["leftCuff", "rightCuff"] }
+                            { label: "Waist", elements: ["TDCWaistband"] },
+                            { label: "Body", elements: ["TDCBody"] },
+                            { label: "Leg Cuffs", elements: ["TDCLeftCuff", "TDCRightCuff"] }
                         ],
                         extras: []
                     },
                     {
                         label: "Briefs",
                         options: [
-                            { label: "Waist", elements: ["bwaistband"] },
-                            { label: "Body", elements: ["bbody"] },
+                            { label: "Waist", elements: ["BriefWaistband"] },
+                            { label: "Body", elements: ["BriefBody"] },
                             { label: "Leg Cuffs", elements: ["BreifLeftCuff", "BreifRightCuff"] }
                         ],
                         extras: []
@@ -27,9 +27,9 @@ angular.module('bumbyApp')
                     {
                         label: "Abrazo",
                         options: [
-                            { label: "Waist", elements: ["azlwaistband", "azrwaistband"] },
-                            { label: "Body", elements: ["azbody"] },
-                            { label: "Leg Cuffs", elements: ["azleftCuff", "azrightCuff"] }
+                            { label: "Waist", elements: ["azleft_Tab", "azright_Tab", "AZTablines1", "AZTablines2", "AZTablines3"] },
+                            { label: "Body", elements: ["AZMiddle"] },
+                            { label: "Leg Cuffs", elements: ["AZLeft_Cuff", "AZRight_Cuff"] }
                         ],
                         extras: []
                     },
