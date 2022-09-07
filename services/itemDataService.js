@@ -2,6 +2,20 @@ angular.module('bumbyApp')
     .factory('itemData', function () {
         return [
             {
+                title: "Test Pants",
+                link: "/items/testpants",
+                image: "resources/Baby-Standard-Pants-Mild-Tapered-Hemmed-Main.png",
+                variants: [
+                    {
+                        label: "Hemmed",
+                        options: [
+                            { label: "Waist", elements: ["waistband"] }
+                        ],
+                        extras: []
+                    },
+                ]
+            },
+            {
                 title: "Diaper Cover",
                 link: "/items/diapercover",
                 image: "resources/diapercover.png",
