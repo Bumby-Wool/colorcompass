@@ -20,14 +20,14 @@ angular.module('bumbyApp')
                         options: [
                             { label: "Waist", elements: ["BriefWaistband"] },
                             { label: "Body", elements: ["BriefBody"] },
-                            { label: "Leg Cuffs", elements: ["BreifLeftCuff", "BreifRightCuff"] }
+                            { label: "Leg Cuffs", elements: ["BriefLeftCuff", "BriefRightCuff"] }
                         ],
                         extras: []
                     },
                     {
                         label: "Abrazo",
                         options: [
-                            { label: "Waist", elements: ["azleft_Tab", "azright_Tab", "AZTablines1", "AZTablines2", "AZTablines3"] },
+                            { label: "Waist", elements: ["azleft_Tab", "azright_Tab"] },
                             { label: "Body", elements: ["AZMiddle"] },
                             { label: "Leg Cuffs", elements: ["AZLeft_Cuff", "AZRight_Cuff"] }
                         ],
