@@ -90,30 +90,63 @@ angular.module('bumbyApp')
                 image: "resources/CropsEuros.png",
                 variants: [
                     {
-                        label: "Hemmed",
+                        label: "Crop - Hemmed",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] }
+                            { label: "Waistband", elements: ["HCWaist"] },
+                            { label: "Body", elements: ["HCBody_00000125567742576380153460000002671796144486661534_"] }
                         ],
                         extras: []
                     },
                     {
-                        label: "Euros",
+                        label: "Crop - Digs",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
-                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                            { label: "Waistband", elements: ["DigsWaist_00000005250936543746241200000000804603514933314467_"] },
+                            { label: "DigLeftCuff", elements: ["DigsLeftCuff_00000142176999847187206770000014688065766103618997_"] },
+                            { label: "DigRightCuff", elements: ["DigsRightCuff_00000117653865402338022560000001350464945375157653_"] },
+                            { label: "Body", elements: ["DigsBody_00000059296815609998273430000002051081486484539535_"] }
                         ],
                         extras: []
                     },
                     {
-                        label: "Cuffed",
+                        label: "Crop - Cuffed",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
-                            { label: "Leg Cuffs", elements: ["rightLongCuff", "leftLongCuff"] }
+                            { label: "Waistband", elements: ["CCWaist_00000173868905665231555990000010122293800057754504_"] },
+                            { label: "CuffLeft", elements: ["CCLeftCuff"] },
+                            { label: "CuffRight", elements: ["CCRightCuff"] },
+                            { label: "Body", elements: ["CCBody"] }
                         ],
                         extras: []
+                    },
+                    {
+                        label: "Crop - Cuffed Euro",
+                        options: [
+                            { label: "Waistband", elements: ["CECWaist_00000002374963185142003360000011353906822819844012_"] },
+                            { label: "CuffedEuroLeft", elements: ["CECLeftCuff_00000033337839485162087750000010040116480601795738_"] },
+                            { label: "CuffedEuroRight", elements: ["CECRightCuff_00000018231615366495583700000008791609602073274299_"] },
+                            { label: "Body", elements: ["CECBody_00000065053002216826999080000006490409814529956537_"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Crop - Ruffled",
+                        options: [
+                            { label: "Waistband", elements: ["RCWaist"] },
+                            { label: "Body", elements: ["RCBody"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Hemmed Euro Crop",
+                        options: [
+                            { label: "Waistband", elements: ["HECWaist"] },
+                            { label: "Body", elements: ["HECBody_00000168111688436229216180000007335686330487872666_"] },
+                        ],
+                    extras: [
+                           { label: "Add Pockets", types: [
+                            {label: "Square Cargo", elements: ["HCSqCrgPcktLeft_00000133512005649926498580000009662656444740654781_", "HCSqCrgPcktRight_00000100357001919587130730000016769164921385384354_"] },
+                            {label: "Full Hidden", elements: ["HCLeftPocket_00000153677281100237990580000015716937542669923734_", "HCRightPocket_00000031180279894025594480000015728669911909386681_"] },
+                        ]}
+                    ] 
                     }
                 ]
             },
