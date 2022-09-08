@@ -9,9 +9,9 @@ angular.module('bumbyApp')
                     {
                         label: "Traditional",
                         options: [
-                            { label: "Waist", elements: ["TDCWaistband"] },
-                            { label: "Body", elements: ["TDCBody"] },
-                            { label: "Leg Cuffs", elements: ["TDCLeftCuff", "TDCRightCuff"] }
+                            { label: "Waist", elements: ["TDCWaistband_00000105413168391474860840000009616179835936444858_"] },
+                            { label: "Body", elements: ["TDCBody_00000091728544352029154250000003918608914771493567_"] },
+                            { label: "Leg Cuffs", elements: ["TDCLeftCuff_00000183235140444635553040000002557799785209837215_", "TDCRightCuff_00000128460512440843210380000002816660742991847597_"] }
                         ],
                         extras: []
                     },
