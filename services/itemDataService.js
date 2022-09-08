@@ -90,31 +90,28 @@ angular.module('bumbyApp')
                 image: "resources/CropsEuros.png",
                 variants: [
                     {
-                        label: "Hemmed",
+                        label: "Hemmed Crop",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] }
+                            { label: "Waistband", elements: ["HCWaist"] },
+                            { label: "Body", elements: ["HCBody"] }
                         ],
                         extras: []
                     },
                     {
-                        label: "Euros",
+                        label: "Hemmed Euro Crop",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
-                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
-                        ],
-                        extras: []
-                    },
-                    {
-                        label: "Cuffed",
-                        options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
-                            { label: "Leg Cuffs", elements: ["rightLongCuff", "leftLongCuff"] }
-                        ],
-                        extras: []
-                    }
+                            { label: "Waistband", elements: ["HECWaist"] },
+                            { label: "Body", elements: ["HECBody"] },
+                        ]}
+                    ],
+                    extras: [
+                        { label: "Add Pocket", elements: ["HCLeftPocket"], show: true },
+                        { label: "Add Pockets", types: [
+                            {label: "Kangaroo", elements: ["pocketKangaroo"] },
+                            {label: "Cuffed Kangaroo", elements: ["pocketKangaroo", "pocketKangarooLeftCuff", "pocketKangarooRightCuff"] },
+                            {label: "Rounded Angled", elements: ["pocketRoundedAngledLeft", "pocketRoundedAngledRight"] },
+                            {label: "Squared Angled", elements: ["pocketSquaredAngledLeft", "pocketSquaredAngledRight"] }
+                        ]}
                 ]
             },
             {
