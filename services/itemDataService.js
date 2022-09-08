@@ -7,14 +7,32 @@ angular.module('bumbyApp')
                 image: "resources/diapercover.png",
                 variants: [
                     {
-                        label: "",
+                        label: "Traditional",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Body", elements: ["body"] },
-                            { label: "Leg Cuffs", elements: ["leftCuff", "rightCuff"] }
+                            { label: "Waist", elements: ["TDCWaistband_00000105413168391474860840000009616179835936444858_"] },
+                            { label: "Body", elements: ["TDCBody_00000091728544352029154250000003918608914771493567_"] },
+                            { label: "Leg Cuffs", elements: ["TDCLeftCuff_00000183235140444635553040000002557799785209837215_", "TDCRightCuff_00000128460512440843210380000002816660742991847597_"] }
                         ],
                         extras: []
-                    }
+                    },
+                    {
+                        label: "Briefs",
+                        options: [
+                            { label: "Waist", elements: ["BriefWaistband"] },
+                            { label: "Body", elements: ["BriefBody"] },
+                            { label: "Leg Cuffs", elements: ["BriefLeftCuff", "BriefRightCuff"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Abrazo",
+                        options: [
+                            { label: "Waist", elements: ["AZLeftTab", "AZRightTab"] },
+                            { label: "Body", elements: ["AZMiddle"] },
+                            { label: "Leg Cuffs", elements: ["AZLeftCuff", "AZRightCuff"] }
+                        ],
+                        extras: []
+                    },
                 ]
             },
             {
@@ -48,6 +66,39 @@ angular.module('bumbyApp')
                     },
                     {
                         label: "Joggers",
+                        options: [
+                            { label: "Waist", elements: ["waistband"] },
+                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
+                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Cuffed",
+                        options: [
+                            { label: "Waist", elements: ["waistband"] },
+                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
+                            { label: "Leg Cuffs", elements: ["rightLongCuff", "leftLongCuff"] }
+                        ],
+                        extras: []
+                    }
+                ]
+            },
+            {
+                title: "crops",
+                link: "/items/crops",
+                image: "resources/CropsEuros.png",
+                variants: [
+                    {
+                        label: "Hemmed",
+                        options: [
+                            { label: "Waist", elements: ["waistband"] },
+                            { label: "Legs", elements: ["leftLeg", "rightLeg"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Euros",
                         options: [
                             { label: "Waist", elements: ["waistband"] },
                             { label: "Legs", elements: ["leftLeg", "rightLeg"] },
