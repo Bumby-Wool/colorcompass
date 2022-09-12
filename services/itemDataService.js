@@ -95,7 +95,16 @@ angular.module('bumbyApp')
                             { label: "Waistband", elements: ["HCWaist"] },
                             { label: "Body", elements: ["HCBody_00000125567742576380153460000002671796144486661534_"] }
                         ],
-                        extras: []
+                        extras: [
+                            { label: "Add Pockets", types: [
+                            {label: "Square Cargo Pockets", elements: ["SqCrgPcktLeft", "SqCrgPcktRight"] },
+                            {label: "Purse Pockets", elements: ["PrsPcktLeft", "PrsPcktRight"] },
+                            {label: "Circle Pockets", elements: ["LeftCirPocket", "RightRndPocket", "LeftRndPocketCuff", "RightCirPocketCuff"] },
+                            {label: "Heart Pockets", elements: ["HrtPcktLeft", "HrtPcktRight"] },
+                            {label: "Rounded Cargo Pockets", elements: ["RndCrgPcktLeft", "RndCrgPcktRight"] },
+                            {label: "Hidden or Cargo Pockets", elements: ["LeftHidCovPocket", "RightHidCovPocket"] },
+                        ]}
+                    ]
                     },
                     {
                         label: "Crop - Digs",
@@ -105,7 +114,16 @@ angular.module('bumbyApp')
                             { label: "DigRightCuff", elements: ["DigsRightCuff_00000117653865402338022560000001350464945375157653_"] },
                             { label: "Body", elements: ["DigsBody_00000059296815609998273430000002051081486484539535_"] }
                         ],
-                        extras: []
+                        extras: [
+                            { label: "Add Pockets", types: [
+                            {label: "Square Cargo Pockets", elements: ["SqCrgPcktLeft", "SqCrgPcktRight"] },
+                            {label: "Purse Pockets", elements: ["PrsPcktLeft", "PrsPcktRight"] },
+                            {label: "Circle Pockets", elements: ["LeftCirPocket", "RightRndPocket", "LeftRndPocketCuff", "RightCirPocketCuff"] },
+                            {label: "Heart Pockets", elements: ["HrtPcktLeft", "HrtPcktRight"] },
+                            {label: "Rounded Cargo Pockets", elements: ["RndCrgPcktLeft", "RndCrgPcktRight"] },
+                            {label: "Hidden or Cargo Pockets", elements: ["LeftHidCovPocket", "RightHidCovPocket"] },
+                        ]}
+                    ]
                     },
                     {
                         label: "Crop - Cuffed",
@@ -115,7 +133,16 @@ angular.module('bumbyApp')
                             { label: "CuffRight", elements: ["CCRightCuff"] },
                             { label: "Body", elements: ["CCBody"] }
                         ],
-                        extras: []
+                        extras: [
+                            { label: "Add Pockets", types: [
+                            {label: "Square Cargo Pockets", elements: ["SqCrgPcktLeft", "SqCrgPcktRight"] },
+                            {label: "Purse Pockets", elements: ["PrsPcktLeft", "PrsPcktRight"] },
+                            {label: "Circle Pockets", elements: ["LeftCirPocket", "RightRndPocket", "LeftRndPocketCuff", "RightCirPocketCuff"] },
+                            {label: "Heart Pockets", elements: ["HrtPcktLeft", "HrtPcktRight"] },
+                            {label: "Rounded Cargo Pockets", elements: ["RndCrgPcktLeft", "RndCrgPcktRight"] },
+                            {label: "Hidden or Cargo Pockets", elements: ["LeftHidCovPocket", "RightHidCovPocket"] },
+                        ]}
+                    ]
                     },
                     {
                         label: "Crop - Cuffed Euro",
@@ -125,7 +152,16 @@ angular.module('bumbyApp')
                             { label: "CuffedEuroRight", elements: ["CECRightCuff_00000018231615366495583700000008791609602073274299_"] },
                             { label: "Body", elements: ["CECBody_00000065053002216826999080000006490409814529956537_"] }
                         ],
-                        extras: []
+                        extras: [
+                            { label: "Add Pockets", types: [
+                            {label: "Square Cargo Pockets", elements: ["SqCrgPcktLeft", "SqCrgPcktRight"] },
+                            {label: "Purse Pockets", elements: ["PrsPcktLeft", "PrsPcktRight"] },
+                            {label: "Circle Pockets", elements: ["LeftCirPocket", "RightRndPocket", "LeftRndPocketCuff", "RightCirPocketCuff"] },
+                            {label: "Heart Pockets", elements: ["HrtPcktLeft", "HrtPcktRight"] },
+                            {label: "Rounded Cargo Pockets", elements: ["RndCrgPcktLeft", "RndCrgPcktRight"] },
+                            {label: "Hidden or Cargo Pockets", elements: ["LeftHidCovPocket", "RightHidCovPocket"] },
+                        ]}
+                    ]
                     },
                     {
                         label: "Crop - Ruffled",
@@ -133,7 +169,16 @@ angular.module('bumbyApp')
                             { label: "Waistband", elements: ["RCWaist"] },
                             { label: "Body", elements: ["RCBody"] }
                         ],
-                        extras: []
+                        extras: [
+                            { label: "Add Pockets", types: [
+                            {label: "Square Cargo Pockets", elements: ["SqCrgPcktLeft", "SqCrgPcktRight"] },
+                            {label: "Purse Pockets", elements: ["PrsPcktLeft", "PrsPcktRight"] },
+                            {label: "Circle Pockets", elements: ["LeftCirPocket", "RightRndPocket", "LeftRndPocketCuff", "RightCirPocketCuff"] },
+                            {label: "Heart Pockets", elements: ["HrtPcktLeft", "HrtPcktRight"] },
+                            {label: "Rounded Cargo Pockets", elements: ["RndCrgPcktLeft", "RndCrgPcktRight"] },
+                            {label: "Hidden or Cargo Pockets", elements: ["LeftHidCovPocket", "RightHidCovPocket"] },
+                        ]}
+                    ]
                     },
                     {
                         label: "Hemmed Euro Crop",
@@ -142,9 +187,13 @@ angular.module('bumbyApp')
                             { label: "Body", elements: ["HECBody_00000168111688436229216180000007335686330487872666_"] },
                         ],
                     extras: [
-                           { label: "Add Pockets", types: [
-                            {label: "Square Cargo", elements: ["HCSqCrgPcktLeft_00000133512005649926498580000009662656444740654781_", "HCSqCrgPcktRight_00000100357001919587130730000016769164921385384354_"] },
-                            {label: "Full Hidden", elements: ["HCLeftPocket_00000153677281100237990580000015716937542669923734_", "HCRightPocket_00000031180279894025594480000015728669911909386681_"] },
+                        { label: "Add Pockets", types: [
+                            {label: "Square Cargo Pockets", elements: ["SqCrgPcktLeft", "SqCrgPcktRight"] },
+                            {label: "Purse Pockets", elements: ["PrsPcktLeft", "PrsPcktRight"] },
+                            {label: "Circle Pockets", elements: ["LeftCirPocket", "RightRndPocket", "LeftRndPocketCuff", "RightCirPocketCuff"] },
+                            {label: "Heart Pockets", elements: ["HrtPcktLeft", "HrtPcktRight"] },
+                            {label: "Rounded Cargo Pockets", elements: ["RndCrgPcktLeft", "RndCrgPcktRight"] },
+                            {label: "Hidden or Cargo Pockets", elements: ["LeftHidCovPocket", "RightHidCovPocket"] },
                         ]}
                     ] 
                     }
