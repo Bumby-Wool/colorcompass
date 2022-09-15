@@ -157,9 +157,8 @@ angular.module('bumbyApp')
                     {
                         label: "Legging Pants",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
-                            { label: "Leg Cuffs", elements: ["rightLongCuff", "leftLongCuff"] }
+                            { label: "Waist", elements: ["LPWaist"] },
+                            { label: "Body", elements: ["LPBody"] }
                         ],
                         extras: []
                     }
