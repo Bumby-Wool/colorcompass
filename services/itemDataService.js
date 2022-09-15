@@ -57,30 +57,215 @@ angular.module('bumbyApp')
                 image: "resources/Baby-Standard-Pants-Mild-Tapered-Hemmed-Main.png",
                 variants: [
                     {
-                        label: "Hemmed",
+                        label: "Bootcut Pants",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] }
+                            { label: "Waist", elements: ["BCPWaist_00000117658510262588525340000014209897556714245007_"] },
+                            { label: "Body", elements: ["BCPBody_00000178884225950833215290000013521628394383585454_"] }
                         ],
-                        extras: []
+                        extras: [
+                            { label: "Add Pockets", types: [
+                            {label: "Square Cargo Pockets", elements: ["SqCrgPcktLeft", "SqCrgPcktRight"] },
+                            {label: "Purse Pockets", elements: ["PrsPcktLeft", "PrsPcktRight"] },
+                            {label: "Circle Pockets", elements: ["LeftRndPocket", "RightRndPocket", "LeftRndPocketCuff", "RightRndPocketCuff"] },
+                            {label: "Heart Pockets", elements: ["HrtPcktLeft_00000011010503668109617630000000868876679039764388_", "HrtPcktRight"] },
+                            {label: "Rounded Cargo Pockets", elements: ["RndCrgPcktLeft", "RndCrgPcktRight"] },
+                            {label: "Pockets", elements: ["LeftPocket", "RightPocket"] },
+                        ]}
+                    ]
                     },
                     {
-                        label: "Joggers",
+                        label: "Harem Pants",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
-                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                            { label: "Waist", elements: ["HPWaist"] },
+                            { label: "Body", elements: ["HPBody"] },
+                            { label: "Leg Cuffs", elements: ["HPRghtCuff", "HPLeftCuff"] }
                         ],
-                        extras: []
+                        extras: [
+                            { label: "Add Pockets", types: [
+                            {label: "Square Cargo Pockets", elements: ["SqCrgPcktLeft", "SqCrgPcktRight"] },
+                            {label: "Purse Pockets", elements: ["PrsPcktLeft", "PrsPcktRight"] },
+                            {label: "Circle Pockets", elements: ["LeftRndPocket", "RightRndPocket", "LeftRndPocketCuff", "RightRndPocketCuff"] },
+                            {label: "Heart Pockets", elements: ["HrtPcktLeft_00000011010503668109617630000000868876679039764388_", "HrtPcktRight"] },
+                            {label: "Rounded Cargo Pockets", elements: ["RndCrgPcktLeft", "RndCrgPcktRight"] },
+                            {label: "Pockets", elements: ["LeftPocket", "RightPocket"] },
+                        ]}
+                    ]
                     },
                     {
-                        label: "Cuffed",
+                        label: "Joggers Pants",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
-                            { label: "Leg Cuffs", elements: ["rightLongCuff", "leftLongCuff"] }
+                            { label: "Waist", elements: ["JPWaist_00000122688901382537744830000001923557379072420778_"] },
+                            { label: "Body", elements: ["JPBody_00000101805378233134778520000017316929125375769733_"] },
+                            { label: "Leg Cuffs", elements: ["JPRightCuff_00000032641962985279224340000004127247677774557833_", "JPLeftCuff_00000131352480359154673870000016825018982183570593_"] }
                         ],
-                        extras: []
+                        extras: [
+                            { label: "Add Pockets", types: [
+                                {label: "Square Cargo Pockets", elements: ["SqCrgPcktLeft", "SqCrgPcktRight"] },
+                                {label: "Purse Pockets", elements: ["PrsPcktLeft", "PrsPcktRight"] },
+                                {label: "Circle Pockets", elements: ["LeftRndPocket", "RightRndPocket", "LeftRndPocketCuff", "RightRndPocketCuff"] },
+                                {label: "Heart Pockets", elements: ["HrtPcktLeft_00000011010503668109617630000000868876679039764388_", "HrtPcktRight"] },
+                                {label: "Rounded Cargo Pockets", elements: ["RndCrgPcktLeft", "RndCrgPcktRight"] },
+                                {label: "Pockets", elements: ["LeftPocket", "RightPocket"] },
+                        ]}
+                    ]
+                    },
+                    {
+                        label: "Ruffle Pants",
+                        options: [
+                            { label: "Waist", elements: ["RPWaist"] },
+                            { label: "Body", elements: ["RPBody"] }
+                        ],
+                        extras: [
+                            { label: "Add Pockets", types: [
+                                {label: "Square Cargo Pockets", elements: ["SqCrgPcktLeft", "SqCrgPcktRight"] },
+                                {label: "Purse Pockets", elements: ["PrsPcktLeft", "PrsPcktRight"] },
+                                {label: "Circle Pockets", elements: ["LeftRndPocket", "RightRndPocket", "LeftRndPocketCuff", "RightRndPocketCuff"] },
+                                {label: "Heart Pockets", elements: ["HrtPcktLeft_00000011010503668109617630000000868876679039764388_", "HrtPcktRight"] },
+                                {label: "Rounded Cargo Pockets", elements: ["RndCrgPcktLeft", "RndCrgPcktRight"] },
+                                {label: "Pockets", elements: ["LeftPocket", "RightPocket"] },
+                        ]}
+                    ]
+                    },
+                    {
+                        label: "Hemmed Pants",
+                        options: [
+                            { label: "Waist", elements: ["HPWaist_00000111169728634519360020000000348755208293561499_"] },
+                            { label: "Body", elements: ["HPBody_00000024685168981568601360000017558009022093752499_"] }
+                        ],
+                        extras: [
+                            { label: "Add Pockets", types: [
+                                {label: "Square Cargo Pockets", elements: ["SqCrgPcktLeft", "SqCrgPcktRight"] },
+                                {label: "Purse Pockets", elements: ["PrsPcktLeft", "PrsPcktRight"] },
+                                {label: "Circle Pockets", elements: ["LeftRndPocket", "RightRndPocket", "LeftRndPocketCuff", "RightRndPocketCuff"] },
+                                {label: "Heart Pockets", elements: ["HrtPcktLeft_00000011010503668109617630000000868876679039764388_", "HrtPcktRight"] },
+                                {label: "Rounded Cargo Pockets", elements: ["RndCrgPcktLeft", "RndCrgPcktRight"] },
+                                {label: "Pockets", elements: ["LeftPocket", "RightPocket"] },
+                        ]}
+                    ]
+                    },
+                    {
+                        label: "Cuffed Pants",
+                        options: [
+                            { label: "Waist", elements: ["CPWaist"] },
+                            { label: "Body", elements: ["CPBody"] },
+                            { label: "Leg Cuffs", elements: ["CPRightCuff", "CPLeftCuff"] }
+                        ],
+                        extras: [
+                            { label: "Add Pockets", types: [
+                                {label: "Square Cargo Pockets", elements: ["SqCrgPcktLeft", "SqCrgPcktRight"] },
+                                {label: "Purse Pockets", elements: ["PrsPcktLeft", "PrsPcktRight"] },
+                                {label: "Circle Pockets", elements: ["LeftRndPocket", "RightRndPocket", "LeftRndPocketCuff", "RightRndPocketCuff"] },
+                                {label: "Heart Pockets", elements: ["HrtPcktLeft_00000011010503668109617630000000868876679039764388_", "HrtPcktRight"] },
+                                {label: "Rounded Cargo Pockets", elements: ["RndCrgPcktLeft", "RndCrgPcktRight"] },
+                                {label: "Pockets", elements: ["LeftPocket", "RightPocket"] },
+                        ]}
+                    ]
+                    },
+                    {
+                        label: "Euro Hemmed Pants",
+                        options: [
+                            { label: "Waist", elements: ["EHWaist_00000129197329597565189090000012934568809155040183_"] },
+                            { label: "Body", elements: ["EHBody_00000062153245295829890110000011234558622828360102_"] }
+                        ],
+                        extras: [
+                            { label: "Add Pockets", types: [
+                                {label: "Square Cargo Pockets", elements: ["SqCrgPcktLeft", "SqCrgPcktRight"] },
+                                {label: "Purse Pockets", elements: ["PrsPcktLeft", "PrsPcktRight"] },
+                                {label: "Circle Pockets", elements: ["LeftRndPocket", "RightRndPocket", "LeftRndPocketCuff", "RightRndPocketCuff"] },
+                                {label: "Heart Pockets", elements: ["HrtPcktLeft_00000011010503668109617630000000868876679039764388_", "HrtPcktRight"] },
+                                {label: "Rounded Cargo Pockets", elements: ["RndCrgPcktLeft", "RndCrgPcktRight"] },
+                                {label: "Pockets", elements: ["LeftPocket", "RightPocket"] },
+                        ]}
+                    ]
+                    },
+                    {
+                        label: "Euro Cuffed Pants",
+                        options: [
+                            { label: "Waist", elements: ["ECWaist"] },
+                            { label: "Body", elements: ["ECBody"] },
+                            { label: "Leg Cuffs", elements: ["ECRightCuff", "ECLeftCuff"] }
+                        ],
+                        extras: [
+                            { label: "Add Pockets", types: [
+                                {label: "Square Cargo Pockets", elements: ["SqCrgPcktLeft", "SqCrgPcktRight"] },
+                                {label: "Purse Pockets", elements: ["PrsPcktLeft", "PrsPcktRight"] },
+                                {label: "Circle Pockets", elements: ["LeftRndPocket", "RightRndPocket", "LeftRndPocketCuff", "RightRndPocketCuff"] },
+                                {label: "Heart Pockets", elements: ["HrtPcktLeft_00000011010503668109617630000000868876679039764388_", "HrtPcktRight"] },
+                                {label: "Rounded Cargo Pockets", elements: ["RndCrgPcktLeft", "RndCrgPcktRight"] },
+                                {label: "Pockets", elements: ["LeftPocket", "RightPocket"] },
+                        ]}
+                    ]
+                    },
+                    {
+                        label: "Euro SweatPants",
+                        options: [
+                            { label: "Waist", elements: ["ESPWaist_00000077283938151704800080000008444017510037475217_"] },
+                            { label: "Body", elements: ["ESPBody_00000133498749950570912600000017972602896135310015_"] },
+                            { label: "Leg Cuffs", elements: ["ESPRightCuff_00000164477731841545748660000013149076215441253562_", "ESPLeftCuff_00000147936418990615227040000001645997826541013888_"] }
+                        ],
+                        extras: [
+                            { label: "Add Pockets", types: [
+                                {label: "Square Cargo Pockets", elements: ["SqCrgPcktLeft", "SqCrgPcktRight"] },
+                                {label: "Purse Pockets", elements: ["PrsPcktLeft", "PrsPcktRight"] },
+                                {label: "Circle Pockets", elements: ["LeftRndPocket", "RightRndPocket", "LeftRndPocketCuff", "RightRndPocketCuff"] },
+                                {label: "Heart Pockets", elements: ["HrtPcktLeft_00000011010503668109617630000000868876679039764388_", "HrtPcktRight"] },
+                                {label: "Rounded Cargo Pockets", elements: ["RndCrgPcktLeft", "RndCrgPcktRight"] },
+                                {label: "Pockets", elements: ["LeftPocket", "RightPocket"] },
+                        ]}
+                    ]
+                    },
+                    {
+                        label: "Britches Pants",
+                        options: [
+                            { label: "Waist", elements: ["BPWaist"] },
+                            { label: "Legs", elements: ["BPRightLeg", "BPLeftLeg"] },
+                            { label: "Body", elements: ["BPBody"] }
+                        ],
+                        extras: [
+                            { label: "Add Pockets", types: [
+                                {label: "Square Cargo Pockets", elements: ["SqCrgPcktLeft", "SqCrgPcktRight"] },
+                                {label: "Purse Pockets", elements: ["PrsPcktLeft", "PrsPcktRight"] },
+                                {label: "Circle Pockets", elements: ["LeftRndPocket", "RightRndPocket", "LeftRndPocketCuff", "RightRndPocketCuff"] },
+                                {label: "Heart Pockets", elements: ["HrtPcktLeft_00000011010503668109617630000000868876679039764388_", "HrtPcktRight"] },
+                                {label: "Rounded Cargo Pockets", elements: ["RndCrgPcktLeft", "RndCrgPcktRight"] },
+                                {label: "Pockets", elements: ["LeftPocket", "RightPocket"] },
+                        ]}
+                    ]
+                    },
+                    {
+                        label: "Footies Pants",
+                        options: [
+                            { label: "Waist", elements: ["FPWaist_00000155840126317534939610000007943338408952947378_"] },
+                            { label: "Body", elements: ["FPBody_00000009549735439879242760000008182166266484979363_"] },
+                            { label: "feet", elements: ["FPRightFoot_00000098180436191791874490000010773443282614185856_", "FPLeftFoot_00000143611989654149671010000017612352441603738782_"] }
+                        ],
+                        extras: [
+                            { label: "Add Pockets", types: [
+                                {label: "Square Cargo Pockets", elements: ["SqCrgPcktLeft", "SqCrgPcktRight"] },
+                                {label: "Purse Pockets", elements: ["PrsPcktLeft", "PrsPcktRight"] },
+                                {label: "Circle Pockets", elements: ["LeftRndPocket", "RightRndPocket", "LeftRndPocketCuff", "RightRndPocketCuff"] },
+                                {label: "Heart Pockets", elements: ["HrtPcktLeft_00000011010503668109617630000000868876679039764388_", "HrtPcktRight"] },
+                                {label: "Rounded Cargo Pockets", elements: ["RndCrgPcktLeft", "RndCrgPcktRight"] },
+                                {label: "Pockets", elements: ["LeftPocket", "RightPocket"] },
+                        ]}
+                    ]
+                    },
+                    {
+                        label: "Legging Pants",
+                        options: [
+                            { label: "Waist", elements: ["LPWaist"] },
+                            { label: "Body", elements: ["LPBody"] }
+                        ],
+                        extras: [
+                            { label: "Add Pockets", types: [
+                                {label: "Square Cargo Pockets", elements: ["SqCrgPcktLeft", "SqCrgPcktRight"] },
+                                {label: "Purse Pockets", elements: ["PrsPcktLeft", "PrsPcktRight"] },
+                                {label: "Circle Pockets", elements: ["LeftRndPocket", "RightRndPocket", "LeftRndPocketCuff", "RightRndPocketCuff"] },
+                                {label: "Heart Pockets", elements: ["HrtPcktLeft_00000011010503668109617630000000868876679039764388_", "HrtPcktRight"] },
+                                {label: "Rounded Cargo Pockets", elements: ["RndCrgPcktLeft", "RndCrgPcktRight"] },
+                                {label: "Pockets", elements: ["LeftPocket", "RightPocket"] },
+                        ]}
+                    ]
                     }
                 ]
             },
