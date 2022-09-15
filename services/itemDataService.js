@@ -59,98 +59,95 @@ angular.module('bumbyApp')
                     {
                         label: "Bootcut Pants",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] }
+                            { label: "Waist", elements: ["BCPWaist_00000063591010432180953610000012774055610096080557_"] },
+                            { label: "Body", elements: ["BCPBody_00000045585768824342131660000010422771639184511408_"] }
                         ],
                         extras: []
                     },
                     {
                         label: "Harem Pants",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
-                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                            { label: "Waist", elements: ["HPWaist"] },
+                            { label: "Body", elements: ["HPBody"] },
+                            { label: "Leg Cuffs", elements: ["HPRghtCuff", "HPLeftCuff"] }
                         ],
                         extras: []
                     },
                     {
                         label: "Joggers Pants",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
-                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                            { label: "Waist", elements: ["JPWaist_00000169523690966507090130000012822949782695091640_"] },
+                            { label: "Body", elements: ["JPBody_00000092420963706754918240000005433258960853224872_"] },
+                            { label: "Leg Cuffs", elements: ["JPRightCuff_00000050650875793125378110000013867455733624969144_", "JPLeftCuff_00000130635930090270895320000000366343068452252036_"] }
                         ],
                         extras: []
                     },
                     {
                         label: "Ruffle Pants",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
-                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                            { label: "Waist", elements: ["RPWaist"] },
+                            { label: "Body", elements: ["RPBody"] }
                         ],
                         extras: []
                     },
                     {
                         label: "Hemmed Pants",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
-                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                            { label: "Waist", elements: ["HPWaist_00000111169728634519360020000000348755208293561499_"] },
+                            { label: "Body", elements: ["HPBody_00000108292344599007313540000000606231929711786169_"] }
                         ],
                         extras: []
                     },
                     {
                         label: "Cuffed Pants",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
-                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                            { label: "Waist", elements: ["CPWaist"] },
+                            { label: "Body", elements: ["CPBody"] },
+                            { label: "Leg Cuffs", elements: ["CPRightCuff", "CPLeftCuff"] }
                         ],
                         extras: []
                     },
                     {
                         label: "Euro Hemmed Pants",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
-                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                            { label: "Waist", elements: ["EHWaist_00000124148497282279679600000005651714720474590342_"] },
+                            { label: "Body", elements: ["EHBody_00000052079730685858642700000016965595023334930324_"] }
                         ],
                         extras: []
                     },
                     {
                         label: "Euro Cuffed Pants",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
-                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                            { label: "Waist", elements: ["ECWaist"] },
+                            { label: "Body", elements: ["ECBody"] },
+                            { label: "Leg Cuffs", elements: ["ECRightCuff", "ECLeftCuff"] }
                         ],
                         extras: []
                     },
                     {
                         label: "Euro SweatPants",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
-                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                            { label: "Waist", elements: ["ESPWaist_00000018935607567605776520000002394533216985569687_"] },
+                            { label: "Body", elements: ["ESPBody_00000053527896246517068200000006337776375049572028_"] },
+                            { label: "Leg Cuffs", elements: ["ESPRightCuff_00000142873826247233476640000002723769061360588169_", "ESPLeftCuff_00000120529918998452761250000003976300765877698189_"] }
                         ],
                         extras: []
                     },
                     {
                         label: "Britches Pants",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
-                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                            { label: "Waist", elements: ["BPWaist"] },
+                            { label: "Legs", elements: ["BPRightLeg", "BPLeftLeg"] },
+                            { label: "Body", elements: ["BPBody"] }
                         ],
                         extras: []
                     },
                     {
                         label: "Footies Pants",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
-                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                            { label: "Waist", elements: ["FPWaist_00000165935446598545352980000009024608408444519610_"] },
+                            { label: "Body", elements: ["FPBody_00000092416250348988690140000002261772576155416217_"] },
+                            { label: "feet", elements: ["FPRightFoot_00000103245318793987725270000007247575396806561680_", "FPLeftFoot_00000182493434535313485080000003652817569562979229_"] }
                         ],
                         extras: []
                     },
