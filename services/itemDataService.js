@@ -57,7 +57,7 @@ angular.module('bumbyApp')
                 image: "resources/Baby-Standard-Pants-Mild-Tapered-Hemmed-Main.png",
                 variants: [
                     {
-                        label: "Hemmed",
+                        label: "Bootcut Pants",
                         options: [
                             { label: "Waist", elements: ["waistband"] },
                             { label: "Legs", elements: ["leftLeg", "rightLeg"] }
@@ -65,7 +65,7 @@ angular.module('bumbyApp')
                         extras: []
                     },
                     {
-                        label: "Joggers",
+                        label: "Harem Pants",
                         options: [
                             { label: "Waist", elements: ["waistband"] },
                             { label: "Legs", elements: ["leftLeg", "rightLeg"] },
@@ -74,7 +74,88 @@ angular.module('bumbyApp')
                         extras: []
                     },
                     {
-                        label: "Cuffed",
+                        label: "Joggers Pants",
+                        options: [
+                            { label: "Waist", elements: ["waistband"] },
+                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
+                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Ruffle Pants",
+                        options: [
+                            { label: "Waist", elements: ["waistband"] },
+                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
+                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Hemmed Pants",
+                        options: [
+                            { label: "Waist", elements: ["waistband"] },
+                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
+                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Cuffed Pants",
+                        options: [
+                            { label: "Waist", elements: ["waistband"] },
+                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
+                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Euro Hemmed Pants",
+                        options: [
+                            { label: "Waist", elements: ["waistband"] },
+                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
+                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Euro Cuffed Pants",
+                        options: [
+                            { label: "Waist", elements: ["waistband"] },
+                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
+                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Euro SweatPants",
+                        options: [
+                            { label: "Waist", elements: ["waistband"] },
+                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
+                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Britches Pants",
+                        options: [
+                            { label: "Waist", elements: ["waistband"] },
+                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
+                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Footies Pants",
+                        options: [
+                            { label: "Waist", elements: ["waistband"] },
+                            { label: "Legs", elements: ["leftLeg", "rightLeg"] },
+                            { label: "Leg Cuffs", elements: ["leftShortCuff", "rightShortCuff"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Legging Pants",
                         options: [
                             { label: "Waist", elements: ["waistband"] },
                             { label: "Legs", elements: ["leftLeg", "rightLeg"] },
