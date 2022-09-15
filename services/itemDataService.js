@@ -59,8 +59,8 @@ angular.module('bumbyApp')
                     {
                         label: "Bootcut Pants",
                         options: [
-                            { label: "Waist", elements: ["BCPWaist_00000063591010432180953610000012774055610096080557_"] },
-                            { label: "Body", elements: ["BCPBody_00000045585768824342131660000010422771639184511408_"] }
+                            { label: "Waist", elements: ["BCPWaist_00000117658510262588525340000014209897556714245007_"] },
+                            { label: "Body", elements: ["BCPBody_00000178884225950833215290000013521628394383585454_"] }
                         ],
                         extras: []
                     },
