@@ -76,9 +76,9 @@ angular.module('bumbyApp')
                     {
                         label: "Joggers Pants",
                         options: [
-                            { label: "Waist", elements: ["JPWaist_00000169523690966507090130000012822949782695091640_"] },
-                            { label: "Body", elements: ["JPBody_00000092420963706754918240000005433258960853224872_"] },
-                            { label: "Leg Cuffs", elements: ["JPRightCuff_00000050650875793125378110000013867455733624969144_", "JPLeftCuff_00000130635930090270895320000000366343068452252036_"] }
+                            { label: "Waist", elements: ["JPWaist_00000122688901382537744830000001923557379072420778_"] },
+                            { label: "Body", elements: ["JPBody_00000101805378233134778520000017316929125375769733_"] },
+                            { label: "Leg Cuffs", elements: ["JPRightCuff_00000032641962985279224340000004127247677774557833_", "JPLeftCuff_00000131352480359154673870000016825018982183570593_"] }
                         ],
                         extras: []
                     },
@@ -94,7 +94,7 @@ angular.module('bumbyApp')
                         label: "Hemmed Pants",
                         options: [
                             { label: "Waist", elements: ["HPWaist_00000111169728634519360020000000348755208293561499_"] },
-                            { label: "Body", elements: ["HPBody_00000108292344599007313540000000606231929711786169_"] }
+                            { label: "Body", elements: ["HPBody_00000024685168981568601360000017558009022093752499_"] }
                         ],
                         extras: []
                     },
@@ -110,8 +110,8 @@ angular.module('bumbyApp')
                     {
                         label: "Euro Hemmed Pants",
                         options: [
-                            { label: "Waist", elements: ["EHWaist_00000124148497282279679600000005651714720474590342_"] },
-                            { label: "Body", elements: ["EHBody_00000052079730685858642700000016965595023334930324_"] }
+                            { label: "Waist", elements: ["EHWaist_00000129197329597565189090000012934568809155040183_"] },
+                            { label: "Body", elements: ["EHBody_00000062153245295829890110000011234558622828360102_"] }
                         ],
                         extras: []
                     },
@@ -127,9 +127,9 @@ angular.module('bumbyApp')
                     {
                         label: "Euro SweatPants",
                         options: [
-                            { label: "Waist", elements: ["ESPWaist_00000018935607567605776520000002394533216985569687_"] },
-                            { label: "Body", elements: ["ESPBody_00000053527896246517068200000006337776375049572028_"] },
-                            { label: "Leg Cuffs", elements: ["ESPRightCuff_00000142873826247233476640000002723769061360588169_", "ESPLeftCuff_00000120529918998452761250000003976300765877698189_"] }
+                            { label: "Waist", elements: ["ESPWaist_00000077283938151704800080000008444017510037475217_"] },
+                            { label: "Body", elements: ["ESPBody_00000133498749950570912600000017972602896135310015_"] },
+                            { label: "Leg Cuffs", elements: ["ESPRightCuff_00000164477731841545748660000013149076215441253562_", "ESPLeftCuff_00000147936418990615227040000001645997826541013888_"] }
                         ],
                         extras: []
                     },
@@ -145,9 +145,9 @@ angular.module('bumbyApp')
                     {
                         label: "Footies Pants",
                         options: [
-                            { label: "Waist", elements: ["FPWaist_00000165935446598545352980000009024608408444519610_"] },
-                            { label: "Body", elements: ["FPBody_00000092416250348988690140000002261772576155416217_"] },
-                            { label: "feet", elements: ["FPRightFoot_00000103245318793987725270000007247575396806561680_", "FPLeftFoot_00000182493434535313485080000003652817569562979229_"] }
+                            { label: "Waist", elements: ["FPWaist_00000155840126317534939610000007943338408952947378_"] },
+                            { label: "Body", elements: ["FPBody_00000009549735439879242760000008182166266484979363_"] },
+                            { label: "feet", elements: ["FPRightFoot_00000098180436191791874490000010773443282614185856_", "FPLeftFoot_00000143611989654149671010000017612352441603738782_"] }
                         ],
                         extras: []
                     },
