@@ -295,8 +295,7 @@ angular.module('bumbyApp')
                         label: "Crop - Digs",
                         options: [
                             { label: "Waistband", elements: ["DigsWaist_00000005250936543746241200000000804603514933314467_"] },
-                            { label: "DigLeftCuff", elements: ["DigsLeftCuff_00000142176999847187206770000014688065766103618997_"] },
-                            { label: "DigRightCuff", elements: ["DigsRightCuff_00000117653865402338022560000001350464945375157653_"] },
+                            { label: "Cuff", elements: ["DigsLeftCuff_00000142176999847187206770000014688065766103618997_", "DigsRightCuff_00000117653865402338022560000001350464945375157653_"] },
                             { label: "Body", elements: ["DigsBody_00000059296815609998273430000002051081486484539535_"] }
                         ],
                         extras: [
@@ -314,8 +313,7 @@ angular.module('bumbyApp')
                         label: "Crop - Cuffed",
                         options: [
                             { label: "Waistband", elements: ["CCWaist_00000173868905665231555990000010122293800057754504_"] },
-                            { label: "CuffLeft", elements: ["CCLeftCuff"] },
-                            { label: "CuffRight", elements: ["CCRightCuff"] },
+                            { label: "Cuff", elements: ["CCLeftCuff", "CCRightCuff"] },
                             { label: "Body", elements: ["CCBody"] }
                         ],
                         extras: [
@@ -333,8 +331,7 @@ angular.module('bumbyApp')
                         label: "Crop - Cuffed Euro",
                         options: [
                             { label: "Waistband", elements: ["CECWaist_00000002374963185142003360000011353906822819844012_"] },
-                            { label: "CuffedEuroLeft", elements: ["CECLeftCuff_00000033337839485162087750000010040116480601795738_"] },
-                            { label: "CuffedEuroRight", elements: ["CECRightCuff_00000018231615366495583700000008791609602073274299_"] },
+                            { label: "Cuff", elements: ["CECLeftCuff_00000033337839485162087750000010040116480601795738_", "CECRightCuff_00000018231615366495583700000008791609602073274299_"] },
                             { label: "Body", elements: ["CECBody_00000065053002216826999080000006490409814529956537_"] }
                         ],
                         extras: [
