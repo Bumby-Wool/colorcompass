@@ -81,7 +81,7 @@ angular.module('bumbyApp')
                             { label: "Body", elements: ["SkBody_00000013195378269940335980000002693956104079809924_"] }
                         ],
                         extras: []
-                    }
+                    },
                 ]
             },
             {
