@@ -41,11 +41,44 @@ angular.module('bumbyApp')
                 image: "resources/Bloomers-laying-down-500x500.jpg",
                 variants: [
                     {
-                        label: "",
+                        label: "Hemmed Shorts",
                         options: [
-                            { label: "Waist", elements: ["waistband"] },
-                            { label: "Body", elements: ["leftLeg", "rightLegTop", "rightLegBottom"] },
-                            { label: "Cuffs", elements: ["leftLegCuff", "rightLegCuff"] }
+                            { label: "Waist", elements: ["HSWaist"] },
+                            { label: "Body", elements: ["HSBody"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Cuffed Shorts",
+                        options: [
+                            { label: "Waist", elements: ["CSWaist_00000152246142737357583530000012730373990241176721_"] },
+                            { label: "Body", elements: ["CSBody_00000045586432770782226150000011250235037069231491_"] },
+                            { label: "Cuffs", elements: ["CSLeftCuff", "CSRightCuff"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Ruffled Shorts",
+                        options: [
+                            { label: "Waist", elements: ["RSWaist"] },
+                            { label: "Body", elements: ["RSBody"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Bloomers",
+                        options: [
+                            { label: "Waist", elements: ["BSWaist_00000111150194491071445110000009593294278546746796_"] },
+                            { label: "Body", elements: ["BSBody_00000139274455867981567040000000121106883652003747_"] },
+                            { label: "Cuffs", elements: ["BSLeftCuff", "BSRightCuff"] }
+                        ],
+                        extras: []
+                    },
+                    {
+                        label: "Skirtie",
+                        options: [
+                            { label: "Waist", elements: ["SkWaist"] },
+                            { label: "Body", elements: ["SkBody_00000013195378269940335980000002693956104079809924_"] }
                         ],
                         extras: []
                     }
