@@ -116,18 +116,10 @@ angular.module('bumbyApp')
                             { label: "Waist", elements: ["SkWaist"] },
                             { label: "Body", elements: ["SkBody_00000013195378269940335980000002693956104079809924_"] }
                         ],
-                        extras: [ 
-                            { label: "Add Pockets", types: [
-                                {label: "Square Cargo Pockets", elements: ["SqCrgPcktLeft_00000090974600374340835350000000421229108712511901_", "SqCrgPcktRight_00000183948036079710681590000008296976022486105480_"] },
-                                {label: "Purse Pockets", elements: ["PrsPcktLeft_00000057146265986560687120000000737081065595376299_", "PrsPcktRight_00000139293710192736616710000015868473601287855806_"] },
-                                {label: "Circle Pockets", elements: ["LeftRndPocket_00000152963165625522652400000009080140183325640101_", "RightRndPocket_00000083058202902342236950000005102892317602836652_", "LeftRndPocketCuff_00000103230193605404299900000001955532516737887671_", "RightRndPocketCuff_00000155862688109118890200000015694904390342983088_"] },
-                                {label: "Heart Pockets", elements: ["HrtPcktLeft_00000053511858347973327500000014189635792340543416_", "HrtPcktRight_00000011752062273117927150000014847718233158951607_"] },
-                                {label: "Rounded Cargo Pockets", elements: ["RndCrgPcktLeft_00000179621803826058076970000013413824110984863364_", "RndCrgPcktRight_00000035530665404003504600000016711561037687271826_"] },
-                                {label: "Pockets", elements: ["LeftPocket_00000091712150374883887260000010981178920471028864_", "RightPocket_00000124144153490674325130000008645752175170119564_"] },
+                        extras: [
                         ]}
                     ]
-                    }
-                ]
+                    
             },
             {
                 title: "Pants",
