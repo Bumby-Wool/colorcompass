@@ -462,33 +462,50 @@ angular.module('bumbyApp')
                     {
                         label: "Sheepy Hug",
                         options: [
-                            { label: "Body", elements: ["bottomCuff", "body"] },
-                            { label: "Hood", elements: ["hood", "hoodInside"] },
-                            { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
-                            { label: "Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
-                            { label: "Pocket", elements: ["pocketKangaroo"] }
+                            { label: "Body", elements: ["SheepyhugSweaterBody"] },
+                            { label: "Side Body", elements: ["SheepyhugSweaterLeftSidePanel", "SheepyhugSweaterRightSidePanel"] },
+                            { label: "Hood", elements: ["SheepyhugHood", "SheepyhugHoodFill"] },
+                            { label: "Sleeves", elements: ["SheepyhugRightSleeve", "SheepyhugLeftSleeve"] },
+                            { label: "Sleeve Cuffs", elements: ["SheepyhugRightCuff", "SheepyhugLeftCuff"] },
+                            { label: "Pocket", elements: ["SheepyhugPocket_00000021120025893808588770000001030535383966542526_"] },
+                            { label: "Pocket Cuffs", elements: ["SheepyhugLPcktCuff", "SheepyhugRPcktCuff"] }
                         ],
                         extras: [
+                            { label: "Cuffed Pocket", elements: ["SheepyhugLPcktCuff", "SheepyhugRPcktCuff"], colorSelector:"none" },
+                            { label: "Add Bottom Cuff", elements: ["SheepyhugBottomCuff"] },
+                        ]
+                    },
+                    {
+                        label: "Cocoon Sweater",
+                        options: [
+                            { label: "Body", elements: ["CocoonBody"] },
+                            { label: "Trim", elements: ["CocoonTrim"] },
+                            { label: "Sleeves", elements: ["CocoonRSleeve", "CocoonLSleeve"] },
+                            { label: "Sleeve Cuffs", elements: ["CocoonRightCuff", "CocoonLeftCuff"] } 
+                        ],
+                        extras: [
+                            { label: "Add Bottom Cuff", elements: ["SheepyhugBottomCuff"] },
                             { label: "Cuffed Pocket", elements: ["pocketKangarooLeftCuff", "pocketKangarooRightCuff"], colorSelector:"none" }
                         ]
                     },
                     {
                         label: "Quarter Zip",
                         options: [
-                            { label: "Body", elements: ["body"] },
+                            { label: "Body", elements: ["QuarterSweaterBody"] },
+                            { label: "Side Body", elements: ["QuarterSweaterLeftSidePanel", "QuarterSweaterRightSidePanel"] },
                             { label: "Neck", types: [
-                                { label: "Tall Collar", elements: ["collarTall"] },
-                                { label: "Short Collar", elements: ["collarShort"] },
-                                { label: "Hood", elements: ["hood", "hoodInside"] },
-                                { label: "Hood & Tall Collar", elements: ["HoodedCollarTall", "hood", "hoodInside"] },
-                                { label: "Hood & Short Collar", elements: ["HoodedCollarShort", "hood", "hoodInside"] }
+                                { label: "Tall Collar", elements: ["TallCollar_00000125573187673682285190000014496743265075223211_"] },
+                                { label: "Short Collar", elements: ["ShortCollar_00000130639884938210770930000008669500092146933134_"] },
+                                { label: "Hood", elements: ["Hood_00000083805946112308332890000002891442673746281346_", "HoodFill_00000003099604874630399990000015571489469321712034_"] },
+                                { label: "Hood & Tall Collar", elements: ["TallCollar_00000125573187673682285190000014496743265075223211_", "Hood_00000083805946112308332890000002891442673746281346_", "HoodFill_00000003099604874630399990000015571489469321712034_"] },
+                                { label: "Hood & Short Collar", elements: ["ShortCollar_00000130639884938210770930000008669500092146933134_", "Hood_00000083805946112308332890000002891442673746281346_", "HoodFill_00000003099604874630399990000015571489469321712034_"] }
                             ]},
-                            { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
-                            { label: "Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
-                            { label: "Zipper", elements: ["quarterCenterTrimZipperShort", "quarterCenterTrimZipperTall"], colorSelector:"zipper" }
+                            { label: "Sleeves", elements: ["QuarterRightSleeve", "QuarterLeftSleeve"] },
+                            { label: "Sleeve Cuffs", elements: ["QuarterRightCuff", "QuarterLeftCuff"] },
+                            { label: "Zipper", elements: ["QuarterZip"], colorSelector:"zipper" },
                         ],
                         extras: [
-                            { label: "Add Bottom Cuff", elements: ["bottomCuff"] },
+                            { label: "Add Bottom Cuff", elements: ["QuarterBottomCuff"] },
                             { label: "Add Pockets", types: [
                                 {label: "Rounded Angled", elements: ["pocketRoundedAngledLeft", "pocketRoundedAngledRight"] },
                                 {label: "Squared Angled", elements: ["pocketSquaredAngledLeft", "pocketSquaredAngledRight"] },
@@ -500,20 +517,21 @@ angular.module('bumbyApp')
                     {
                         label: "Half Zip",
                         options: [
-                            { label: "Body", elements: ["body"] },
+                            { label: "Body", elements: ["HalfZipSweaterBody_00000119838947203410075020000000538395446201435053_"] },
+                            { label: "Side Body", elements: ["HalfZipSweaterLeftSidePanel_00000134209921852998001010000016830497152334817684_", "HalfZipSweaterRightSidePanel_00000052785450975900319770000010404084037395891630_"] },
                             { label: "Neck", types: [
-                                { label: "Tall Collar", elements: ["collarTall"] },
-                                { label: "Short Collar", elements: ["collarShort"] },
-                                { label: "Hood", elements: ["hood", "hoodInside"] },
-                                { label: "Hood & Tall Collar", elements: ["HoodedCollarTall", "hood", "hoodInside"] },
-                                { label: "Hood & Short Collar", elements: ["HoodedCollarShort", "hood", "hoodInside"] }
+                                { label: "Tall Collar", elements: ["TallCollar_00000096781217521668280110000009125476678240014780_"] },
+                                { label: "Short Collar", elements: ["ShortCollar_00000160882779433284900430000012505166826721756806_"] },
+                                { label: "Hood", elements: ["Hood_00000087391407447128084680000002775155269104432317_", "HoodFill_00000044862054000031455020000009531068385004742056_"] },
+                                { label: "Hood & Tall Collar", elements: ["TallCollar_00000096781217521668280110000009125476678240014780_", "Hood_00000087391407447128084680000002775155269104432317_", "HoodFill_00000044862054000031455020000009531068385004742056_"] },
+                                { label: "Hood & Short Collar", elements: ["ShortCollar_00000160882779433284900430000012505166826721756806_", "Hood_00000087391407447128084680000002775155269104432317_", "HoodFill_00000044862054000031455020000009531068385004742056_"] }
                             ]},
-                            { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
-                            { label: "Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
-                            { label: "Zipper", elements: ["halfCenterTrimZipperShort", "halfCenterTrimZipperTall"], colorSelector:"zipper" }
+                            { label: "Sleeves", elements: ["HalfZipRightSleeve_00000049187548496325933920000005524563299710993035_", "HalfZipLeftSleeve_00000050662224817599592150000003610810620995548597_"] },
+                            { label: "Sleeve Cuffs", elements: ["HalfZipRightCuff_00000083792517775903090720000004203456499086822837_", "HalfZipLeftCuff_00000178179389664677894240000007980141533104802446_"] },
+                            { label: "Zipper", elements: ["HalfZip_00000155147293554217136010000007043751664322959791_"], colorSelector:"zipper" }
                         ],
                         extras: [
-                            { label: "Add Bottom Cuff", elements: ["bottomCuff"] },
+                            { label: "Add Bottom Cuff", elements: ["HalfZipBottomCuff_00000098904105625684452270000006283531426859574463_"] },
                             { label: "Add Pockets", types: [
                                 {label: "Rounded Angled", elements: ["pocketRoundedAngledLeft", "pocketRoundedAngledRight"] },
                                 {label: "Squared Angled", elements: ["pocketSquaredAngledLeft", "pocketSquaredAngledRight"] },
@@ -523,22 +541,28 @@ angular.module('bumbyApp')
                         ]
                     },
                     {
-                        label: "Zippered Henley",
+                        label: "Henley",
                         options: [
-                            { label: "Body", elements: ["body", , "henleyLine"] },
+                            { label: "Body", elements: ["HenleySweaterBody", , "henleyLine"] },
+                            { label: "Henley Pocket", elements: ["SheepyhugPocket_00000062874192161538280310000000253160929982706362_"] },
+                            { label: "Henley Pocket Cuffs", elements: ["SheepyhugRPcktCuff_00000014612560235876822200000010828075613885138613_", "SheepyhugLPcktCuff_00000116917199122742774160000003893001669277689238_"] },
                             { label: "Neck", types: [
-                                { label: "Hood", elements: ["hood", "hoodInside"] },
-                                { label: "Tall Collar", elements: ["collarTall"] },
-                                { label: "Short Collar", elements: ["collarShort"] },
-                                { label: "Hood & Tall Collar", elements: ["HoodedCollarTall", "hood", "hoodInside"] },
-                                { label: "Hood & Short Collar", elements: ["HoodedCollarShort", "hood", "hoodInside"] }
+                                { label: "Hood", elements: ["Hood_00000157994250730694846200000005983678880421254802_", "HoodFill_00000142895482361448243120000008923250145134613120_"] },
+                                { label: "Tall Collar", elements: ["TallCollar_00000170995999379726756140000011495366800018700452_"] },
+                                { label: "Short Collar", elements: ["ShortCollar_00000063598696175291568490000011871263599672130994_"] },
+                                { label: "Hood & Tall Collar", elements: ["TallCollar_00000170995999379726756140000011495366800018700452_", "Hood_00000157994250730694846200000005983678880421254802_", "HoodFill_00000142895482361448243120000008923250145134613120_"] },
+                                { label: "Hood & Short Collar", elements: ["ShortCollar_00000063598696175291568490000011871263599672130994_", "Hood_00000157994250730694846200000005983678880421254802_", "HoodFill_00000142895482361448243120000008923250145134613120_"] },
                             ]},
-                            { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
-                            { label: "Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
-                            { label: "Zipper", elements: ["halfCenterTrimZipperShort", "halfCenterTrimZipperTall"], colorSelector:"zipper" }
+                            { label: "Side Body", elements: ["HenleySweaterLeftSidePanel", "HenleySweaterRightSidePanel"], show: true },
+                            { label: "Sleeves", elements: ["HenleyRightSleeve", "HenleyLeftSleeve"] },
+                            { label: "Sleeve Cuffs", elements: ["HenleyRightCuff", "HenleyLeftCuff"] },
+                            { label: "Center", types: [
+                                { label: "Zipper", elements: ["HenleyZip"], colorSelector:"zipper" },
+                                { label: "Button up", elements: ["HenleyButton"] }
+                            ]}
                         ],
                         extras: [
-                            { label: "Add Bottom Cuff", elements: ["bottomCuff"], show: true },
+                            { label: "Add Bottom Cuff", elements: ["HenleyBottomCuff"], show: true },
                             { label: "Add Pockets", show: true, types: [
                                 {label: "Kangaroo", elements: ["pocketKangaroo"] },
                                 {label: "Cuffed Kangaroo", elements: ["pocketKangaroo", "pocketKangarooLeftCuff", "pocketKangarooRightCuff"] }
@@ -546,68 +570,26 @@ angular.module('bumbyApp')
                         ]
                     },
                     {
-                        label: "Zippered Cardigan",
+                        label: "Cardigan",
                         options: [
-                            { label: "Body", elements: ["body"] },
+                            { label: "Body", elements: ["CardiganSweaterBody"] },
+                            { label: "Side Body", elements: ["CardiganSweaterLeftSidePanel", "CardiganSweaterRightSidePanel"] },
                             { label: "Neck", types: [
-                                { label: "Tall Collar", elements: ["collarTall"] },
-                                { label: "Short Collar", elements: ["collarShort"] },
-                                { label: "Hood", elements: ["hood", "hoodInside"] },
-                                { label: "Hood & Tall Collar", elements: ["HoodedCollarTall", "hood", "hoodInside"] },
-                                { label: "Hood & Short Collar", elements: ["HoodedCollarShort", "hood", "hoodInside"] }
+                                { label: "Tall Collar", elements: ["TallCollar_00000096740233782976255870000008197843053209280184_"] },
+                                { label: "Short Collar", elements: ["ShortCollar_00000147186300464306764600000012890538756985861268_"] },
+                                { label: "Hood", elements: ["Hood_00000058552844475252033970000004537032376107617979_", "HoodFill_00000180350995394164302220000014849385863992442812_"] },
+                                { label: "Hood & Tall Collar", elements: ["TallCollar_00000096740233782976255870000008197843053209280184_", "Hood_00000058552844475252033970000004537032376107617979_", "HoodFill_00000180350995394164302220000014849385863992442812_"] },
+                                { label: "Hood & Short Collar", elements: ["ShortCollar_00000147186300464306764600000012890538756985861268_", "Hood_00000058552844475252033970000004537032376107617979_", "HoodFill_00000180350995394164302220000014849385863992442812_"] }
                             ]},
-                            { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
-                            { label: "Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
-                            { label: "Zipper", elements: ["fullCenterTrimButtonTall", "fullCenterTrimButtonShort"], colorSelector:"zipper" }
-                        ],
-                        extras: [
-                            { label: "Add Bottom Cuff", elements: ["bottomCuff"] },
-                            { label: "Add Pockets", types: [
-                                {label: "Rounded Angled", elements: ["pocketRoundedAngledLeft", "pocketRoundedAngledRight"] },
-                                {label: "Squared Angled", elements: ["pocketSquaredAngledLeft", "pocketSquaredAngledRight"] }
+                            { label: "Sleeves", elements: ["CardiganRightSleeve", "CardiganLeftSleeve"] },
+                            { label: "Sleeve Cuffs", elements: ["CardiganRightCuff", "CardiganLeftCuff"] },
+                            { label: "Center", types: [
+                                { label: "Zipper", elements: ["CardiganZipper"], colorSelector:"zipper" },
+                                { label: "Button up", elements: ["CardiganButton"] }
                             ]}
-                        ]
-                    },
-                    {
-                        label: "Button-up Henley",
-                        options: [
-                            { label: "Body", elements: ["body", "henleyLine"] },
-                            { label: "Neck", types: [
-                                { label: "Hood", elements: ["hood", "hoodInside"] },
-                                { label: "Tall Collar", elements: ["collarTall"] },
-                                { label: "Short Collar", elements: ["collarShort"] },
-                                { label: "Hood & Tall Collar", elements: ["HoodedCollarTall", "hood", "hoodInside"] },
-                                { label: "Hood & Short Collar", elements: ["HoodedCollarShort", "hood", "hoodInside"] }
-                            ]},
-                            { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
-                            { label: "Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
-                            { label: "Center Trim", elements: ["halfCenterTrimButton"] }
                         ],
                         extras: [
-                            { label: "Add Bottom Cuff", elements: ["bottomCuff"], show: true },
-                            { label: "Add Pockets", show: true, types: [
-                                {label: "Kangaroo", elements: ["pocketKangaroo"] },
-                                {label: "Cuffed Kangaroo", elements: ["pocketKangaroo", "pocketKangarooLeftCuff", "pocketKangarooRightCuff"] }
-                            ]}
-                        ]
-                    },
-                    {
-                        label: "Button-up Cardigan",
-                        options: [
-                            { label: "Body", elements: ["body"] },
-                            { label: "Neck", types: [
-                                { label: "Tall Collar", elements: ["collarTall"] },
-                                { label: "Short Collar", elements: ["collarShort"] },
-                                { label: "Hood", elements: ["hood", "hoodInside"] },
-                                { label: "Hood & Tall Collar", elements: ["HoodedCollarTall", "hood", "hoodInside"] },
-                                { label: "Hood & Short Collar", elements: ["HoodedCollarShort", "hood", "hoodInside"] }
-                            ]},
-                            { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
-                            { label: "Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] },
-                            { label: "Center Trim", elements: ["fullCenterTrimButtonTall", "fullCenterTrimButtonShort"] }
-                        ],
-                        extras: [
-                            { label: "Add Bottom Cuff", elements: ["bottomCuff"] },
+                            { label: "Add Bottom Cuff", elements: ["CardiganBottomCuff"] },
                             { label: "Add Pockets", types: [
                                 {label: "Rounded Angled", elements: ["pocketRoundedAngledLeft", "pocketRoundedAngledRight"] },
                                 {label: "Squared Angled", elements: ["pocketSquaredAngledLeft", "pocketSquaredAngledRight"] }
@@ -617,13 +599,14 @@ angular.module('bumbyApp')
                     {
                         label: "Crew",
                         options: [
-                            { label: "Body", elements: ["body", "crewNeckInside"] },
-                            { label: "Neck", elements: ["crewNeck"] },
-                            { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
-                            { label: "Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] }
+                            { label: "Body", elements: ["CrewNeckSweaterBody"] },
+                            { label: "Side Body", elements: ["CrewNeckSweaterLeftSidePanel", "CrewNeckSweaterRightSidePanel"] },
+                            { label: "Neck", elements: ["CrewNeck"] },
+                            { label: "Sleeves", elements: ["CrewNeckRightSleeve", "CrewNeckLeftSleeve"] },
+                            { label: "Sleeve Cuffs", elements: ["CrewNeckRightCuff", "CrewNeckLeftCuff"] }
                         ],
                         extras: [
-                            { label: "Add Bottom Cuff", elements: ["bottomCuff"] },
+                            { label: "Add Bottom Cuff", elements: ["CrewNeckBottomCuff"] },
                             { label: "Add Pockets", types: [
                                 {label: "Kangaroo", elements: ["pocketKangaroo"] },
                                 {label: "Cuffed Kangaroo", elements: ["pocketKangaroo", "pocketKangarooLeftCuff", "pocketKangarooRightCuff"] },
@@ -635,13 +618,31 @@ angular.module('bumbyApp')
                     {
                         label: "Shawl Neck",
                         options: [
-                            { label: "Body", elements: ["body"] },
-                            { label: "Neck", elements: ["shawlLeft", "shawlRight", "shawlMiddle"] },
-                            { label: "Sleeves", elements: ["rightSleeve", "leftSleeve"] },
-                            { label: "Sleeve Cuffs", elements: ["rightSleeveCuff", "leftSleeveCuff"] }
+                            { label: "Body", elements: ["ShawlSweaterBody"] },
+                            { label: "Side Body", elements: ["ShawlSweaterLeftSidePanel", "ShawlSweaterRightSidePanel"] },
+                            { label: "Trim", elements: ["ShawlTrim"] },
+                            { label: "Sleeves", elements: ["ShawlRightSleeve", "ShawlLeftSleeve"] },
+                            { label: "Sleeve Cuffs", elements: ["ShawlRightCuff", "ShawlLeftCuff"] }
                         ],
                         extras: [
-                            { label: "Add Bottom Cuff", elements: ["bottomCuff"], show: true },
+                            { label: "Add Bottom Cuff", elements: ["ShawlBottomCuff"], show: true },
+                            { label: "Add Pockets", types: [
+                                {label: "Rounded Angled", elements: ["pocketRoundedAngledLeft", "pocketRoundedAngledRight"] },
+                                {label: "Squared Angled", elements: ["pocketSquaredAngledLeft", "pocketSquaredAngledRight"] }
+                            ]}
+                        ]
+                    },
+                    {
+                        label: "CampFire",
+                        options: [
+                            { label: "Body", elements: ["CampfireBody_00000170244581396509663830000003427713814946487442_"] },
+                            { label: "Side Body", elements: ["CampfireLeftSidePanel_00000093135057836102853010000012768035626530286759_", "CampfireRightSidePanel_00000040557372062079609460000016491289051611172284_"] },
+                            { label: "Neck", elements: ["CampfireNeck_00000046310307428978349810000013612050494271288993_"] },
+                            { label: "Sleeves", elements: ["CampfireRightSleeve_00000069371634321454252050000010406483489980602006_", "CampfireLeftSleeve_00000139252793523566518900000017786704464211590293_"] },
+                            { label: "Sleeve Cuffs", elements: ["CampfireRightCuff_00000065760145665194582450000009654923043154304412_", "CampfireLeftCuff_00000041283872498375009410000018326987088179655595_"] }
+                        ],
+                        extras: [
+                            { label: "Add Bottom Cuff", elements: ["CampfireBottomCuff_00000021082736173635121310000013066396921596418206_"], show: true },
                             { label: "Add Pockets", types: [
                                 {label: "Rounded Angled", elements: ["pocketRoundedAngledLeft", "pocketRoundedAngledRight"] },
                                 {label: "Squared Angled", elements: ["pocketSquaredAngledLeft", "pocketSquaredAngledRight"] }
@@ -651,7 +652,7 @@ angular.module('bumbyApp')
                     {
                         label: "Vest",
                         options: [
-                            { label: "Body", elements: ["VestChest", "VestLowerTorso"] },
+                            { label: "Body", elements: ["VestChest", "VestLowerTorso_00000182497226486756089930000010016587736277426567_"] },
                             { label: "Side Body", elements: ["VestRightSidePanel", "VestLeftSidePanel"] },
                             { label: "Neck", types: [
                                 { label: "Tall Collar", elements: ["TallCollar_00000125573187673682285190000014496743265075223211_"] },
@@ -661,12 +662,13 @@ angular.module('bumbyApp')
                                 { label: "Hood & Short Collar", elements: ["ShortCollar_00000021085712356639165720000015774940922761103235_", "Hood_00000047745864555876966430000014637321368015702681_", "HoodFill_00000181773798462086411590000000549933047917184922_"] }
                             ]},
                             { label: "Center", types: [
-                                { label: "Zipper", elements: ["fullCenterTrimButtonTall", "fullCenterTrimButtonShort"], colorSelector:"zipper" },
-                                { label: "Button up", elements: ["fullCenterTrimButtonTall", "fullCenterTrimButtonShort"] }
+                                { label: "Zipper", elements: ["VestZipper"], colorSelector:"zipper" },
+                                { label: "Button up", elements: ["VestButton"] }
                             ]}
                         ],
                         extras: [
                             { label: "Add Bottom Cuff", elements: ["VestBottomCuff"], show: true },
+
                             { label: "Add Pockets", types: [
                                 {label: "Kangaroo", elements: ["pocketKangaroo"] },
                                 {label: "Cuffed Kangaroo", elements: ["pocketKangaroo", "pocketKangarooLeftCuff", "pocketKangarooRightCuff"] },
