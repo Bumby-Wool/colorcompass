@@ -651,7 +651,8 @@ angular.module('bumbyApp')
                     {
                         label: "Vest",
                         options: [
-                            { label: "Body", elements: ["bottomCuff", "body"] },
+                            { label: "Body", elements: ["VestChest", "VestLowerTorso"] },
+                            { label: "Side Body", elements: ["VestRightSidePanel", "VestLeftSidePanel"] },
                             { label: "Neck", types: [
                                 { label: "Tall Collar", elements: ["TallCollar_00000125573187673682285190000014496743265075223211_"] },
                                 { label: "Short Collar", elements: ["ShortCollar_00000021085712356639165720000015774940922761103235_"] },
@@ -665,7 +666,7 @@ angular.module('bumbyApp')
                             ]}
                         ],
                         extras: [
-                            { label: "Add Bottom Cuff", elements: ["bottomCuff"], show: true },
+                            { label: "Add Bottom Cuff", elements: ["VestBottomCuff"], show: true },
                             { label: "Add Pockets", types: [
                                 {label: "Kangaroo", elements: ["pocketKangaroo"] },
                                 {label: "Cuffed Kangaroo", elements: ["pocketKangaroo", "pocketKangarooLeftCuff", "pocketKangarooRightCuff"] },
