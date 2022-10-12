@@ -653,11 +653,11 @@ angular.module('bumbyApp')
                         options: [
                             { label: "Body", elements: ["bottomCuff", "body"] },
                             { label: "Neck", types: [
-                                { label: "Tall Collar", elements: ["collarTall"] },
-                                { label: "Short Collar", elements: ["collarShort"] },
-                                { label: "Hood", elements: ["hood", "hoodInside"] },
-                                { label: "Hood & Tall Collar", elements: ["HoodedCollarTall", "hood", "hoodInside"] },
-                                { label: "Hood & Short Collar", elements: ["HoodedCollarShort", "hood", "hoodInside"] }
+                                { label: "Tall Collar", elements: ["TallCollar_00000125573187673682285190000014496743265075223211_"] },
+                                { label: "Short Collar", elements: ["ShortCollar_00000021085712356639165720000015774940922761103235_"] },
+                                { label: "Hood", elements: ["Hood_00000047745864555876966430000014637321368015702681_", "HoodFill_00000181773798462086411590000000549933047917184922_"] },
+                                { label: "Hood & Tall Collar", elements: ["TallCollar_00000125573187673682285190000014496743265075223211_", "Hood_00000047745864555876966430000014637321368015702681_", "HoodFill_00000181773798462086411590000000549933047917184922_"] },
+                                { label: "Hood & Short Collar", elements: ["ShortCollar_00000021085712356639165720000015774940922761103235_", "Hood_00000047745864555876966430000014637321368015702681_", "HoodFill_00000181773798462086411590000000549933047917184922_"] }
                             ]},
                             { label: "Center", types: [
                                 { label: "Zipper", elements: ["fullCenterTrimButtonTall", "fullCenterTrimButtonShort"], colorSelector:"zipper" },
