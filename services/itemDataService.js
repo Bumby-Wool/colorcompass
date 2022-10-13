@@ -733,8 +733,34 @@ angular.module('bumbyApp')
                                     {label: "Square Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff"] }
                             ]}
                         ]
-                }
+                    }
                 ]
+            },
+                {
+                    title: "Wintersuit",
+                    link: "/items/Wintersuit",
+                    image: "resources/Wintersuit.png",
+                    variants: [
+                        {
+                            label: "Wintersuit",
+                            options: [
+                                { label: "Body", elements: ["Body_2_"] },
+                                { label: "Sleeves", elements: ["RightArm_2_", "LeftArm_2_"] },
+                                { label: "Sleeve Cuffs", elements: ["RightWristCuff_2_", "LeftWristCuff_2_"] },
+                                { label: "Ankle Cuffs", elements: ["RightAnkleCuff_2_", "LeftAnkleCuff_2_"] },
+                                { label: "Neck", types: [
+                                        { label: "Hood", elements: ["NeckHood_2_", "NeckHoodFill_2_"] },
+                                        { label: "Neck ", elements: ["NeckCollar_2_"] }
+                            ]},
+                            { label: "Center", types: [
+                                { label: "Straight (Available with Zipper & Bottons)", elements: ["Straight"] },
+                                { label: "ButtonOver (Available only with Zipper)", elements: ["ButtonOver"] },
+                            ]}
+                            ],
+                            extras: [
+                        ]
+                        }
+                    ]
             }
         ];
     })
