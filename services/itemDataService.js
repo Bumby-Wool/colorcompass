@@ -486,13 +486,15 @@ angular.module('bumbyApp')
                         ],
                         extras: [
                             { label: "Add Pockets", types: [
-                                {label: "Rounded Angled", elements: ["RndAnglePcktR", "RndAnglePcktL"] },
-                                {label: "Rounded Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff", "RndAnglePcktR", "RndAnglePcktL"] },
-                                {label: "Square Angled", elements: ["SqrAnglePcktR", "SqrAnglePcktL"] },
-                                {label: "Square Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff", "SqrAnglePcktR", "SqrAnglePcktL"] },
+                                {label: "Rounded Angled (Cuff option available)", elements: ["RndAnglePcktR", "RndAnglePcktL"] },
+                                {label: "Square Angled (Cuff option available)", elements: ["SqrAnglePcktR", "SqrAnglePcktL"] },
                                 {label: "Rounded flat", elements: ["RndFlatPcktR", "RndFlatPcktR_00000092445190267426784790000011558285010564762767_"] },
                                 {label: "Heart", elements: ["HrtPcktR", "HrtPcktL"] },
-                                {label: "Purse", elements: ["PrsPcktR", "PrsPcktL"] }
+                                {label: "Purse", elements: ["PrsPcktR", "PrsPcktL"] },
+                            ]},
+                                { label: "Add Pocket Cuffs", types: [
+                                    {label: "Rounded Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff"] },
+                                    {label: "Square Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff"] }
                             ]}
                         ]
                     },
@@ -514,18 +516,18 @@ angular.module('bumbyApp')
                         ],
                         extras: [
                             { label: "Add Bottom Cuff", elements: ["QuarterBottomCuff"] },
-                            { label: "Add Pocket Cuffs", types: [
-                                {label: "Kangaroo Cuffed", elements: ["RPcktCuff", "LPcktCuff"] },
-                                {label: "Rounded Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff"] },
-                                {label: "Square Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff"] }
-                            ]},
                             { label: "Add Pockets", types: [
-                                {label: "Rounded Angled", elements: ["RndAnglePcktR", "RndAnglePcktL"] },
-                                {label: "Square Angled", elements: ["SqrAnglePcktR", "SqrAnglePcktL"] },
+                                {label: "Rounded Angled (Cuff option available)", elements: ["RndAnglePcktR", "RndAnglePcktL"] },
+                                {label: "Square Angled (Cuff option available)", elements: ["SqrAnglePcktR", "SqrAnglePcktL"] },
                                 {label: "Rounded flat", elements: ["RndFlatPcktR", "RndFlatPcktR_00000092445190267426784790000011558285010564762767_"] },
-                                {label: "Kangaroo", elements: ["Kangaroo"] },
+                                {label: "Kangaroo (Cuff option Available)", elements: ["Kangaroo"] },
                                 {label: "Heart", elements: ["HrtPcktR", "HrtPcktL"] },
                                 {label: "Purse", elements: ["PrsPcktR", "PrsPcktL"] },
+                            ]},
+                                { label: "Add Pocket Cuffs", types: [
+                                    {label: "Kangaroo Cuffed", elements: ["RPcktCuff", "LPcktCuff"] },
+                                    {label: "Rounded Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff"] },
+                                    {label: "Square Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff"] }
                             ]}
                         ]
                     },
@@ -548,15 +550,17 @@ angular.module('bumbyApp')
                         extras: [
                             { label: "Add Bottom Cuff", elements: ["HalfZipBottomCuff_00000098904105625684452270000006283531426859574463_"] },
                             { label: "Add Pockets", types: [
-                                {label: "Rounded Angled", elements: ["RndAnglePcktR", "RndAnglePcktL"] },
-                                {label: "Rounded Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff", "RndAnglePcktR", "RndAnglePcktL"] },
-                                {label: "Square Angled", elements: ["SqrAnglePcktR", "SqrAnglePcktL"] },
-                                {label: "Square Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff", "SqrAnglePcktR", "SqrAnglePcktL"] },
+                                {label: "Rounded Angled (Cuff option available)", elements: ["RndAnglePcktR", "RndAnglePcktL"] },
+                                {label: "Square Angled (Cuff option available)", elements: ["SqrAnglePcktR", "SqrAnglePcktL"] },
                                 {label: "Rounded flat", elements: ["RndFlatPcktR", "RndFlatPcktR_00000092445190267426784790000011558285010564762767_"] },
-                                {label: "Kangaroo", elements: ["Kangaroo"] },
-                                {label: "Kangaroo Cuffed", elements: ["Kangaroo", "RPcktCuff", "LPcktCuff"] },
+                                {label: "Kangaroo (Cuff option available)", elements: ["Kangaroo"] },
                                 {label: "Heart", elements: ["HrtPcktR", "HrtPcktL"] },
-                                {label: "Purse", elements: ["PrsPcktR", "PrsPcktL"] }
+                                {label: "Purse", elements: ["PrsPcktR", "PrsPcktL"] },
+                            ]},
+                                { label: "Add Pocket Cuffs", types: [
+                                    {label: "Kangaroo Cuffed", elements: ["RPcktCuff", "LPcktCuff"] },
+                                    {label: "Rounded Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff"] },
+                                    {label: "Square Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff"] }
                             ]}
                         ]
                     },
@@ -610,13 +614,15 @@ angular.module('bumbyApp')
                             { label: "Add Bottom Cuff", elements: ["VestBottomCuff"], show: true },
 
                             { label: "Add Pockets", types: [
-                                {label: "Rounded Angled", elements: ["RndAnglePcktR", "RndAnglePcktL"] },
-                                {label: "Rounded Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff", "RndAnglePcktR", "RndAnglePcktL"] },
-                                {label: "Square Angled", elements: ["SqrAnglePcktR", "SqrAnglePcktL"] },
-                                {label: "Square Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff", "SqrAnglePcktR", "SqrAnglePcktL"] },
+                                {label: "Rounded Angled (Cuff option available)", elements: ["RndAnglePcktR", "RndAnglePcktL"] },
+                                {label: "Square Angled (Cuff option available)", elements: ["SqrAnglePcktR", "SqrAnglePcktL"] },
                                 {label: "Rounded flat", elements: ["RndFlatPcktR", "RndFlatPcktR_00000092445190267426784790000011558285010564762767_"] },
                                 {label: "Heart", elements: ["HrtPcktR", "HrtPcktL"] },
-                                {label: "Purse", elements: ["PrsPcktR", "PrsPcktL"] }
+                                {label: "Purse", elements: ["PrsPcktR", "PrsPcktL"] },
+                            ]},
+                                { label: "Add Pocket Cuffs", types: [
+                                    {label: "Rounded Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff"] },
+                                    {label: "Square Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff"] }
                             ]}
                         ]
                     },
@@ -632,15 +638,17 @@ angular.module('bumbyApp')
                         extras: [
                             { label: "Add Bottom Cuff", elements: ["CrewNeckBottomCuff"] },
                             { label: "Add Pockets", types: [
-                                {label: "Rounded Angled", elements: ["RndAnglePcktR", "RndAnglePcktL"] },
-                                {label: "Rounded Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff", "RndAnglePcktR", "RndAnglePcktL"] },
-                                {label: "Square Angled", elements: ["SqrAnglePcktR", "SqrAnglePcktL"] },
-                                {label: "Square Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff", "SqrAnglePcktR", "SqrAnglePcktL"] },
+                                {label: "Rounded Angled (Cuff option available)", elements: ["RndAnglePcktR", "RndAnglePcktL"] },
+                                {label: "Square Angled (Cuff option available)", elements: ["SqrAnglePcktR", "SqrAnglePcktL"] },
                                 {label: "Rounded flat", elements: ["RndFlatPcktR", "RndFlatPcktR_00000092445190267426784790000011558285010564762767_"] },
-                                {label: "Kangaroo", elements: ["Kangaroo"] },
-                                {label: "Kangaroo Cuffed", elements: ["Kangaroo", "RPcktCuff", "LPcktCuff"] },
+                                {label: "Kangaroo (Cuff option available)", elements: ["Kangaroo"] },
                                 {label: "Heart", elements: ["HrtPcktR", "HrtPcktL"] },
-                                {label: "Purse", elements: ["PrsPcktR", "PrsPcktL"] }
+                                {label: "Purse", elements: ["PrsPcktR", "PrsPcktL"] },
+                            ]},
+                                { label: "Add Pocket Cuffs", types: [
+                                    {label: "Kangaroo Cuffed", elements: ["RPcktCuff", "LPcktCuff"] },
+                                    {label: "Rounded Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff"] },
+                                    {label: "Square Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff"] }
                             ]}
                         ]
                     },
@@ -657,13 +665,15 @@ angular.module('bumbyApp')
                             { label: "Add Bottom Cuff", elements: ["VestBottomCuff"], show: true },
 
                             { label: "Add Pockets", types: [
-                                {label: "Rounded Angled", elements: ["RndAnglePcktR", "RndAnglePcktL"] },
-                                {label: "Rounded Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff", "RndAnglePcktR", "RndAnglePcktL"] },
-                                {label: "Square Angled", elements: ["SqrAnglePcktR", "SqrAnglePcktL"] },
-                                {label: "Square Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff", "SqrAnglePcktR", "SqrAnglePcktL"] },
+                                {label: "Rounded Angled (Cuff option available)", elements: ["RndAnglePcktR", "RndAnglePcktL"] },
+                                {label: "Square Angled (Cuff option available)", elements: ["SqrAnglePcktR", "SqrAnglePcktL"] },
                                 {label: "Rounded flat", elements: ["RndFlatPcktR", "RndFlatPcktR_00000092445190267426784790000011558285010564762767_"] },
                                 {label: "Heart", elements: ["HrtPcktR", "HrtPcktL"] },
-                                {label: "Purse", elements: ["PrsPcktR", "PrsPcktL"] }
+                                {label: "Purse", elements: ["PrsPcktR", "PrsPcktL"] },
+                            ]},
+                                { label: "Add Pocket Cuffs", types: [
+                                    {label: "Rounded Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff"] },
+                                    {label: "Square Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff"] }
                             ]}
                         ]
                     },
@@ -680,15 +690,17 @@ angular.module('bumbyApp')
                             { label: "Add Bottom Cuff", elements: ["VestBottomCuff"], show: true },
 
                             { label: "Add Pockets", types: [
-                                {label: "Rounded Angled", elements: ["RndAnglePcktR", "RndAnglePcktL"] },
-                                {label: "Rounded Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff", "RndAnglePcktR", "RndAnglePcktL"] },
-                                {label: "Square Angled", elements: ["SqrAnglePcktR", "SqrAnglePcktL"] },
-                                {label: "Square Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff", "SqrAnglePcktR", "SqrAnglePcktL"] },
+                                {label: "Rounded Angled (Cuff option available)", elements: ["RndAnglePcktR", "RndAnglePcktL"] },
+                                {label: "Square Angled (Cuff option available)", elements: ["SqrAnglePcktR", "SqrAnglePcktL"] },
                                 {label: "Rounded flat", elements: ["RndFlatPcktR", "RndFlatPcktR_00000092445190267426784790000011558285010564762767_"] },
-                                {label: "Kangaroo", elements: ["Kangaroo"] },
-                                {label: "Kangaroo Cuffed", elements: ["Kangaroo", "RPcktCuff", "LPcktCuff"] },
+                                {label: "Kangaroo (Cuff option available)", elements: ["Kangaroo"] },
                                 {label: "Heart", elements: ["HrtPcktR", "HrtPcktL"] },
-                                {label: "Purse", elements: ["PrsPcktR", "PrsPcktL"] }
+                                {label: "Purse", elements: ["PrsPcktR", "PrsPcktL"] },
+                            ]},
+                                { label: "Add Pocket Cuffs", types: [
+                                    {label: "Kangaroo Cuffed", elements: ["RPcktCuff", "LPcktCuff"] },
+                                    {label: "Rounded Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff"] },
+                                    {label: "Square Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff"] }
                             ]}
                         ]
                     },
@@ -713,16 +725,18 @@ angular.module('bumbyApp')
                             { label: "Add Bottom Cuff", elements: ["VestBottomCuff"], show: true },
 
                             { label: "Add Pockets", types: [
-                                {label: "Rounded Angled", elements: ["RndAnglePcktR", "RndAnglePcktL"] },
-                                {label: "Rounded Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff", "RndAnglePcktR", "RndAnglePcktL"] },
-                                {label: "Square Angled", elements: ["SqrAnglePcktR", "SqrAnglePcktL"] },
-                                {label: "Square Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff", "SqrAnglePcktR", "SqrAnglePcktL"] },
+                                {label: "Rounded Angled (Cuff option available)", elements: ["RndAnglePcktR", "RndAnglePcktL"] },
+                                {label: "Square Angled (Cuff option available)", elements: ["SqrAnglePcktR", "SqrAnglePcktL"] },
                                 {label: "Rounded flat", elements: ["RndFlatPcktR", "RndFlatPcktR_00000092445190267426784790000011558285010564762767_"] },
                                 {label: "Heart", elements: ["HrtPcktR", "HrtPcktL"] },
-                                {label: "Purse", elements: ["PrsPcktR", "PrsPcktL"] }
+                                {label: "Purse", elements: ["PrsPcktR", "PrsPcktL"] },
+                            ]},
+                                { label: "Add Pocket Cuffs", types: [
+                                    {label: "Rounded Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff"] },
+                                    {label: "Square Angled Cuffed", elements: ["RPcktCuff", "LPcktCuff"] }
                             ]}
                         ]
-                    },
+                }
                 ]
             }
         ];
