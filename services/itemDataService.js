@@ -756,7 +756,7 @@ angular.module('bumbyApp')
                                         { label: "Neck ", elements: ["NeckCollar_2_"] }
                             ]},
                             { label: "Center", types: [
-                                { label: "Straight (Available with Zipper & Bottons)", elements: ["Straight"] },
+                                { label: "Straight (Available with Zipper & Buttons)", elements: ["Straight"] },
                                 { label: "ButtonOver (Available only with Zipper)", elements: ["ButtonOver"] },
                             ]}
                             ],
