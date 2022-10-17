@@ -447,14 +447,7 @@
 	"svgPatternId": "CozyMelangeFedora",
 	"patternId": { "fill": "url(#CozyMelangeFedora"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyMelangeFedora.jpg"	
-},	
-{					
-	"type": "pattern",
-	"name": "Cozy Monster",
-	"svgPatternId": "CozyMonster",
-	"patternId": { "fill": "url(#CozyMonster"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyMonster.jpg"	
-},			
+},				
 {					
 	"type": "pattern",
 	"name": "Cozy PINK",
