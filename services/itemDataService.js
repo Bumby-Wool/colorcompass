@@ -738,7 +738,7 @@ angular.module('bumbyApp')
             },
                 {
                     title: "Wintersuit",
-                    link: "/items/Wintersuit",
+                    link: "/items/WinterSuit",
                     image: "resources/Wintersuit.png",
                     variants: [
                         {
