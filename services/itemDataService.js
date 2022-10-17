@@ -760,8 +760,7 @@ angular.module('bumbyApp')
                                 { label: "ButtonOver (Available only with Zipper)", elements: ["ButtonOver"] },
                             ]}
                             ],
-                            extras: [
-                        ]
+                            extras: []
                         }
                     ]
             }
