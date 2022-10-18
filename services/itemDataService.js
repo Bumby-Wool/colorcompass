@@ -763,6 +763,9 @@ angular.module('bumbyApp')
                             extras: [
                         ]
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 2329dc6 (Fix for wintersuit issue)
+=======
 >>>>>>> parent of 2329dc6 (Fix for wintersuit issue)
 =======
 >>>>>>> parent of 2329dc6 (Fix for wintersuit issue)
