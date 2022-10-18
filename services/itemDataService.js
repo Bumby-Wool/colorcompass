@@ -148,7 +148,7 @@ angular.module('bumbyApp')
                         options: [
                             { label: "Waist", elements: ["HPWaist"] },
                             { label: "Body", elements: ["HPBody"] },
-                            { label: "Leg Cuffs", elements: ["HPRghtCuff", "HPLeftCuff"] }
+                            { label: "Cuffs", elements: ["HPRghtCuff", "HPLeftCuff"] }
                         ],
                         extras: [
                             { label: "Add Pockets", types: [
@@ -166,7 +166,7 @@ angular.module('bumbyApp')
                         options: [
                             { label: "Waist", elements: ["JPWaist_00000122688901382537744830000001923557379072420778_"] },
                             { label: "Body", elements: ["JPBody_00000101805378233134778520000017316929125375769733_"] },
-                            { label: "Leg Cuffs", elements: ["JPRightCuff_00000032641962985279224340000004127247677774557833_", "JPLeftCuff_00000131352480359154673870000016825018982183570593_"] }
+                            { label: "Cuffs", elements: ["JPRightCuff_00000032641962985279224340000004127247677774557833_", "JPLeftCuff_00000131352480359154673870000016825018982183570593_"] }
                         ],
                         extras: [
                             { label: "Add Pockets", types: [
@@ -199,7 +199,7 @@ angular.module('bumbyApp')
                     {
                         label: "Hemmed Pants",
                         options: [
-                            { label: "Waist", elements: ["HPWaist_00000111169728634519360020000000348755208293561499_"] },
+                            { label: "Waist", elements: ["HPWaist_00000179612341506352677160000005105916481192240770_"] },
                             { label: "Body", elements: ["HPBody_00000024685168981568601360000017558009022093752499_"] }
                         ],
                         extras: [
@@ -218,7 +218,7 @@ angular.module('bumbyApp')
                         options: [
                             { label: "Waist", elements: ["CPWaist"] },
                             { label: "Body", elements: ["CPBody"] },
-                            { label: "Leg Cuffs", elements: ["CPRightCuff", "CPLeftCuff"] }
+                            { label: "Cuffs", elements: ["CPRightCuff", "CPLeftCuff"] }
                         ],
                         extras: [
                             { label: "Add Pockets", types: [
@@ -253,7 +253,7 @@ angular.module('bumbyApp')
                         options: [
                             { label: "Waist", elements: ["ECWaist"] },
                             { label: "Body", elements: ["ECBody"] },
-                            { label: "Leg Cuffs", elements: ["ECRightCuff", "ECLeftCuff"] }
+                            { label: "Cuffs", elements: ["ECRightCuff", "ECLeftCuff"] }
                         ],
                         extras: [
                             { label: "Add Pockets", types: [
@@ -271,7 +271,7 @@ angular.module('bumbyApp')
                         options: [
                             { label: "Waist", elements: ["ESPWaist_00000077283938151704800080000008444017510037475217_"] },
                             { label: "Body", elements: ["ESPBody_00000133498749950570912600000017972602896135310015_"] },
-                            { label: "Leg Cuffs", elements: ["ESPRightCuff_00000164477731841545748660000013149076215441253562_", "ESPLeftCuff_00000147936418990615227040000001645997826541013888_"] }
+                            { label: "Cuffs", elements: ["ESPRightCuff_00000164477731841545748660000013149076215441253562_", "ESPLeftCuff_00000147936418990615227040000001645997826541013888_"] }
                         ],
                         extras: [
                             { label: "Add Pockets", types: [
@@ -365,8 +365,7 @@ angular.module('bumbyApp')
                         label: "Crop - Digs",
                         options: [
                             { label: "Waistband", elements: ["DigsWaist_00000005250936543746241200000000804603514933314467_"] },
-                            { label: "DigLeftCuff", elements: ["DigsLeftCuff_00000142176999847187206770000014688065766103618997_"] },
-                            { label: "DigRightCuff", elements: ["DigsRightCuff_00000117653865402338022560000001350464945375157653_"] },
+                            { label: "Cuff", elements: ["DigsLeftCuff_00000142176999847187206770000014688065766103618997_", "DigsRightCuff_00000117653865402338022560000001350464945375157653_"] },
                             { label: "Body", elements: ["DigsBody_00000059296815609998273430000002051081486484539535_"] }
                         ],
                         extras: [
@@ -384,8 +383,7 @@ angular.module('bumbyApp')
                         label: "Crop - Cuffed",
                         options: [
                             { label: "Waistband", elements: ["CCWaist_00000173868905665231555990000010122293800057754504_"] },
-                            { label: "CuffLeft", elements: ["CCLeftCuff"] },
-                            { label: "CuffRight", elements: ["CCRightCuff"] },
+                            { label: "Cuff", elements: ["CCLeftCuff", "CCRightCuff"] },
                             { label: "Body", elements: ["CCBody"] }
                         ],
                         extras: [
@@ -403,8 +401,7 @@ angular.module('bumbyApp')
                         label: "Crop - Cuffed Euro",
                         options: [
                             { label: "Waistband", elements: ["CECWaist_00000002374963185142003360000011353906822819844012_"] },
-                            { label: "CuffedEuroLeft", elements: ["CECLeftCuff_00000033337839485162087750000010040116480601795738_"] },
-                            { label: "CuffedEuroRight", elements: ["CECRightCuff_00000018231615366495583700000008791609602073274299_"] },
+                            { label: "Cuff", elements: ["CECLeftCuff_00000033337839485162087750000010040116480601795738_", "CECRightCuff_00000018231615366495583700000008791609602073274299_"] },
                             { label: "Body", elements: ["CECBody_00000065053002216826999080000006490409814529956537_"] }
                         ],
                         extras: [
@@ -761,6 +758,7 @@ angular.module('bumbyApp')
                             ]}
                             ],
                             extras: []
+                            ]
                         }
                     ]
             }
