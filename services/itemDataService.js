@@ -757,8 +757,13 @@ angular.module('bumbyApp')
                                 { label: "ButtonOver (Available only with Zipper)", elements: ["ButtonOver"] },
                             ]}
                             ],
+<<<<<<< HEAD
                             extras: []
                             ]
+=======
+                            extras: [
+                        ]
+>>>>>>> parent of 2329dc6 (Fix for wintersuit issue)
                         }
                     ]
             }
