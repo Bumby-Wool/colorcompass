@@ -756,8 +756,6 @@ angular.module('bumbyApp')
                                 { label: "Straight (Available with Zipper & Buttons)", elements: ["Straight"] },
                                 { label: "ButtonOver (Available only with Zipper)", elements: ["ButtonOver"] },
                             ]}
-                            ],
-                            extras: []
                             ]
                         }
                     ]
