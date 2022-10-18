@@ -755,22 +755,12 @@ angular.module('bumbyApp')
                             { label: "Center", types: [
                                 { label: "Straight (Available with Zipper & Buttons)", elements: ["Straight"] },
                                 { label: "ButtonOver (Available only with Zipper)", elements: ["ButtonOver"] },
-                            ]}
-<<<<<<< HEAD
-                            ]
-=======
                             ],
-                            extras: [
-                        ]
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 2329dc6 (Fix for wintersuit issue)
-=======
->>>>>>> parent of 2329dc6 (Fix for wintersuit issue)
-=======
->>>>>>> parent of 2329dc6 (Fix for wintersuit issue)
+                            extras: [ ]
                         }
                     ]
+                }
+            ]
             }
         ];
     })
