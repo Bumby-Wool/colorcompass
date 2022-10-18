@@ -51,6 +51,7 @@ angular.module('bumbyApp')
                 }
 
                 ctrl.getOptionByElementId = function(options, elementId) {
+                    if (!options) { return null; } //Don't do find on null or undefined objects
                     return options.find(o => {
                         if (o.elements) {
                             return o.elements.indexOf(elementId) >= 0;
