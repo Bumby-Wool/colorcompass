@@ -20,6 +20,13 @@
 	"svgPatternId": "DurasoftDavanaMelange",
 	"patternId": { "fill": "url(#DurasoftDavanaMelange"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/08/BuilderDurasoftDavanaMelange.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Durasoft Ambrym",
+	"svgPatternId": "DurasoftAmbrym",
+	"patternId": { "fill": "url(#DurasoftAmbrym"},
+	"imageUrl": "https://photos.app.goo.gl/VRm8JWzc639GstGQ6"
 },	
 {					
 	"type": "pattern",
