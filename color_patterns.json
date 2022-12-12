@@ -9,6 +9,48 @@
 },
 {					
 	"type": "pattern",
+	"name": "Durasoft Smokey",
+	"svgPatternId": "DurasoftSmokey",
+	"patternId": { "fill": "url(#DurasoftSmokey"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/12/BuilderDurasoftSmokey.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Durasoft Ribbity",
+	"svgPatternId": "DurasoftRibbity",
+	"patternId": { "fill": "url(#DurasoftRibbity"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/12/BuilderDurasoftRibbity.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Durasoft Pollen",
+	"svgPatternId": "DurasoftPollen",
+	"patternId": { "fill": "url(#DurasoftPollen"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/12/BuilderDurasoftPollen.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Durasoft Peppa",
+	"svgPatternId": "DurasoftPeppa",
+	"patternId": { "fill": "url(#DurasoftPeppa"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/12/BuilderDurasoftPeppa.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Durasoft Pecan",
+	"svgPatternId": "DurasoftPecan",
+	"patternId": { "fill": "url(#DurasoftPecan"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/12/BuilderDurasoftPecan.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Durasoft Natural",
+	"svgPatternId": "DurasoftNatural",
+	"patternId": { "fill": "url(#DurasoftNatural"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/12/BuilderDurasoftNatural.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Durasoft MeWantCookie",
 	"svgPatternId": "DurasoftMeWantCookie",
 	"patternId": { "fill": "url(#DurasoftMeWantCookie"},
