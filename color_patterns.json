@@ -12,14 +12,21 @@
 	"name": "Cozy Electric Youth",
 	"svgPatternId": "CozyElectricYouth",
 	"patternId": { "fill": "url(#CozyElectricYouth"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/12/BuilderCozyElectricYouth.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/01/BuilderCozyElectricYouth.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Durasoft Rambling Rainbow",
+	"svgPatternId": "DurasoftRamblingRainbow",
+	"patternId": { "fill": "url(#DurasoftRamblingRainbow"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/01/BuilderDurasoftRamblingRainbow.jpg"
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Moody Rainbow",
 	"svgPatternId": "DurasoftMoodyRainbow",
 	"patternId": { "fill": "url(#DurasoftMoodyRainbow"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/12/BuilderDurasoftMoodyRainbow.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/01/BuilderDurasoftMoodyRainbow.jpg"
 },
 {					
 	"type": "pattern",
