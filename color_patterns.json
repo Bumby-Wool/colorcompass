@@ -156,24 +156,10 @@
 },
 {					
 	"type": "pattern",
-	"name": "Durasoft Davana Melange",
-	"svgPatternId": "DurasoftDavanaMelange",
-	"patternId": { "fill": "url(#DurasoftDavanaMelange"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/08/BuilderDurasoftDavanaMelange.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Durasoft Ambrym",
 	"svgPatternId": "DurasoftAmbrym",
 	"patternId": { "fill": "url(#DurasoftAmbrym"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/12/BuilderDurasoftAmbrym.jpg"
-},	
-{					
-	"type": "pattern",
-	"name": "Durasoft Neptune Melange",
-	"svgPatternId": "DurasoftNeptuneMelange",
-	"patternId": { "fill": "url(#DurasoftNeptuneMelange"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/08/BuilderDurasoftNeptuneMelange.jpg"
 },	
 {					
 	"type": "pattern",
@@ -209,13 +195,6 @@
 	"svgPatternId": "DurasoftTruffle",
 	"patternId": { "fill": "url(#DurasoftTruffle"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftTruffle.jpg"	
-},
-{					
-	"type": "pattern",
-	"name": "Durasoft Rapsody",
-	"svgPatternId": "DurasoftRapsody",
-	"patternId": { "fill": "url(#DurasoftRapsody"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftRapsody.jpg"	
 },
 {					
 	"type": "pattern",
@@ -363,14 +342,7 @@
 	"svgPatternId": "CozyFuchsia",
 	"patternId": { "fill": "url(#CozyFuchsia"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyFuchsia.jpg"	
-},	
-{					
-	"type": "pattern",
-	"name": "Cozy Iris",
-	"svgPatternId": "CozyIris",
-	"patternId": { "fill": "url(#CozyIris"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyIris.jpg"	
-},	
+},		
 {					
 	"type": "pattern",
 	"name": "Cozy Melange Fedora",
@@ -399,13 +371,6 @@
 	"patternId": { "fill": "url(#CozyStripedBiscuit)"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedBiscuit.jpg"
   },
-   {					
-	"type": "pattern",
-	"name": "Cozy StripedForest Campsite",
-	"svgPatternId": "CozyStripedForestCampsite",
-	"patternId": { "fill": "url(#CozyStripedForestCampsite)"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedForestCampsite.jpg"
-   },	
    {					
 	"type": "pattern",
 	"name": "Cozy Striped Hay",
