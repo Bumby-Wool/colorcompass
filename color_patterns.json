@@ -2,13 +2,6 @@
    { "name": "CozyStripedTin" },
 {					
 	"type": "pattern",
-	"name": "Cozy Melange Biscotti",
-	"svgPatternId": "CozyMelangeBiscotti",
-	"patternId": { "fill": "url(#CozyMelangeBiscotti"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyMelangeBiscotti.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Cozy Vibrancy",
 	"svgPatternId": "CozyVibrancy",
 	"patternId": { "fill": "url(#CozyVibrancy"},
