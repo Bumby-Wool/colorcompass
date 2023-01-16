@@ -9,6 +9,20 @@
 },
 {					
 	"type": "pattern",
+	"name": "Durasoft Ballet",
+	"svgPatternId": "DurasoftBallet",
+	"patternId": { "fill": "url(#DurasoftBallet"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/01/BuilderDurasoftBallet.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Caspian",
+	"svgPatternId": "ComfyCaspian",
+	"patternId": { "fill": "url(#ComfyCaspian"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/01/BuilderComfyCaspian.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Durasoft Good Vibrations",
 	"svgPatternId": "DurasoftGoodVibrations",
 	"patternId": { "fill": "url(#DurasoftGoodVibrations"},
