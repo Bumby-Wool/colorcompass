@@ -142,13 +142,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Durasoft Pecan",
-	"svgPatternId": "DurasoftPecan",
-	"patternId": { "fill": "url(#DurasoftPecan"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/12/BuilderDurasoftPecan.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Durasoft Natural",
 	"svgPatternId": "DurasoftNatural",
 	"patternId": { "fill": "url(#DurasoftNatural"},
