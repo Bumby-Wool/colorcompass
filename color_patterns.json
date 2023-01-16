@@ -9,6 +9,20 @@
 },
 {					
 	"type": "pattern",
+	"name": "Durasoft Juniper",
+	"svgPatternId": "DurasoftJuniper",
+	"patternId": { "fill": "url(#DurasoftJuniper"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/01/BuilderDurasoftJuniper.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Durasoft Frequency",
+	"svgPatternId": "DurasoftFrequency",
+	"patternId": { "fill": "url(#DurasoftFrequency"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/01/BuilderDurasoftFrequency.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Durasoft Ballet",
 	"svgPatternId": "DurasoftBallet",
 	"patternId": { "fill": "url(#DurasoftBallet"},
