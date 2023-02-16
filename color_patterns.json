@@ -9,6 +9,13 @@
 },
 {					
 	"type": "pattern",
+	"name": "Cozy Melange Amber",
+	"svgPatternId": "CozyMelangeAmber",
+	"patternId": { "fill": "url(#CozyMelangeAmber"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/02/BuilderCozyMelangeAmber.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Comfy Magenta Explosion",
 	"svgPatternId": "ComfyMagentaExplosion",
 	"patternId": { "fill": "url(#ComfyMagentaExplosion"},
