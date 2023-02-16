@@ -16,10 +16,10 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Wavy Water Pixie",
-	"svgPatternId": "ComfyWavyWaterPixie",
-	"patternId": { "fill": "url(#ComfyWavyWaterPixie"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/01/BuilderComfyWavyWaterPixie.jpg"
+	"name": "Durasoft Comfy Wavy Water Pixie",
+	"svgPatternId": "DurasoftComfyWavyWaterPixie",
+	"patternId": { "fill": "url(#DurasoftComfyWavyWaterPixie"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/02/BuilderDurasoftComfyWavyWaterPixie.jpg"
 },
 {					
 	"type": "pattern",
