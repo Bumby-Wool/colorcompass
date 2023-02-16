@@ -413,7 +413,7 @@
 	"patternId": { "fill": "url(#CozyStripedBiscuit)"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedBiscuit.jpg"
   },
-   {					
+  {					
 	"type": "pattern",
 	"name": "Cozy Striped Hay",
 	"svgPatternId": "CozyStripedHay",
@@ -448,7 +448,7 @@
 	"patternId": { "fill": "url(#CozyStripedTin)"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedTin.jpg"
    },	
-    {
+   {
         "type": "pattern",
         "name": "Cozy Melange Trilby",
         "svgPatternId": "CozyMelangeTrilby",
