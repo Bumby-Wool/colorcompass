@@ -58,13 +58,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Baby Beluga",
-	"svgPatternId": "ComfyBabyBeluga",
-	"patternId": { "fill": "url(#ComfyBabyBeluga"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/02/BuilderComfyBabyBeluga.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Cozy DarkMatter",
 	"svgPatternId": "CozyDarkMatter",
 	"patternId": { "fill": "url(#CozyDarkMatter"},
