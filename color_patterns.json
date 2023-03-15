@@ -303,13 +303,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Durasoft Lovespell",
-	"svgPatternId": "DurasoftLovespell",
-	"patternId": { "fill": "url(#DurasoftLovespell"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/12/BuilderDurasoftLovespell.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Durasoft Lilac",
 	"svgPatternId": "DurasoftLilac",
 	"patternId": { "fill": "url(#DurasoftLilac"},
