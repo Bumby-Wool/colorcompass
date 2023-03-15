@@ -191,10 +191,10 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Beluga",
-	"svgPatternId": "ComfyBeluga",
-	"patternId": { "fill": "url(#ComfyBeluga"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/01/BuilderComfyBeluga.jpg"
+	"name": "Comfy Baby Beluga",
+	"svgPatternId": "ComfybabyBeluga",
+	"patternId": { "fill": "url(#ComfyBabyBeluga"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/01/BuilderComfyBabyBeluga.jpg"
 },
 {					
 	"type": "pattern",
