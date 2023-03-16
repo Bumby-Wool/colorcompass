@@ -268,13 +268,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Durasoft MarigoldMelange",
-	"svgPatternId": "DurasoftMarigoldMelange",
-	"patternId": { "fill": "url(#DurasoftMarigoldMelange"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/12/BuilderDurasoftMarigoldMelange.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Durasoft DeepSea",
 	"svgPatternId": "DurasoftDeepSea",
 	"patternId": { "fill": "url(#DurasoftDeepSea"},
@@ -314,13 +307,6 @@
 	"svgPatternId": "CozyStripedStatic",
 	"patternId": { "fill": "url(#CozyStripedStatic"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedStatic.jpg"	
-},
-{					
-	"type": "pattern",
-	"name": "Cozy Striped Venomous",
-	"svgPatternId": "CozyStripedVenomous",
-	"patternId": { "fill": "url(#CozyStripedVenomous"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/08/BuilderCozyStripedVenomous.jpg"	
 },
 {					
 	"type": "pattern",
