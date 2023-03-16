@@ -9,10 +9,10 @@
 },
 {					
 	"type": "pattern",
-	"name": "Cozy Striped Grapefruit",
-	"svgPatternId": "CozyStripedGrapefruit",
-	"patternId": { "fill": "url(#CozyStripedGrapefruit"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderCozyStripedGrapefruit.jpg"
+	"name": "Cozy Striped Melon coly",
+	"svgPatternId": "CozyStripedMeloncoly",
+	"patternId": { "fill": "url(#CozyStripedMeloncoly"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderCozyStripedMeloncoly.jpg"
 },
 {					
 	"type": "pattern",
