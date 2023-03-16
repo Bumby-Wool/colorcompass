@@ -9,6 +9,27 @@
 },
 {					
 	"type": "pattern",
+	"name": "Durasoft Delicious",
+	"svgPatternId": "DurasoftDelicious",
+	"patternId": { "fill": "url(#DurasoftDelicious"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderDurasoftDelicious.png"
+},
+{					
+	"type": "pattern",
+	"name": "Durasoft Coral",
+	"svgPatternId": "DurasoftCoral",
+	"patternId": { "fill": "url(#DurasoftCoral"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderDurasoftCoral.png"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Ultra Blue",
+	"svgPatternId": "ComfyUltraBlue",
+	"patternId": { "fill": "url(#ComfyUltraBlue"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyUltraBlue.png"
+},
+{					
+	"type": "pattern",
 	"name": "Comfy Stormy Sky",
 	"svgPatternId": "ComfyStormySky",
 	"patternId": { "fill": "url(#ComfyStormySky"},
