@@ -9,6 +9,13 @@
 },
 {					
 	"type": "pattern",
+	"name": "Cozy Striped Twilight",
+	"svgPatternId": "CozyStripedTwilight",
+	"patternId": { "fill": "url(#CozyStripedTwilight"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderCozyStripedTwilight.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Cozy Striped Melon coly",
 	"svgPatternId": "CozyStripedMeloncoly",
 	"patternId": { "fill": "url(#CozyStripedMeloncoly"},
