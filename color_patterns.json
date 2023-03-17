@@ -16,6 +16,12 @@
 },
 {					
 	"type": "pattern",
+	"name": "Durasoft Geode Peppermint Swirl",
+	"svgPatternId": "DurasoftGeodePeppermintSwirl",
+	"patternId": { "fill": "url(#DurasoftGeodePeppermintSwirl"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderDurasoftGeodePeppermintSwirl.jpg"
+{					
+	"type": "pattern",
 	"name": "Comfy Razzy",
 	"svgPatternId": "ComfyRazzy",
 	"patternId": { "fill": "url(#ComfyRazzy"},
