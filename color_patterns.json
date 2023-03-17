@@ -16,6 +16,13 @@
 },
 {					
 	"type": "pattern",
+	"name": "Comfy Razzy",
+	"svgPatternId": "ComfyRazzy",
+	"patternId": { "fill": "url(#ComfyRazzy"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyRazzy.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Cozy Striped Cobalt",
 	"svgPatternId": "CozyStripedCobalt",
 	"patternId": { "fill": "url(#CozyStripedCobalt"},
