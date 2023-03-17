@@ -9,6 +9,13 @@
 },
 {					
 	"type": "pattern",
+	"name": "Comfy Citrus Twist",
+	"svgPatternId": "ComfyCitrusTwist",
+	"patternId": { "fill": "url(#ComfyCitrusTwist"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyCitrusTwist.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Cozy Vibrancy",
 	"svgPatternId": "CozyVibrancy",
 	"patternId": { "fill": "url(#CozyVibrancy"},
