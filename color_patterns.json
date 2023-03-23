@@ -9,6 +9,34 @@
 },
 {					
 	"type": "pattern",
+	"name": "DW Hilol Select items only ",
+	"svgPatternId": "DWHilol",
+	"patternId": { "fill": "url(#DWHilol"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyCitrusTwist.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Montego Bay Select items only ",
+	"svgPatternId": "DWMontegoBay",
+	"patternId": { "fill": "url(#DWMontegoBay"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyCitrusTwist.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Bronze Select items only ",
+	"svgPatternId": "DWBronze",
+	"patternId": { "fill": "url(#DWBronze"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyCitrusTwist.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Blazing Select items only ",
+	"svgPatternId": "DWBlazing",
+	"patternId": { "fill": "url(#DWBlazing"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyCitrusTwist.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "DW Coral Select items only ",
 	"svgPatternId": "DWCoral",
 	"patternId": { "fill": "url(#DWCoral"},
