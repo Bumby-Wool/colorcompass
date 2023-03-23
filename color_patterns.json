@@ -2,13 +2,6 @@
    { "name": "Cozy Striped Cobalt" },
 {					
 	"type": "pattern",
-	"name": "Cozy Striped Cobalt",
-	"svgPatternId": "CozyStripedCobalt",
-	"patternId": { "fill": "url(#CozyStripedCobalt"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderCozyStripedCobalt.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "DW UnicornFluff Select items only ",
 	"svgPatternId": "DWUnicornFluff",
 	"patternId": { "fill": "url(#DWUnicornFluff"},
