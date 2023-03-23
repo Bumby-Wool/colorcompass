@@ -254,13 +254,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Cozy Striped Cobalt",
-	"svgPatternId": "CozyStripedCobalt",
-	"patternId": { "fill": "url(#CozyStripedCobalt"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderCozyStripedCobalt.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Cozy Striped Twilight",
 	"svgPatternId": "CozyStripedTwilight",
 	"patternId": { "fill": "url(#CozyStripedTwilight"},
@@ -321,13 +314,6 @@
 	"svgPatternId": "DurasoftDelicious",
 	"patternId": { "fill": "url(#DurasoftDelicious"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderDurasoftDelicious.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Durasoft Coral",
-	"svgPatternId": "DurasoftCoral",
-	"patternId": { "fill": "url(#DurasoftCoral"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderDurasoftCoral.jpg"
 },
 {					
 	"type": "pattern",
@@ -405,13 +391,6 @@
 	"svgPatternId": "ComfyMagentaExplosion",
 	"patternId": { "fill": "url(#ComfyMagentaExplosion"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/02/BuilderComfyMagentaExplosion.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Comfy Wavy Water Pixie",
-	"svgPatternId": "ComfyWavyWaterPixie",
-	"patternId": { "fill": "url(#ComfyWavyWaterPixie"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyWavyWaterPixie-1.jpg"
 },
 {					
 	"type": "pattern",
@@ -524,13 +503,6 @@
 	"svgPatternId": "ComfyDarkDenim",
 	"patternId": { "fill": "url(#ComfyDarkDenim"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/01/BuilderComfyDarkDenim.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Comfy Cypress",
-	"svgPatternId": "ComfyCypress",
-	"patternId": { "fill": "url(#ComfyCypress"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/01/BuilderComfyCypress.jpg"
 },
 {					
 	"type": "pattern",
