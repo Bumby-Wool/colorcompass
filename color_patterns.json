@@ -9,6 +9,69 @@
 },
 {					
 	"type": "pattern",
+	"name": "DW UnicornFluff Select items only ",
+	"svgPatternId": "DWUnicornFluff",
+	"patternId": { "fill": "url(#DWUnicornFluff"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyCitrusTwist.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Ignition Select items only ",
+	"svgPatternId": "DWIgnition",
+	"patternId": { "fill": "url(#DWIgnition"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyCitrusTwist.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Delicious Select items only ",
+	"svgPatternId": "DWDelicious",
+	"patternId": { "fill": "url(#DWDelicious"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyCitrusTwist.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW TickleMePink Select items only ",
+	"svgPatternId": "DWTickleMePink",
+	"patternId": { "fill": "url(#DWTickleMePink"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyCitrusTwist.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Ballet Select items only ",
+	"svgPatternId": "DWBallet",
+	"patternId": { "fill": "url(#DWBallet"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyCitrusTwist.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Dragon Fruit Select items only ",
+	"svgPatternId": "DWDragonFruit",
+	"patternId": { "fill": "url(#DWDragonFruit"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyCitrusTwist.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Crystal Select items only ",
+	"svgPatternId": "DWCrystal",
+	"patternId": { "fill": "url(#DWCrystal"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyCitrusTwist.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Vino Select items only ",
+	"svgPatternId": "DWVino",
+	"patternId": { "fill": "url(#DWVino"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyCitrusTwist.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW GoodVibes Select items only ",
+	"svgPatternId": "DWGoodVibes",
+	"patternId": { "fill": "url(#DWGoodVibes"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyCitrusTwist.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "DW SeaGlass Select items only ",
 	"svgPatternId": "DWSeaGlass",
 	"patternId": { "fill": "url(#DWSeaGlass"},
