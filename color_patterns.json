@@ -520,13 +520,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Holly",
-	"svgPatternId": "ComfyHolly",
-	"patternId": { "fill": "url(#ComfyHolly"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/01/BuilderComfyHolly.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Cozy StripedJade",
 	"svgPatternId": "CozyStripedJade",
 	"patternId": { "fill": "url(#CozyStripedJade"},
