@@ -352,13 +352,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Courgette",
-	"svgPatternId": "ComfyCourgette",
-	"patternId": { "fill": "url(#ComfyCourgette"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyCourgette.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Comfy Tickle Me Pink",
 	"svgPatternId": "ComfyTickleMePink",
 	"patternId": { "fill": "url(#ComfyTickleMePink"},
@@ -468,13 +461,6 @@
 	"svgPatternId": "ComfyMagentaExplosion",
 	"patternId": { "fill": "url(#ComfyMagentaExplosion"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/02/BuilderComfyMagentaExplosion.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Comfy Sunshine Orange Geode",
-	"svgPatternId": "ComfySunshineOrangeGeode",
-	"patternId": { "fill": "url(#ComfySunshineOrangeGeode"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/02/BuilderComfySunshineOrangeGeode.jpg"
 },
 {					
 	"type": "pattern",
