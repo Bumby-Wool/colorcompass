@@ -611,13 +611,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Cozy Sepia",
-	"svgPatternId": "CozySepia",
-	"patternId": { "fill": "url(#CozySepia"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/12/BuilderCozySepia.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Cozy Gator",
 	"svgPatternId": "CozyGator",
 	"patternId": { "fill": "url(#CozyGator"},
