@@ -513,13 +513,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Durasoft Amalthea",
-	"svgPatternId": "DurasoftAmalthea",
-	"patternId": { "fill": "url(#DurasoftAmalthea"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/02/BuilderDurasoftAmalthea.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Durasoft Waxed Canvas",
 	"svgPatternId": "DurasoftWaxedCanvas",
 	"patternId": { "fill": "url(#DurasoftWaxedCanvas"},
