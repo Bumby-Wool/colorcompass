@@ -156,13 +156,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "DW SeaGlass Select items only ",
-	"svgPatternId": "DWSeaGlass",
-	"patternId": { "fill": "url(#DWSeaGlass"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderDWSeaGlass.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "DW Midnight Select items only ",
 	"svgPatternId": "DWMidnight",
 	"patternId": { "fill": "url(#DWMidnight"},
