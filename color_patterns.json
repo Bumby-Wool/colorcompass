@@ -345,13 +345,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Tickle Me Pink",
-	"svgPatternId": "ComfyTickleMePink",
-	"patternId": { "fill": "url(#ComfyTickleMePink"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyTickleMePink.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Durasoft Inspire",
 	"svgPatternId": "DurasoftyInspire",
 	"patternId": { "fill": "url(#DurasoftyInspire"},
