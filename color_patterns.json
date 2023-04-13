@@ -289,13 +289,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Citrus Twist",
-	"svgPatternId": "ComfyCitrusTwist",
-	"patternId": { "fill": "url(#ComfyCitrusTwist"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyCitrusTwist.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Cozy Vibrancy",
 	"svgPatternId": "CozyVibrancy",
 	"patternId": { "fill": "url(#CozyVibrancy"},
@@ -314,13 +307,6 @@
 	"svgPatternId": "DurasoftGeodePeppermintSwirl",
 	"patternId": { "fill": "url(#DurasoftGeodePeppermintSwirl"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderDurasoftGeodePeppermintSwirl.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Comfy Razzy",
-	"svgPatternId": "ComfyRazzy",
-	"patternId": { "fill": "url(#ComfyRazzy"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyRazzy.jpg"
 },
 {					
 	"type": "pattern",
@@ -678,13 +664,6 @@
 	"svgPatternId": "DurasoftDaffodil",
 	"patternId": { "fill": "url(#DurasoftDaffodil"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftDaffodil.jpg"	
-},
-{					
-	"type": "pattern",
-	"name": "Durasoft Cherry Blossom Melange",
-	"svgPatternId": "DurasoftCherryBlossomMelange",
-	"patternId": { "fill": "url(#DurasoftCherryBlossomMelange"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftCherryBlossomMelange.jpg"	
 },
 {					
 	"type": "pattern",
