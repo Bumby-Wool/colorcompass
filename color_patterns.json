@@ -9,6 +9,41 @@
 },
 {					
 	"type": "pattern",
+	"name": "Cozy Caboose Melange",
+	"svgPatternId": "CozyCabooseMelange",
+	"patternId": { "fill": "url(#CozyCabooseMelange"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Cozy Striped Smoke",
+	"svgPatternId": "CozyStripedSmoke",
+	"patternId": { "fill": "url(#CozyStripedSmoke"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Cozy Dark Denim",
+	"svgPatternId": "CozyDarkDenim",
+	"patternId": { "fill": "url(#CozyDarkDenim"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Cozy Striped Cub",
+	"svgPatternId": "CozyStripedCub",
+	"patternId": { "fill": "url(#CozyStripedCub"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Denim",
+	"svgPatternId": "ComfyDenim",
+	"patternId": { "fill": "url(#ComfyDenim"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Comfy Summer Slush",
 	"svgPatternId": "ComfySummerSlush",
 	"patternId": { "fill": "url(#ComfySummerSlush"},
