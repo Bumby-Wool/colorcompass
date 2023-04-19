@@ -9,6 +9,41 @@
 },
 {					
 	"type": "pattern",
+	"name": "DW Charcoal Select items only",
+	"svgPatternId": "DWCharcoal",
+	"patternId": { "fill": "url(#DWCharcoal"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Anthias Select items only",
+	"svgPatternId": "DWAnthias",
+	"patternId": { "fill": "url(#DWAnthias"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Foothills Select items only",
+	"svgPatternId": "DWFoothills",
+	"patternId": { "fill": "url(#DWFoothills"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Larkspur Select items only",
+	"svgPatternId": "DWLarkspur",
+	"patternId": { "fill": "url(#DWLarkspur"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Twist Of Lime Select items only",
+	"svgPatternId": "DWTwistOfLime",
+	"patternId": { "fill": "url(#DWTwistOfLime"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Cozy Striped Dart Frog",
 	"svgPatternId": "CozyStripedDartFrog",
 	"patternId": { "fill": "url(#CozyStripedDartFrog"},
