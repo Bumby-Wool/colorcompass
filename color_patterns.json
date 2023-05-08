@@ -82,7 +82,7 @@
 	"name": "Durasoft Azalea",
 	"svgPatternId": "DurasoftAzalea",
 	"patternId": { "fill": "url(#DurasoftAzalea"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderDurasoftAzalea.jpg"
 },
 {					
 	"type": "pattern",
@@ -96,14 +96,14 @@
 	"name": "Durasoft Charcoal",
 	"svgPatternId": "DurasoftCharcoal",
 	"patternId": { "fill": "url(#DurasoftCharcoal"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderDurasoftCharcoal.jpg"
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Fossil",
 	"svgPatternId": "DurasoftFossil",
 	"patternId": { "fill": "url(#DurasoftFossil"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderDurasoftFossil.jpg"
 },
 {					
 	"type": "pattern",
@@ -131,7 +131,7 @@
 	"name": "DW Larkspur Select items only",
 	"svgPatternId": "DWLarkspur",
 	"patternId": { "fill": "url(#DWLarkspur"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderDWLarkspur.jpg"
 },
 {					
 	"type": "pattern",
@@ -143,9 +143,9 @@
 {					
 	"type": "pattern",
 	"name": "Cozy Striped Dart Frog",
-	"svgPatternId": "CozyStripedDartFrog",
-	"patternId": { "fill": "url(#CozyStripedDartFrog"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+	"svgPatternId": "StripedCozyDartFrog",
+	"patternId": { "fill": "url(#StripedCozyDartFrog"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderCozyDartFrog.jpg"
 },
 {					
 	"type": "pattern",
@@ -292,7 +292,7 @@
 	"name": "DW Foothills Select items only ",
 	"svgPatternId": "DWFoothills",
 	"patternId": { "fill": "url(#DWFoothills"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderDWFoothills.jpg"
 },
 {					
 	"type": "pattern",
