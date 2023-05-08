@@ -68,14 +68,14 @@
 	"name": "Durasoft Sunkissed",
 	"svgPatternId": "DurasoftSunkissed",
 	"patternId": { "fill": "url(#DurasoftSunkissed"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderDurasoftSunkissed.jpg"
 },
 {					
 	"type": "pattern",
 	"name": "Durasoft Agate",
 	"svgPatternId": "DurasoftAgate",
 	"patternId": { "fill": "url(#DurasoftAgate"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderDurasoftAgate.jpg"
 },
 {					
 	"type": "pattern",
@@ -201,7 +201,7 @@
 	"name": "Cozy Dark Denim",
 	"svgPatternId": "CozyDarkDenim",
 	"patternId": { "fill": "url(#CozyDarkDenim"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderCozyDarkDenim.jpg"
 },
 {					
 	"type": "pattern",
@@ -222,7 +222,7 @@
 	"name": "Comfy Summer Slush",
 	"svgPatternId": "ComfySummerSlush",
 	"patternId": { "fill": "url(#ComfySummerSlush"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderComfySummerSlushs.jpg"
 },
 {					
 	"type": "pattern",
