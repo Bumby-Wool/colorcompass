@@ -152,7 +152,7 @@
 	"name": "Cozy Striped Glass",
 	"svgPatternId": "CozyStripedGlass",
 	"patternId": { "fill": "url(#CozyStripedGlass"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderCozyStripedGlass.jpg"
 },
 {					
 	"type": "pattern",
@@ -166,7 +166,7 @@
 	"name": "Cozy Striped Pink Flamingo",
 	"svgPatternId": "CozyStripedPinkFlamingo",
 	"patternId": { "fill": "url(#CozyStripedPinkFlamingo"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderCozyStripedPinkFlamingo.jpg"
 },
 {					
 	"type": "pattern",
@@ -194,7 +194,7 @@
 	"name": "Cozy Striped Smoke",
 	"svgPatternId": "CozyStripedSmoke",
 	"patternId": { "fill": "url(#CozyStripedSmoke"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderCozyStripedSmoke.jpg"
 },
 {					
 	"type": "pattern",
