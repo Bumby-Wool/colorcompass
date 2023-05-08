@@ -611,13 +611,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Empress",
-	"svgPatternId": "ComfyEmpress",
-	"patternId": { "fill": "url(#ComfyEmpress"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderComfyEmpress.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Comfy Depth",
 	"svgPatternId": "ComfyDepth",
 	"patternId": { "fill": "url(#ComfyDepth"},
