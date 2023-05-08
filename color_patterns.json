@@ -180,14 +180,14 @@
 	"name": "Cozy Blue Water Ice Melange",
 	"svgPatternId": "CozyBlueWaterIceMelange",
 	"patternId": { "fill": "url(#CozyBlueWaterIceMelange"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderCozyMelangeBlueWaterIce.jpg"
 },
 {					
 	"type": "pattern",
 	"name": "Cozy Caboose Melange",
 	"svgPatternId": "CozyCabooseMelange",
 	"patternId": { "fill": "url(#CozyCabooseMelange"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderCozyMelangeCaboose.jpg"
 },
 {					
 	"type": "pattern",
@@ -208,7 +208,7 @@
 	"name": "Cozy Striped Cub",
 	"svgPatternId": "CozyStripedCub",
 	"patternId": { "fill": "url(#CozyStripedCub"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderCozyStripedCub.jpg"
 },
 {					
 	"type": "pattern",
