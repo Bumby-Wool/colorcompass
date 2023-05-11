@@ -247,13 +247,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "DW Globe Select items only ",
-	"svgPatternId": "DWGlobe",
-	"patternId": { "fill": "url(#DWGlobe"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "DW Magma Select items only ",
 	"svgPatternId": "DWMagma",
 	"patternId": { "fill": "url(#DWMagma"},
@@ -468,13 +461,6 @@
 	"svgPatternId": "DWBlazing",
 	"patternId": { "fill": "url(#DWBlazing"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderDWBlazing.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "DW Coral Select items only ",
-	"svgPatternId": "DWCoral",
-	"patternId": { "fill": "url(#DWCoral"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderDWCoral.jpg"
 },
 {					
 	"type": "pattern",
