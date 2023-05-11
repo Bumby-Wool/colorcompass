@@ -31,8 +31,8 @@
 {					
 	"type": "pattern",
 	"name": "Comfy Melted IceCream",
-	"svgPatternId": "ComfyMeltedIceCream",
-	"patternId": { "fill": "url(#ComfyMeltedIceCream"},
+	"svgPatternId": "ComfyMeltedIceCreams",
+	"patternId": { "fill": "url(#ComfyMeltedIceCreams"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderComfyMeltedIceCreams.jpg"
 },
 {					
