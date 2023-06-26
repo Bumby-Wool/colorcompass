@@ -9,6 +9,27 @@
 },
 {					
 	"type": "pattern",
+	"name": "Comfy Courgette",
+	"svgPatternId": "ComfyCourgette",
+	"patternId": { "fill": "url(#ComfyCourgette"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderComfyCourgette.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Coastal Mist",
+	"svgPatternId": "ComfyCoastalMist",
+	"patternId": { "fill": "url(#ComfyCoastalMist"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderComfyCoastalMist.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Celeste",
+	"svgPatternId": "ComfyCeleste",
+	"patternId": { "fill": "url(#ComfyCeleste"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderComfyCeleste.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Cozy Striped Artic Lights",
 	"svgPatternId": "CozyStripedArticLights",
 	"patternId": { "fill": "url(#CozyStripedArticLights"},
