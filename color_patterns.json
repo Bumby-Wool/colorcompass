@@ -94,8 +94,8 @@
 {					
 	"type": "pattern",
 	"name": "Comfy Surf'sUp",
-	"svgPatternId": "ComfySurf'sUp",
-	"patternId": { "fill": "url(#ComfySurf'sUp"},
+	"svgPatternId": "ComfySurfsUp",
+	"patternId": { "fill": "url(#ComfySurfsUp"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderComfySurfsUp.jpg"
 },
 {					
