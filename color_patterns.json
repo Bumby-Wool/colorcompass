@@ -9,6 +9,41 @@
 },
 {					
 	"type": "pattern",
+	"name": "DW UnicornFluff Select items only ",
+	"svgPatternId": "DreamweightUnicornFluff",
+	"patternId": { "fill": "url(#DreamweightUnicornFluff"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderDreamweightUnicornFluff.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Reve Select items only ",
+	"svgPatternId": "DreamweightReve",
+	"patternId": { "fill": "url(#DreamweightReve"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderDreamweightReve.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Magma Select items only ",
+	"svgPatternId": "DreamweightMagma",
+	"patternId": { "fill": "url(#DreamweightMagma"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderDreamweightMagma.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Core Select items only ",
+	"svgPatternId": "DreamweightCore",
+	"patternId": { "fill": "url(#DreamweightCore"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderDreamweightCore.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Anthias Select items only ",
+	"svgPatternId": "DreamweightAnthias",
+	"patternId": { "fill": "url(#DreamweightAnthias"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderDreamweightAnthias.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Durasoft SandCastle",
 	"svgPatternId": "DurasoftSandCastle",
 	"patternId": { "fill": "url(#DurasoftSandCastle"},
