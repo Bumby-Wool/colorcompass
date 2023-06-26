@@ -9,6 +9,41 @@
 },
 {					
 	"type": "pattern",
+	"name": "Comfy Misty Echo",
+	"svgPatternId": "ComfyMistyEcho",
+	"patternId": { "fill": "url(#ComfyMistyEcho"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderComfyMistyEcho.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Limelight",
+	"svgPatternId": "ComfyLimelight",
+	"patternId": { "fill": "url(#ComfyLimelight"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderComfyLimelight.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Honey Wheat Striped",
+	"svgPatternId": "ComfyHoneyWheatStriped",
+	"patternId": { "fill": "url(#ComfyHoneyWheatStriped"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderComfyHoneyWheatStriped.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Golden Sunrise",
+	"svgPatternId": "ComfyGoldenSunrise",
+	"patternId": { "fill": "url(#ComfyGoldenSunrise"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderComfyGoldenSunrise.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Glenda",
+	"svgPatternId": "ComfyGlenda",
+	"patternId": { "fill": "url(#ComfyGlenda"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderComfyGlenda.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Comfy Courgette",
 	"svgPatternId": "ComfyCourgette",
 	"patternId": { "fill": "url(#ComfyCourgette"},
