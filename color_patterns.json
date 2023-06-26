@@ -9,6 +9,55 @@
 },
 {					
 	"type": "pattern",
+	"name": "Durasoft Sunset Blaze",
+	"svgPatternId": "DurasoftSunsetBlaze",
+	"patternId": { "fill": "url(#DurasoftSunsetBlaze"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderDurasoftSunsetBlaze.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Durasoft SandCastle",
+	"svgPatternId": "DurasoftSandCastle",
+	"patternId": { "fill": "url(#DurasoftSandCastle"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderDurasoftSandCastle.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Durasoft Prism Universe",
+	"svgPatternId": "DurasoftPrismUniverse",
+	"patternId": { "fill": "url(#DurasoftPrismUniverse"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderDurasoftPrismUniverse.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Durasoft Mocha Rose",
+	"svgPatternId": "DurasoftMochaRose",
+	"patternId": { "fill": "url(#DurasoftMochaRose"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderDurasoftMochaRose.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Cozy Striped Denim",
+	"svgPatternId": "CozyStripedDenim",
+	"patternId": { "fill": "url(#CozyStripedDenim"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderCozyStripedDenim.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Woodland Wonder",
+	"svgPatternId": "ComfyWoodlandWonder",
+	"patternId": { "fill": "url(#ComfyWoodlandWonder"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderComfyWoodlandWonder.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Walnut Grove",
+	"svgPatternId": "ComfyWalnutGrove",
+	"patternId": { "fill": "url(#ComfyWalnutGrove"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderComfyWalnutGrove.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Comfy Terracota Sands Melange",
 	"svgPatternId": "ComfyTerracotaSandsMelange",
 	"patternId": { "fill": "url(#ComfyTerracotaSandsMelange"},
