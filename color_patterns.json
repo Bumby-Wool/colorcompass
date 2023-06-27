@@ -366,13 +366,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "DW Foothills Select items only",
-	"svgPatternId": "DWFoothills",
-	"patternId": { "fill": "url(#DWFoothills"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "DW Larkspur Select items only",
 	"svgPatternId": "DWLarkspur",
 	"patternId": { "fill": "url(#DWLarkspur"},
@@ -478,59 +471,10 @@
 },
 {					
 	"type": "pattern",
-	"name": "DW Royalty Select items only ",
-	"svgPatternId": "DWRoyalty",
-	"patternId": { "fill": "url(#DWRoyalty"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "DW Peppermint Select items only ",
-	"svgPatternId": "DWPeppermint",
-	"patternId": { "fill": "url(#DWPeppermint"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "DW Java Select items only ",
-	"svgPatternId": "DWJava",
-	"patternId": { "fill": "url(#DWJava"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "DW Foothills Select items only ",
 	"svgPatternId": "DWFoothills",
 	"patternId": { "fill": "url(#DWFoothills"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderDWFoothills.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "DW Sweet Pea Select items only ",
-	"svgPatternId": "DWSweetPea",
-	"patternId": { "fill": "url(#DWSweetPea"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "DW Peppermint Kiss Select items only ",
-	"svgPatternId": "DWPeppermintKiss",
-	"patternId": { "fill": "url(#DWPeppermintKiss"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "DW Tink Select items only ",
-	"svgPatternId": "DWTink",
-	"patternId": { "fill": "url(#DWTink"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "DW Lined Thistle Select items only ",
-	"svgPatternId": "DWLinedThistle",
-	"patternId": { "fill": "url(#DWLinedThistle"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/04/Builder.jpg"
 },
 {					
 	"type": "pattern",
