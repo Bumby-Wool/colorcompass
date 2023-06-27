@@ -9,6 +9,62 @@
 },
 {					
 	"type": "pattern",
+	"name": "DW Tink Select items only ",
+	"svgPatternId": "DreamweightTink",
+	"patternId": { "fill": "url(#DreamweightTink"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderDreamweightTink.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW SweetPea Select items only ",
+	"svgPatternId": "DreamweightSweetPea",
+	"patternId": { "fill": "url(#DreamweightSweetPea"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderDreamweightSweetPea.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Royalty Select items only ",
+	"svgPatternId": "DreamweightRoyalty",
+	"patternId": { "fill": "url(#DreamweightRoyalty"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderDreamweightRoyalty.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW PeppermintKiss Select items only ",
+	"svgPatternId": "DreamweightPeppermintKiss",
+	"patternId": { "fill": "url(#DreamweightPeppermintKiss"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderDreamweightPeppermintKiss.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Peppermint Select items only ",
+	"svgPatternId": "DreamweightPeppermint",
+	"patternId": { "fill": "url(#DreamweightPeppermint"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderDreamweightPeppermint.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Lined Thistle Select items only ",
+	"svgPatternId": "DreamweightLinedThistle",
+	"patternId": { "fill": "url(#DreamweightLinedThistle"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderDreamweightLinedThistle.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Java Select items only ",
+	"svgPatternId": "DreamweightJava",
+	"patternId": { "fill": "url(#DreamweightJava"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderDreamweightJava.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Foothills Select items only ",
+	"svgPatternId": "DreamweightFoothills",
+	"patternId": { "fill": "url(#DreamweightFoothills"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderDreamweightFoothills.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "DW UnicornFluff Select items only ",
 	"svgPatternId": "DreamweightUnicornFluff",
 	"patternId": { "fill": "url(#DreamweightUnicornFluff"},
