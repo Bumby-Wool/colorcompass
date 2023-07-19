@@ -9,6 +9,20 @@
 },
 {					
 	"type": "pattern",
+	"name": "DW Stormcloud Select items only ",
+	"svgPatternId": "DreamweightStormcloud",
+	"patternId": { "fill": "url(#DreamweightStormcloud"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/07/BuilderDreamweightStormcloud.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Emerald Isle Select items only ",
+	"svgPatternId": "DreamweightEmeraldIsle",
+	"patternId": { "fill": "url(#DreamweightEmeraldIsle"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/07/BuilderDreamweightEmeraldIsle.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "DW Douglas Select items only ",
 	"svgPatternId": "DreamweightDouglas",
 	"patternId": { "fill": "url(#DreamweightDouglas"},
