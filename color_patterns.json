@@ -9,6 +9,20 @@
 },
 {					
 	"type": "pattern",
+	"name": "DW Douglas Select items only ",
+	"svgPatternId": "DreamweightDouglas",
+	"patternId": { "fill": "url(#DreamweightDouglas"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/07/BuilderDreamweightDouglas.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Blushing Pink Select items only ",
+	"svgPatternId": "DreamweightBlushingPink",
+	"patternId": { "fill": "url(#DreamweightBlushingPink"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/07/BuilderDreamweightBlushingPink.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "DW Tink Select items only ",
 	"svgPatternId": "DreamweightTink",
 	"patternId": { "fill": "url(#DreamweightTink"},
