@@ -9,6 +9,20 @@
 },
 {					
 	"type": "pattern",
+	"name": "Comfy Woodland Wonder",
+	"svgPatternId": "ComfyWoodlandWonder",
+	"patternId": { "fill": "url(#ComfyWoodlandWonder"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/08/BuilderComfyWoodlandWonder.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Dark Denim",
+	"svgPatternId": "ComfyDarkDenim",
+	"patternId": { "fill": "url(#ComfyDark Denim"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/08/BuilderComfyDarkDenim.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Durasoft Denim",
 	"svgPatternId": "DurasoftDenim",
 	"patternId": { "fill": "url(#DurasoftDenim"},
