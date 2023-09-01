@@ -9,10 +9,24 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Woodland Wonder",
-	"svgPatternId": "ComfyWoodlandWonder",
-	"patternId": { "fill": "url(#ComfyWoodlandWonder"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/08/BuilderComfyWoodlandWonder.jpg"
+	"name": "Comfy Indigo",
+	"svgPatternId": "ComfyIndigo",
+	"patternId": { "fill": "url(#ComfyIndigo"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/09/BuilderComfyIndigo.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "DW Woodland Select items only",
+	"svgPatternId": "DreamweightWoodland",
+	"patternId": { "fill": "url(#DreamweightWoodland"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/09/BuilderDreamweightWoodland.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Ignition",
+	"svgPatternId": "ComfyIgnition",
+	"patternId": { "fill": "url(#ComfyIgnition"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/09/BuilderComfyIgnition.jpg"
 },
 {					
 	"type": "pattern",
