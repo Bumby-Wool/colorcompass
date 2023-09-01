@@ -16,6 +16,13 @@
 },
 {					
 	"type": "pattern",
+	"name": "Comfy Black Cherry",
+	"svgPatternId": "ComfyBlackCherry",
+	"patternId": { "fill": "url(#ComfyBlackCherry"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/09/BuilderComfyBlackCherry.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "DW Woodland Select items only",
 	"svgPatternId": "DreamweightWoodland",
 	"patternId": { "fill": "url(#DreamweightWoodland"},
