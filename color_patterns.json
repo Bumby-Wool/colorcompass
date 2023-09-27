@@ -170,13 +170,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Durasoft Soapstone",
-	"svgPatternId": "DurasoftSoapstone",
-	"patternId": { "fill": "url(#DurasoftSoapstone"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/08/BuilderDurasoftSoapstone.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Comfy Viburnum",
 	"svgPatternId": "ComfyViburnum",
 	"patternId": { "fill": "url(#ComfyViburnum"},
