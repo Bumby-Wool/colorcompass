@@ -401,13 +401,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Pinwheel",
-	"svgPatternId": "ComfyPinwheel",
-	"patternId": { "fill": "url(#ComfyPinwheel"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderComfyPinwheel.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Comfy Pine Trail",
 	"svgPatternId": "ComfyPineTrail",
 	"patternId": { "fill": "url(#ComfyPineTrail"},
