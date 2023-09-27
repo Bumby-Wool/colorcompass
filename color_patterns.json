@@ -548,13 +548,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Durasoft Agate",
-	"svgPatternId": "DurasoftAgate",
-	"patternId": { "fill": "url(#DurasoftAgate"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderDurasoftAgate.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Durasoft Azalea",
 	"svgPatternId": "DurasoftAzalea",
 	"patternId": { "fill": "url(#DurasoftAzalea"},
