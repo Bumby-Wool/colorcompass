@@ -51,6 +51,41 @@
 },
 {					
 	"type": "pattern",
+	"name": "Comfy Cherry Blossom Melange",
+	"svgPatternId": "ComfyCherryBlossomMelange",
+	"patternId": { "fill": "url(#ComfyCherryBlossomMelange"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/11/BuilderComfyCherryBlossomMelange.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Striped Jay",
+	"svgPatternId": "ComfyStripedJay",
+	"patternId": { "fill": "url(#ComfyStripedJay"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/09/BuilderComfyStripedJay.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Striped Jay",
+	"svgPatternId": "ComfyStripedJay",
+	"patternId": { "fill": "url(#ComfyStripedJay"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/09/BuilderComfyStripedJay.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Striped Jay",
+	"svgPatternId": "ComfyStripedJay",
+	"patternId": { "fill": "url(#ComfyStripedJay"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/09/BuilderComfyStripedJay.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Striped Jay",
+	"svgPatternId": "ComfyStripedJay",
+	"patternId": { "fill": "url(#ComfyStripedJay"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/09/BuilderComfyStripedJay.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Comfy Striped Charcoal",
 	"svgPatternId": "ComfyStripedCharcoal",
 	"patternId": { "fill": "url(#ComfyStripedCharcoal"},
@@ -75,7 +110,7 @@
 	"name": "Comfy Rose Melange",
 	"svgPatternId": "ComfyRoseMelange",
 	"patternId": { "fill": "url(#ComfyRoseMelange"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/09/BuilderComfyRoseMelange.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/11/BuilderComfyRoseMelange.jpg"
 },
 {					
 	"type": "pattern",
@@ -103,7 +138,7 @@
 	"name": "Comfy Dark Denim Melange",
 	"svgPatternId": "ComfyDarkDenimMelange",
 	"patternId": { "fill": "url(#ComfyDarkDenimMelange"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/09/BuilderComfyDarkDenimMelange.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/11/BuilderComfyDarkDenimMelange.jpg"
 },
 {					
 	"type": "pattern",
@@ -117,7 +152,7 @@
 	"name": "Comfy Burgundy",
 	"svgPatternId": "ComfyBurgundy",
 	"patternId": { "fill": "url(#ComfyBurgundy"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/09/BuilderComfyBurgundy.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/11/BuilderComfyBurgundy.jpg"
 },
 {					
 	"type": "pattern",
@@ -139,13 +174,6 @@
 	"svgPatternId": "ComfyBlackCherry",
 	"patternId": { "fill": "url(#ComfyBlackCherry"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/09/BuilderComfyBlackCherry.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "DW Woodland Select items only",
-	"svgPatternId": "DreamweightWoodland",
-	"patternId": { "fill": "url(#DreamweightWoodland"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/09/BuilderDreamweightWoodland.jpg"
 },
 {					
 	"type": "pattern",
@@ -348,7 +376,7 @@
 	"name": "Comfy Woodland Wonder",
 	"svgPatternId": "ComfyWoodlandWonder",
 	"patternId": { "fill": "url(#ComfyWoodlandWonder"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderComfyWoodlandWonder.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/11/Woodland-Wonder-Comfy.jpg"
 },
 {					
 	"type": "pattern",
@@ -418,7 +446,7 @@
 	"name": "Comfy Orchid Whisper",
 	"svgPatternId": "ComfyOrchidWhisper",
 	"patternId": { "fill": "url(#ComfyOrchidWhisper"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderComfyOrchidWhisper.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/11/BuilderOrchidWhisperComfy.jpg"
 },
 {					
 	"type": "pattern",
@@ -474,7 +502,7 @@
 	"name": "Comfy Celeste",
 	"svgPatternId": "ComfyCeleste",
 	"patternId": { "fill": "url(#ComfyCeleste"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderComfyCeleste.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/11/BuilderCelestComfy.jpg"
 },
 {					
 	"type": "pattern",
