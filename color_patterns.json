@@ -359,13 +359,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Durasoft Brown Bear",
-	"svgPatternId": "DurasoftBrownBear",
-	"patternId": { "fill": "url(#DurasoftBrownBear"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderDurasoftBrownBear.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Cozy Striped Inspiration",
 	"svgPatternId": "CozyStripedInspiration",
 	"patternId": { "fill": "url(#CozyStripedInspiration"},
@@ -377,20 +370,6 @@
 	"svgPatternId": "CozyStripedForestWarrior",
 	"patternId": { "fill": "url(#CozyStripedForestWarrior"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderCozyStripedForestWarrior.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Durasoft Sunkissed",
-	"svgPatternId": "DurasoftSunkissed",
-	"patternId": { "fill": "url(#DurasoftSunkissed"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/05/BuilderDurasoftSunkissed.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Woodland Wonder Comfy",
-	"svgPatternId": "WoodlandWonderComfy",
-	"patternId": { "fill": "url(#WoodlandWonderComfy"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/09/BuilderWoodlandWonderComfy.jpg"
 },
 {					
 	"type": "pattern",
@@ -503,13 +482,6 @@
 	"svgPatternId": "DurasoftLovely",
 	"patternId": { "fill": "url(#DurasoftLovely"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/03/BuilderDurasoftLovely.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Durasoft Horizon Pie",
-	"svgPatternId": "DurasoftHorizonPie",
-	"patternId": { "fill": "url(#DurasoftHorizonPie"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/02/BuilderDurasoftHorizonPie.jpg"
 },
 {					
 	"type": "pattern",
