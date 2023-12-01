@@ -166,7 +166,7 @@
 	"name": "Comfy Dark Denim Melange",
 	"svgPatternId": "ComfyDarkDenimMelange",
 	"patternId": { "fill": "url(#ComfyDarkDenimMelange"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/11/BuilderComfyDarkDenimMelange.jpg"
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/Comfy-Dark-Denim-Melange.png"
 },
 {					
 	"type": "pattern",
@@ -226,10 +226,17 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Melange Denim",
-	"svgPatternId": "ComfyMelangeDenim",
-	"patternId": { "fill": "url(#ComfyMelangeDenim"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/08/BuilderComfyMelangeDenim.jpg"
+	"name": "Comfy Melange Light Denim",
+	"svgPatternId": "ComfyMelangeLightDenim",
+	"patternId": { "fill": "url(#ComfyMelangeLightDenim"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/BuilderComfyMelangeLightDenim-1.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Melange Medium Denim",
+	"svgPatternId": "ComfyMediumDenimMelange",
+	"patternId": { "fill": "url(#ComfyMediumDenimMelange"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/BuilderComfyMediumDenimMelange.jpg"
 },
 {					
 	"type": "pattern",
