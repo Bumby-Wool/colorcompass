@@ -30,6 +30,69 @@
 },
 {					
 	"type": "pattern",
+	"name": "Comfy Unicorn Fluff",
+	"svgPatternId": "ComfyUnicornFluff",
+	"patternId": { "fill": "url(#ComfyUnicornFluff"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/BuilderComfyUnicornFluff.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Durasoft Joya del Rio",
+	"svgPatternId": "DurasoftJoyadelRio",
+	"patternId": { "fill": "url(#DurasoftJoyadelRio"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/BuilderDurasoftJoyadelRio.jpg
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Striped Verdant",
+	"svgPatternId": "ComfyStripedVerdant",
+	"patternId": { "fill": "url(#ComfyStripedVerdant"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/BuilderComfyStripedVerdant.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Shadowfall",
+	"svgPatternId": "ComfyShadowfall",
+	"patternId": { "fill": "url(#ComfyShadowfall"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/BuilderComfyShadowfall.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Melange Saffron",
+	"svgPatternId": "ComfyMelangeSaffron",
+	"patternId": { "fill": "url(#ComfyMelangeSaffron"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/BuilderComfyMelangeSaffron.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Melange Olive Oasis",
+	"svgPatternId": "ComfyMelangeOliveOasis",
+	"patternId": { "fill": "url(#ComfyMelangeOliveOasis"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/BuilderComfyMelangeOliveOasis.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Melange Barn Door",
+	"svgPatternId": "ComfyMelangeBarnDoor",
+	"patternId": { "fill": "url(#ComfyMelangeBarnDoor"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/BuilderComfyMelangeBarnDoor.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Heather Mist Stripe",
+	"svgPatternId": "ComfyHeatherMistStripe",
+	"patternId": { "fill": "url(#ComfyHeatherMistStripe"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/BuilderComfyHeatherMistStripe.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Carnival Stripe",
+	"svgPatternId": "ComfyCarnivalStripe",
+	"patternId": { "fill": "url(#ComfyCarnivalStripe"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/BuilderComfyCarnivalStripe.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Comfy Striped Olive Pit",
 	"svgPatternId": "ComfyStripedOlivePit",
 	"patternId": { "fill": "url(#ComfyStripedOlivePit"},
