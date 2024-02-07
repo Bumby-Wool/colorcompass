@@ -520,13 +520,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Durasoft Pollen",
-	"svgPatternId": "DurasoftPollen",
-	"patternId": { "fill": "url(#DurasoftPollen"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/12/BuilderDurasoftPollen.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Durasoft Natural",
 	"svgPatternId": "DurasoftNatural",
 	"patternId": { "fill": "url(#DurasoftNatural"},
