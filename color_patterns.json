@@ -190,13 +190,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Tawny Melange",
-	"svgPatternId": "ComfyTawnyMelange",
-	"patternId": { "fill": "url(#ComfyTawnyMelange"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/09/BuilderComfyTawnyMelange.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Comfy Striped Verdant",
 	"svgPatternId": "ComfyStripedVerdant",
 	"patternId": { "fill": "url(#ComfyStripedVerdant"},
