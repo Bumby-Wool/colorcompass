@@ -34,7 +34,8 @@
 	"svgPatternId": "ComfyStripedLoganberry",
 	"patternId": { "fill": "url(#ComfyStripedLoganberry"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/02/BuilderComfyStripedLoganberry.jpg"
-},{					
+},
+{					
 	"type": "pattern",
 	"name": "Comfy Splat",
 	"svgPatternId": "ComfySplat",
