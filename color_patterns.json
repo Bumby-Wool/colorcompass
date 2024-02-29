@@ -233,13 +233,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Earthy Sage Melange",
-	"svgPatternId": "ComfyEarthySageMelange",
-	"patternId": { "fill": "url(#ComfyEarthySageMelange"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/11/BuilderComfyEarthySageMelange.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Comfy Espresso Noir",
 	"svgPatternId": "ComfyEspressoNoir",
 	"patternId": { "fill": "url(#ComfyEspressoNoir"},
@@ -251,13 +244,6 @@
 	"svgPatternId": "ComfyFlamingoMelange",
 	"patternId": { "fill": "url(#ComfyFlamingoMelange"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/11/BuilderComfyFlamingoMelange.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Comfy Inkwell Melange",
-	"svgPatternId": "ComfyInkwellMelange",
-	"patternId": { "fill": "url(#ComfyInkwellMelange"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/11/BuilderComfyInkwellMelange.jpg"
 },
 {					
 	"type": "pattern",
@@ -286,13 +272,6 @@
 	"svgPatternId": "ComfyStripedWinterBreeze",
 	"patternId": { "fill": "url(#ComfyStripedWinterBreeze"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/11/BuilderComfyStripedWinterBreeze.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Comfy Velvet Orchid",
-	"svgPatternId": "ComfyVelvetOrchid",
-	"patternId": { "fill": "url(#ComfyVelvetOrchid"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/11/BuilderComfyVelvetOrchid.jpg"
 },
 {					
 	"type": "pattern",
@@ -415,13 +394,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Smoky Granite",
-	"svgPatternId": "ComfySmokyGranite",
-	"patternId": { "fill": "url(#ComfySmokyGranite"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderComfySmokyGranite.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Comfy Pewter Mist",
 	"svgPatternId": "ComfyPewterMist",
 	"patternId": { "fill": "url(#ComfyPewterMist"},
@@ -447,13 +419,6 @@
 	"svgPatternId": "ComfyLimelight",
 	"patternId": { "fill": "url(#ComfyLimelight"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderComfyLimelight.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Comfy Honey Wheat Striped",
-	"svgPatternId": "ComfyHoneyWheatStriped",
-	"patternId": { "fill": "url(#ComfyHoneyWheatStriped"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderComfyHoneyWheatStriped.jpg"
 },
 {					
 	"type": "pattern",
@@ -604,13 +569,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Durasoft Good Vibrations",
-	"svgPatternId": "DurasoftGoodVibrations",
-	"patternId": { "fill": "url(#DurasoftGoodVibrations"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/01/BuilderDurasoftGoodVibrations.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Durasoft Ribbity",
 	"svgPatternId": "DurasoftRibbity",
 	"patternId": { "fill": "url(#DurasoftRibbity"},
@@ -692,36 +650,22 @@
 	"svgPatternId": "CozyMelangeFedora",
 	"patternId": { "fill": "url(#CozyMelangeFedora"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyMelangeFedora.jpg"	
-},									 
-  {					
-	"type": "pattern",
-	"name": "Cozy Striped Hay",
-	"svgPatternId": "CozyStripedHay",
-	"patternId": { "fill": "url(#CozyStripedHay)"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedHay.jpg"
-   },		
-   {					
+},									 		
+{					
 	"type": "pattern",
 	"name": "Cozy Striped Pink Lady",
 	"svgPatternId": "CozyStripedPinkLady",
 	"patternId": { "fill": "url(#CozyStripedPinkLady)"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedPinkLady.jpg"
-   },	
-   {					
-	"type": "pattern",
-	"name": "Cozy Striped Tigress",
-	"svgPatternId": "CozyStripedTigress",
-	"patternId": { "fill": "url(#CozyStripedTigress)"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyStripedTigress.jpg"
-   },		
-   {
+},			
+{
         "type": "pattern",
         "name": "Cozy Melange Trilby",
         "svgPatternId": "CozyMelangeTrilby",
         "patternId": { "fill": "url(#CozyMelangeTrilby)"},
         "imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderCozyMelangeTrilby.jpg"
-    },
-    {
+},
+{
         "type": "pattern",
         "name": "Cozy Striped Marvelous",
         "svgPatternId": "CozyStripedMarvelous",
