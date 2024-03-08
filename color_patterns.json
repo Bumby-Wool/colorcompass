@@ -23,6 +23,13 @@
 },
 {					
 	"type": "pattern",
+	"name": "Dreamweight Silver",
+	"svgPatternId": "DreamweightSilver",
+	"patternId": { "fill": "url(#DreamweightSilver"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/03/BuilderDWSilver.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Dreamweight Verdant",
 	"svgPatternId": "DreamweightVerdant",
 	"patternId": { "fill": "url(#DreamweightVerdant"},
