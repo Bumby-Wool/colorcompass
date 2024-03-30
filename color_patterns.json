@@ -16,6 +16,13 @@
 },
 {					
 	"type": "pattern",
+	"name": "Comfy Striped Verdant",
+	"svgPatternId": "ComfyStripedVerdant",
+	"patternId": { "fill": "url(#ComfyStripedVerdant"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/03/BuilderComfyStripedVerdant-.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Comfy Woodland Wonder",
 	"svgPatternId": "ComfyWoodlandWonder",
 	"patternId": { "fill": "url(#ComfyWoodlandWonder"},
