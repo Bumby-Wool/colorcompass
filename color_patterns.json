@@ -136,8 +136,8 @@
 {					
 	"type": "pattern",
 	"name": "Comfy Striped Carnival",
-	"svgPatternId": "CarnivalStripe",
-	"patternId": { "fill": "url(#CarnivalStripe"},
+	"svgPatternId": "ComfyCarnivalStripe",
+	"patternId": { "fill": "url(#ComfyCarnivalStripe"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/03/BuilderComfyCarnivalStripe.jpg"
 },
 {					
