@@ -611,13 +611,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Dark Denim Melange",
-	"svgPatternId": "ComfyDarkDenimMelange",
-	"patternId": { "fill": "url(#ComfyDarkDenimMelange"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/Comfy-Dark-Denim-Melange.png"
-},
-{					
-	"type": "pattern",
 	"name": "Comfy Crushed Berries Melange",
 	"svgPatternId": "ComfyCrushedBerriesMelange",
 	"patternId": { "fill": "url(#ComfyCrushedBerriesMelange"},
