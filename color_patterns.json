@@ -100,13 +100,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Larkenshine",
-	"svgPatternId": "ComfyLarkenshine",
-	"patternId": { "fill": "url(#ComfyLarkenshine"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/03/BuilderComfyLarkenshine.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Comfy Heart Song",
 	"svgPatternId": "ComfyHeartSong",
 	"patternId": { "fill": "url(#ComfyHeartSong"},
