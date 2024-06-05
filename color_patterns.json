@@ -93,13 +93,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Nightblossom",
-	"svgPatternId": "ComfyNightblossom",
-	"patternId": { "fill": "url(#ComfyNightblossom"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/03/BuilderComfyNightblossom.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Comfy Heart Song",
 	"svgPatternId": "ComfyHeartSong",
 	"patternId": { "fill": "url(#ComfyHeartSong"},
