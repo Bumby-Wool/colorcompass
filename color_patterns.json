@@ -9,6 +9,48 @@
 },
 {					
 	"type": "pattern",
+	"name": "Dreamweight Riverstone",
+	"svgPatternId": "DreamweightRiverstone",
+	"patternId": { "fill": "url(#DreamweightRiverstone"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderDreamweightRiverstone.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Dreamweight Lemon Zest",
+	"svgPatternId": "DreamweightLemonZest",
+	"patternId": { "fill": "url(#DreamweightLemonZest"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderDreamweightLemonZest.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Dreamweight Blushing Pink",
+	"svgPatternId": "DreamweightBlushingPink",
+	"patternId": { "fill": "url(#DreamweightBlushingPink"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/03/BuilderDreamweightBlushingPink.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Dreamweight Kokomo Bay",
+	"svgPatternId": "DreamweightKokomoBay",
+	"patternId": { "fill": "url(#DreamweightKokomoBay"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderDreamweightKokomoBay.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Dreamweight Duvessa",
+	"svgPatternId": "DreamweightDuvessa",
+	"patternId": { "fill": "url(#DreamweightDuvessa"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderDreamweightDuvessa.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Dreamweight Alsike",
+	"svgPatternId": "DreamweightAlsike",
+	"patternId": { "fill": "url(#DreamweightAlsike"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderDreamweightAlsike.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Dreamweight Blushing Pink",
 	"svgPatternId": "DreamweightBlushingPink",
 	"patternId": { "fill": "url(#DreamweightBlushingPink"},
