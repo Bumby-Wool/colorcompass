@@ -387,6 +387,27 @@
 },
 {					
 	"type": "pattern",
+	"name": "Durasoft  Willowsway",
+	"svgPatternId": "DurasoftWillowsway",
+	"patternId": { "fill": "url(#DurasoftWillowsway"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderDurasoftWillowsway.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Durasoft Frequency",
+	"svgPatternId": "DurasoftFrequency",
+	"patternId": { "fill": "url(#DurasoftFrequency"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderDurasoftFrequency.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Durasoft Dhalia",
+	"svgPatternId": "DurasoftDhalia",
+	"patternId": { "fill": "url(#DurasoftDhalia"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderDurasoftDhalia.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Durasoft Primary Paradise",
 	"svgPatternId": "DurasoftPrimaryParadise",
 	"patternId": { "fill": "url(#DurasoftPrimaryParadise"},
