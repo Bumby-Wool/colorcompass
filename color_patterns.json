@@ -545,14 +545,7 @@
 	"svgPatternId": "ComfyBesoMelange",
 	"patternId": { "fill": "url(#ComfyBesoMelange"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/BuilderComfyBesoMelange.jpg"
-},	
-{					
-	"type": "pattern",
-	"name": "Durasoft Woodland Wonder",
-	"svgPatternId": "DurasoftWoodlandWonder",
-	"patternId": { "fill": "url(#DurasoftWoodlandWonder"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/BuilderDurasoftWoodlandWonder-.jpg"
-},	
+},		
 {					
 	"type": "pattern",
 	"name": "DurasoftWaxedCanvas",
