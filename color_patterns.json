@@ -9,13 +9,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Dreamweight Riverstone",
-	"svgPatternId": "DreamweightRiverstone",
-	"patternId": { "fill": "url(#DreamweightRiverstone"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderDreamweightRiverstone.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Dreamweight Lemon Zest",
 	"svgPatternId": "DreamweightLemonZest",
 	"patternId": { "fill": "url(#DreamweightLemonZest"},
