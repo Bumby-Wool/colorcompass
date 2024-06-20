@@ -16,6 +16,48 @@
 },
 {					
 	"type": "pattern",
+	"name": "Comfy Storm",
+	"svgPatternId": "ComfyStorm",
+	"patternId": { "fill": "url(#ComfyStorm"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderComfyStorm.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Opal",
+	"svgPatternId": "ComfyOpal",
+	"patternId": { "fill": "url(#ComfyOpal"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderComfyOpal.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Nectarine",
+	"svgPatternId": "ComfyNectarine",
+	"patternId": { "fill": "url(#ComfyNectarine"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderComfyNectarine.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Lilac",
+	"svgPatternId": "ComfyLilac",
+	"patternId": { "fill": "url(#ComfyLilac"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderComfyLilac.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Lemon",
+	"svgPatternId": "ComfyLemon",
+	"patternId": { "fill": "url(#ComfyLemon"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderComfyLemon.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Coral",
+	"svgPatternId": "ComfyCoral",
+	"patternId": { "fill": "url(#ComfyCoral"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderComfyCoral.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Dreamweight Blushing Pink",
 	"svgPatternId": "DreamweightBlushingPink",
 	"patternId": { "fill": "url(#DreamweightBlushingPink"},
