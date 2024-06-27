@@ -16,6 +16,34 @@
 },
 {					
 	"type": "pattern",
+	"name": "Comfy CocoFrutti",
+	"svgPatternId": "ComfyCocoFrutti",
+	"patternId": { "fill": "url(#ComfyCocoFrutti"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderComfyCocoFrutti.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Coral Reef",
+	"svgPatternId": "ComfyCoralReef",
+	"patternId": { "fill": "url(#ComfyCoralReef"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderComfyCoralReef.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Cosmic Rainbow",
+	"svgPatternId": "ComfyCosmicRainbow",
+	"patternId": { "fill": "url(#ComfyCosmicRainbow"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderComfyCosmicRainbow.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Under the Neon Lights",
+	"svgPatternId": "ComfyUndertheNeonLights",
+	"patternId": { "fill": "url(#ComfyUndertheNeonLights"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderComfyUndertheNeonLights.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Comfy Storm",
 	"svgPatternId": "ComfyStorm",
 	"patternId": { "fill": "url(#ComfyStorm"},
