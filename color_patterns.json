@@ -142,13 +142,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Dreamweight Duvessa",
-	"svgPatternId": "DreamweightDuvessa",
-	"patternId": { "fill": "url(#DreamweightDuvessa"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderDreamweightDuvessa.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Dreamweight Alsike",
 	"svgPatternId": "DreamweightAlsike",
 	"patternId": { "fill": "url(#DreamweightAlsike"},
@@ -170,24 +163,10 @@
 },
 {					
 	"type": "pattern",
-	"name": "Dreamweight Vintage",
-	"svgPatternId": "DreamweightVintage",
-	"patternId": { "fill": "url(#DreamweightVintage"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/03/BuilderDWVintage.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Dreamweight Pretty",
 	"svgPatternId": "DreamweightPretty",
 	"patternId": { "fill": "url(#DreamweightPretty"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/03/BuilderDreamweightPretty.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Dreamweight Melon Jolly",
-	"svgPatternId": "DreamweightMelonJolly",
-	"patternId": { "fill": "url(#DreamweightMelonJolly"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/03/BuilderDreamweightMelonJolly.jpg"
 },
 {					
 	"type": "pattern",
@@ -237,13 +216,6 @@
 	"svgPatternId": "ComfyHeartSong",
 	"patternId": { "fill": "url(#ComfyHeartSong"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/03/BuilderComfyHeartSong.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Comfy Earthy Sage Melange",
-	"svgPatternId": "ComfyEarthySageMelange",
-	"patternId": { "fill": "url(#ComfyEarthySageMelange"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/03/BuilderComfyEarthySageMelange.jpg"
 },
 {					
 	"type": "pattern",
@@ -429,13 +401,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Dreamweight Medium Denim",
-	"svgPatternId": "DreamweightMediumDenim",
-	"patternId": { "fill": "url(#DreamweightMediumDenim"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/03/BuilderDWMediumDenim.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Dreamweight Obsidian",
 	"svgPatternId": "DreamweightObsidian",
 	"patternId": { "fill": "url(#DreamweightObsidian"},
@@ -475,13 +440,6 @@
 	"svgPatternId": "DreamweightSummerSpritz",
 	"patternId": { "fill": "url(#DreamweightSummerSpritz"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/03/BuilderDWSummerSpritz.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Comfy Wet Slate",
-	"svgPatternId": "ComfyWetSlate",
-	"patternId": { "fill": "url(#ComfyWetSlate"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/03/BuilderComfyWetSlate.jpg"
 },
 {					
 	"type": "pattern",
@@ -643,13 +601,6 @@
 	"svgPatternId": "ComfyBingCherry",
 	"patternId": { "fill": "url(#ComfyBingCherry"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/BuilderComfyBingCherry.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Comfy Beso Melange",
-	"svgPatternId": "ComfyBesoMelange",
-	"patternId": { "fill": "url(#ComfyBesoMelange"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/BuilderComfyBesoMelange.jpg"
 },		
 {					
 	"type": "pattern",
@@ -671,13 +622,6 @@
 	"svgPatternId": "DurasoftMapleinFall",
 	"patternId": { "fill": "url(#DurasoftMapleinFall"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/09/BuilderDurasoft-MapleinFall.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Comfy Melange Saffron",
-	"svgPatternId": "ComfyMelangeSaffron",
-	"patternId": { "fill": "url(#ComfyMelangeSaffron"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/BuilderComfyMelangeSaffron.jpg"
 },
 {					
 	"type": "pattern",
@@ -804,13 +748,6 @@
 	"svgPatternId": "DreamweightLinedThistle",
 	"patternId": { "fill": "url(#DreamweightLinedThistle"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderDreamweightLinedThistle.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Comfy Peachy Princess",
-	"svgPatternId": "ComfyPeachyPrincess",
-	"patternId": { "fill": "url(#ComfyPeachyPrincess"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderComfyPeachyPrincess.jpg"
 },
 {					
 	"type": "pattern",
