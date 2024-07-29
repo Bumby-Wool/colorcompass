@@ -625,13 +625,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Melange Barn Door",
-	"svgPatternId": "ComfyMelangeBarnDoor",
-	"patternId": { "fill": "url(#ComfyMelangeBarnDoor"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/BuilderComfyMelangeBarnDoor.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Comfy Heather Mist Stripe",
 	"svgPatternId": "ComfyHeatherMistStripe",
 	"patternId": { "fill": "url(#ComfyHeatherMistStripe"},
