@@ -310,13 +310,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Rainbow in the Dark",
-	"svgPatternId": "ComfyRainbowintheDark",
-	"patternId": { "fill": "url(#ComfyRainbowintheDark"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderComfyRainbowintheDark.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Comfy Carrots",
 	"svgPatternId": "ComfyCarrots",
 	"patternId": { "fill": "url(#ComfyCarrots"},
@@ -328,13 +321,6 @@
 	"svgPatternId": "ComfyCarnivalStripe",
 	"patternId": { "fill": "url(#ComfyCarnivalStripe"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/03/BuilderComfyCarnivalStripe.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Dreamweight Peppermint Kiss",
-	"svgPatternId": "DreamweightPeppermintKiss",
-	"patternId": { "fill": "url(#DreamweightPeppermintKiss"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/03/BuilderDreamweightPeppermintKiss.jpg"
 },
 {					
 	"type": "pattern",
