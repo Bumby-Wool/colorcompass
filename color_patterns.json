@@ -9,6 +9,13 @@
 },
 {					
 	"type": "pattern",
+	"name": "Durasoft Horizon Spirit",
+	"svgPatternId": "DurasoftHorizonSpirit",
+	"patternId": { "fill": "url(#DurasoftHorizonSpirit"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/03/BuilderDurasoftHorizonSpirit.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Dreamweight Rainbloom",
 	"svgPatternId": "DreamweightRainbloom",
 	"patternId": { "fill": "url(#DreamweightRainbloom"},
