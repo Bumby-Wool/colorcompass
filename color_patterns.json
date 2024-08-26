@@ -170,13 +170,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Lilac",
-	"svgPatternId": "ComfyLilac",
-	"patternId": { "fill": "url(#ComfyLilac"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderComfyLilac.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Comfy Lemon",
 	"svgPatternId": "ComfyLemon",
 	"patternId": { "fill": "url(#ComfyLemon"},
@@ -300,13 +293,6 @@
 	"svgPatternId": "ComfyBlackWidow",
 	"patternId": { "fill": "url(#ComfyBlackWidow"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderComfyBlackWidow.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Comfy Dragon Fruit",
-	"svgPatternId": "ComfyDragonFruit",
-	"patternId": { "fill": "url(#ComfyDragonFruit"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderComfyDragonFruit.jpg"
 },
 {					
 	"type": "pattern",
@@ -597,13 +583,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Cozy Striped Emerald",
-	"svgPatternId": "CozyStripedEmerald",
-	"patternId": { "fill": "url(#CozyStripedEmerald"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/02/BuilderCozyStripedEmerald.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Cozy Striped Amethyst",
 	"svgPatternId": "CozyStripedAmethyst",
 	"patternId": { "fill": "url(#CozyStripedAmethyst"},
@@ -678,13 +657,6 @@
 	"svgPatternId": "ComfyHeatherMistStripe",
 	"patternId": { "fill": "url(#ComfyHeatherMistStripe"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/BuilderComfyHeatherMistStripe.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Comfy Striped Olive Pit",
-	"svgPatternId": "ComfyStripedOlivePit",
-	"patternId": { "fill": "url(#ComfyStripedOlivePit"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/09/BuilderComfyStripedOlivePit.jpg"
 },
 {					
 	"type": "pattern",
@@ -882,13 +854,6 @@
 	"patternId": { "fill": "url(#DurasoftLavender"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/02/BuilderDurasoftLavender.jpg"
 },		
-{					
-	"type": "pattern",
-	"name": "Durasoft Oura",
-	"svgPatternId": "DurasoftOura",
-	"patternId": { "fill": "url(#DurasoftOura"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2022/07/BuilderDurasoftOura.jpg"	
-},
 {					
 	"type": "pattern",
 	"name": "Durasoft Tangelo",
