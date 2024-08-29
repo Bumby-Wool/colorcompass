@@ -37,24 +37,10 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Unicorn Fluff",
-	"svgPatternId": "ComfyUnicornFluff",
-	"patternId": { "fill": "url(#ComfyUnicornFluff"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderComfyUnicornFluff.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Comfy Aurora Flame",
 	"svgPatternId": "ComfyAuroraFlame",
 	"patternId": { "fill": "url(#ComfyAuroraFlame"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/08/BuilderComfyAuroraFlame.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Comfy Flip Side",
-	"svgPatternId": "ComfyFlipSide",
-	"patternId": { "fill": "url(#ComfyFlipSide"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/08/BuilderComfyFlipSide.jpg"
 },
 {					
 	"type": "pattern",
@@ -72,24 +58,10 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Unicorn Fluff",
-	"svgPatternId": "ComfyUnicornFluff",
-	"patternId": { "fill": "url(#ComfyUnicornFluff"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderComfyUnicornFluff.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Comfy Thistlebrook",
 	"svgPatternId": "ComfyThistlebrook",
 	"patternId": { "fill": "url(#ComfyThistlebrook"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/08/BuilderComfyThistlebrook.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Comfy Wild Side",
-	"svgPatternId": "ComfyWildSide",
-	"patternId": { "fill": "url(#ComfyWildSide"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/08/BuilderComfyWildSide.jpg"
 },
 {					
 	"type": "pattern",
@@ -307,13 +279,6 @@
 	"svgPatternId": "ComfyCarrots",
 	"patternId": { "fill": "url(#ComfyCarrots"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/03/BuilderComfyCarrots.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Comfy Striped Carnival",
-	"svgPatternId": "ComfyCarnivalStripe",
-	"patternId": { "fill": "url(#ComfyCarnivalStripe"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/03/BuilderComfyCarnivalStripe.jpg"
 },
 {					
 	"type": "pattern",
@@ -734,13 +699,6 @@
 	"svgPatternId": "ComfyViburnum",
 	"patternId": { "fill": "url(#ComfyViburnum"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/08/BuilderComfyViburnum.jpg"
-},
-{					
-	"type": "pattern",
-	"name": "Comfy Melange Light Denim",
-	"svgPatternId": "ComfyMelangeLightDenim",
-	"patternId": { "fill": "url(#ComfyMelangeLightDenim"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/12/BuilderComfyMelangeLightDenim-1.jpg"
 },
 {					
 	"type": "pattern",
