@@ -13,6 +13,55 @@
 	"svgPatternId": "DreamweightRainbloom",
 	"patternId": { "fill": "url(#DreamweightRainbloom"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/08/BuilderDreamweightRainbloom.jpg"
+}
+{					
+	"type": "pattern",
+	"name": "Dreamweight Soap Stone",
+	"svgPatternId": "DreamweightSoapStone",
+	"patternId": { "fill": "url(#DreamweightSoapStone"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/09/BuilderDreamweightSoapStone.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Dreamweight Moonlit Rose",
+	"svgPatternId": "DreamweightMoonlitRose",
+	"patternId": { "fill": "url(#DreamweightMoonlitRose"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/09/BuilderDreamweightMoonlitRose.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Dreamweight Finvarra",
+	"svgPatternId": "DreamweightFinvarra",
+	"patternId": { "fill": "url(#DreamweightFinvarra"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/09/BuilderDreamweightFinvarra.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Dreamweight Crushed Berries",
+	"svgPatternId": "DreamweightCrushedBerries",
+	"patternId": { "fill": "url(#DreamweightCrushedBerries"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/09/BuilderDreamweightCrushedBerries.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Dreamweight Courgette",
+	"svgPatternId": "DreamweightCourgette",
+	"patternId": { "fill": "url(#DreamweightCourgette"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/09/BuilderDreamweightCourgette.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Dreamweight Ardent",
+	"svgPatternId": "DreamweightArdent",
+	"patternId": { "fill": "url(#DreamweightArdent"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/09/BuilderDreamweightArdent.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Dreamweight Red Rock",
+	"svgPatternId": "DreamweightRedRock",
+	"patternId": { "fill": "url(#DreamweightRedRock"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/09/BuilderDreamweightRedRock.jpg"
 },
 {					
 	"type": "pattern",
