@@ -16,6 +16,13 @@
 }
 {					
 	"type": "pattern",
+	"name": "Striped Comfy Oracle Waters",
+	"svgPatternId": "StripedComfyOracleWaters",
+	"patternId": { "fill": "url(#StripedComfyOracleWaters"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/09/BuilderStripedOracleWaters-.jpg"
+}
+{					
+	"type": "pattern",
 	"name": "Dreamweight Soap Stone",
 	"svgPatternId": "DreamweightSoapStone",
 	"patternId": { "fill": "url(#DreamweightSoapStone"},
