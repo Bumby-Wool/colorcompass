@@ -136,8 +136,8 @@
 {					
 	"type": "pattern",
 	"name": "Dreamweight Bumble Berry",
-	"svgPatternId": "DreamweightBumbleBerry",
-	"patternId": { "fill": "url(#DreamweightBumbleBerry"},
+	"svgPatternId": "DreamweightBumble-Berry",
+	"patternId": { "fill": "url(#DreamweightBumble-Berry"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/09/BuilderDreamweight-BumbleBerry.jpg"
 },
 {					
