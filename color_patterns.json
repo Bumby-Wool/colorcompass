@@ -128,13 +128,6 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Aurora Flame",
-	"svgPatternId": "ComfyAuroraFlame",
-	"patternId": { "fill": "url(#ComfyAuroraFlame"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/08/BuilderComfyAuroraFlame.jpg"
-},
-{					
-	"type": "pattern",
 	"name": "Comfy Snapdragon Shimmer",
 	"svgPatternId": "ComfySnapdragonShimmer",
 	"patternId": { "fill": "url(#ComfySnapdragonShimmer"},
