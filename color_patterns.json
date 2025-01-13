@@ -128,7 +128,28 @@
 },
 {					
 	"type": "pattern",
-	"name": "DreamweightCalmness",
+	"name": "Dreamweight Calmness",
+	"svgPatternId": "DreamweightCalmness",
+	"patternId": { "fill": "url(#DreamweightCalmness"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/09/BuilderDreamweightCalmness.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Dreamweight Calmness",
+	"svgPatternId": "DreamweightCalmness",
+	"patternId": { "fill": "url(#DreamweightCalmness"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/09/BuilderDreamweightCalmness.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Dreamweight Calmness",
+	"svgPatternId": "DreamweightCalmness",
+	"patternId": { "fill": "url(#DreamweightCalmness"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/09/BuilderDreamweightCalmness.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Dreamweight Calmness",
 	"svgPatternId": "DreamweightCalmness",
 	"patternId": { "fill": "url(#DreamweightCalmness"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/09/BuilderDreamweightCalmness.jpg"
