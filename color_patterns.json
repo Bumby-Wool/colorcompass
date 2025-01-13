@@ -107,17 +107,17 @@
 },
 {					
 	"type": "pattern",
-	"name": "CozyRedRock",
+	"name": "Cozy Red Rock",
 	"svgPatternId": "CozyRedRock",
 	"patternId": { "fill": "url(#CozyRedRock"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/09/BuilderCozyRedRock.jpg"
 },
 {					
 	"type": "pattern",
-	"name": "CozyRedRock",
-	"svgPatternId": "CozyRedRock",
-	"patternId": { "fill": "url(#CozyRedRock"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/09/BuilderCozyRedRock.jpg"
+	"name": "Comfy Coleus",
+	"svgPatternId": "ComfyColeus",
+	"patternId": { "fill": "url(#ComfyColeus"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/09/BuilderComfyColeus.jpg"
 },
 {					
 	"type": "pattern",
