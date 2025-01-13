@@ -44,10 +44,10 @@
 },
 {					
 	"type": "pattern",
-	"name": "DreamweightPumpkinFusion",
-	"svgPatternId": "DreamweightPumpkinFusion",
-	"patternId": { "fill": "url(#DreamweightPumpkinFusion"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/11/BuilderDreamweightPumpkinFusion.jpg"
+	"name": "Dreamweight Panther Chameleon",
+	"svgPatternId": "DreamweightPantherChameleon",
+	"patternId": { "fill": "url(#DreamweightPantherChameleon"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/11/BuilderDreamweightPantherChameleon.jpg"
 },
 {					
 	"type": "pattern",
