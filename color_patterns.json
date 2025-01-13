@@ -184,10 +184,10 @@
 },
 {					
 	"type": "pattern",
-	"name": "Dreamweight Alsike",
-	"svgPatternId": "DreamweightAlsike",
-	"patternId": { "fill": "url(#DreamweightAlsike"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderDreamweightAlsike.jpg"
+	"name": "Comfy Viburnum",
+	"svgPatternId": "ComfyViburnum",
+	"patternId": { "fill": "url(#ComfyViburnum"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/08/BuilderComfyViburnum.jpg"
 },
 {					
 	"type": "pattern",
