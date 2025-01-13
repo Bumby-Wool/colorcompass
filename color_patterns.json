@@ -30,10 +30,10 @@
 },
 {					
 	"type": "pattern",
-	"name": "Dreamweight Rainbloom",
-	"svgPatternId": "DreamweightRainbloom",
-	"patternId": { "fill": "url(#DreamweightRainbloom"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/08/BuilderDreamweightRainbloom.jpg"
+	"name": "Dreamweight Pinkarella",
+	"svgPatternId": "DreamweightPinkarella",
+	"patternId": { "fill": "url(#DreamweightPinkarella"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/11/BuilderDreamweightPinkarella.jpg"
 },
 {					
 	"type": "pattern",
