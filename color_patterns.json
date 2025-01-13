@@ -79,10 +79,10 @@
 },
 {					
 	"type": "pattern",
-	"name": "Builder Dreamweight Carnival",
-	"svgPatternId": "BuilderDreamweightCarnival",
-	"patternId": { "fill": "url(#BuilderDreamweightCarnival"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/11/BuilderDreamweightCarnival.jpg"
+	"name": "Dreamweight Vintage Shard",
+	"svgPatternId": "DreamweightVintageShard",
+	"patternId": { "fill": "url(#DreamweightVintageShard"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/11/BuilderDreamweightVintageShard.jpg"
 },
 {					
 	"type": "pattern",
