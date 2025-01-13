@@ -128,10 +128,10 @@
 },
 {					
 	"type": "pattern",
-	"name": "CozyRedRock",
-	"svgPatternId": "CozyRedRock",
-	"patternId": { "fill": "url(#CozyRedRock"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/09/BuilderCozyRedRock.jpg"
+	"name": "DreamweightCalmness",
+	"svgPatternId": "DreamweightCalmness",
+	"patternId": { "fill": "url(#DreamweightCalmness"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/09/BuilderDreamweightCalmness.jpg"
 },
 {					
 	"type": "pattern",
