@@ -100,10 +100,10 @@
 },
 {					
 	"type": "pattern",
-	"name": "Dreamweight Ruby",
-	"svgPatternId": "DreamweightRuby",
-	"patternId": { "fill": "url(#DreamweightRuby"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/11/BuilderDreamweightRuby.jpg"
+	"name": "Dreamweight Black Forest",
+	"svgPatternId": "DreamweightBlackForest",
+	"patternId": { "fill": "url(#DreamweightBlackForest"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/11/BuilderDreamweightBlackForest.jpg.jpg"
 },
 {					
 	"type": "pattern",
