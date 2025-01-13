@@ -51,10 +51,10 @@
 },
 {					
 	"type": "pattern",
-	"name": "DreamweightPumpkinFusion",
-	"svgPatternId": "DreamweightPumpkinFusion",
-	"patternId": { "fill": "url(#DreamweightPumpkinFusion"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/11/BuilderDreamweightPumpkinFusion.jpg"
+	"name": "Dreamweight Medium Denim",
+	"svgPatternId": "DreamweightMediumDenim",
+	"patternId": { "fill": "url(#DreamweightMediumDenim"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/11/BuilderDreamweightMediumDenim.jpg"
 },
 {					
 	"type": "pattern",
