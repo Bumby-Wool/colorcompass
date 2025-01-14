@@ -65,9 +65,9 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Mauve-You",
-	"svgPatternId": "ComfyMauve-You",
-	"patternId": { "fill": "url(#ComfyMauve-You"},
+	"name": "Cozy Mauve-You",
+	"svgPatternId": "CozyMauve-You",
+	"patternId": { "fill": "url(#CozyMauve-You"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderComfyMauve-You.png"
 },
 {					
