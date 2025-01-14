@@ -16,6 +16,27 @@
 },
 {					
 	"type": "pattern",
+	"name": "Comfy Viburnum",
+	"svgPatternId": "ComfyViburnum",
+	"patternId": { "fill": "url(#ComfyViburnum"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderComfyViburnum.png"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Striped Cherry Blossom",
+	"svgPatternId": "ComfyStripedCherryBlossom",
+	"patternId": { "fill": "url(#ComfyStripedCherryBlossom"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderComfyStripedCherryBlossom.png"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Striped Biscuit",
+	"svgPatternId": "ComfyStripedBiscuit",
+	"patternId": { "fill": "url(#ComfyStripedBiscuit"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderComfyStripedBiscuit.png"
+},
+{					
+	"type": "pattern",
 	"name": "Dreamweight Witches Road",
 	"svgPatternId": "DreamweightWitchesRoad",
 	"patternId": { "fill": "url(#DreamweightWitchesRoad"},
