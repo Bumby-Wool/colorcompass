@@ -205,7 +205,7 @@
 },
 {					
 	"type": "pattern",
-	"name": "CozyEclipse",
+	"name": "Cozy Eclipse",
 	"svgPatternId": "CozyEclipse",
 	"patternId": { "fill": "url(#CozyEclipse"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderCozyEclipse.jpg"
