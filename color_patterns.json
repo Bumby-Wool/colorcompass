@@ -9,6 +9,27 @@
 },
 {					
 	"type": "pattern",
+	"name": "Cozy Montepulciano",
+	"svgPatternId": "CozyMontepulciano",
+	"patternId": { "fill": "url(#CozyMontepulciano"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderCozyMontepulciano.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Jersey de Cozy Night Vapor",
+	"svgPatternId": "JerseydeCozyNightVapor",
+	"patternId": { "fill": "url(#JerseydeCozyNightVapor"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderJerseydeCozyNightVapor.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Drapier de Cozy Venus Trap",
+	"svgPatternId": "DrapierdeCozyVenusTrap",
+	"patternId": { "fill": "url(#DrapierdeCozyVenusTrap"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderDrapierdeCozyVenusTrap.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Cozy Waxed Canvas",
 	"svgPatternId": "CozyWaxedCanvas",
 	"patternId": { "fill": "url(#CozyWaxedCanvas"},
