@@ -9,10 +9,10 @@
 },
 {					
 	"type": "pattern",
-	"name": "Durasoft Sunset Blaze",
-	"svgPatternId": "DurasoftSunsetBlaze",
-	"patternId": { "fill": "url(#DurasoftSunsetBlaze"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderDurasoftSunsetBlaze.jpg"
+	"name": "Cozy Striped Black Spruce",
+	"svgPatternId": "CozyStripedBlackSpruce",
+	"patternId": { "fill": "url(#CozyStripedBlackSpruce"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderCozyStripedBlackSpruce.jpg"
 },
 {					
 	"type": "pattern",
