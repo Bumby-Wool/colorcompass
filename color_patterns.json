@@ -457,10 +457,10 @@
 },
 {					
 	"type": "pattern",
-	"name": "Comfy Night Violet",
-	"svgPatternId": "ComfyNightViolet",
-	"patternId": { "fill": "url(#ComfyNightViolet"},
-	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderComfyNightViolet.jpg"
+	"name": "Cozy Night Violet",
+	"svgPatternId": "CozyNightViolet",
+	"patternId": { "fill": "url(#CozyNightViolet"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2024/06/BuilderCozyNightViolet.jpg"
 },
 {					
 	"type": "pattern",
