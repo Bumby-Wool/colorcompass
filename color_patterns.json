@@ -30,9 +30,9 @@
 },
 {					
 	"type": "pattern",
-	"name": "ComfyRiver",
-	"svgPatternId": "ComfyRiver",
-	"patternId": { "fill": "url(#ComfyRiver"},
+	"name": "Cozy River",
+	"svgPatternId": "CozyRiver",
+	"patternId": { "fill": "url(#CozyRiver"},
 	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderComfyRiver.png"
 },
 {					
