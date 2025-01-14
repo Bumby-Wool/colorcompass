@@ -16,6 +16,27 @@
 },
 {					
 	"type": "pattern",
+	"name": "Comfy Cadet",
+	"svgPatternId": "ComfyCadet",
+	"patternId": { "fill": "url(#ComfyCadet"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderComfyCadet.png"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Iris Song",
+	"svgPatternId": "ComfyIrisSong",
+	"patternId": { "fill": "url(#ComfyIrisSong"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderComfyIrisSong.png"
+},
+{					
+	"type": "pattern",
+	"name": "ComfyRiver",
+	"svgPatternId": "ComfyRiver",
+	"patternId": { "fill": "url(#ComfyRiver"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderComfyRiver.png"
+},
+{					
+	"type": "pattern",
 	"name": "Comfy Cocoa Frutti",
 	"svgPatternId": "ComfyCocoaFrutti",
 	"patternId": { "fill": "url(#ComfyCocoaFruttif"},
