@@ -2,6 +2,13 @@
    { "name": "Choose a colour" },
 {					
 	"type": "pattern",
+	"name": "Comfy Papel Picado",
+	"svgPatternId": "ComfyPapelPicado",
+	"patternId": { "fill": "url(#ComfyPapelPicado"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderComfyPapelPicado-.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Durasoft Sunset Blaze",
 	"svgPatternId": "DurasoftSunsetBlaze",
 	"patternId": { "fill": "url(#DurasoftSunsetBlaze"},
