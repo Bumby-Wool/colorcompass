@@ -9,6 +9,27 @@
 },
 {					
 	"type": "pattern",
+	"name": "Durasoft Sunset Blaze",
+	"svgPatternId": "DurasoftSunsetBlaze",
+	"patternId": { "fill": "url(#DurasoftSunsetBlaze"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2023/06/BuilderDurasoftSunsetBlaze.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Cozy Striped Dart Frog",
+	"svgPatternId": "CozyStripedDartFrog",
+	"patternId": { "fill": "url(#CozyStripedDartFrog"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderCozyStripedDartFrog.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Cozy Striped Emerald",
+	"svgPatternId": "CozyStripedEmerald",
+	"patternId": { "fill": "url(#CozyStripedEmerald"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderCozyStripedEmerald.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Cozy Striped Ametrime",
 	"svgPatternId": "CozyStripedAmetrime",
 	"patternId": { "fill": "url(#CozyStripedAmetrime"},
