@@ -9,6 +9,27 @@
 },
 {					
 	"type": "pattern",
+	"name": "Cozy Striped Night Fall",
+	"svgPatternId": "CozyStripedNightFall",
+	"patternId": { "fill": "url(#CozyStripedNightFall"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderCozyStripedNightFall.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Cozy Striped Neptune Rising",
+	"svgPatternId": "CozyStripedNeptuneRising",
+	"patternId": { "fill": "url(#CozyStripedNeptuneRising"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderCozyStripedNeptuneRising.jpg"
+},
+{					
+	"type": "pattern",
+	"name": "Cozy Striped Navy",
+	"svgPatternId": "CozyStripedNavy",
+	"patternId": { "fill": "url(#CozyStripedNavy"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderCozyStripedNavy.jpg"
+},
+{					
+	"type": "pattern",
 	"name": "Cozy Striped Lizard",
 	"svgPatternId": "CozyStripedLizard",
 	"patternId": { "fill": "url(#CozyStripedLizard"},
