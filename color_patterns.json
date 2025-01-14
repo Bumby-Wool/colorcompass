@@ -16,6 +16,27 @@
 },
 {					
 	"type": "pattern",
+	"name": "Comfy Papillon",
+	"svgPatternId": "ComfyPapillon",
+	"patternId": { "fill": "url(#ComfyPapillon"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderComfyPapillon.png"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Mauve-You",
+	"svgPatternId": "ComfyMauve-You",
+	"patternId": { "fill": "url(#ComfyMauve-You"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderComfyMauve-You.png"
+},
+{					
+	"type": "pattern",
+	"name": "Comfy Mystical Waters",
+	"svgPatternId": "ComfyMysticalWaters",
+	"patternId": { "fill": "url(#ComfyMysticalWaters"},
+	"imageUrl": "https://bumbywool.com/wp-content/uploads/2025/01/BuilderComfyMysticalWaters.png"
+},
+{					
+	"type": "pattern",
 	"name": "Comfy Viburnum",
 	"svgPatternId": "ComfyViburnum",
 	"patternId": { "fill": "url(#ComfyViburnum"},
