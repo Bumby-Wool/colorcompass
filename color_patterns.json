@@ -469,6 +469,7 @@
     "patternId": { "fill": "url(#CozyWaxedCanvas)" },
     "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/06/BuilderCozyWaxedCanvas.jpg"
   },
+  {
     "type": "pattern",
     "name": "Dreamweight Alsike",
     "svgPatternId": "DreamweightAlsike",
