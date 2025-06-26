@@ -26,7 +26,7 @@ From a terminal navigate to the project directory
 > If you've opened the project with VS Code you can use `ctrl` + ` to open the terminal to the project directory
 
 ```
-cd c:\\WhereIClonedTheRepo\builder\
+cd c:\\WhereIClonedTheRepo\colourcompass\
 ```
 
 Then run:
