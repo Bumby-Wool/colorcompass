@@ -797,8 +797,7 @@
     "svgPatternId": "ComfyStripedWoolyLambsEar",
     "patternId": { "fill": "url(#ComfyStripedWoolyLambsEar)" },
     "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/06/BuilderComfyStripedWoolyLambsEar.jpg"
-    {,
-  [
+  },
   { "type": "zipper", "name": "Aqua" },
   { "type": "zipper", "name": "ArmyGreen" },
   { "type": "zipper", "name": "Beige" },
