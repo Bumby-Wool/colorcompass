@@ -1,5 +1,5 @@
 {
-  "name": "bumbywoolbuilder",
+  "name": "bumbywoolColorCompass",
   "version": "1.0.0",
   "description": "Custom Wool Clothing Visualizer",
   "main": "server.js",
@@ -9,14 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bumby-Wool/builder.git"
+    "url": "git+https://github.com/Bumby-Wool/colorcompass.git"
   },
   "author": "cblackw",
+  "Collaborator":BumbyBoss Steph",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Bumby-Wool/builder/issues"
+    "url": "https://github.com/Bumby-Wool/colorcompass/issues"
   },
-  "homepage": "https://github.com/Bumby-Wool/builder#readme",
+  "homepage": "https://github.com/Bumby-Wool/colorcompass#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
