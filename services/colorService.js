@@ -5,12 +5,12 @@ angular.module('bumbyApp')
         self.patterns = null;
 
         self.getHexColors = function() {
-            return self.loadColors("/builder/colors.json", self.hexColors);
+            return self.loadColors("/colorcompass/colors.json", self.hexColors);
         }
 
         self.getPatterns = function() {
             var deferred = $q.defer();
-            self.loadColors("/builder/color_patterns.json", self.patterns)
+            self.loadColors("/colorcompass/color_patterns.json", self.patterns)
                 .then((res) => {
                     deferred.resolve(res.map(o => self.buildPattern(o)));
                 });
@@ -43,7 +43,7 @@ angular.module('bumbyApp')
                     "name": original.name,
                     "svgPatternId": original.name+"Zipper",
                     "patternId": { "fill": "url(#"+original.name+"Zipper)"},
-                    "imageUrl": "/builder/resources/patterns/zippers/"+original.name+"Zipper.png"
+                    "imageUrl": "/colorcompass/resources/patterns/zippers/"+original.name+"Zipper.png"
                 };
             } else if (original.name) {
                 return {
@@ -51,7 +51,7 @@ angular.module('bumbyApp')
                     "name": original.name,
                     "svgPatternId": original.name,
                     "patternId": { "fill": "url(#"+original.name+")"},
-                    "imageUrl": "/builder/resources/patterns/"+original.name+".jpg"
+                    "imageUrl": "/colorcompass/resources/patterns/"+original.name+".jpg"
                 };
             } else {
                 console.error("Failed to properly load pattern", original);
