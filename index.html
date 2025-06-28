@@ -27,23 +27,5 @@
     <script src="components/color-selector/colorselector.js"></script>
     <script src="components/svg-patterns/svgpatterns.js"></script>
     <script src="components/svg-test/svgtest.js"></script>
-    <!-- Screenshot functionality -->
-    <script>
-    document.getElementById("downloadDesignBtn").addEventListener("click", function() {
-        var designArea = document.querySelector(".svg-background");
-        if (!designArea) {
-            alert("Design area not found!");
-            return;
-        }
-        html2canvas(designArea, { backgroundColor: null }).then(function(canvas) {
-            var link = document.createElement("a");
-            link.href = canvas.toDataURL("image/png");
-            link.download = "bumby-design.png";
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        });
-    });
-    </script>
 </body>
 </html>
