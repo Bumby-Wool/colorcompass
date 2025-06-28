@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 </head>
 <body ng-controller="mainCtrl">
     <div class="nav">
@@ -14,6 +15,10 @@
     </div>
     <!-- <img src="myTracingImage.jpg" width="375" style="position:absolute;z-index: -9999;" /> -->
     <ng-view></ng-view>
+    <!-- Download button just below ng-view -->
+    <div style="width: 100%; text-align: center; margin-top: 2rem;">
+      <button id="downloadDesignBtn" class="order-link">Download Design as Image</button>
+    </div>
     <script src="index.js"></script>
     <script src="services/itemDataService.js"></script>
     <script src="services/colorService.js"></script>
@@ -22,6 +27,23 @@
     <script src="components/color-selector/colorselector.js"></script>
     <script src="components/svg-patterns/svgpatterns.js"></script>
     <script src="components/svg-test/svgtest.js"></script>
+    <!-- Screenshot functionality -->
+    <script>
+    document.getElementById("downloadDesignBtn").addEventListener("click", function() {
+        var designArea = document.querySelector(".svg-background");
+        if (!designArea) {
+            alert("Design area not found!");
+            return;
+        }
+        html2canvas(designArea, { backgroundColor: null }).then(function(canvas) {
+            var link = document.createElement("a");
+            link.href = canvas.toDataURL("image/png");
+            link.download = "bumby-design.png";
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        });
+    });
+    </script>
 </body>
-
 </html>
