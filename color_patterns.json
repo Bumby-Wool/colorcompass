@@ -469,7 +469,7 @@
   "svgPatternId": "DreamweightWitchesRoad",
   "patternId": { "fill": "url(#DreamweightWitchesRoad)" },
   "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/07/BuilderDWWitchesRoad.jpg"
-}
+  },
   { "type": "zipper", "name": "Aqua" },
   { "type": "zipper", "name": "ArmyGreen" },
   { "type": "zipper", "name": "Beige" },
