@@ -97,7 +97,7 @@
     "svgPatternId": "ComfyStripedWoolyLambsEar",
     "patternId": { "fill": "url(#ComfyStripedWoolyLambsEar)" },
     "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/06/BuilderComfyStripedWoolyLambsEar.jpg"
-  },
+ },
 {
   "type": "pattern",
   "name": "Cozy Alaskan Winter Sky",
@@ -573,7 +573,7 @@
   "svgPatternId": "CozyWaxedCanvas",
   "patternId": { "fill": "url(#CozyWaxedCanvas)" },
   "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/07/BuilderCozyWaxedCanvas.jpg"
-}
+},
 {
   "type": "pattern",
   "name": "Dreamweight Alsike",
