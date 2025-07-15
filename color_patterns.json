@@ -1,11 +1,11 @@
 [
   { "name": "Choose a colour" },
   {
-  "type": "pattern",
-  "name": "Comfy Summer Spritz",
-  "svgPatternId": "ComfySummerSpritz",
-  "patternId": { "fill": "url(#ComfySummerSpritz)" },
-  "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/06/BuilderComfySummerSpritz.jpg"
+    "type": "pattern",
+    "name": "Comfy Summer Spritz",
+    "svgPatternId": "ComfySummerSpritz",
+    "patternId": { "fill": "url(#ComfySummerSpritz)" },
+    "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/06/BuilderComfySummerSpritz.jpg"
 },
 {
   "type": "pattern",
