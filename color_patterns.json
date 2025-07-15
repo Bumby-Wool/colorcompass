@@ -1,7 +1,6 @@
 [
   { "name": "Choose a colour" },
-  {
-      {
+{
     "type": "pattern",
     "name": "Comfy Summer Spritz",
     "svgPatternId": "ComfySummerSpritz",
