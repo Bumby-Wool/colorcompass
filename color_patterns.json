@@ -114,13 +114,6 @@
   },
   {
     "type": "pattern",
-    "name": "Cozy Striped Sweet Pea",
-    "svgPatternId": "CozyStripedSweetPea",
-    "patternId": { "fill": "url(#CozyStripedSweetPea)" },
-    "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/07/BuilderCozyStripedSweetPea.jpg"
-  },
-  {
-    "type": "pattern",
     "name": "Cozy Striped Velvet Eclipse",
     "svgPatternId": "CozyStripedVelvetEclipse",
     "patternId": { "fill": "url(#CozyStripedVelvetEclipse)" },
