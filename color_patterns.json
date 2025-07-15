@@ -114,6 +114,13 @@
   },
   {
     "type": "pattern",
+    "name": "Cozy Striped Sweet Pea",
+    "svgPatternId": "CozyStripedSweetPea",
+    "patternId": { "fill": "url(#CozyStripedSweetPea)" },
+    "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/07/BuilderCozyStripedSweetPea.jpg"
+  },
+  {
+    "type": "pattern",
     "name": "Cozy Striped Velvet Eclipse",
     "svgPatternId": "CozyStripedVelvetEclipse",
     "patternId": { "fill": "url(#CozyStripedVelvetEclipse)" },
@@ -147,8 +154,8 @@
     "patternId": { "fill": "url(#ComfyZinnia)" },
     "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/06/BuilderComfyZinnia.jpg"
   },
-  // ... All other "Comfy" and "Cozy" patterns unchanged ...
-  // -- START OF UPDATED DREAMWEIGHT COLORS --
+
+  // ---- DREAMWEIGHT COLOURS, updated URLs and deduped ----
   {
     "type": "pattern",
     "name": "Dreamweight Alsike",
@@ -389,20 +396,13 @@
   },
   {
     "type": "pattern",
-    "name": "Dreamweight Summer Spritz",
-    "svgPatternId": "DreamweightSummerSpritz",
-    "patternId": { "fill": "url(#DreamweightSummerSpritz)" },
-    "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/07/BuilderDWSummerSpritz.jpg"
-  },
-  {
-    "type": "pattern",
     "name": "Dreamweight Witches Road",
     "svgPatternId": "DreamweightWitchesRoad",
     "patternId": { "fill": "url(#DreamweightWitchesRoad)" },
     "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/07/BuilderDWWitchesRoad.jpg"
   },
-  // ---- END OF UPDATED DREAMWEIGHT COLORS ----
-  // ...All other existing patterns and zipper objects below...
+
+  // ---- ZIPPER COLORS ----
   { "type": "zipper", "name": "Aqua" },
   { "type": "zipper", "name": "ArmyGreen" },
   { "type": "zipper", "name": "Beige" },
