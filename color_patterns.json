@@ -21,6 +21,13 @@
     "patternId": { "fill": "url(#ComfyViburnum)" },
     "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/06/BuilderComfyViburnum.jpg"
   },
+    {
+    "type": "pattern",
+    "name": "Dreamweight Electric Rainbow",
+    "svgPatternId": "ElectricRainbow",
+    "patternId": { "fill": "url(#DWElectricRainbow)" },
+    "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/07/BuilderDWElectricRainbow.jpg"
+  },
   {
     "type": "pattern",
     "name": "Comfy Zinnia",
