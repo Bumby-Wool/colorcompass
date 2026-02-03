@@ -4,15 +4,6 @@
   },
   {
     "type": "pattern",
-    "name": "Comfy Summer Spritz",
-    "svgPatternId": "ComfySummerSpritz",
-    "patternId": {
-      "fill": "url(#ComfySummerSpritz)"
-    },
-    "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/06/BuilderComfySummerSpritz.jpg"
-  },
-  {
-    "type": "pattern",
     "name": "Comfy Under The Neon Lights",
     "svgPatternId": "ComfyUnderTheNeonLights",
     "patternId": {
@@ -22,30 +13,12 @@
   },
   {
     "type": "pattern",
-    "name": "Comfy Viburnum",
-    "svgPatternId": "ComfyViburnum",
-    "patternId": {
-      "fill": "url(#ComfyViburnum)"
-    },
-    "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/06/BuilderComfyViburnum.jpg"
-  },
-  {
-    "type": "pattern",
     "name": "Dreamweight Electric Rainbow",
     "svgPatternId": "ElectricRainbow",
     "patternId": {
       "fill": "url(#DWElectricRainbow)"
     },
     "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/07/BuilderDWElectricRainbow.jpg"
-  },
-  {
-    "type": "pattern",
-    "name": "Comfy Zinnia",
-    "svgPatternId": "ComfyZinnia",
-    "patternId": {
-      "fill": "url(#ComfyZinnia)"
-    },
-    "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/06/BuilderComfyZinnia.jpg"
   },
   {
     "type": "pattern",
