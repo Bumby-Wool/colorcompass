@@ -44,31 +44,10 @@
   },
   {
     "type": "pattern",
-    "name": "Comfy Carrots",
-    "svgPatternId": "ComfyCarrots",
-    "patternId": { "fill": "url(#ComfyCarrots)" },
-    "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/06/BuilderComfyCarrots.jpg"
-  },
-  {
-    "type": "pattern",
-    "name": "Comfy Coco Frutti",
-    "svgPatternId": "ComfyCocoFrutti",
-    "patternId": { "fill": "url(#ComfyCocoFrutti)" },
-    "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/06/BuilderComfyCocoFrutti.jpg"
-  },
-  {
-    "type": "pattern",
     "name": "Comfy Coleus",
     "svgPatternId": "ComfyColeus",
     "patternId": { "fill": "url(#ComfyColeus)" },
     "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/06/BuilderComfyColeus.jpg"
-  },
-  {
-    "type": "pattern",
-    "name": "Comfy Crushed Berries Melange",
-    "svgPatternId": "ComfyCrushedBerriesMelange",
-    "patternId": { "fill": "url(#ComfyCrushedBerriesMelange)" },
-    "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/06/BuilderComfyCrushedBerriesMelange.jpg"
   },
   {
     "type": "pattern",
@@ -86,25 +65,11 @@
   },
   {
     "type": "pattern",
-    "name": "Comfy Mauve-You",
-    "svgPatternId": "ComfyMauve-You",
-    "patternId": { "fill": "url(#ComfyMauve-You)" },
-    "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/06/BuilderComfyMauve-You.jpg"
-  },
-  {
-    "type": "pattern",
     "name": "Comfy Papillon",
     "svgPatternId": "ComfyPapillon",
     "patternId": { "fill": "url(#ComfyPapillon)" },
     "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/06/BuilderComfyPapillon.jpg"
   },
-  {
-    "type": "pattern",
-    "name": "Comfy Striped Wooly Lambs Ear",
-    "svgPatternId": "ComfyStripedWoolyLambsEar",
-    "patternId": { "fill": "url(#ComfyStripedWoolyLambsEar)" },
-    "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/06/BuilderComfyStripedWoolyLambsEar.jpg"
- },
 {
   "type": "pattern",
   "name": "Cozy Alaskan Winter Sky",
