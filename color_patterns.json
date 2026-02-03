@@ -148,15 +148,6 @@
   },
   {
     "type": "pattern",
-    "name": "Cozy Melange Fedora",
-    "svgPatternId": "CozyMelangeFedora",
-    "patternId": {
-      "fill": "url(#CozyMelangeFedora)"
-    },
-    "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/06/BuilderCozyMelangeFedora.jpg"
-  },
-  {
-    "type": "pattern",
     "name": "Cozy Melange Trilby",
     "svgPatternId": "CozyMelangeTrilby",
     "patternId": {
