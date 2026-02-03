@@ -8,14 +8,14 @@ You will find this documentation easier to understand if you have some foundatio
 * AngularJS - https://docs.angularjs.org/tutorial
 
 ### Adding/Removing Colors
-The colors are controled by a JSON file called `colors.json` in the root folder of the project. In the `colors.json` file there is an array of color objects. Each color object looks like this:
+The colors are controled by a JSON file called `color_patterns.json` in the root folder of the project. In the `color_patterns.json` file there is an array of color objects. Each color object looks like this:
 ```
 { "name": "Hops", "patternId": {"fill": "#007258"} }
 ```
 > Each color object in the array will be followed by a `,` at the end of the line **except** for the very last color at the end of the array
 
 #### Adding a color
-1. Go to the [colors.json](https://github.com/Bumby-Wool/builder/blob/main/colors.json) file.
+1. Go to the [color_patterns.json](https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json) file.
 2. Click on the `pencil icon` to edit the file
 > If you don't have the edit button for the file be sure you have signed-in to github with an account that has edit persmission for theis repo
 
@@ -40,7 +40,7 @@ The colors are controled by a JSON file called `colors.json` in the root folder 
 
 
 #### Removing a color
-1. Go to the [colors.json](https://github.com/Bumby-Wool/builder/blob/main/colors.json) file.
+1. Go to the [color_patterns.json](https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json) file.
 2. Click on the `pencil icon` to edit the file
 > If you don't have the edit button for the file be sure you have signed-in to github with an account that has edit persmission for theis repo
 
@@ -133,7 +133,7 @@ Using the shorthand version the other necessary properties are filled in using t
 ```
 
 #### Removing patterns
-Follow the same steps as with the removing colors except using the [color_patterns.json](https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json) file instead of colors.json
+Follow the same steps as with the removing colors except using the [color_patterns.json](https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json) file instead of color_patterns.json
 
 ### Adding New Items
 #### Overview
