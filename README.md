@@ -17,7 +17,7 @@ The colors are controled by a JSON file called `color_patterns.json` in the root
 #### Adding a color
 1. Go to the [color_patterns.json](https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json) file.
 2. Click on the `pencil icon` to edit the file
-> If you don't have the edit button for the file be sure you have signed-in to github with an account that has edit persmission for theis repo
+> If you don't have the edit button for the file be sure you have signed-in to github with an account that has edit permission for this repo
 
 ![image](https://user-images.githubusercontent.com/2077589/126038193-e470d8dd-a43e-4a1e-bc63-12fcc7d4a604.png)
 
@@ -42,7 +42,7 @@ The colors are controled by a JSON file called `color_patterns.json` in the root
 #### Removing a color
 1. Go to the [color_patterns.json](https://github.com/Bumby-Wool/builder/blob/main/color_patterns.json) file.
 2. Click on the `pencil icon` to edit the file
-> If you don't have the edit button for the file be sure you have signed-in to github with an account that has edit persmission for theis repo
+> If you don't have the edit button for the file be sure you have signed-in to github with an account that has edit permission for this repo
 
 ![image](https://user-images.githubusercontent.com/2077589/126038193-e470d8dd-a43e-4a1e-bc63-12fcc7d4a604.png)
 
