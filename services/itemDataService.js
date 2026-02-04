@@ -38,7 +38,7 @@ angular.module('bumbyApp')
             {
                 title: "Shorts - Bloomers",
                 link: "/items/bloomers",
-                image: "resources/Bloomers-laying-down-500x500.jpg",
+                image: "resources/Bloomers-laying-down-500x500.png",
                 variants: [
                     {
                         label: "Hemmed Shorts",
