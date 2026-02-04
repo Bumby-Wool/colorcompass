@@ -5,7 +5,7 @@ angular.module('bumbyApp')
         self.patterns = null;
 
         self.getHexColors = function() {
-            return self.loadColors("/colorcompass/colors.json", self.hexColors);
+            return self.loadColors("/colorcompass/color_patterns.json", self.hexColors);
         }
 
         self.getPatterns = function() {
