@@ -13,15 +13,6 @@
   },
   {
     "type": "pattern",
-    "name": "Dreamweight Electric Rainbow",
-    "svgPatternId": "ElectricRainbow",
-    "patternId": {
-      "fill": "url(#DWElectricRainbow)"
-    },
-    "imageUrl": "https://www.bumbywool.com/wp-content/uploads/2025/07/BuilderDWElectricRainbow.jpg"
-  },
-  {
-    "type": "pattern",
     "name": "Comfy Arctic Haze",
     "svgPatternId": "ComfyArcticHaze",
     "patternId": {
