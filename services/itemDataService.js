@@ -340,7 +340,7 @@ angular.module('bumbyApp')
                 ]
             },
             {
-                title: "crops",
+                title: "Crops",
                 link: "/items/crops",
                 image: "resources/CropsEuros.png",
                 variants: [
