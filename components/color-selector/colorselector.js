@@ -3,13 +3,19 @@ angular.module('bumbyApp')
         templateUrl: 'components/color-selector/colorselector.html',
         bindings: {
             onUpdate: '&',
-            colors: '<'
+            colors: '<',
+            selectedColor: '<'
         },
         controller: ['$scope', 'colorService', function($scope, colorService) {
             var ctrl = this;
 
             ctrl.$onChanges = function(changes) {
-                if (!ctrl.selectedColor) {
+                if (changes.selectedColor && changes.selectedColor.currentValue) {
+                    ctrl.selectedColor = changes.selectedColor.currentValue;
+                    return;
+                }
+
+                if (!ctrl.selectedColor && ctrl.colors && ctrl.colors.length > 0) {
                     ctrl.setColor(ctrl.colors[0]);
                 }
             }
