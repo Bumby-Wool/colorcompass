@@ -15,13 +15,16 @@ angular.module('bumbyApp')
                     console.log("initializing Item");
                     ctrl.colors = [];
                     ctrl.zippers = [];
+
+                    /* Redundant
                     colorService.getHexColors()
                         .then((res) => {
                             ctrl.colors = ctrl.colors.concat(res);
                         },(err) => { 
                             console.error("Failed to load colors", err)
                         });
-                
+                    */
+                   
                     colorService.getPatterns()
                         .then((res) => {
                             ctrl.colors = ctrl.colors.concat(res.filter(c => c.type === 'pattern'));

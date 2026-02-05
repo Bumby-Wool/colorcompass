@@ -4,9 +4,11 @@ angular.module('bumbyApp')
         self.hexColors = null;
         self.patterns = null;
 
+        /* Redundant
         self.getHexColors = function() {
-            return self.loadColors("/colorcompass/colors.json", self.hexColors);
+            return self.loadColors("/colorcompass/color_patterns.json", self.hexColors);
         }
+        */
 
         self.getPatterns = function() {
             var deferred = $q.defer();

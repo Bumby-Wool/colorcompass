@@ -9,21 +9,26 @@ angular.module('bumbyApp')
             var ctrl = this;
 
             ctrl.$onChanges = function(changes) {
-                ctrl.setColor(ctrl.colors[0]);
+                if (!ctrl.selectedColor) {
+                    ctrl.setColor(ctrl.colors[0]);
+                }
             }
 
             ctrl.setColor = function(color){
                 ctrl.selectedColor = color;
+                console.log("Color selected:", color);
                 ctrl.onUpdate({color: ctrl.selectedColor});
             }
         
             ctrl.getColorBackground = function(color) {
-                if (color && typeof color != undefined) {
-                    if (color.type==='pattern' || color.type==='zipper')
-                        return 'center/cover url('+color.imageUrl+')';
-                    else {
+                if (color && typeof color !== 'undefined') {
+                    if (color.type === 'pattern' || color.type === 'zipper') {
+                        return 'center/cover url(' + color.imageUrl + ')';
+                    }
+
+                    if (color.patternId && color.patternId.fill) {
                         return color.patternId.fill;
-                    } 
+                    }
                 }
                 return "#fff";
             }
