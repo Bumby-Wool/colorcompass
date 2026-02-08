@@ -12,7 +12,7 @@ angular.module('bumbyApp')
                 ctrl.selectedVariant = ctrl.item.variants[0];
 
                 ctrl.$onInit = function() {
-                    console.log("initializing Item");
+                    //console.log("initializing Item");
                     ctrl.colors = [];
                     ctrl.zippers = [];
 
