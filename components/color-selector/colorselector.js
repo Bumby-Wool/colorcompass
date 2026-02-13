@@ -22,7 +22,7 @@ angular.module('bumbyApp')
 
             ctrl.setColor = function(color){
                 ctrl.selectedColor = color;
-                console.log("Color selected:", color);
+                //console.log("Color selected:", color);
                 ctrl.onUpdate({color: ctrl.selectedColor});
             }
         

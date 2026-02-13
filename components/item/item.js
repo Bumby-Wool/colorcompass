@@ -12,7 +12,7 @@ angular.module('bumbyApp')
                 ctrl.selectedVariant = ctrl.item.variants[0];
 
                 ctrl.$onInit = function() {
-                    console.log("initializing Item");
+                    //console.log("initializing Item");
                     ctrl.colors = [];
                     ctrl.zippers = [];
 
@@ -62,6 +62,30 @@ angular.module('bumbyApp')
                         }
                     });
                 }
+
+                /** Download Design as Image function - incomplete
+                ctrl.downloadDesign = function() {
+                    var designElement = document.querySelector('.svg-background');
+                    if (!designElement || typeof html2canvas !== 'function') {
+                        console.error('Unable to download design image.');
+                        return;
+                    }
+
+                    var fileName = 'bumby-' + ctrl.itemId + '-design.png';
+                    html2canvas(designElement, {
+                        useCORS: true,
+                        backgroundColor: null,
+                        scale: 2
+                    }).then(function(canvas) {
+                        var link = document.createElement('a');
+                        link.download = fileName;
+                        link.href = canvas.toDataURL('image/png');
+                        link.click();
+                    }).catch(function(error) {
+                        console.error('Download failed', error);
+                    });
+                }
+                */
             }
         ]
     })

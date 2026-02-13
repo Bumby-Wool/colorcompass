@@ -12,15 +12,6 @@
            preserveAspectRatio="xMidYMid meet" />
 </pattern>
 
-<pattern ng-repeat="zipper in zippers"
-         id="{{zipper.svgPatternId}}"
-         patternUnits="objectBoundingBox"
-         width="1"
-         height="0.05">
-
-    <image ng-attr-href="{{zipper.imageUrl}}"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%" />
+<pattern ng-repeat="zipper in zippers" id="{{zipper.svgPatternId}}" x="0" y="0" width="1" height="0.05" patternUnits="objectBoundingBox">
+    <image ng-attr-href="{{zipper.imageUrl}}" x="0" y="0" width="130" />
 </pattern>
