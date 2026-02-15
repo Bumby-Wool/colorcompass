@@ -6,7 +6,7 @@ export type ItemCardProps = {
   onClick?: () => void;
 };
 
-export function ItemCard({ title, imageUrl, onClick }: ItemCardProps): JSX.Element {
+export function ItemCard({ title, imageUrl, onClick }: ItemCardProps): React.JSX.Element {
   return (
     <button className="item-card" style={{ backgroundImage: `url(${imageUrl})` }} onClick={onClick}>
       <span className="item-card-title">{title}</span>

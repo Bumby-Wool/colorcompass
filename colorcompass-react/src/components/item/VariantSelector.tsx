@@ -7,7 +7,7 @@ export type VariantSelectorProps = {
   onChange: (value: string) => void;
 };
 
-export function VariantSelector({ label = "Type", value, options, onChange }: VariantSelectorProps): JSX.Element {
+export function VariantSelector({ label = "Type", value, options, onChange }: VariantSelectorProps): React.JSX.Element {
   return (
     <label className="option-label">
       <span className="option-banner">{label}</span>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export function NavBar(): JSX.Element {
+export function NavBar(): React.JSX.Element {
   return (
     <nav className="nav">
       <Link className="nav-home" to="/">

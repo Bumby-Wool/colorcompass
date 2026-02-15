@@ -5,7 +5,7 @@ export type ExtraOptionsProps = {
   children: React.ReactNode;
 };
 
-export function ExtraOptions({ title = "Additional Options", children }: ExtraOptionsProps): JSX.Element {
+export function ExtraOptions({ title = "Additional Options", children }: ExtraOptionsProps): React.JSX.Element {
   return (
     <section>
       <h4 className="option-banner">{title}</h4>

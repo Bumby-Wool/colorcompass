@@ -1,6 +1,6 @@
 import React from "react";
 
-export function ItemListPage(): JSX.Element {
+export function ItemListPage(): React.JSX.Element {
   return (
     <div className="item-list-container">
       <h2>Choose An Item To Customize</h2>

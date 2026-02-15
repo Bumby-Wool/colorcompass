@@ -13,7 +13,7 @@ export type ColorSelectorProps = {
   onChange: (color: ColorOption) => void;
 };
 
-export function ColorSelector({ colors, selectedColor, onChange }: ColorSelectorProps): JSX.Element {
+export function ColorSelector({ colors, selectedColor, onChange }: ColorSelectorProps): React.JSX.Element {
   const [open, setOpen] = React.useState(false);
 
   return (

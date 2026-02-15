@@ -4,6 +4,6 @@ export type SvgCanvasProps = {
   children: React.ReactNode;
 };
 
-export function SvgCanvas({ children }: SvgCanvasProps): JSX.Element {
+export function SvgCanvas({ children }: SvgCanvasProps): React.JSX.Element {
   return <div className="svg-background">{children}</div>;
 }

@@ -10,7 +10,7 @@ export type SvgPatternsDefsProps = {
   patterns: SvgPattern[];
 };
 
-export function SvgPatternsDefs({ patterns }: SvgPatternsDefsProps): JSX.Element {
+export function SvgPatternsDefs({ patterns }: SvgPatternsDefsProps): React.JSX.Element {
   return (
     <defs>
       {patterns.map((pattern) => (

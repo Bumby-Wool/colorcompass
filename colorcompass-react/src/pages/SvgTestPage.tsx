@@ -1,6 +1,6 @@
 import React from "react";
 
-export function SvgTestPage(): JSX.Element {
+export function SvgTestPage(): React.JSX.Element {
   return (
     <div className="item-title-container">
       <h1>SVG Test Page</h1>

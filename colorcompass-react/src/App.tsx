@@ -6,7 +6,7 @@ import { ItemListPage } from "./pages/ItemListPage";
 import { ItemPage } from "./pages/ItemPage";
 import { SvgTestPage } from "./pages/SvgTestPage";
 
-export default function App(): JSX.Element {
+export default function App(): React.JSX.Element {
   return (
     <BrowserRouter>
       <div className="app">

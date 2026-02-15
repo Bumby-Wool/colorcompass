@@ -4,6 +4,6 @@ export type SwatchListProps = {
   children: React.ReactNode;
 };
 
-export function SwatchList({ children }: SwatchListProps): JSX.Element {
+export function SwatchList({ children }: SwatchListProps): React.JSX.Element {
   return <ul className="swatch-list">{children}</ul>;
 }

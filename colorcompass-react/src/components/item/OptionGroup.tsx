@@ -5,7 +5,7 @@ export type OptionGroupProps = {
   children: React.ReactNode;
 };
 
-export function OptionGroup({ title, children }: OptionGroupProps): JSX.Element {
+export function OptionGroup({ title, children }: OptionGroupProps): React.JSX.Element {
   return (
     <section>
       <h2 className="option-banner">{title}</h2>
