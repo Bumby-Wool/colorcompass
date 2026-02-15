@@ -14,6 +14,7 @@ From the repo root, move into the React app and install dependencies:
 ```bash
 cd colorcompass-react
 npm install
+npm install react-router-dom
 ```
 
 ## Run the app (dev)
