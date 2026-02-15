@@ -1,15 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export type ItemCardProps = {
   title: string;
   imageUrl: string;
-  onClick?: () => void;
+  link: string;
 };
 
-export function ItemCard({ title, imageUrl, onClick }: ItemCardProps): React.JSX.Element {
+export function ItemCard({ title, imageUrl, link }: ItemCardProps): React.JSX.Element {
   return (
-    <button className="item-card" style={{ backgroundImage: `url(${imageUrl})` }} onClick={onClick}>
+    <Link className="item-card" style={{ backgroundImage: `url(${imageUrl})` }} to={link} aria-label={title}>
       <span className="item-card-title">{title}</span>
-    </button>
+    </Link>
   );
 }
