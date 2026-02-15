@@ -4,7 +4,7 @@ React front-end for ColorCompass.
 
 ## Prerequisites
 
-- Node.js 18+ (LTS recommended)
+- Node.js 20.19+ or 22.12+ (LTS recommended)
 - npm (comes with Node.js)
 
 ## Setup
