@@ -1,5 +1,6 @@
 import React from "react";
 
+// Placeholder page for SVG rendering checks.
 export function SvgTestPage(): React.JSX.Element {
   return (
     <div className="item-title-container">
