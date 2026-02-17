@@ -10,7 +10,7 @@ export type ColorSelectorProps = {
 
 // Resolve a swatch background for solid fills and image patterns.
 function getColorBackground(color?: Pattern): string {
-  if (!color) {
+  if (color?.name === "Choose a colour" || !color) {
     return "#fff";
   }
 
