@@ -74,8 +74,9 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: calc(100% - 1.3em);
+  width: 100%;
   padding: 1rem;
+  box-sizing: border-box;
   background: rgba(34,34,34, 0.7);
   border-bottom-left-radius:0.25rem;
   border-bottom-right-radius:0.25rem;
@@ -94,8 +95,9 @@ body {
 .colorcompass-container {
   display: flex; 
   flex-direction: row; 
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .svg-background {
@@ -130,6 +132,12 @@ body {
   margin: 0.5rem 1.5rem;
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 960px) {
+  .colorcompass-container {
+    flex-wrap: wrap;
+  }
 }
 
 .option-label {

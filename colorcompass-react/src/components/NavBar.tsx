@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// Top navigation for the builder pages.
 export function NavBar(): React.JSX.Element {
   return (
     <nav className="nav">

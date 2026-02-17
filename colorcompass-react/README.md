@@ -25,13 +25,17 @@ npm run dev
 
 Then open the local URL shown in the terminal (usually http://localhost:5173).
 
-## Build
+## Build (production bundle)
+
+You do not need this step for regular development; it is only for generating a production-ready bundle.
 
 ```bash
 npm run build
 ```
 
 ## Preview the production build
+
+You do not need this step for regular development; it is only for testing the production build locally.
 
 ```bash
 npm run preview
