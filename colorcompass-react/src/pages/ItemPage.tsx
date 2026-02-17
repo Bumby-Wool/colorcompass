@@ -345,9 +345,6 @@ export function ItemPage(): React.JSX.Element {
             </ExtraOptions>
           ) : null}
 
-          <a className="link order-link" href="https://bumbywool.com/" target="_blank" rel="noreferrer">
-            Place Order at <span className="underline">BumbyWool.com</span>
-          </a>
           <small className="color-muted">
             Each Bumby Wool product is a unique creation. The {item.title} here is an approximation of the finished
             product.
