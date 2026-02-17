@@ -373,6 +373,10 @@
   },
   {
     "type": "zipper",
+    "name": "Choose a colour"
+  },
+  {
+    "type": "zipper",
     "name": "Aqua"
   },
   {
