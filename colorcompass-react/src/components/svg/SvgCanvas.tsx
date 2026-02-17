@@ -99,13 +99,11 @@ function applyOptionStyles(container: HTMLDivElement | null, styles: Record<stri
 // Load the SVG template, inject defs, and paint styles from React state.
 export function SvgCanvas({ templatePath, patterns, optionStyles }: SvgCanvasProps): React.JSX.Element {
   const [markup, setMarkup] = React.useState<string>("");
-  const [isReady, setIsReady] = React.useState(false);
   const containerRef = React.useRef<HTMLDivElement | null>(null);
 
   // Fetch SVG markup when the template path changes.
   React.useEffect(() => {
     let isMounted = true;
-    setIsReady(false);
     fetch(templatePath)
       .then((response) => {
         if (!response.ok) {
@@ -121,7 +119,6 @@ export function SvgCanvas({ templatePath, patterns, optionStyles }: SvgCanvasPro
       .catch(() => {
         if (isMounted) {
           setMarkup("");
-          setIsReady(false);
         }
       });
 
@@ -136,17 +133,7 @@ export function SvgCanvas({ templatePath, patterns, optionStyles }: SvgCanvasPro
   // Apply computed styles after markup updates.
   React.useEffect(() => {
     applyOptionStyles(containerRef.current, optionStyles);
-    if (markupWithDefs) {
-      setIsReady(true);
-    }
   }, [markupWithDefs, optionStyles]);
 
-  return (
-    <div
-      className="svg-background"
-      ref={containerRef}
-      style={{ visibility: isReady ? "visible" : "hidden" }}
-      dangerouslySetInnerHTML={{ __html: markupWithDefs }}
-    />
-  );
+  return <div className="svg-background" ref={containerRef} dangerouslySetInnerHTML={{ __html: markupWithDefs }} />;
 }
