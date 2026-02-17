@@ -351,6 +351,16 @@ export function ItemPage(): React.JSX.Element {
           </small>
         </div>
       </div>
+      <div className="item-title-container">
+        <h2 className="item-title color-primary">Get Inspired!</h2>
+        <p className="inspired-description">
+          Check out what others have made or share a screenshot of what you&apos;ve created in the{" "}
+          <a className="link" href="https://www.facebook.com/groups/503699423004969" target="_blank" rel="noreferrer">
+            Bumby Wool Community
+          </a>
+          .
+        </p>
+      </div>
     </div>
   );
 }
