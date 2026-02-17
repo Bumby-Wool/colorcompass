@@ -94,8 +94,9 @@ body {
 .colorcompass-container {
   display: flex; 
   flex-direction: row; 
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .svg-background {
@@ -130,6 +131,12 @@ body {
   margin: 0.5rem 1.5rem;
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 960px) {
+  .colorcompass-container {
+    flex-wrap: wrap;
+  }
 }
 
 .option-label {
