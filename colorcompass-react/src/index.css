@@ -74,8 +74,9 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: calc(100% - 1.3em);
+  width: 100%;
   padding: 1rem;
+  box-sizing: border-box;
   background: rgba(34,34,34, 0.7);
   border-bottom-left-radius:0.25rem;
   border-bottom-right-radius:0.25rem;
