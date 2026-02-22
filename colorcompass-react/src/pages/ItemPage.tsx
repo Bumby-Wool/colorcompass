@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { ColorSelector } from "../components/colors/ColorSelector";
+import { CheckoutButton } from "../components/CheckoutButton";
 import { ExtraOptions } from "../components/item/ExtraOptions";
 import { OptionGroup } from "../components/item/OptionGroup";
 import { OptionRow } from "../components/item/OptionRow";
@@ -344,6 +345,8 @@ export function ItemPage(): React.JSX.Element {
               })}
             </ExtraOptions>
           ) : null}
+
+          <CheckoutButton />
 
           <small className="color-muted">
             Each Bumby Wool product is a unique creation. The {item.title} here is an approximation of the finished
