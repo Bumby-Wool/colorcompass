@@ -9,6 +9,26 @@ export function NavBar(): React.JSX.Element {
       label: "All Items",
       to: "/",
     },
+    {
+      label: "Diaper Cover",
+      to: "/items/diapercover",
+    },
+    {
+      label: "Shorts - Bloomers",
+      to: "/items/bloomers",
+    },
+    {
+      label: "Pants",
+      to: "/items/pants",
+    },
+    {
+      label: "Crops",
+      to: "/items/crops",
+    },
+    {
+      label: "Sweater",
+      to: "/items/sweater",
+    },
   ];
 
   return (
