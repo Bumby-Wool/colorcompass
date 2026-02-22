@@ -37,7 +37,7 @@ export function NavBar(): React.JSX.Element {
         <img src="/resources/LOGO-5-PNG-TRANSPARENT.png" alt="Bumby Wool Logo" />
       </Link>
       <div className="nav-links">
-        {navLinks.map((link) => (
+        {navLinks.slice(0, 1).map((link) => (
           <Link key={link.label} className="nav-link" to={link.to}>
             {link.label}
           </Link>
