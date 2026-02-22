@@ -11,8 +11,10 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   font-size: 1.25rem;
   box-shadow: 0 0 0.15rem 0.15rem rgba(0,0,0,0.25);
+  position: relative;
 }
 
 .nav-home {
@@ -34,6 +36,110 @@ body {
 
 .nav-link:hover, .nav-link:active {
   background-color: #333;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.nav-toggle-bar {
+  display: block;
+  width: 1.5rem;
+  height: 0.15rem;
+  background: #fff;
+  margin: 0.2rem 0;
+  border-radius: 1rem;
+}
+
+.nav-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 9;
+}
+
+.nav-overlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.nav-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 80vw;
+  max-width: 20rem;
+  height: 100vh;
+  background: #1c1c1c;
+  color: #fff;
+  transform: translateX(100%);
+  transition: transform 0.25s ease;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.nav-drawer.is-open {
+  transform: translateX(0);
+}
+
+.nav-drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.nav-close {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.25);
+  color: #fff;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.nav-drawer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.nav-drawer-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  background: rgba(255,255,255,0.06);
+}
+
+.nav-drawer-link:hover,
+.nav-drawer-link:active {
+  background: rgba(255,255,255,0.16);
 }
 
 .item-list-container {
@@ -137,6 +243,20 @@ body {
 @media (max-width: 960px) {
   .colorcompass-container {
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: flex;
   }
 }
 
