@@ -281,6 +281,7 @@ body {
   padding: 0.15rem;
   width: 1.5rem;
   height: 1.5rem;
+  position: relative;
   border-radius: 1.5rem;
   border: 0.25rem solid rgba(0,0,0,0);
   box-shadow: 0 0 0.05rem 0.02rem;
@@ -293,11 +294,19 @@ body {
 .swatch > .color-tooltip {
   background: rgba(0,0,0,0.75);
   color: #fff;
-  position: relative;
-  top: 1rem;
-  left: -2rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
   padding: 0 0.25rem;
   border-radius: 0.25rem;
-  width: 6rem;
+  width: 7rem;
   text-align: center;
+  z-index: 2;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.swatch:hover > .color-tooltip {
+  opacity: 1;
 }
