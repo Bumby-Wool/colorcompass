@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-// Top navigation for the builder pages.
+// Top navigation for the color grid app.
 export function NavBar(): React.JSX.Element {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navLinks = [
     {
-      label: "All Items",
+      label: "Home",
       to: "/",
     },
   ];
