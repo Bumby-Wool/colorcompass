@@ -1,0 +1,69 @@
+.control-panel {
+	width: 300px;
+	padding: 20px;
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	overflow-y: auto;
+}
+
+.grid-size-control h3,
+.color-columns h3 {
+	margin: 0 0 10px 0;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.grid-size-control {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.grid-size-control > div {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.grid-size-control input {
+	width: 60px;
+	padding: 8px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.grid-size-control span {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.color-columns {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.color-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+}
+
+.color-circle {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #ccc;
+	border: 2px solid #999;
+	cursor: pointer;
+	transition: transform 0.2s;
+}
+
+.color-circle:hover {
+	transform: scale(1.1);
+}

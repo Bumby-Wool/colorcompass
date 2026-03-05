@@ -1,0 +1,29 @@
+.grid-container {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.grid {
+	display: grid;
+	gap: 2px;
+	background-color: #333;
+	padding: 2px;
+	max-width: 600px;
+	max-height: 600px;
+	width: 100%;
+	aspect-ratio: 1;
+}
+
+.grid-cell {
+	background-color: white;
+	border: 1px solid #ddd;
+	min-height: 40px;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+.grid-cell:hover {
+	background-color: #f0f0f0;
+}

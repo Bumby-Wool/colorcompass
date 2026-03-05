@@ -1,25 +1,23 @@
-import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import React, { useState } from "react";
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import { NavBar } from "./components/NavBar";
-//import { ItemListPage } from "./pages/ItemListPage";
-//import { ItemPage } from "./pages/ItemPage";
-//import { SvgTestPage } from "./pages/SvgTestPage";
+import { Grid } from "./components/Grid/Grid";
+import { ControlPanel } from "./components/ControlPanel/ControlPanel";
+import { ButtonBar } from "./components/ButtonBar/ButtonBar";
 
 export default function App(): React.JSX.Element {
+  const [gridSize, setGridSize] = useState(3);
+
   return (
     <BrowserRouter>
       <div className="app">
         <NavBar />
-        {/* For clothing items
-        <main className="app-content">
-          <Routes>
-            <Route path="/" element={<ItemListPage />} />
-            <Route path="/items/:itemId" element={<ItemPage />} />
-            <Route path="/svgtest" element={<SvgTestPage />} />
-          </Routes>
-        </main>
-        */}
+        <div className="main-layout">
+          <Grid gridSize={gridSize} />
+          <ControlPanel gridSize={gridSize} onGridSizeChange={setGridSize} />
+        </div>
+        <ButtonBar />
       </div>
     </BrowserRouter>
   );
