@@ -59,6 +59,9 @@
 	height: 50px;
 	border-radius: 50%;
 	background-color: #ccc;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	border: 2px solid #999;
 	cursor: pointer;
 	transition: transform 0.2s;

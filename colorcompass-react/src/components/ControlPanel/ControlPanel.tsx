@@ -1,6 +1,12 @@
 import React from "react";
 import "./ControlPanel.css";
 
+type ColorPattern = {
+  name: string;
+  type?: string;
+  imageUrl?: string;
+};
+
 interface ControlPanelProps {
   gridColumns: number;
   gridRows: number;
@@ -14,6 +20,40 @@ export function ControlPanel({
   onGridColumnsChange,
   onGridRowsChange,
 }: ControlPanelProps): React.JSX.Element {
+  const [patterns, setPatterns] = React.useState<ColorPattern[]>([]);
+
+  React.useEffect(() => {
+    let isMounted = true;
+
+    fetch("/color_patterns.json")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Failed to load color patterns.");
+        }
+
+        return response.json() as Promise<ColorPattern[]>;
+      })
+      .then((data) => {
+        if (!isMounted) {
+          return;
+        }
+
+        const availablePatterns = data.filter(
+          (pattern) => pattern.type === "pattern" && typeof pattern.imageUrl === "string",
+        );
+        setPatterns(availablePatterns);
+      })
+      .catch(() => {
+        if (isMounted) {
+          setPatterns([]);
+        }
+      });
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
+
   return (
     <div className="control-panel">
       <div className="grid-size-control">
@@ -40,9 +80,16 @@ export function ControlPanel({
       <div className="color-columns">
         <h3>Columns</h3>
         <div className="color-grid">
-          {Array.from({ length: 24 }).map((_, index) => (
-            <div key={index} className="color-circle" />
-          ))}
+          {patterns.length > 0
+            ? patterns.map((pattern) => (
+                <div
+                  key={pattern.name}
+                  className="color-circle"
+                  title={pattern.name}
+                  style={{ backgroundImage: `url(${pattern.imageUrl})` }}
+                />
+              ))
+            : Array.from({ length: 24 }).map((_, index) => <div key={index} className="color-circle" />)}
         </div>
       </div>
     </div>
