@@ -2,15 +2,16 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import { NavBar } from "./components/NavBar";
-import { ItemListPage } from "./pages/ItemListPage";
-import { ItemPage } from "./pages/ItemPage";
-import { SvgTestPage } from "./pages/SvgTestPage";
+//import { ItemListPage } from "./pages/ItemListPage";
+//import { ItemPage } from "./pages/ItemPage";
+//import { SvgTestPage } from "./pages/SvgTestPage";
 
 export default function App(): React.JSX.Element {
   return (
     <BrowserRouter>
       <div className="app">
         <NavBar />
+        {/* For clothing items
         <main className="app-content">
           <Routes>
             <Route path="/" element={<ItemListPage />} />
@@ -18,6 +19,7 @@ export default function App(): React.JSX.Element {
             <Route path="/svgtest" element={<SvgTestPage />} />
           </Routes>
         </main>
+        */}
       </div>
     </BrowserRouter>
   );
