@@ -2,13 +2,17 @@ import React from "react";
 import "./ControlPanel.css";
 
 interface ControlPanelProps {
-  gridSize: number;
-  onGridSizeChange: (size: number) => void;
+  gridColumns: number;
+  gridRows: number;
+  onGridColumnsChange: (size: number) => void;
+  onGridRowsChange: (size: number) => void;
 }
 
 export function ControlPanel({
-  gridSize,
-  onGridSizeChange,
+  gridColumns,
+  gridRows,
+  onGridColumnsChange,
+  onGridRowsChange,
 }: ControlPanelProps): React.JSX.Element {
   return (
     <div className="control-panel">
@@ -19,16 +23,16 @@ export function ControlPanel({
             type="number"
             min="2"
             max="10"
-            value={gridSize}
-            onChange={(e) => onGridSizeChange(Number(e.target.value))}
+            value={gridColumns}
+            onChange={(e) => onGridColumnsChange(e.target.valueAsNumber)}
           />
           <span>×</span>
           <input
             type="number"
             min="2"
             max="10"
-            value={gridSize}
-            onChange={(e) => onGridSizeChange(Number(e.target.value))}
+            value={gridRows}
+            onChange={(e) => onGridRowsChange(e.target.valueAsNumber)}
           />
         </div>
       </div>

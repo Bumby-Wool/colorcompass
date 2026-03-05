@@ -2,20 +2,21 @@ import React from "react";
 import "./Grid.css";
 
 interface GridProps {
-  gridSize: number;
+  columns: number;
+  rows: number;
 }
 
-export function Grid({ gridSize }: GridProps): React.JSX.Element {
+export function Grid({ columns, rows }: GridProps): React.JSX.Element {
   return (
     <div className="grid-container">
       <div
         className="grid"
         style={{
-          gridTemplateColumns: `repeat(${gridSize}, 1fr)`,
-          gridTemplateRows: `repeat(${gridSize}, 1fr)`,
+          gridTemplateColumns: `repeat(${columns}, 1fr)`,
+          gridTemplateRows: `repeat(${rows}, 1fr)`,
         }}
       >
-        {Array.from({ length: gridSize * gridSize }).map((_, index) => (
+        {Array.from({ length: columns * rows }).map((_, index) => (
           <div key={index} className="grid-cell" />
         ))}
       </div>
