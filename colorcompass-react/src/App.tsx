@@ -12,12 +12,46 @@ export type ColorPattern = {
   imageUrl?: string;
 };
 
+const isSamePattern = (
+  left: ColorPattern | undefined,
+  right: ColorPattern | null,
+): boolean => {
+  if (!left && !right) {
+    return true;
+  }
+
+  if (!left || !right) {
+    return false;
+  }
+
+  return left.name === right.name && left.imageUrl === right.imageUrl;
+};
+
+const arePatternMapsEqual = (
+  left: Map<number, ColorPattern>,
+  right: Map<number, ColorPattern>,
+): boolean => {
+  if (left.size !== right.size) {
+    return false;
+  }
+
+  for (const [cellIndex, leftPattern] of left.entries()) {
+    const rightPattern = right.get(cellIndex);
+    if (!isSamePattern(leftPattern, rightPattern ?? null)) {
+      return false;
+    }
+  }
+
+  return true;
+};
+
 export default function App(): React.JSX.Element {
   const [gridColumns, setGridColumns] = useState(3);
   const [gridRows, setGridRows] = useState(3);
   const [cellPatterns, setCellPatterns] = useState<Map<number, ColorPattern>>(new Map());
   const [selectedPattern, setSelectedPattern] = useState<ColorPattern | null>(null);
   const [patterns, setPatterns] = useState<ColorPattern[]>([]);
+  const [undoStack, setUndoStack] = useState<Map<number, ColorPattern>[]>([]);
 
   React.useEffect(() => {
     let isMounted = true;
@@ -59,8 +93,24 @@ export default function App(): React.JSX.Element {
     return Math.min(10, Math.max(1, Math.trunc(value)));
   };
 
+  const pushUndoState = (snapshot: Map<number, ColorPattern>): void => {
+    setUndoStack((prev) => {
+      const last = prev[prev.length - 1];
+      if (last && arePatternMapsEqual(last, snapshot)) {
+        return prev;
+      }
+
+      return [...prev, new Map(snapshot)];
+    });
+  };
+
   const handleCellPatternChange = (cellIndex: number, pattern: ColorPattern | null): void => {
     setCellPatterns((prev) => {
+      if (isSamePattern(prev.get(cellIndex), pattern)) {
+        return prev;
+      }
+
+      pushUndoState(prev);
       const next = new Map(prev);
       if (pattern === null) {
         next.delete(cellIndex);
@@ -76,6 +126,8 @@ export default function App(): React.JSX.Element {
       return;
     }
 
+    pushUndoState(cellPatterns);
+
     const totalCells = gridColumns * gridRows;
     const newPatterns = new Map<number, ColorPattern>();
 
@@ -88,7 +140,24 @@ export default function App(): React.JSX.Element {
   };
 
   const handleClear = (): void => {
+    if (cellPatterns.size === 0) {
+      return;
+    }
+
+    pushUndoState(cellPatterns);
     setCellPatterns(new Map());
+  };
+
+  const handleUndo = (): void => {
+    setUndoStack((prev) => {
+      if (prev.length === 0) {
+        return prev;
+      }
+
+      const previousState = prev[prev.length - 1];
+      setCellPatterns(new Map(previousState));
+      return prev.slice(0, -1);
+    });
   };
 
   return (
@@ -117,7 +186,12 @@ export default function App(): React.JSX.Element {
             }
           />
         </div>
-        <ButtonBar onRandomize={handleRandomize} onClear={handleClear} />
+        <ButtonBar
+          onRandomize={handleRandomize}
+          onUndo={handleUndo}
+          onClear={handleClear}
+          canUndo={undoStack.length > 0}
+        />
       </div>
     </BrowserRouter>
   );

@@ -3,17 +3,19 @@ import "./ButtonBar.css";
 
 interface ButtonBarProps {
   onRandomize: () => void;
+  onUndo: () => void;
   onClear: () => void;
+  canUndo: boolean;
 }
 
-export function ButtonBar({ onRandomize, onClear }: ButtonBarProps): React.JSX.Element {
+export function ButtonBar({ onRandomize, onUndo, onClear, canUndo }: ButtonBarProps): React.JSX.Element {
   return (
     <div className="button-bar">
       <button className="action-button" type="button" onClick={onRandomize}>
         <i className="fas fa-random action-button-icon" aria-hidden="true" />
         <span>Random</span>
       </button>
-      <button className="action-button" type="button">
+      <button className="action-button" type="button" onClick={onUndo} disabled={!canUndo}>
         <i className="fas fa-undo action-button-icon" aria-hidden="true" />
         <span>Undo</span>
       </button>
