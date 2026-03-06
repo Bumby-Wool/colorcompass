@@ -1,11 +1,6 @@
 import React from "react";
 import "./ControlPanel.css";
-
-type ColorPattern = {
-  name: string;
-  type?: string;
-  imageUrl?: string;
-};
+import type { ColorPattern } from "../../App";
 
 interface ControlPanelProps {
   gridColumns: number;
@@ -86,6 +81,11 @@ export function ControlPanel({
                   key={pattern.name}
                   className="color-circle"
                   title={pattern.name}
+                  draggable
+                  onDragStart={(e) => {
+                    e.dataTransfer.effectAllowed = "copy";
+                    e.dataTransfer.setData("application/json", JSON.stringify(pattern));
+                  }}
                   style={{ backgroundImage: `url(${pattern.imageUrl})` }}
                 />
               ))
