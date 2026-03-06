@@ -17,6 +17,39 @@ export default function App(): React.JSX.Element {
   const [gridRows, setGridRows] = useState(3);
   const [cellPatterns, setCellPatterns] = useState<Map<number, ColorPattern>>(new Map());
   const [selectedPattern, setSelectedPattern] = useState<ColorPattern | null>(null);
+  const [patterns, setPatterns] = useState<ColorPattern[]>([]);
+
+  React.useEffect(() => {
+    let isMounted = true;
+
+    fetch("/color_patterns.json")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Failed to load color patterns.");
+        }
+
+        return response.json() as Promise<ColorPattern[]>;
+      })
+      .then((data) => {
+        if (!isMounted) {
+          return;
+        }
+
+        const availablePatterns = data.filter(
+          (pattern) => pattern.type === "pattern" && typeof pattern.imageUrl === "string",
+        );
+        setPatterns(availablePatterns);
+      })
+      .catch(() => {
+        if (isMounted) {
+          setPatterns([]);
+        }
+      });
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
 
   const sanitizeGridDimension = (value: number, fallback: number): number => {
     if (!Number.isFinite(value)) {
@@ -38,6 +71,22 @@ export default function App(): React.JSX.Element {
     });
   };
 
+  const handleRandomize = (): void => {
+    if (patterns.length === 0) {
+      return;
+    }
+
+    const totalCells = gridColumns * gridRows;
+    const newPatterns = new Map<number, ColorPattern>();
+
+    for (let i = 0; i < totalCells; i++) {
+      const randomPattern = patterns[Math.floor(Math.random() * patterns.length)];
+      newPatterns.set(i, randomPattern);
+    }
+
+    setCellPatterns(newPatterns);
+  };
+
   return (
     <BrowserRouter>
       <div className="app">
@@ -53,6 +102,7 @@ export default function App(): React.JSX.Element {
           <ControlPanel
             gridColumns={gridColumns}
             gridRows={gridRows}
+            patterns={patterns}
             selectedPattern={selectedPattern}
             onPatternSelect={setSelectedPattern}
             onGridColumnsChange={(value) =>
@@ -63,7 +113,7 @@ export default function App(): React.JSX.Element {
             }
           />
         </div>
-        <ButtonBar />
+        <ButtonBar onRandomize={handleRandomize} />
       </div>
     </BrowserRouter>
   );

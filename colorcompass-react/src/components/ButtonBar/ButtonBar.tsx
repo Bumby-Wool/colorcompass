@@ -1,10 +1,14 @@
 import React from "react";
 import "./ButtonBar.css";
 
-export function ButtonBar(): React.JSX.Element {
+interface ButtonBarProps {
+  onRandomize: () => void;
+}
+
+export function ButtonBar({ onRandomize }: ButtonBarProps): React.JSX.Element {
   return (
     <div className="button-bar">
-      <button className="action-button" type="button">
+      <button className="action-button" type="button" onClick={onRandomize}>
         <i className="fas fa-random action-button-icon" aria-hidden="true" />
         <span>Random</span>
       </button>

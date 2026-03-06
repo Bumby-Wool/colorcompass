@@ -5,6 +5,7 @@ import type { ColorPattern } from "../../App";
 interface ControlPanelProps {
   gridColumns: number;
   gridRows: number;
+  patterns: ColorPattern[];
   selectedPattern: ColorPattern | null;
   onPatternSelect: (pattern: ColorPattern | null) => void;
   onGridColumnsChange: (size: number) => void;
@@ -14,44 +15,12 @@ interface ControlPanelProps {
 export function ControlPanel({
   gridColumns,
   gridRows,
+  patterns,
   selectedPattern,
   onPatternSelect,
   onGridColumnsChange,
   onGridRowsChange,
 }: ControlPanelProps): React.JSX.Element {
-  const [patterns, setPatterns] = React.useState<ColorPattern[]>([]);
-
-  React.useEffect(() => {
-    let isMounted = true;
-
-    fetch("/color_patterns.json")
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Failed to load color patterns.");
-        }
-
-        return response.json() as Promise<ColorPattern[]>;
-      })
-      .then((data) => {
-        if (!isMounted) {
-          return;
-        }
-
-        const availablePatterns = data.filter(
-          (pattern) => pattern.type === "pattern" && typeof pattern.imageUrl === "string",
-        );
-        setPatterns(availablePatterns);
-      })
-      .catch(() => {
-        if (isMounted) {
-          setPatterns([]);
-        }
-      });
-
-    return () => {
-      isMounted = false;
-    };
-  }, []);
 
   return (
     <div className="control-panel">
