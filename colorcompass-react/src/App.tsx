@@ -16,13 +16,14 @@ export default function App(): React.JSX.Element {
   const [gridColumns, setGridColumns] = useState(3);
   const [gridRows, setGridRows] = useState(3);
   const [cellPatterns, setCellPatterns] = useState<Map<number, ColorPattern>>(new Map());
+  const [selectedPattern, setSelectedPattern] = useState<ColorPattern | null>(null);
 
   const sanitizeGridDimension = (value: number, fallback: number): number => {
     if (!Number.isFinite(value)) {
       return fallback;
     }
 
-    return Math.min(10, Math.max(2, Math.trunc(value)));
+    return Math.min(10, Math.max(1, Math.trunc(value)));
   };
 
   const handleCellPatternChange = (cellIndex: number, pattern: ColorPattern | null): void => {
@@ -46,11 +47,14 @@ export default function App(): React.JSX.Element {
             columns={gridColumns} 
             rows={gridRows} 
             cellPatterns={cellPatterns}
+            selectedPattern={selectedPattern}
             onCellPatternChange={handleCellPatternChange}
           />
           <ControlPanel
             gridColumns={gridColumns}
             gridRows={gridRows}
+            selectedPattern={selectedPattern}
+            onPatternSelect={setSelectedPattern}
             onGridColumnsChange={(value) =>
               setGridColumns((current) => sanitizeGridDimension(value, current))
             }

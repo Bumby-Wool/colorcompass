@@ -5,6 +5,8 @@ import type { ColorPattern } from "../../App";
 interface ControlPanelProps {
   gridColumns: number;
   gridRows: number;
+  selectedPattern: ColorPattern | null;
+  onPatternSelect: (pattern: ColorPattern | null) => void;
   onGridColumnsChange: (size: number) => void;
   onGridRowsChange: (size: number) => void;
 }
@@ -12,6 +14,8 @@ interface ControlPanelProps {
 export function ControlPanel({
   gridColumns,
   gridRows,
+  selectedPattern,
+  onPatternSelect,
   onGridColumnsChange,
   onGridRowsChange,
 }: ControlPanelProps): React.JSX.Element {
@@ -56,7 +60,7 @@ export function ControlPanel({
         <div>
           <input
             type="number"
-            min="2"
+            min="1"
             max="10"
             value={gridColumns}
             onChange={(e) => onGridColumnsChange(e.target.valueAsNumber)}
@@ -64,7 +68,7 @@ export function ControlPanel({
           <span>×</span>
           <input
             type="number"
-            min="2"
+            min="1"
             max="10"
             value={gridRows}
             onChange={(e) => onGridRowsChange(e.target.valueAsNumber)}
@@ -79,9 +83,10 @@ export function ControlPanel({
             ? patterns.map((pattern) => (
                 <div
                   key={pattern.name}
-                  className="color-circle"
+                  className={`color-circle ${selectedPattern?.name === pattern.name ? "selected" : ""}`}
                   title={pattern.name}
                   draggable
+                  onClick={() => onPatternSelect(selectedPattern?.name === pattern.name ? null : pattern)}
                   onDragStart={(e) => {
                     e.dataTransfer.effectAllowed = "copy";
                     e.dataTransfer.setData("application/json", JSON.stringify(pattern));

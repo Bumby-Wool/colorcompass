@@ -6,10 +6,11 @@ interface GridProps {
   columns: number;
   rows: number;
   cellPatterns: Map<number, ColorPattern>;
+  selectedPattern: ColorPattern | null;
   onCellPatternChange: (cellIndex: number, pattern: ColorPattern | null) => void;
 }
 
-export function Grid({ columns, rows, cellPatterns, onCellPatternChange }: GridProps): React.JSX.Element {
+export function Grid({ columns, rows, cellPatterns, selectedPattern, onCellPatternChange }: GridProps): React.JSX.Element {
   const handleDragOver = (e: React.DragEvent): void => {
     e.preventDefault();
   };
@@ -24,6 +25,12 @@ export function Grid({ columns, rows, cellPatterns, onCellPatternChange }: GridP
       } catch (error) {
         console.error("Failed to parse pattern data", error);
       }
+    }
+  };
+
+  const handleCellClick = (cellIndex: number): void => {
+    if (selectedPattern) {
+      onCellPatternChange(cellIndex, selectedPattern);
     }
   };
   return (
@@ -43,6 +50,7 @@ export function Grid({ columns, rows, cellPatterns, onCellPatternChange }: GridP
               className="grid-cell"
               onDragOver={handleDragOver}
               onDrop={(e) => handleDrop(e, index)}
+              onClick={() => handleCellClick(index)}
               style={{
                 backgroundImage: pattern?.imageUrl ? `url(${pattern.imageUrl})` : undefined,
                 backgroundSize: "cover",
