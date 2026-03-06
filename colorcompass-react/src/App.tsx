@@ -52,6 +52,7 @@ export default function App(): React.JSX.Element {
   const [selectedPattern, setSelectedPattern] = useState<ColorPattern | null>(null);
   const [patterns, setPatterns] = useState<ColorPattern[]>([]);
   const [undoStack, setUndoStack] = useState<Map<number, ColorPattern>[]>([]);
+  const [redoStack, setRedoStack] = useState<Map<number, ColorPattern>[]>([]);
 
   React.useEffect(() => {
     let isMounted = true;
@@ -105,20 +106,19 @@ export default function App(): React.JSX.Element {
   };
 
   const handleCellPatternChange = (cellIndex: number, pattern: ColorPattern | null): void => {
-    setCellPatterns((prev) => {
-      if (isSamePattern(prev.get(cellIndex), pattern)) {
-        return prev;
-      }
+    if (isSamePattern(cellPatterns.get(cellIndex), pattern)) {
+      return;
+    }
 
-      pushUndoState(prev);
-      const next = new Map(prev);
-      if (pattern === null) {
-        next.delete(cellIndex);
-      } else {
-        next.set(cellIndex, pattern);
-      }
-      return next;
-    });
+    setRedoStack([]);
+    pushUndoState(cellPatterns);
+    const next = new Map(cellPatterns);
+    if (pattern === null) {
+      next.delete(cellIndex);
+    } else {
+      next.set(cellIndex, pattern);
+    }
+    setCellPatterns(next);
   };
 
   const handleRandomize = (): void => {
@@ -126,6 +126,7 @@ export default function App(): React.JSX.Element {
       return;
     }
 
+    setRedoStack([]);
     pushUndoState(cellPatterns);
 
     const totalCells = gridColumns * gridRows;
@@ -144,20 +145,31 @@ export default function App(): React.JSX.Element {
       return;
     }
 
+    setRedoStack([]);
     pushUndoState(cellPatterns);
     setCellPatterns(new Map());
   };
 
   const handleUndo = (): void => {
-    setUndoStack((prev) => {
-      if (prev.length === 0) {
-        return prev;
-      }
+    if (undoStack.length === 0) {
+      return;
+    }
 
-      const previousState = prev[prev.length - 1];
-      setCellPatterns(new Map(previousState));
-      return prev.slice(0, -1);
-    });
+    const previousState = undoStack[undoStack.length - 1];
+    setRedoStack((redoPrev) => [...redoPrev, new Map(cellPatterns)]);
+    setUndoStack((prev) => prev.slice(0, -1));
+    setCellPatterns(new Map(previousState));
+  };
+
+  const handleRedo = (): void => {
+    if (redoStack.length === 0) {
+      return;
+    }
+
+    const nextState = redoStack[redoStack.length - 1];
+    pushUndoState(cellPatterns);
+    setRedoStack((prev) => prev.slice(0, -1));
+    setCellPatterns(new Map(nextState));
   };
 
   return (
@@ -189,8 +201,10 @@ export default function App(): React.JSX.Element {
         <ButtonBar
           onRandomize={handleRandomize}
           onUndo={handleUndo}
+          onRedo={handleRedo}
           onClear={handleClear}
           canUndo={undoStack.length > 0}
+          canRedo={redoStack.length > 0}
         />
       </div>
     </BrowserRouter>

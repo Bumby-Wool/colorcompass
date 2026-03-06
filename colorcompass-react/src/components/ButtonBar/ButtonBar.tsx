@@ -4,11 +4,20 @@ import "./ButtonBar.css";
 interface ButtonBarProps {
   onRandomize: () => void;
   onUndo: () => void;
+  onRedo: () => void;
   onClear: () => void;
   canUndo: boolean;
+  canRedo: boolean;
 }
 
-export function ButtonBar({ onRandomize, onUndo, onClear, canUndo }: ButtonBarProps): React.JSX.Element {
+export function ButtonBar({
+  onRandomize,
+  onUndo,
+  onRedo,
+  onClear,
+  canUndo,
+  canRedo,
+}: ButtonBarProps): React.JSX.Element {
   return (
     <div className="button-bar">
       <button className="action-button" type="button" onClick={onRandomize}>
@@ -19,7 +28,7 @@ export function ButtonBar({ onRandomize, onUndo, onClear, canUndo }: ButtonBarPr
         <i className="fas fa-undo action-button-icon" aria-hidden="true" />
         <span>Undo</span>
       </button>
-      <button className="action-button" type="button">
+      <button className="action-button" type="button" onClick={onRedo} disabled={!canRedo}>
         <i className="fas fa-redo action-button-icon" aria-hidden="true" />
         <span>Redo</span>
       </button>
