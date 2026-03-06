@@ -3,9 +3,10 @@ import "./ButtonBar.css";
 
 interface ButtonBarProps {
   onRandomize: () => void;
+  onClear: () => void;
 }
 
-export function ButtonBar({ onRandomize }: ButtonBarProps): React.JSX.Element {
+export function ButtonBar({ onRandomize, onClear }: ButtonBarProps): React.JSX.Element {
   return (
     <div className="button-bar">
       <button className="action-button" type="button" onClick={onRandomize}>
@@ -20,7 +21,7 @@ export function ButtonBar({ onRandomize }: ButtonBarProps): React.JSX.Element {
         <i className="fas fa-redo action-button-icon" aria-hidden="true" />
         <span>Redo</span>
       </button>
-      <button className="action-button" type="button">
+      <button className="action-button" type="button" onClick={onClear}>
         <i className="fas fa-eraser action-button-icon" aria-hidden="true" />
         <span>Clear</span>
       </button>

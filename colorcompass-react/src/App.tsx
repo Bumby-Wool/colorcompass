@@ -87,6 +87,10 @@ export default function App(): React.JSX.Element {
     setCellPatterns(newPatterns);
   };
 
+  const handleClear = (): void => {
+    setCellPatterns(new Map());
+  };
+
   return (
     <BrowserRouter>
       <div className="app">
@@ -113,7 +117,7 @@ export default function App(): React.JSX.Element {
             }
           />
         </div>
-        <ButtonBar onRandomize={handleRandomize} />
+        <ButtonBar onRandomize={handleRandomize} onClear={handleClear} />
       </div>
     </BrowserRouter>
   );
