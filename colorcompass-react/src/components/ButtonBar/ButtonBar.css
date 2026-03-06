@@ -22,13 +22,22 @@
 	transition: all 0.2s;
 }
 
-.action-button:hover {
+.action-button:not(:disabled):hover {
 	background-color: #333;
 	color: white;
 }
 
+.action-button:disabled {
+	opacity: 0.5;
+	cursor: default;
+}
+
 .action-button:active {
 	transform: scale(0.95);
+}
+
+.action-button:disabled:active {
+	transform: none;
 }
 
 .action-button-icon {
