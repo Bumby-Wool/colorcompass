@@ -1,30 +1,31 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 
 // Top navigation for the color grid app.
 export function NavBar(): React.JSX.Element {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const navLinks = [
-    {
-      label: "Home",
-      to: "/",
-    },
-  ];
+    // Uncomment here and below to enable Home button and mobile menu
+  // const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const navLinks = [
+  //   {
+  //     label: "Home",
+  //     to: "/",
+  //   },
+  // ];
 
   return (
     <nav className="nav">
-      <Link className="nav-home" to="/" onClick={() => setIsMenuOpen(false)}>
+      <Link className="nav-home" to="/">
         <img src="/resources/LOGO-5-PNG-TRANSPARENT.png" alt="Bumby Wool Logo" />
       </Link>
-      <div className="nav-links">
+      {/* <div className="nav-links">
         {navLinks.slice(0, 1).map((link) => (
           <Link key={link.label} className="nav-link" to={link.to}>
             {link.label}
           </Link>
         ))}
-      </div>
-      <button
+      </div> */}
+      {/* <button
         className="nav-toggle"
         type="button"
         aria-label="Open menu"
@@ -64,7 +65,7 @@ export function NavBar(): React.JSX.Element {
             </Link>
           ))}
         </div>
-      </aside>
+      </aside> */}
     </nav>
   );
 }
