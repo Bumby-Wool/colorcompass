@@ -202,6 +202,62 @@ export default function App(): React.JSX.Element {
     setRedoStack([]);
   };
 
+  const handleScreenshot = async (): Promise<void> => {
+    const cellSize = 100;
+    const canvas = document.createElement("canvas");
+    canvas.width = gridColumns * cellSize;
+    canvas.height = gridRows * cellSize;
+    const ctx = canvas.getContext("2d");
+
+    if (!ctx) {
+      return;
+    }
+
+    const imageLoadPromises: Promise<void>[] = [];
+
+    for (let row = 0; row < gridRows; row++) {
+      for (let column = 0; column < gridColumns; column++) {
+        const cellKey = getCellKey(row, column);
+        const pattern = cellPatterns.get(cellKey);
+
+        if (pattern?.imageUrl) {
+          const imageUrl = pattern.imageUrl;
+          const promise = new Promise<void>((resolve) => {
+            const img = new Image();
+            img.crossOrigin = "anonymous";
+            img.onload = () => {
+              ctx.drawImage(img, column * cellSize, row * cellSize, cellSize, cellSize);
+              resolve();
+            };
+            img.onerror = () => {
+              resolve();
+            };
+            img.src = imageUrl;
+          });
+          imageLoadPromises.push(promise);
+        } else {
+          ctx.fillStyle = "#ffffff";
+          ctx.fillRect(column * cellSize, row * cellSize, cellSize, cellSize);
+          ctx.strokeStyle = "#ddd";
+          ctx.strokeRect(column * cellSize, row * cellSize, cellSize, cellSize);
+        }
+      }
+    }
+
+    await Promise.all(imageLoadPromises);
+
+    canvas.toBlob((blob) => {
+      if (blob) {
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.download = `color-grid-${Date.now()}.png`;
+        link.href = url;
+        link.click();
+        URL.revokeObjectURL(url);
+      }
+    });
+  };
+
   return (
     <BrowserRouter>
       <div className="app">
@@ -229,6 +285,7 @@ export default function App(): React.JSX.Element {
           onUndo={handleUndo}
           onRedo={handleRedo}
           onClear={handleClear}
+          onScreenshot={handleScreenshot}
           canUndo={undoStack.length > 0}
           canRedo={redoStack.length > 0}
         />

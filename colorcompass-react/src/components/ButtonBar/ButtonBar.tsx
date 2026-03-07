@@ -6,6 +6,7 @@ interface ButtonBarProps {
   onUndo: () => void;
   onRedo: () => void;
   onClear: () => void;
+  onScreenshot: () => void;
   canUndo: boolean;
   canRedo: boolean;
 }
@@ -15,6 +16,7 @@ export function ButtonBar({
   onUndo,
   onRedo,
   onClear,
+  onScreenshot,
   canUndo,
   canRedo,
 }: ButtonBarProps): React.JSX.Element {
@@ -36,7 +38,7 @@ export function ButtonBar({
         <i className="fas fa-eraser action-button-icon" aria-hidden="true" />
         <span>Clear</span>
       </button>
-      <button className="action-button" type="button">
+      <button className="action-button" type="button" onClick={onScreenshot}>
         <i className="fas fa-camera action-button-icon" aria-hidden="true" />
         <span>Screenshot</span>
       </button>
