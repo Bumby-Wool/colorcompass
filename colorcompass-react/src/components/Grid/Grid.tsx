@@ -54,7 +54,7 @@ export function Grid({ columns, rows, cellPatterns, selectedPattern, onCellPatte
           return (
             <div
               key={getCellKey(rowIndex, columnIndex)}
-              className="grid-cell"
+              className={`grid-cell ${selectedPattern ? "selectable" : ""}`}
               onDragOver={handleDragOver}
               onDrop={(e) => handleDrop(e, rowIndex, columnIndex)}
               onClick={() => handleCellClick(rowIndex, columnIndex)}
