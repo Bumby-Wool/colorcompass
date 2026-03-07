@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import { NavBar } from "./components/NavBar";
+import { NavBar } from "./components/NavBar/NavBar";
 import { Grid } from "./components/Grid/Grid";
 import { ControlPanel } from "./components/ControlPanel/ControlPanel";
 import { ButtonBar } from "./components/ButtonBar/ButtonBar";
