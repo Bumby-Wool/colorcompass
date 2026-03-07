@@ -28,15 +28,15 @@ const isSamePattern = (
 };
 
 const arePatternMapsEqual = (
-  left: Map<number, ColorPattern>,
-  right: Map<number, ColorPattern>,
+  left: Map<string, ColorPattern>,
+  right: Map<string, ColorPattern>,
 ): boolean => {
   if (left.size !== right.size) {
     return false;
   }
 
-  for (const [cellIndex, leftPattern] of left.entries()) {
-    const rightPattern = right.get(cellIndex);
+  for (const [cellKey, leftPattern] of left.entries()) {
+    const rightPattern = right.get(cellKey);
     if (!isSamePattern(leftPattern, rightPattern ?? null)) {
       return false;
     }
@@ -48,11 +48,11 @@ const arePatternMapsEqual = (
 export default function App(): React.JSX.Element {
   const [gridColumns, setGridColumns] = useState(3);
   const [gridRows, setGridRows] = useState(3);
-  const [cellPatterns, setCellPatterns] = useState<Map<number, ColorPattern>>(new Map());
+  const [cellPatterns, setCellPatterns] = useState<Map<string, ColorPattern>>(new Map());
   const [selectedPattern, setSelectedPattern] = useState<ColorPattern | null>(null);
   const [patterns, setPatterns] = useState<ColorPattern[]>([]);
-  const [undoStack, setUndoStack] = useState<Map<number, ColorPattern>[]>([]);
-  const [redoStack, setRedoStack] = useState<Map<number, ColorPattern>[]>([]);
+  const [undoStack, setUndoStack] = useState<Map<string, ColorPattern>[]>([]);
+  const [redoStack, setRedoStack] = useState<Map<string, ColorPattern>[]>([]);
 
   React.useEffect(() => {
     let isMounted = true;
@@ -94,7 +94,9 @@ export default function App(): React.JSX.Element {
     return Math.min(10, Math.max(1, Math.trunc(value)));
   };
 
-  const pushUndoState = (snapshot: Map<number, ColorPattern>): void => {
+  const getCellKey = (row: number, column: number): string => `${row},${column}`;
+
+  const pushUndoState = (snapshot: Map<string, ColorPattern>): void => {
     setUndoStack((prev) => {
       const last = prev[prev.length - 1];
       if (last && arePatternMapsEqual(last, snapshot)) {
@@ -105,8 +107,13 @@ export default function App(): React.JSX.Element {
     });
   };
 
-  const handleCellPatternChange = (cellIndex: number, pattern: ColorPattern | null): void => {
-    if (isSamePattern(cellPatterns.get(cellIndex), pattern)) {
+  const handleCellPatternChange = (
+    rowIndex: number,
+    columnIndex: number,
+    pattern: ColorPattern | null,
+  ): void => {
+    const cellKey = getCellKey(rowIndex, columnIndex);
+    if (isSamePattern(cellPatterns.get(cellKey), pattern)) {
       return;
     }
 
@@ -114,9 +121,9 @@ export default function App(): React.JSX.Element {
     pushUndoState(cellPatterns);
     const next = new Map(cellPatterns);
     if (pattern === null) {
-      next.delete(cellIndex);
+      next.delete(cellKey);
     } else {
-      next.set(cellIndex, pattern);
+      next.set(cellKey, pattern);
     }
     setCellPatterns(next);
   };
@@ -129,12 +136,13 @@ export default function App(): React.JSX.Element {
     setRedoStack([]);
     pushUndoState(cellPatterns);
 
-    const totalCells = gridColumns * gridRows;
-    const newPatterns = new Map<number, ColorPattern>();
+    const newPatterns = new Map<string, ColorPattern>();
 
-    for (let i = 0; i < totalCells; i++) {
-      const randomPattern = patterns[Math.floor(Math.random() * patterns.length)];
-      newPatterns.set(i, randomPattern);
+    for (let row = 0; row < gridRows; row++) {
+      for (let column = 0; column < gridColumns; column++) {
+        const randomPattern = patterns[Math.floor(Math.random() * patterns.length)];
+        newPatterns.set(getCellKey(row, column), randomPattern);
+      }
     }
 
     setCellPatterns(newPatterns);
@@ -172,6 +180,28 @@ export default function App(): React.JSX.Element {
     setCellPatterns(new Map(nextState));
   };
 
+  const handleGridColumnsChange = (value: number): void => {
+    const nextColumns = sanitizeGridDimension(value, gridColumns);
+    if (nextColumns === gridColumns) {
+      return;
+    }
+
+    setGridColumns(nextColumns);
+    setUndoStack([]);
+    setRedoStack([]);
+  };
+
+  const handleGridRowsChange = (value: number): void => {
+    const nextRows = sanitizeGridDimension(value, gridRows);
+    if (nextRows === gridRows) {
+      return;
+    }
+
+    setGridRows(nextRows);
+    setUndoStack([]);
+    setRedoStack([]);
+  };
+
   return (
     <BrowserRouter>
       <div className="app">
@@ -190,12 +220,8 @@ export default function App(): React.JSX.Element {
             patterns={patterns}
             selectedPattern={selectedPattern}
             onPatternSelect={setSelectedPattern}
-            onGridColumnsChange={(value) =>
-              setGridColumns((current) => sanitizeGridDimension(value, current))
-            }
-            onGridRowsChange={(value) =>
-              setGridRows((current) => sanitizeGridDimension(value, current))
-            }
+            onGridColumnsChange={handleGridColumnsChange}
+            onGridRowsChange={handleGridRowsChange}
           />
         </div>
         <ButtonBar

@@ -5,9 +5,9 @@ import type { ColorPattern } from "../../App";
 interface GridProps {
   columns: number;
   rows: number;
-  cellPatterns: Map<number, ColorPattern>;
+  cellPatterns: Map<string, ColorPattern>;
   selectedPattern: ColorPattern | null;
-  onCellPatternChange: (cellIndex: number, pattern: ColorPattern | null) => void;
+  onCellPatternChange: (rowIndex: number, columnIndex: number, pattern: ColorPattern | null) => void;
 }
 
 export function Grid({ columns, rows, cellPatterns, selectedPattern, onCellPatternChange }: GridProps): React.JSX.Element {
@@ -15,24 +15,31 @@ export function Grid({ columns, rows, cellPatterns, selectedPattern, onCellPatte
     e.preventDefault();
   };
 
-  const handleDrop = (e: React.DragEvent, cellIndex: number): void => {
+  const handleDrop = (e: React.DragEvent, rowIndex: number, columnIndex: number): void => {
     e.preventDefault();
     const patternData = e.dataTransfer.getData("application/json");
     if (patternData) {
       try {
         const pattern = JSON.parse(patternData) as ColorPattern;
-        onCellPatternChange(cellIndex, pattern);
+        onCellPatternChange(rowIndex, columnIndex, pattern);
       } catch (error) {
         console.error("Failed to parse pattern data", error);
       }
     }
   };
 
-  const handleCellClick = (cellIndex: number): void => {
+  const handleCellClick = (rowIndex: number, columnIndex: number): void => {
     if (selectedPattern) {
-      onCellPatternChange(cellIndex, selectedPattern);
+      onCellPatternChange(rowIndex, columnIndex, selectedPattern);
     }
   };
+
+  const getCellKey = (rowIndex: number, columnIndex: number): string => `${rowIndex},${columnIndex}`;
+
+  const cells = Array.from({ length: rows }, (_, rowIndex) =>
+    Array.from({ length: columns }, (_, columnIndex) => ({ rowIndex, columnIndex })),
+  ).flat();
+
   return (
     <div className="grid-container">
       <div
@@ -42,15 +49,15 @@ export function Grid({ columns, rows, cellPatterns, selectedPattern, onCellPatte
           gridTemplateRows: `repeat(${rows}, 1fr)`,
         }}
       >
-        {Array.from({ length: columns * rows }).map((_, index) => {
-          const pattern = cellPatterns.get(index);
+        {cells.map(({ rowIndex, columnIndex }) => {
+          const pattern = cellPatterns.get(getCellKey(rowIndex, columnIndex));
           return (
             <div
-              key={index}
+              key={getCellKey(rowIndex, columnIndex)}
               className="grid-cell"
               onDragOver={handleDragOver}
-              onDrop={(e) => handleDrop(e, index)}
-              onClick={() => handleCellClick(index)}
+              onDrop={(e) => handleDrop(e, rowIndex, columnIndex)}
+              onClick={() => handleCellClick(rowIndex, columnIndex)}
               style={{
                 backgroundImage: pattern?.imageUrl ? `url(${pattern.imageUrl})` : undefined,
                 backgroundSize: "cover",
