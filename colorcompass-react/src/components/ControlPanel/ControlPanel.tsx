@@ -21,7 +21,6 @@ export function ControlPanel({
   onGridColumnsChange,
   onGridRowsChange,
 }: ControlPanelProps): React.JSX.Element {
-
   return (
     <div className="control-panel">
       <div className="grid-size-control">
@@ -53,7 +52,6 @@ export function ControlPanel({
                 <div
                   key={pattern.name}
                   className={`color-circle ${selectedPattern?.name === pattern.name ? "selected" : ""}`}
-                  title={pattern.name}
                   draggable
                   onClick={() => onPatternSelect(selectedPattern?.name === pattern.name ? null : pattern)}
                   onDragStart={(e) => {
@@ -61,7 +59,9 @@ export function ControlPanel({
                     e.dataTransfer.setData("application/json", JSON.stringify(pattern));
                   }}
                   style={{ backgroundImage: `url(${pattern.imageUrl})` }}
-                />
+                >
+                  <p className="color-tooltip">{pattern.name}</p>
+                </div>
               ))
             : Array.from({ length: 24 }).map((_, index) => <div key={index} className="color-circle" />)}
         </div>

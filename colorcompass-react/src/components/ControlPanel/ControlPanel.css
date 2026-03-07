@@ -1,6 +1,6 @@
 .control-panel {
 	width: 300px;
-	padding: 20px;
+	padding: 30px;
 	background-color: #f9f9f9;
 	border: 1px solid #ddd;
 	border-radius: 8px;
@@ -66,6 +66,7 @@
 	border: 2px solid #999;
 	cursor: pointer;
 	transition: transform 0.2s;
+	position: relative;
 }
 
 .color-circle:hover {
@@ -75,4 +76,26 @@
 .color-circle.selected {
 	border: 3px solid #007bff;
 	box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+.color-circle > .color-tooltip {
+	background: rgba(0, 0, 0, 0.75);
+	color: #fff;
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 0.25rem 0.25rem;
+	border-radius: 0.25rem;
+	width: 6rem;
+	text-align: center;
+	margin: 0;
+	font-size: 14px;
+	pointer-events: none;
+	opacity: 0;
+	z-index: 2;
+}
+
+.color-circle:hover > .color-tooltip {
+	opacity: 1;
 }

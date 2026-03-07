@@ -27,3 +27,29 @@
 .grid-cell:hover {
 	background-color: #f0f0f0;
 }
+
+.grid-cell {
+	position: relative;
+}
+
+.grid-cell > .grid-tooltip {
+	background: rgba(0, 0, 0, 0.75);
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 0.25rem 0.25rem;
+	border-radius: 0.25rem;
+	width: 6rem;
+	text-align: center;
+	margin: 0;
+	font-size: 12px;
+	pointer-events: none;
+	opacity: 0;
+	z-index: 2;
+}
+
+.grid-cell:hover > .grid-tooltip {
+	opacity: 1;
+}

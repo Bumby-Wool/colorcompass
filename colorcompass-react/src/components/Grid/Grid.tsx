@@ -64,7 +64,9 @@ export function Grid({ columns, rows, cellPatterns, selectedPattern, onCellPatte
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
               }}
-            />
+            >
+              {pattern && <p className="grid-tooltip">{pattern.name}</p>}
+            </div>
           );
         })}
       </div>
