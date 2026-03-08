@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { ColorSelector } from "../components/colors/ColorSelector";
+import { CheckoutButton } from "../components/CheckoutButton";
 import { ExtraOptions } from "../components/item/ExtraOptions";
 import { OptionGroup } from "../components/item/OptionGroup";
 import { OptionRow } from "../components/item/OptionRow";
@@ -137,12 +138,33 @@ export function ItemPage(): React.JSX.Element {
   const allPatterns = React.useMemo(() => [...patterns, ...zippers], [patterns, zippers]);
 
   // Initialize the selected variant once data and patterns are ready.
+  // First check localStorage for saved state, otherwise use defaults.
   React.useEffect(() => {
     if (!item || patterns.length === 0) {
       return;
     }
-    setSelectedVariant(initializeVariant(item.variants[0], patterns, zippers));
-  }, [item, patterns, zippers]);
+
+    const storageKey = `variant_${itemId}`;
+    const savedState = localStorage.getItem(storageKey);
+    const fallbackVariant = initializeVariant(item.variants[0], patterns, zippers);
+
+    if (savedState) {
+      try {
+        const parsed = JSON.parse(savedState) as {
+          selectedLabel?: string;
+          variants?: Record<string, ItemVariant>;
+        };
+        const selectedLabel = parsed.selectedLabel ?? item.variants[0].label;
+        const restored = parsed.variants?.[selectedLabel];
+        setSelectedVariant(restored ?? fallbackVariant);
+      } catch {
+        // If saved data is invalid, fall back to defaults
+        setSelectedVariant(fallbackVariant);
+      }
+    } else {
+      setSelectedVariant(fallbackVariant);
+    }
+  }, [item, patterns, zippers, itemId]);
 
   // Compute SVG styles for the current variant selection.
   const optionStyles = React.useMemo(() => buildOptionStyles(item, selectedVariant), [item, selectedVariant]);
@@ -150,16 +172,35 @@ export function ItemPage(): React.JSX.Element {
   // Switch the variant and reset its default selections.
   const handleVariantChange = React.useCallback(
     (label: string) => {
-      if (!item) {
+      if (!item || !itemId) {
         return;
       }
       const nextVariant = item.variants.find((variant) => variant.label === label);
       if (!nextVariant) {
         return;
       }
+      const storageKey = `variant_${itemId}`;
+      const savedState = localStorage.getItem(storageKey);
+
+      if (savedState) {
+        try {
+          const parsed = JSON.parse(savedState) as {
+            selectedLabel?: string;
+            variants?: Record<string, ItemVariant>;
+          };
+          const restored = parsed.variants?.[label];
+          if (restored) {
+            setSelectedVariant(restored);
+            return;
+          }
+        } catch {
+          // Ignore parse issues and fall back to defaults.
+        }
+      }
+
       setSelectedVariant(initializeVariant(nextVariant, patterns, zippers));
     },
-    [item, patterns, zippers],
+    [item, itemId, patterns, zippers],
   );
 
   // Update variant state with a safe clone to avoid mutating originals.
@@ -173,6 +214,34 @@ export function ItemPage(): React.JSX.Element {
       return next;
     });
   }, []);
+
+  // Save selections to localStorage whenever variant changes.
+  React.useEffect(() => {
+    if (!selectedVariant || !itemId) {
+      return;
+    }
+
+    const storageKey = `variant_${itemId}`;
+    const savedState = localStorage.getItem(storageKey);
+    const base = {
+      selectedLabel: selectedVariant.label,
+      variants: { [selectedVariant.label]: selectedVariant },
+    };
+
+    if (savedState) {
+      try {
+        const parsed = JSON.parse(savedState) as {
+          selectedLabel?: string;
+          variants?: Record<string, ItemVariant>;
+        };
+        base.variants = { ...(parsed.variants ?? {}), [selectedVariant.label]: selectedVariant };
+      } catch {
+        // If saved data is invalid, overwrite with the current selection.
+      }
+    }
+
+    localStorage.setItem(storageKey, JSON.stringify(base));
+  }, [selectedVariant, itemId]);
 
   // Handle unknown item routes.
   if (!item) {
@@ -344,6 +413,8 @@ export function ItemPage(): React.JSX.Element {
               })}
             </ExtraOptions>
           ) : null}
+
+          <CheckoutButton />
 
           <small className="color-muted">
             Each Bumby Wool product is a unique creation. The {item.title} here is an approximation of the finished
