@@ -53,8 +53,9 @@ export function ColorSelector({ colors, selectedColor, onChange }: ColorSelector
               className="swatch"
               onClick={() => onChange(color)}
               style={{ background: getColorBackground(color) }}
-              title={color.name}
-            />
+            >
+              <span className="color-tooltip">{color.name}</span>
+            </li>
           ))}
         </ul>
       ) : null}

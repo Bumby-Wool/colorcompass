@@ -1,0 +1,101 @@
+.control-panel {
+	width: 300px;
+	padding: 30px;
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	overflow-y: auto;
+}
+
+.grid-size-control h3,
+.color-columns h3 {
+	margin: 0 0 10px 0;
+	font-size: 18px;
+	font-weight: 600;
+	user-select: none;
+}
+
+.grid-size-control {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.grid-size-control > div {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.grid-size-control input {
+	width: 60px;
+	padding: 8px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.grid-size-control span {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.color-columns {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.color-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+}
+
+.color-circle {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #ccc;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 2px solid #999;
+	cursor: pointer;
+	transition: transform 0.2s;
+	position: relative;
+}
+
+.color-circle:hover {
+	transform: scale(1.1);
+}
+
+.color-circle.selected {
+	border: 3px solid #007bff;
+	box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+.color-circle > .color-tooltip {
+	background: rgba(0, 0, 0, 0.75);
+	color: #fff;
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 0.25rem 0.25rem;
+	border-radius: 0.25rem;
+	width: 6rem;
+	text-align: center;
+	margin: 0;
+	font-size: 14px;
+	pointer-events: none;
+	opacity: 0;
+	z-index: 2;
+}
+
+.color-circle:hover > .color-tooltip {
+	opacity: 1;
+}

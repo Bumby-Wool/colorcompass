@@ -16,11 +16,3 @@ body {
 	flex: 1;
 }
 
-.main-layout {
-	display: flex;
-	flex: 1;
-	gap: 20px;
-	padding: 20px;
-	overflow: hidden;
-}
-
