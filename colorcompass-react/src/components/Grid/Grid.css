@@ -3,6 +3,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
 }
 
 .grid {
@@ -53,4 +54,15 @@
 
 .grid-cell:hover > .grid-tooltip {
 	opacity: 1;
+}
+
+@media (max-width: 768px) {
+	.grid-container {
+		width: 100%;
+	}
+
+	.grid {
+		width: 100%;
+		max-width: 100%;
+	}
 }

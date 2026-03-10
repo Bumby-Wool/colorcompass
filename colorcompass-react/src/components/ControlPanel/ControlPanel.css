@@ -99,3 +99,23 @@
 .color-circle:hover > .color-tooltip {
 	opacity: 1;
 }
+
+@media (max-width: 768px) {
+	.control-panel {
+		width: 100%;
+		max-width: 100%;
+		padding: 16px;
+		gap: 20px;
+		overflow: visible;
+	}
+
+	.color-grid {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		justify-items: center;
+	}
+
+	.color-circle {
+		width: 44px;
+		height: 44px;
+	}
+}
